@@ -173,38 +173,36 @@ def excel_from_files(files_info):
     apply_style_to_excel(ws)
     return wb
 
-def process_directory(directory_path, output_path=None):
-    messagebox.showinfo("选择文件夹", "请选择包含需要处理的文件的文件夹。")
-    user_config = read_config()
-    directory_path = filedialog.askdirectory(title="选择文件夹", initialdir=user_config.get('last_directory', os.path.expanduser("~")))
-    if directory_path:
-        # 保存用户选择的文件夹路径
-        user_config['last_directory'] = directory_path
-        write_config(user_config)
-    """处理指定文件夹内的文件，然后形成表格"""
-    file_pattern = r"(\d{4}-\d{1,2}-\d{1,2})-([\u4e00-\u9fa5\w]+)-(\d+(\.\d{1,2})?)h\.(docx|doc|xlsx|xls)"
-    
-    # 未提供输出路径，弹窗询问用户选择
-    if output_path is None:
-        messagebox.showinfo("保存Excel", "请选择一个位置来保存生成的Excel文件。")
-        output_path = filedialog.asksaveasfilename(defaultextension=".xlsx", filetypes=[("Excel files", "*.xlsx")])
-        if not output_path:  # 如果用户取消选择
-            sys.exit(1)
-    
+def process_directory(directory_path, output_path):
+    """处理指定文件夹内的文件，然后形成Excel表格"""
+    # 初始化保存处理后文件信息的列表
     files_info = []
-    for root, dirs, files in os.walk(directory_path):
-        for file in files:
-            if file.startswith('.') or file.startswith('__MACOSX') or file == 'DS_Store':
+    
+    # 遍历目录内的所有文件
+    for root_dir, dirs, files in os.walk(directory_path):
+        for file_name in files:
+            # 忽略隐藏文件和系统文件
+            if file_name.startswith('.') or file_name.startswith('__MACOSX') or file_name == 'DS_Store':
                 continue
-            
-            file_path = os.path.join(root, file)
-            file_info = process_file(root, file_path, file_pattern)
+
+            # 组合成完整的文件路径
+            file_path = os.path.join(root_dir, file_name)
+            # 调用process_file函数处理文件，并获取文件信息
+            file_info = process_file(file_path)
+            # 如果得到了有效文件信息，则添加到信息列表中
             if file_info is not None:
                 files_info.append(file_info)
 
+    # 如果文件信息列表为空，则提示用户并返回
+    if not files_info:
+        messagebox.showinfo("提示", "未找到可处理的文件。")
+        return
+
+    # 调用函数，将收集到的文件信息转换为Excel工作簿
     wb = excel_from_files(files_info)
+    # 保存Excel工作簿到用户指定的输出路径
     wb.save(output_path)
-    print(f"Excel文件已保存到: {output_path}")
+    messagebox.showinfo("完成", f"Excel文件已保存到: {output_path}")
 
 def extract_and_process(zip_path, output_path=None):
     user_config = read_config()
@@ -248,9 +246,9 @@ def extract_and_process(zip_path, output_path=None):
     wb.save(output_path)
     print(f"Excel文件已保存到: {output_path}")
 
-#def main(): ##另外一个逻辑，通过定义主函数，循环调用，此种方式方便调整。
+def main():
     root = Tk()
-    root.withdraw()
+    root.withdraw()  # 隐藏主窗口
 
     user_config = read_config()
     
@@ -273,95 +271,19 @@ def extract_and_process(zip_path, output_path=None):
         )
         user_config['show_guide'] = not show_guide
         write_config(user_config)
-
-    # 使用用户上次选择的路径作为默认路径
-    default_path = user_config.get('last_path', os.path.expanduser("~"))
     
     # 调用自定义对话框让用户选择处理文件夹或压缩包
     custom_dialog(root)
-
-    # 根据用户选择进行处理
+    
     if user_choice == '文件夹':
-        # 适用已保存的目录路径作为默认路径
-        default_directory = user_config.get('last_directory', os.path.expanduser("~"))
-        root = Tk()
-        root.withdraw()
-        process_directory(root)
-        directory_path = filedialog.askdirectory(title="选择文件夹", initialdir=default_path)
-        if directory_path:
-            output_path = filedialog.asksaveasfilename(
-                title="保存Excel文件",
-                initialdir=default_path,
-                defaultextension=".xlsx",
-                filetypes=[("Excel files", "*.xlsx")],
-                parent=root
-            )
-            if output_path:
-                process_directory(directory_path, output_path)
-            else:
-                messagebox.showinfo("提示", "没有选择输出文件，操作已取消。", parent=root)
-        else:
-            messagebox.showinfo("提示", "没有选择文件夹，操作已取消。", parent=root)
-
-    elif user_choice == '压缩包':
-        # 适用已保存的压缩包路径作为默认路径
-        default_zip = user_config.get('last_zip', os.path.expanduser("~"))
-        extract_and_process(None)
-        zip_path = filedialog.askopenfilename(title="选择压缩包", initialdir=default_path, filetypes=[("Zip files", "*.zip")])
-        if zip_path:
-            output_path = filedialog.asksaveasfilename(
-                title="保存Excel文件",
-                initialdir=default_path,
-                defaultextension=".xlsx",
-                filetypes=[("Excel files", "*.xlsx")],
-                parent=root
-            )
-            if output_path:
-                extract_and_process(zip_path, output_path)
-            else:
-                messagebox.showinfo("提示", "没有选择输出文件，操作已取消。", parent=root)
-        else:
-            messagebox.showinfo("提示", "没有选择压缩包，操作已取消。", parent=root)
-
-    root.mainloop()
-
-if __name__ == "__main__":
-    
-    root = Tk()
-    root.withdraw()
-
-    user_config = read_config()
-    
-    # 显示使用指南对话框
-    if user_config.get('show_guide', True):
-        show_guide = messagebox.askyesno(
-            "使用指南",
-            "请将文件命名为以下格式：\n"
-            "\n"
-            "YYYY-MM-DD-文档名称-工作时长h.xxx\n"
-            "例如: 2024-01-31-质证意见第2版-1h.docx\n"
-            "\n"
-            "文件会被整理到表格中。\n"
-            "没有写名字的会提示填写\n"
-            "没有写工作时长的文件会提示填写。\n"
-            "没有写时间的文件会使用最后修改时间。\n"
-            "\n"
-            "下次运行程序时是否还要显示这条消息？",
+        directory_path = filedialog.askdirectory(
+            title="选择文件夹",
+            initialdir=user_config.get('last_directory', os.path.expanduser("~")),
             parent=root
         )
-        user_config['show_guide'] = not show_guide
-        write_config(user_config)
-
-    # 使用用户上次选择的路径作为默认路径
-    default_path = user_config.get('last_path', os.path.expanduser("~"))
-    
-    # 调用自定义对话框让用户选择处理文件夹或压缩包
-    custom_dialog(root)
-    # 根据用户选择进行处理
-    if user_choice == '文件夹':
-        # 使用用户上次选择的路径作为默认路径
-        directory_path = filedialog.askdirectory(title="选择文件夹", initialdir=user_config.get('last_directory', os.path.expanduser("~")), parent=root)
         if directory_path:
+            user_config['last_directory'] = directory_path
+            write_config(user_config)
             output_path = filedialog.asksaveasfilename(
                 title="保存Excel文件",
                 initialdir=directory_path,
@@ -370,16 +292,22 @@ if __name__ == "__main__":
                 parent=root
             )
             if output_path:
-                process_directory(directory_path, output_path)
+                process_directory(directory_path, output_path, root)
             else:
                 messagebox.showinfo("提示", "没有选择输出文件，操作已取消。", parent=root)
         else:
             messagebox.showinfo("提示", "没有选择文件夹，操作已取消。", parent=root)
 
     elif user_choice == '压缩包':
-        # 适用已保存的压缩包路径作为默认路径
-        zip_path = filedialog.askopenfilename(title="选择压缩包", initialdir=user_config.get('last_zip', os.path.expanduser("~")), filetypes=[("Zip files", "*.zip")], parent=root)
+        zip_path = filedialog.askopenfilename(
+            title="选择压缩包",
+            initialdir=user_config.get('last_zip', os.path.expanduser("~")),
+            filetypes=[("Zip files", "*.zip")],
+            parent=root
+        )
         if zip_path:
+            user_config['last_zip'] = zip_path
+            write_config(user_config)
             output_path = filedialog.asksaveasfilename(
                 title="保存Excel文件",
                 initialdir=os.path.dirname(zip_path),
@@ -394,4 +322,8 @@ if __name__ == "__main__":
         else:
             messagebox.showinfo("提示", "没有选择压缩包，操作已取消。", parent=root)
 
-    root.destroy()
+if __name__ == "__main__":
+    main()
+
+    
+
