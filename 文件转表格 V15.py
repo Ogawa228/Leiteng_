@@ -6,6 +6,7 @@
 ##4、输出表格
 ############################
 import sys
+import tkinter as tk
 import zipfile
 import re
 from openpyxl import Workbook
@@ -64,7 +65,7 @@ def custom_dialog(root):
     Label(dialog, text="你想要处理一个文件夹还是一个压缩包？").pack(pady=10)
 
     # 对话框位置
-    dialog_width = 200
+    dialog_width = 300
     dialog_height = 100
     screen_width = dialog.winfo_screenwidth()
     screen_height = dialog.winfo_screenheight()
@@ -162,11 +163,19 @@ def process_file(root, file_path, file_pattern):
     # 定义日期模式
     date_pattern = r'([0-9]{4}[/-][0-9]{1,2}[/-][0-9]{1,2}|[0-9]{1,2}[/-][0-9]{1,2}[/-][0-9]{4})'
     
-    # 调用process_file_date_about处理日期
+    # 调用 process_file_date_about 处理日期，获取返回值
     form_time = process_file_date_about(basename)
     
+    # 检查文件名中是否存在 date_pattern 定义的日期格式
+    date_match = re.search(date_pattern, basename)
+    
+    if form_time is None and date_match:
+        # 如果 process_file_date_about 返回 None 但是在文件名中找到了日期格式
+        # 可以在这进行特定处理，比如解析 date_match 获取日期字符串
+        pass
+    
+    # 如果 'form_time' 仍然是 None，使用文件的最后修改时间作为备选日期
     if form_time is None:
-        # 获取文件的最后修改时间作为备选日期
         mod_time = time.localtime(os.path.getmtime(file_path))
         form_time = time.strftime("%Y-%m-%d", mod_time)
     
@@ -311,7 +320,10 @@ def extract_and_process(root, zip_path, output_path=None):##处理压缩包
 def main():##主函数
     # 初始化Tkinter根窗口
     root = Tk()
-    root.withdraw()  # 隐藏主窗口
+    # 先更新一下窗口任务，暂时有助于在一些操作系统上正常显示对话框
+    ##root.update_idletasks()
+    # 然后隐藏根窗口
+    ##root.withdraw()
 
     # 读取并获取用户配置信息
     user_config = read_config()
@@ -401,7 +413,7 @@ def main():##主函数
 
 if __name__ == "__main__":
     main()
-
+    
 
     
 
