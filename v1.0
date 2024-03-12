@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>所得税计算器</title>
+<!-- Bootstrap CSS CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3pV8cr+V9DljSYLd7pq1zSM4nLns6CfO3oIal0g09vv1txJcinxJ9Mq8w5" crossorigin="anonymous">
+<style>
+  /* 在这里添加 CSS，让UI变得美观 */
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center mt-5">所得税计算器</h1>
+  <form id="taxForm" class="mb-5">
+    <div class="form-group">
+      <input type="number" class="form-control" id="income" placeholder="输入您的工资收入" required>
+      <!-- 添加更多输入或者选择项，根据您的计算规则 -->
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="calculateTax()">计算所得税</button>
+  </form>
+
+  <div id="result"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.7.0/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybB3K3lR9egGzSqrVffjykfwbLuv
