@@ -1,0 +1,88 @@
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QTimeEdit
+from PyQt5.QtCore import QTime
+import subprocess
+from datetime import datetime, timedelta
+import time
+
+# 设备ID，应用包名和活动名
+device_id = "0123456789ABCDEF"
+package_name = "com.ss.android.lark"
+activity_name = "com.ss.android.lark.main.app.MainActivity"
+
+# 执行ADB命令的函数
+def adb_command(device_id, command):
+    subprocess.run(["adb", "-s", device_id, "shell", command], capture_output=True)
+
+# 关闭应用的函数
+def close_app(device_id):
+    adb_command(device_id, "input keyevent KEYCODE_HOME")
+
+# 打开应用的函数
+def open_app(device_id, package_name, activity_name):
+    adb_command(device_id, f"am start -n {package_name}/{activity_name}")
+
+# 创建一个时间选择器的窗口类
+class TimePickerWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.init_ui()
+
+    def init_ui(self):
+        # 设置窗口标题
+        self.setWindowTitle('时间选择器')
+
+        # 创建布局
+        layout = QVBoxLayout()
+
+        # 创建时间编辑器
+        self.time_edit = QTimeEdit(self)
+        self.time_edit.setTime(QTime.currentTime())
+        layout.addWidget(self.time_edit)
+
+        # 创建显示时间的标签
+        self.time_label = QLabel('选择时间', self)
+        layout.addWidget(self.time_label)
+
+        # 创建一个按钮来设置时间
+        set_time_btn = QPushButton('设置时间', self)
+        set_time_btn.clicked.connect(self.set_time)
+        layout.addWidget(set_time_btn)
+
+        # 设置布局
+        self.setLayout(layout)
+
+    def set_time(self):
+        # 获取时间
+        time = self.time_edit.time()
+        selected_time = QTime(time.hour(), time.minute()).toPyTime()
+        self.time_label.setText('设置的时间: ' + selected_time.strftime('%H:%M'))
+
+        # 计算等待时间
+        now = datetime.now()
+        target_time = now.replace(hour=selected_time.hour, minute=selected_time.minute, second=0, microsecond=0)
+        if now > target_time:
+            target_time += timedelta(days=1)
+        
+        wait_seconds = (target_time - now).total_seconds()
+
+        # 等待并执行ADB命令
+        QTimer.singleShot(int(wait_seconds * 1000), self.run_adb_commands)
+
+    def run_adb_commands(self):
+        print("执行ADB命令...")
+        # 执行关闭应用
+        close_app(device_id)
+        # 等待一定时间后，执行打开应用
+        QTimer.singleShot(5000, lambda: open_app(device_id, package_name, activity_name))
+
+
+# 主函数
+def main():
+    app = QApplication(sys.argv)
+    window = TimePickerWindow()
+    window.show()
+    sys.exit(app.exec_())
+
+if __name__ == '__main__':
+    main()
