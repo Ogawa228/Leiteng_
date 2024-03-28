@@ -1,0 +1,49 @@
+import subprocess
+import time
+import random
+from datetime import datetime, timedelta
+
+device_id = "0123456789ABCDEF"
+package_name = "com.ss.android.lark"
+activity_name = "com.ss.android.lark.main.app.MainActivity"
+
+def adb_command(command):
+    # 使用指定的设备ID发送ADB命令
+    subprocess.run(["adb", "-s", device_id, "shell", command], capture_output=True)
+
+def close_app():
+    # 模拟按下HOME键，相当于退出当前应用
+    adb_command("input keyevent KEYCODE_HOME")
+
+def open_app():
+    # 启动特定的应用
+    adb_command(f"am start -n {package_name}/{activity_name}")
+
+def main():
+    specific_hour = 13  # 设定的特定小时，24小时制
+    specific_minute = 39  # 设定的特定分钟
+
+    # 生成随机的偏移时间，介于 -10 到 -5 或 5 到 10 分钟之间
+    offset = random.choice([-1, 1]) * random.randint(5, 10)
+
+    now = datetime.now()
+    # 在特定时间上加上随机偏移
+    target_time = now.replace(hour=specific_hour, minute=specific_minute, second=0, microsecond=0) + timedelta(minutes=offset)
+    if now > target_time:
+        # 如果当前时间已经过了目标时间（含随机偏移），设置目标时间为明天
+        target_time += timedelta(days=1)
+
+    wait_seconds = (target_time - now).total_seconds()
+    print(f"Waiting for {wait_seconds} seconds until {target_time}")
+
+    time.sleep(wait_seconds)
+
+    # 到达指定时间，执行操作
+    print("Closing app...")
+    close_app()
+    time.sleep(5)  # 等待5秒
+    print("Re-opening app...")
+    open_app()
+
+if __name__ == "__main__":
+    main()
