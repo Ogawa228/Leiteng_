@@ -1,3 +1,4 @@
+import os
 import sys
 import subprocess
 import random
@@ -59,16 +60,29 @@ class ADBControlApp(QWidget):
         # 设置 QTimer 来关闭消息框
         QTimer.singleShot(5000, msg.close) # 5000 毫秒后自动关闭, 你可以根据需要设置不同的时间
         msg.exec_()    
+        # 新增：消息框关闭后，调用程序退出
+        QTimer.singleShot(1000, QApplication.instance().quit)  # 给一点时间关闭消息框后再退出程序
+
 
     def execute_commands(self):
-        print("执行ADB命令...")
-        self.wake_up_device()
-        QTimer.singleShot(1000, self.swipe_up)  # 2秒后执行上滑
-        self.close_app()
-        QTimer.singleShot(5000, self.open_app)# 5秒后打开app
-        QTimer.singleShot(5000, self.wake_up_device)# 5秒后再唤醒，避免网络连接问题
-        QTimer.singleShot(6000, self.show_message)  # 显示消息对话框
-        self.close()  # 关闭当前控制窗口
+        print("开始执行ADB命令序列...")
+        # 首先唤醒设备
+        QTimer.singleShot(2000, self.wake_up_device)  # 2秒后执行唤醒设备
+        
+        # 然后执行上滑解锁（假设唤醒后需要1秒）
+        QTimer.singleShot(4000, self.swipe_up)  # 继上一个命令后等待2秒执行上滑解锁
+        
+        # 执行关闭应用（假设上滑后需要1秒）
+        QTimer.singleShot(6000, self.close_app)  # 继上一个命令后等待2秒关闭应用
+        
+        # 执行打开应用（假设关闭应用后需要1秒）
+        QTimer.singleShot(8000, self.open_app)  # 继上一个命令后等待2秒打开应用
+        
+        # 再次唤醒设备，确保设备不会休眠（假设打开应用后需要5秒）
+        QTimer.singleShot(13000, self.wake_up_device)  # 继上一个命令后等待5秒再次唤醒设备
+
+        # 最后弹出提醒对话框，告知用户操作已完成（假设再次唤醒后需要1秒）
+        QTimer.singleShot(15000, self.show_message)  # 继上一个命令后等待2秒显示提醒对话框
 
     def confirm_time(self):
         time = self.time_edit.time()
@@ -83,7 +97,7 @@ class ADBControlApp(QWidget):
         info_msg.setWindowTitle("当前ADB配置")
         info_msg.setText(f"设备ID: {self.device_id}\n包名: {self.package_name}\n活动名: {self.activity_name}")
         info_msg.setInformativeText("您想要更改这些参数吗？")
-        info_msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
+        info_msg.setStandardButtons(QMessageBox.No | QMessageBox.Yes)
         response = info_msg.exec_()
         if response == QMessageBox.Yes:
             self.change_params_dialog()
