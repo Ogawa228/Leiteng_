@@ -1,0 +1,100 @@
+import subprocess
+import time
+from PyQt5.QtWidgets import QApplication, QDialog, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox
+
+class ADBParametersDialog(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("ADB参数配置")
+        self.init_ui()
+
+    def init_ui(self):
+        layout = QVBoxLayout()
+
+        layout.addWidget(QLabel("设备ID:"))
+        self.device_id_edit = QLineEdit()
+        layout.addWidget(self.device_id_edit)
+
+        layout.addWidget(QLabel("包名:"))
+        self.package_name_edit = QLineEdit()
+        layout.addWidget(self.package_name_edit)
+
+        layout.addWidget(QLabel("活动名:"))
+        self.activity_name_edit = QLineEdit()
+        layout.addWidget(self.activity_name_edit)
+
+        self.detect_button = QPushButton("检测ADB参数")
+        self.detect_button.clicked.connect(self.detect_adb_parameters)
+        layout.addWidget(self.detect_button)
+
+        self.manual_guide_button = QPushButton("手动获取ADB参数指引")
+        self.manual_guide_button.clicked.connect(self.show_manual_guide)
+        layout.addWidget(self.manual_guide_button)
+
+        self.setLayout(layout)
+
+    def detect_adb_parameters(self):
+        # First, check if ADB is installed and accessible
+        try:
+            adb_version_output = subprocess.check_output(["adb", "version"], encoding='utf-8')
+            print("ADB Version:", adb_version_output)
+        except FileNotFoundError:
+            QMessageBox.critical(self, "ADB未找到", "请确保ADB已安装并且环境变量设置正确。")
+            return
+        
+        # Now, let's try to get the list of connected devices
+        try:
+            devices_output = subprocess.check_output(["adb", "devices"], encoding='utf-8').strip()
+            devices_lines = devices_output.splitlines()[1:]  # Skip the 'List of devices attached' line
+
+            if devices_lines:
+                device_id = devices_lines[0].split()[0]  # Take the first device
+                self.device_id_edit.setText(device_id)
+
+                # Try to wake up and unlock the device
+                self.wake_up_device(device_id)
+
+                # Attempt to get the foreground activity name
+                self.get_foreground_activity(device_id)
+            else:
+                QMessageBox.warning(self, "未检测到设备", "请连接设备并开启USB调试。")
+        except subprocess.CalledProcessError as e:
+            QMessageBox.critical(self, "执行ADB命令出错", str(e))
+
+    def wake_up_device(self, device_id):
+        try:
+            subprocess.run(["adb", "-s", device_id, "shell", "input", "keyevent", "KEYCODE_WAKEUP"], check=True)
+            time.sleep(1)  # Wait for the device to wake up
+            subprocess.run(["adb", "-s", device_id, "shell", "input", "swipe", "400", "2000", "400", "500"], check=True)
+        except subprocess.CalledProcessError as e:
+            QMessageBox.warning(self, "设备唤醒失败", f"设备可能未正确连接或锁屏状态无法解锁。错误: {str(e)}")
+
+    def get_foreground_activity(self, device_id):
+        try:
+            dumpsys_output = subprocess.check_output(["adb", "-s", device_id, "shell", "dumpsys", "activity", "activities"], encoding='utf-8')
+            for line in dumpsys_output.splitlines():
+                if "mResumedActivity" in line:
+                    activity_info = line.split()[-2]
+                    package_name, activity_name = activity_info.split("/")
+                    self.package_name_edit.setText(package_name)
+                    self.activity_name_edit.setText(activity_name)
+                    return
+            QMessageBox.warning(self, "活动名检测失败", "无法检测到前台活动。")
+        except subprocess.CalledProcessError as e:
+            QMessageBox.critical(self, "检测前台活动出错", str(e))
+
+    def show_manual_guide(self):
+        guide_text = (
+            "手动获取ADB参数指引：\n"
+            "1. 设备ID：在命令行中输入 'adb devices'，设备ID将在命令输出中显示。\n"
+            "2. 包名和活动名：在命令行中输入 'adb shell dumpsys activity activities | grep mResumedActivity'，"
+            "应用的包名和活动名将在命令输出中显示。\n\n"
+            "请确保您的设备已通过USB连接到计算机，并且已在开发者选项中启用了USB调试。"
+        )
+        QMessageBox.information(self, "手动获取ADB参数指引", guide_text)
+
+if __name__ == "__main__":
+    app = QApplication([])
+    dialog = ADBParametersDialog()
+    dialog.show()
+    app.exec_()

@@ -1,0 +1,94 @@
+import sys
+import subprocess
+from PyQt5.QtWidgets import QApplication, QDialog, QVBoxLayout, QLabel, QLineEdit, QPushButton, QDialogButtonBox, QMessageBox, QProgressBar
+
+class ADBParametersDialog(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("ADB参数配置")
+        self.resize(800, int(800 / 1.618))  # 根据黄金比例设置窗口大小
+        
+        # 初始化UI元素
+        self.device_id_line_edit = QLineEdit("等待检测...")
+        self.package_name_line_edit = QLineEdit("等待检测...")
+        self.activity_name_line_edit = QLineEdit("等待检测...")
+        self.detect_button = QPushButton("自动检测ADB参数")
+        self.progress_bar = QProgressBar()
+        
+        self.setup_ui()
+
+    def setup_ui(self):
+        layout = QVBoxLayout()
+        
+        layout.addWidget(QLabel("设备ID:"))
+        layout.addWidget(self.device_id_line_edit)
+        
+        layout.addWidget(QLabel("包名:"))
+        layout.addWidget(self.package_name_line_edit)
+        
+        layout.addWidget(QLabel("活动名:"))
+        layout.addWidget(self.activity_name_line_edit)
+        
+        layout.addWidget(self.detect_button)
+        self.detect_button.clicked.connect(self.auto_detect_parameters)
+        
+        layout.addWidget(self.progress_bar)
+        self.progress_bar.setVisible(False)
+        
+        button_box = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
+        button_box.accepted.connect(self.accept)
+        button_box.rejected.connect(self.reject)
+        layout.addWidget(button_box)
+        
+        self.setLayout(layout)
+
+    def auto_detect_parameters(self):
+        # 显示进度条
+        self.progress_bar.setVisible(True)
+        self.progress_bar.setRange(0, 0)
+        
+        try:
+            # 检查ADB是否安装
+            subprocess.check_output(["adb", "version"])
+        except subprocess.CalledProcessError:
+            QMessageBox.warning(self, "错误", "ADB未安装或未配置环境变量。")
+            self.progress_bar.setVisible(False)
+            return
+        except FileNotFoundError:
+            QMessageBox.warning(self, "错误", "未找到ADB可执行文件。")
+            self.progress_bar.setVisible(False)
+            return
+        
+        # 获取设备列表
+        devices_output = subprocess.check_output(["adb", "devices"]).decode("utf-8")
+        devices = [line for line in devices_output.splitlines() if "device" in line and not line.endswith("devices")]
+        
+        if devices:
+            device_id = devices[0].split("\t")[0]
+            self.device_id_line_edit.setText(device_id)
+            
+            # 获取前台活动名称
+            try:
+                foreground_activity_output = subprocess.check_output(
+                    ["adb", "-s", device_id, "shell", "dumpsys", "activity", "activities", "|", "grep", "mResumedActivity"]
+                ).decode("utf-8")
+                foreground_activity_info = foreground_activity_output.split(" ")[-1].split("/")
+                package_name = foreground_activity_info[0]
+                activity_name = foreground_activity_info[1].split("}")[0]
+                
+                self.package_name_line_edit.setText(package_name)
+                self.activity_name_line_edit.setText(activity_name)
+            except Exception as e:
+                QMessageBox.warning(self, "错误", "无法获取前台活动信息。")
+                print(e)
+        else:
+            QMessageBox.warning(self, "错误", "未检测到任何设备。")
+        
+        # 隐藏进度条
+        self.progress_bar.setVisible(False)
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    dialog = ADBParametersDialog()
+    dialog.show()
+    sys.exit(app.exec_())
