@@ -1,0 +1,2 @@
+do_not_show_guide=true
+do_not_show_adb_parameters=true

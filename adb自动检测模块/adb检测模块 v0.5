@@ -38,6 +38,7 @@ class ADBParametersDialog(QDialog):
         try:
             adb_version_output = subprocess.check_output(["adb", "version"], encoding='utf-8')
             print("ADB Version:", adb_version_output)
+            QMessageBox.information(self, "ADB版本信息", adb_version_output)
         except FileNotFoundError:
             QMessageBox.critical(self, "ADB未找到", "请确保ADB已安装并且环境变量设置正确。")
             return
