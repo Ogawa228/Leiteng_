@@ -1,22 +1,17 @@
 # 非自定义模块
 from PyQt5.QtWidgets import (
-    QApplication, QDialog, QLabel, QLineEdit, QPushButton, QMessageBox, 
-    QGridLayout, QSizePolicy, QInputDialog, QVBoxLayout, QHBoxLayout, 
-    QComboBox, QDateTimeEdit
+    QDialog, QLabel, QLineEdit, QPushButton, QMessageBox, 
+    QGridLayout, QSizePolicy
 )
-from PyQt5.QtCore import Qt, QDateTime, QTimeZone
-from PyQt5.QtGui import QLinearGradient, QColor, QBrush, QPalette
 import subprocess
-import os
-import pickle
 
 # 引入自定义模块
-from adb_utils import get_adb_version, get_android_version, get_foreground_activity, get_foreground_activity_with_wakeup
-from parameter_manager import save_parameters_to_file, load_parameters_from_file
+from 获取初始参数_adb_命令 import get_adb_version, get_android_version, get_foreground_activity, get_foreground_activity_with_wakeup
 from style_manager import StyleManager
-from 按钮管理 import LoadParametersDialog
-from 按钮管理 import AutoExecuteADBCommandDialog
-from 按钮管理 import SaveParameters
+from 对话框管理.加载参数按钮 import LoadParametersDialog
+from 对话框管理.自动执行功能按钮 import AutoExecuteADBCommandDialog
+from 对话框管理.保存按钮对话框 import SaveParameters
+
 
 
 

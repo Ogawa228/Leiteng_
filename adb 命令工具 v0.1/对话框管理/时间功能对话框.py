@@ -5,11 +5,11 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QComboBox, QPushButton, QLabel, QMessageBox
 from PyQt5.QtCore import Qt
-from  按钮管理 import LoadParametersDialog
 import os
 import pickle
 from style_manager import StyleManager
-from parameter_manager import save_parameters_to_file
+from 参数 import parameter_manager
+from 参数.parameter_manager import save_parameters_to_file
 
 class DateTimeParametersDialog(QDialog):
     def __init__(self, parent=None):

@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication
-from 程序主界面 import ADBParametersDialog
+from 主程序界面 import ADBParametersDialog
 
 class Application(QApplication):
     def __init__(self):
