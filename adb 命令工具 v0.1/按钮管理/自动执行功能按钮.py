@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QPushButton, QMessageBox)
 from PyQt5.QtCore import Qt
 from style_manager import StyleManager  # 确保正确导入StyleManager
-from  对话框管理 import DateTimeParametersDialog
+from  按钮管理.时间功能对话框 import DateTimeParametersDialog
 
 class AutoExecuteADBCommandDialog(QDialog):
     def __init__(self, parent=None):

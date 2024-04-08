@@ -5,7 +5,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QComboBox, QPushButton, QLabel, QMessageBox
 from PyQt5.QtCore import Qt
-from  对话框管理 import LoadParametersDialog
+from  按钮管理 import LoadParametersDialog
 import os
 import pickle
 from style_manager import StyleManager

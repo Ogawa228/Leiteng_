@@ -14,9 +14,9 @@ import pickle
 from adb_utils import get_adb_version, get_android_version, get_foreground_activity, get_foreground_activity_with_wakeup
 from parameter_manager import save_parameters_to_file, load_parameters_from_file
 from style_manager import StyleManager
-from 对话框管理 import LoadParametersDialog
-from 对话框管理 import AutoExecuteADBCommandDialog
-from 对话框管理 import SaveParameters
+from 按钮管理 import LoadParametersDialog
+from 按钮管理 import AutoExecuteADBCommandDialog
+from 按钮管理 import SaveParameters
 
 
 

@@ -6,7 +6,7 @@ import pickle
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QMessageBox, QTextEdit,QDialog,QApplication
 from style_manager import StyleManager
-from 对话框管理.参数详情 import ParameterDetailsViewer
+from 按钮管理.参数详情 import ParameterDetailsViewer
 
 class LoadParametersDialog(QDialog):
     def __init__(self, parent=None):
