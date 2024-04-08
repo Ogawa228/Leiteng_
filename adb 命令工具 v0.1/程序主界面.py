@@ -1,19 +1,32 @@
-from PyQt5.QtWidgets import (QApplication, QDialog, QLabel, QLineEdit, QPushButton, QMessageBox, QGridLayout, QSizePolicy, QInputDialog)  # 导入QInputDialog
-from PyQt5.QtCore import Qt
+# 非自定义模块
+from PyQt5.QtWidgets import (
+    QApplication, QDialog, QLabel, QLineEdit, QPushButton, QMessageBox, 
+    QGridLayout, QSizePolicy, QInputDialog, QVBoxLayout, QHBoxLayout, 
+    QComboBox, QDateTimeEdit
+)
+from PyQt5.QtCore import Qt, QDateTime, QTimeZone
+from PyQt5.QtGui import QLinearGradient, QColor, QBrush, QPalette
+import subprocess
+import os
+import pickle
+
+# 引入自定义模块
 from adb_utils import get_adb_version, get_android_version, get_foreground_activity, get_foreground_activity_with_wakeup
 from parameter_manager import save_parameters_to_file, load_parameters_from_file
-from PyQt5.QtGui import QLinearGradient, QColor, QBrush
-from PyQt5.QtGui import QPalette
-from 加载参数对话框 import LoadParametersDialog
-import subprocess
+from style_manager import StyleManager
+from 对话框管理 import LoadParametersDialog
+from 对话框管理 import AutoExecuteADBCommandDialog
+from 对话框管理 import SaveParameters
 
 
 
 class ADBParametersDialog(QDialog):
+
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle("ADB参数配置")
         self.init_ui()  # 确保这一行存在
+        StyleManager.applyStyle(self)  # 应用样式
 
     def init_ui(self):
         layout = QGridLayout()
@@ -50,8 +63,8 @@ class ADBParametersDialog(QDialog):
         self.manual_guide_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
         layout.addWidget(self.manual_guide_button, 4, 1)
 
-        self.save_params_button = QPushButton("保存参数")
-        self.save_params_button.clicked.connect(self.save_parameters)
+        self.save_params_button = QPushButton("保存参数", self)
+        self.save_params_button.clicked.connect(self.openSaveParametersDialog)  # 修改这里
         self.save_params_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
         layout.addWidget(self.save_params_button, 5, 0)
 
@@ -59,40 +72,15 @@ class ADBParametersDialog(QDialog):
         self.load_params_button.clicked.connect(self.show_load_dialog)
         layout.addWidget(self.load_params_button, 5, 1)
 
+        self.autoExecuteADBButton = QPushButton("ADB命令自动执行", self)
+        self.autoExecuteADBButton.clicked.connect(self.openAutoExecuteADBCommandDialog)
+        layout.addWidget(self.autoExecuteADBButton, 6, 0)  # 假设放在第6行第1列
         
         layout.setColumnStretch(0, 1)
         layout.setColumnStretch(1, 1)
         self.setLayout(layout)
         # Existing code...
 
-        # 设置渐变色背景
-        gradient = QLinearGradient(0, 0, 0, self.height())
-        gradient.setColorAt(0.0, QColor("#5EFCE8"))
-        gradient.setColorAt(1.0, QColor("#736EFE"))
-        palette = QPalette()
-        palette.setBrush(QPalette.Window, QBrush(gradient))
-        self.setPalette(palette)
-
-
-        
-        # 设置所有控件的样式
-        style = """
-        * {
-            font-weight: bold;
-        }
-        QPushButton {
-            background-color: #ABDCFF;
-            border: 2px solid #555555;  # 加粗边框
-            border-radius: 10px;  # 圆角边框
-            color: black;  # 确保按钮文本颜色可见
-            padding: 15px 24px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 14px;
-            margin: 4px 2px;
-        }
-        """
-        self.setStyleSheet(style)  # 应用统一的样式表
 
 
     
@@ -165,36 +153,13 @@ class ADBParametersDialog(QDialog):
         self.load_dialog = LoadParametersDialog(self)
         self.load_dialog.exec_()
 
-    def save_parameters(self):
-        # 弹出对话框让用户输入组名
-        group_name, ok = QInputDialog.getText(self, "保存应用名", "请输入应用名:")
-        if ok and group_name:
-            # 收集参数
-            params = {
-                'device_id': self.device_id_edit.text(),
-                'package_name': self.package_name_edit.text(),
-                'activity_name': self.activity_name_edit.text(),
-                'adb_version': get_adb_version(),
-                'android_version': get_android_version(self.device_id_edit.text())  # 需要设备ID
-            }
-            # 保存参数
-            if save_parameters_to_file(params, group_name):
-                QMessageBox.information(self, "参数已保存", f"应用名 '{group_name}' 已成功保存。")
-            else:
-                QMessageBox.warning(self, "保存失败", "保存参数时出现问题。")
+    def openSaveParametersDialog(self):
+        saveDialog = SaveParameters(self)
+        saveDialog.exec_()
 
-    def loaded_parameters(self, group_name):
-        # 从文件中加载指定组名的参数
-        params = load_parameters_from_file(group_name)
-        if params:
-            self.device_id_edit.setText(params['device_id'])
-            self.package_name_edit.setText(params['package_name'])
-            self.activity_name_edit.setText(params['activity_name'])
-            QMessageBox.information(self, "参数已加载", f"应用名 '{group_name}' 已成功加载。")
-        else:
-            QMessageBox.warning(self, "加载失败", f"未找到应用名 '{group_name}'。")
+    def openAutoExecuteADBCommandDialog(self):
+        dialog = AutoExecuteADBCommandDialog(self)
+        dialog.exec_()   
 
-    def show_load_dialog(self):
-        # 创建并显示加载参数对话框
-        self.load_dialog = LoadParametersDialog(self)
-        self.load_dialog.exec_()
+
+
