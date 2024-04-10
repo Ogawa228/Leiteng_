@@ -28,48 +28,58 @@ class ADBParametersDialog(QDialog):
 
         layout.addWidget(QLabel("设备ID:"), 0, 0)
         self.device_id_edit = QLineEdit()
+        self.device_id_edit.setText("0123456789ABCDEF")  # 设置默认设备ID
         layout.addWidget(self.device_id_edit, 0, 1)
 
         layout.addWidget(QLabel("包名:"), 1, 0)
         self.package_name_edit = QLineEdit()
+        self.package_name_edit.setText("com.ss.android.lark")  # 设置默认包名
         layout.addWidget(self.package_name_edit, 1, 1)
 
         layout.addWidget(QLabel("活动名:"), 2, 0)
         self.activity_name_edit = QLineEdit()
+        self.activity_name_edit.setText(".main.app.MainActivity")  # 设置默认活动名
         layout.addWidget(self.activity_name_edit, 2, 1)
+
+    
+        layout.addWidget(QLabel("Android版本:"), 3, 0)
+        # 添加 Android版本信息编辑框，设置为只读
+        self.android_version_edit = QLineEdit()
+        self.android_version_edit.setReadOnly(True)  # 设置为只读
+        layout.addWidget(self.android_version_edit, 3, 1)
 
         self.detect_adb_version_button = QPushButton("ADB版本信息")
         self.detect_adb_version_button.clicked.connect(self.show_adb_version)
         self.detect_adb_version_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
-        layout.addWidget(self.detect_adb_version_button, 3, 0)  # 注意这里的布局位置
+        layout.addWidget(self.detect_adb_version_button, 4, 0)  # 注意这里的布局位置
 
         self.detect_android_version_button = QPushButton("检测Android版本信息")
         self.detect_android_version_button.clicked.connect(self.detect_android_version)
         self.detect_android_version_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
-        layout.addWidget(self.detect_android_version_button, 3, 1)
+        layout.addWidget(self.detect_android_version_button, 4, 1)
 
         self.auto_detect_button = QPushButton("自动检测ADB参数")
         self.auto_detect_button.clicked.connect(self.detect_adb_parameters)
         self.auto_detect_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
-        layout.addWidget(self.auto_detect_button, 4, 0)
+        layout.addWidget(self.auto_detect_button, 5, 0)
 
         self.manual_guide_button = QPushButton("手动获取ADB参数指引")
         self.manual_guide_button.clicked.connect(self.show_manual_guide)
         self.manual_guide_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
-        layout.addWidget(self.manual_guide_button, 4, 1)
+        layout.addWidget(self.manual_guide_button, 5, 1)
 
         self.save_params_button = QPushButton("保存参数", self)
         self.save_params_button.clicked.connect(self.openSaveParametersDialog)  # 修改这里
         self.save_params_button.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
-        layout.addWidget(self.save_params_button, 5, 0)
+        layout.addWidget(self.save_params_button, 6, 0)
 
         self.load_params_button = QPushButton("加载参数", self)
         self.load_params_button.clicked.connect(self.show_load_dialog)
-        layout.addWidget(self.load_params_button, 5, 1)
+        layout.addWidget(self.load_params_button, 6, 1)
 
         self.autoExecuteADBButton = QPushButton("ADB命令自动执行", self)
         self.autoExecuteADBButton.clicked.connect(self.openAutoExecuteADBCommandDialog)
-        layout.addWidget(self.autoExecuteADBButton, 6, 0)  # 假设放在第6行第1列
+        layout.addWidget(self.autoExecuteADBButton, 7, 0)  # 假设放在第7行第1列
         
         layout.setColumnStretch(0, 1)
         layout.setColumnStretch(1, 1)
@@ -99,10 +109,13 @@ class ADBParametersDialog(QDialog):
         msg_box.exec_()
 
     def detect_android_version(self):
-        # Call the function from adb_utils to get the Android version
-        android_version_output = get_android_version(self.device_id_edit.text())
+        # 假设 self.device_id_edit 是设备ID的 QLineEdit 控件
+        device_id = self.device_id_edit.text()
+        android_version_output = get_android_version(device_id)  # 调用函数获取 Android 版本信息
+
         if android_version_output:
-            QMessageBox.information(self, "Android版本信息", f"Android版本信息:\n\n{android_version_output}")
+            self.android_version_edit.setText(android_version_output)  # 更新编辑框文本
+            
         else:
             QMessageBox.critical(self, "错误", "无法获取Android版本信息。请确保设备已连接并且ADB正在运行。")
 
@@ -148,11 +161,20 @@ class ADBParametersDialog(QDialog):
         self.load_dialog = LoadParametersDialog(self)
         self.load_dialog.exec_()
 
-    def openSaveParametersDialog(self):
-        saveDialog = SaveParameters(self)
+
+    def openSaveParametersDialog(self):  # 保存按钮
+        # 从UI组件获取参数
+        params = {
+            "device_id": self.device_id_edit.text(),
+            "package_name": self.package_name_edit.text(),
+            "activity_name": self.activity_name_edit.text(),
+            "android_version": self.android_version_edit.text()  # 获取 Android 版本信息
+        }
+        # 创建 SaveParameters 对话框时传递参数
+        saveDialog = SaveParameters(self, initial_params=params)
         saveDialog.exec_()
 
-    def openAutoExecuteADBCommandDialog(self):
+    def openAutoExecuteADBCommandDialog(self):#自动执行按钮
         dialog = AutoExecuteADBCommandDialog(self)
         dialog.exec_()   
 

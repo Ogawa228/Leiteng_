@@ -12,13 +12,19 @@ from 参数.参数详情 import ParameterDetailsViewer
 class LoadParametersDialog(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("选择应用名")
+        self.setWindowTitle("选择参数组名")
         self.init_ui()
         self.populate_combo_box()
         StyleManager.applyStyle(self)  # 应用样式
 
     def init_ui(self):
         self.layout = QVBoxLayout(self)
+
+        width = 300
+        golden_ratio = 1.618
+        height = int(width/golden_ratio)
+        self.resize(width, height)
+
         self.group_combo_box = QComboBox(self)
         self.group_combo_box.setEditable(True)
         self.group_combo_box.setInsertPolicy(QComboBox.NoInsert)
@@ -31,8 +37,9 @@ class LoadParametersDialog(QDialog):
 
         self.view_button = QPushButton("查看参数详情", self)
         self.view_button.clicked.connect(self.view_parameters_details)
+        self.layout.addWidget(self.view_button)
 
-        self.layout.addWidget(QLabel("请选择要加载的应用名："))
+        self.layout.addWidget(QLabel("请选择要加载的参数组名："))
         self.layout.addWidget(self.group_combo_box)
         self.layout.addWidget(self.load_button)
         self.layout.addWidget(self.delete_button)
@@ -78,10 +85,10 @@ class LoadParametersDialog(QDialog):
     def view_parameters_details(self):
         group_name = self.group_combo_box.currentText()
         if group_name:
-            viewer = ParameterDetailsViewer(self, group_name=group_name)
+            viewer = ParameterDetailsViewer(self, group_name)
             viewer.exec_()
         else:
-            QMessageBox.warning(self, "警告", "请选择一个应用名。")
+            QMessageBox.warning(self, "警告", "请选择一个有效的参数组。")
 
 
 
