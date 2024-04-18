@@ -1,0 +1,1 @@
+([('自动排版', '/Users/jinjiangshan/Desktop/py/Leiteng_/dist/自动排版', 'EXECUTABLE')],)
