@@ -16,7 +16,7 @@ class DateTimeParametersDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("设置时间参数")
         self.init_ui()
-        StyleManager.applyStyle(self)  # 应用样式
+
         
     def init_ui(self):
         self.layout = QVBoxLayout(self)

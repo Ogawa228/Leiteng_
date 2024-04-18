@@ -9,7 +9,7 @@ class AutoExecuteADBCommandDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("自动执行ADB命令设置")
         self.init_ui()
-        StyleManager.applyStyle(self)  # 应用样式
+
     
     def init_ui(self):
         mainLayout = QVBoxLayout(self)  # 主布局为垂直布局
