@@ -8,7 +8,11 @@ from PyQt5.QtWidgets import QCheckBox
 import subprocess
 from PyQt5.QtWidgets import QSizePolicy
 from PyQt5.QtCore import QSize
-
+from PyQt5.QtWidgets import QWidget, QGridLayout
+import threading
+from PyQt5.QtWidgets import QCheckBox
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QTableWidget, QTableWidgetItem, QHeaderView
 
 
 class ADBControlApp(QWidget):
@@ -26,8 +30,16 @@ class ADBControlApp(QWidget):
         self.setWindowTitle('ADB控制器')
         main_layout = QVBoxLayout()
 
-        self.task_list = QListWidget(self)
+        # 使用 QTableWidget
+        self.task_list = QTableWidget(0, 3)  # 初始化表格，0 行 3 列
         self.task_list.setSelectionMode(QAbstractItemView.NoSelection)
+        self.task_list.setHorizontalHeaderLabels(["后台执行", "任务执行时间", "操作"])
+        self.task_list.horizontalHeader().setSectionResizeMode(1, QHeaderView.Stretch)  # 使任务时间列自动拉伸填充空间
+        self.task_list.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeToContents)  # 第一列和第三列根据内容调整大小
+        self.task_list.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeToContents)
+        
+        # 设置表头样式
+        self.task_list.horizontalHeader().setStyleSheet("QHeaderView::section { background-color: #f0f0f0; border: 1px solid black; font-family: '微软雅黑'; font-size: 12px; text-align: center; }")
         main_layout.addWidget(self.task_list)
 
         self.date_time_edit = QDateTimeEdit(self)
@@ -40,7 +52,6 @@ class ADBControlApp(QWidget):
 
         self.setLayout(main_layout)
 
-        self.setLayout(main_layout)
     def confirm_time(self):
         selected_datetime = self.date_time_edit.dateTime().toPyDateTime()
         current_datetime = datetime.now()
@@ -65,37 +76,47 @@ class ADBControlApp(QWidget):
 
 
     def add_task_to_list(self, task_time, timer):
-        widget = QWidget()  # 创建一个小部件来作为列表项的容器
-        layout = QHBoxLayout(widget)  # 为这个小部件设置水平布局
+        row_count = self.task_list.rowCount()
+        self.task_list.insertRow(row_count)  # 插入新行
 
-        label = QLabel(task_time)  # 显示任务时间的标签
-        label.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
-        layout.addWidget(label)
+        # 第一列：复选框居中
+        checkbox = QCheckBox()
+        checkbox.setToolTip("勾选此复选框将任务设置为在后台运行")
+        checkbox_widget = QWidget()
+        checkbox_layout = QHBoxLayout(checkbox_widget)
+        checkbox_layout.addWidget(checkbox)
+        checkbox_layout.setAlignment(Qt.AlignCenter)
+        checkbox_layout.setContentsMargins(0, 0, 0, 0)
+        checkbox_widget.setLayout(checkbox_layout)
+        self.task_list.setCellWidget(row_count, 0, checkbox_widget)
 
-        remove_btn = QPushButton('✕')  # 使用 Unicode 字符 '✕' 作为删除标志
+        # 第二列：任务时间标签
+        task_label = QTableWidgetItem(task_time)
+        task_label.setTextAlignment(Qt.AlignCenter)
+        self.task_list.setItem(row_count, 1, task_label)
+
+        # 第三列：操作按钮居中
+        remove_btn = QPushButton('✕')
         remove_btn.setStyleSheet("""
             QPushButton { color: white; font-weight: bold; font-size: 12px; background-color: #2D2D2D; border: none; border-radius: 10px; padding: 5px; }
             QPushButton:hover { background-color: #D32F2F; }
             QPushButton:pressed { background-color: #B71C1C; }
-        """)  # 设置按钮的样式
-        remove_btn.setFixedSize(16, 16)  # 设置按钮大小
-        layout.addWidget(remove_btn)
-        layout.setContentsMargins(0, 0, 7, 7)  # 设置布局的外边距
+        """)
+        remove_btn.setFixedSize(16, 16)
+        btn_widget = QWidget()
+        btn_layout = QHBoxLayout(btn_widget)
+        btn_layout.addWidget(remove_btn)
+        btn_layout.setAlignment(Qt.AlignCenter)
+        btn_layout.setContentsMargins(0, 0, 0, 0)
+        btn_widget.setLayout(btn_layout)
+        self.task_list.setCellWidget(row_count, 2, btn_widget)
 
-        widget.setLayout(layout)
-        item = QListWidgetItem(self.task_list)
-        # 增加行高以增加行间距
-        item.setSizeHint(widget.sizeHint() + QSize(0, 8))  # 在原始尺寸的基础上增加10个像素的高度
-        self.task_list.addItem(item)
-        self.task_list.setItemWidget(item, widget)
+        remove_btn.clicked.connect(lambda: self.remove_task(row_count, timer))
 
-        # 存储任务时间到QListWidgetItem对象的映射关系
-        self.timer_to_task[task_time] = item
+        # 存储任务时间到QTableWidgetItem对象和是否后台运行的状态的映射关系
+        self.timer_to_task[task_time] = (row_count, timer, checkbox)
 
-        # 将timer与任务时间关联
-        self.timers[task_time] = timer
 
-        remove_btn.clicked.connect(lambda: self.remove_task(task_time, timer))
 
 
 
@@ -103,14 +124,24 @@ class ADBControlApp(QWidget):
 
 
     def remove_task(self, task_time, timer):
+        # 停止定时器
         timer.stop()
-        item = self.timer_to_task[task_time]  # 获取QListWidgetItem对象
-        row = self.task_list.row(item)
-        self.task_list.takeItem(row)  # 移除列表项
+        
+        # 从映射关系中获取行索引
+        row_index = self.timer_to_task[task_time][0]
+
+        # 移除表格行
+        self.task_list.removeRow(row_index)
 
         # 删除映射和定时器
         del self.timer_to_task[task_time]
         del self.timers[task_time]
+
+        # 更新行索引映射，因为删除行后，所有后续行的索引都会减少
+        tasks_to_update = {k: v for k, v in self.timer_to_task.items() if v[0] > row_index}
+        for key in tasks_to_update:
+            self.timer_to_task[key] = (self.timer_to_task[key][0] - 1, self.timer_to_task[key][1], self.timer_to_task[key][2])
+
 
 
     def finish_task(self, task_time):
@@ -151,13 +182,26 @@ class ADBControlApp(QWidget):
         self.adb_command("input swipe 300 1000 300 500")
 
     def execute_commands(self, task_time):
-        print("开始执行ADB命令序列...")
-        self.wake_up_device()
-        QTimer.singleShot(2000, self.swipe_up)
-        QTimer.singleShot(4000, self.close_app)
-        QTimer.singleShot(6000, self.open_app)
-        QTimer.singleShot(10000, self.wake_up_device)
-        QTimer.singleShot(12000, lambda: self.finish_task(task_time))
+        if task_time in self.timers:
+            item, timer, checkbox = self.timer_to_task[task_time]
+            if checkbox.isChecked():
+                self.hide()  # 隐藏窗口，不关闭程序
+                print(f"任务 {task_time} 将继续在后台运行.")
+                QTimer.singleShot(2000, self.swipe_up)
+                QTimer.singleShot(4000, self.close_app)
+                QTimer.singleShot(6000, self.open_app)
+                QTimer.singleShot(10000, self.wake_up_device)
+                QTimer.singleShot(12000, lambda: self.finish_task(task_time))
+            else:
+                print(f"开始执行ADB命令序列...")
+                self.wake_up_device()
+                QTimer.singleShot(2000, self.swipe_up)
+                QTimer.singleShot(4000, self.close_app)
+                QTimer.singleShot(6000, self.open_app)
+                QTimer.singleShot(10000, self.wake_up_device)
+                QTimer.singleShot(12000, lambda: self.finish_task(task_time))
+
+
 
 
 
