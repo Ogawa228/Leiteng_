@@ -6,6 +6,7 @@ from docx.shared import Pt, Mm
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml.ns import qn
 import os
+from PyQt5.QtWidgets import QLabel
 
 class App(QMainWindow):
     def __init__(self):
@@ -17,38 +18,64 @@ class App(QMainWindow):
         self.height = 240
         self.input_file = ""
         self.output_folder = ""
+
         self.initUI()
     
     def initUI(self):
         self.setWindowTitle(self.title)
-        self.setGeometry(self.left, self.top, self.width, self.height)
-        
-        # 调整窗口大小以符合黄金比例
-        width = 150
-        golden_ratio = 1.618
+        # 窗口的初始位置，这里我们先随便设置一个，稍后会进行调整
+        self.setGeometry(100, 100, self.width, self.height)
+
+        # 添加应用说明的标签
+        self.label_instructions = QLabel("这是一个按照公文格式要求自动排版的工具。上传DOCX文件，工具将按照指定格式进行排版并输出一个新的DOCX文件。", self)
+        self.label_instructions.setWordWrap(True)  # 启用自动换行
+
+        # 调整窗口大小以符合黄金比例或其他比例
+        width = 400  # 可以根据实际情况调整这个宽度值
+        golden_ratio = 3.618  # 黄金比例
         height = int(width / golden_ratio)
         self.resize(width, height)
-        
+
         # Create central widget and layout
         widget = QWidget(self)
         self.setCentralWidget(widget)
         layout = QGridLayout(widget)
 
+        # 应用说明的标签放置在布局中
+        # 根据布局需要，可能需要调整行数，这里假设我们从第1行开始
+        layout.addWidget(self.label_instructions, 0, 0, 1, 4)  # 第0行，占用4列
+
         # Buttons for input file, output folder, and triggering the modification
         self.inputButton = QPushButton('选择原文档', self)
         self.outputButton = QPushButton('选择输出文件夹', self)
         self.modifyButton = QPushButton('自动排版', self)
-        
+
         self.inputButton.clicked.connect(self.openInputFileNameDialog)
         self.outputButton.clicked.connect(self.openOutputFolderDialog)
         self.modifyButton.clicked.connect(self.startModifyingDocument)
 
         # Place buttons in the layout
-        layout.addWidget(self.inputButton, 1, 1)  # Second row, second column
-        layout.addWidget(self.outputButton, 1, 3)  # Second row, third column
-        layout.addWidget(self.modifyButton, 4, 2)  # Fourth row, fourth column
+        # 根据布局需要，调整按钮的行位置
+        layout.addWidget(self.inputButton, 2, 1)  # 第2行，第二列
+        layout.addWidget(self.outputButton, 2, 2)  # 第2行，第三列
+        layout.addWidget(self.modifyButton, 3, 1, 1, 2)  # 第3行，横跨两列
+
+        # 将窗口移动到屏幕中心
+        self.centerWindow()
 
         self.show()
+
+    def centerWindow(self):
+        # 获取屏幕的中心坐标
+        screen = QApplication.desktop().screenGeometry()
+        screenWidth = screen.width()
+        screenHeight = screen.height()
+        windowWidth = self.width
+        windowHeight = self.height
+        x = (screenWidth - windowWidth) // 2
+        y = (screenHeight - windowHeight) // 2
+        # 使用move方法将窗口移动到计算出的中心位置
+        self.move(x, y)
     
     def openInputFileNameDialog(self):
         options = QFileDialog.Options()
