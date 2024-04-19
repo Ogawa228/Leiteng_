@@ -1,18 +1,13 @@
 import sys
+import subprocess
+from datetime import datetime
+
+from PyQt5.QtCore import Qt, QTimer, QDateTime, QSize
 from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout,
                              QLabel, QPushButton, QDateTimeEdit, QMessageBox,
-                             QInputDialog, QListWidget, QListWidgetItem, QAbstractItemView)
-from PyQt5.QtCore import QTimer, QDateTime
-from datetime import datetime
-from PyQt5.QtWidgets import QCheckBox
-import subprocess
-from PyQt5.QtWidgets import QSizePolicy
-from PyQt5.QtCore import QSize
-from PyQt5.QtWidgets import QWidget, QGridLayout
-import threading
-from PyQt5.QtWidgets import QCheckBox
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QTableWidget, QTableWidgetItem, QHeaderView
+                             QInputDialog, QTableWidget, QTableWidgetItem,
+                             QHeaderView, QCheckBox, QAbstractItemView)
+
 
 
 class ADBControlApp(QWidget):
