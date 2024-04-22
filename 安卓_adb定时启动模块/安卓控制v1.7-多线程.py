@@ -181,13 +181,17 @@ class ADBControlApp(QWidget):
             item, timer, checkbox = self.timer_to_task[task_time]
             if checkbox.isChecked():
                 self.hide()  # 隐藏窗口，不关闭程序
-                print(f"任务 {task_time} 将继续在后台运行.")
+                print(f"任务 {task_time} 将在后台运行.")
+                print(f"开始执行ADB命令序列...")
+                self.wake_up_device()
                 QTimer.singleShot(2000, self.swipe_up)
                 QTimer.singleShot(4000, self.close_app)
                 QTimer.singleShot(6000, self.open_app)
                 QTimer.singleShot(10000, self.wake_up_device)
                 QTimer.singleShot(12000, lambda: self.finish_task(task_time))
             else:
+                print(f"呼出应用程序并执行任务 {task_time}...")
+                self.show()
                 print(f"开始执行ADB命令序列...")
                 self.wake_up_device()
                 QTimer.singleShot(2000, self.swipe_up)
