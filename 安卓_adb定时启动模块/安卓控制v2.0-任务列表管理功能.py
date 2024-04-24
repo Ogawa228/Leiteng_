@@ -16,6 +16,7 @@ from PyQt5.QtWidgets import QComboBox  # 下拉列表
 from 依赖库.参数.参数详情 import ParameterDetailsViewer
 from PyQt5.QtWidgets import QDialog, QFormLayout, QPushButton, QTimeEdit
 
+
 #自动检测ADB参数
 def get_adb_info():
     adb_installed = False
@@ -110,6 +111,7 @@ class ADBControlApp(QWidget):
 
         delete_button = QPushButton('删除')
         delete_button.clicked.connect(self.delete_current_param)
+
         param_combo_layout.addWidget(delete_button)
 
         config_layout.addLayout(param_combo_layout)
@@ -151,14 +153,17 @@ class ADBControlApp(QWidget):
 
         # 创建主界面
         main_layout = QVBoxLayout()
-        self.task_list = QTableWidget(0, 5)  # 五列：周期类型、后台执行、任务执行时间、参数组名、操作
+        self.task_list = QTableWidget(0, 6)  # 六列：周期类型、后台执行、任务执行时间、参数组名、操作、任务ID
         self.task_list.setSelectionMode(QAbstractItemView.NoSelection)
-        self.task_list.setHorizontalHeaderLabels(["周期类型", "后台执行", "任务执行时间", "参数组名", "操作"])
+        self.task_list.setHorizontalHeaderLabels(["周期类型", "后台执行", "任务执行时间", "参数组名", "操作", "任务ID"])
         self.task_list.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
         self.task_list.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeToContents)  # 对后台执行复选框列进行大小调整
         self.task_list.cellClicked.connect(self.cell_was_clicked)
         self.task_list.setDragDropMode(QAbstractItemView.InternalMove)
         main_layout.addWidget(self.task_list)
+
+        # 隐藏任务ID列
+        self.task_list.setColumnHidden(5, True)  # 隐藏第六列，索引为5
 
         self.date_time_edit = QDateTimeEdit()
         self.date_time_edit.setDateTime(QDateTime.currentDateTime())
@@ -193,6 +198,18 @@ class ADBControlApp(QWidget):
         layout.addWidget(self.stack_widget)
         self.setLayout(layout)
 
+        # 应用样式
+        self.apply_apple_style(delete_button)  
+        self.apply_apple_style(new_param_button)
+        self.apply_apple_style(detect_adb_btn)
+        self.apply_apple_style(save_params_btn)
+        self.apply_apple_style(show_details_button)
+        self.apply_apple_style(to_main_btn)
+        self.apply_apple_style(confirm_time_btn)
+        self.apply_apple_style(to_config_btn)
+    
+
+
         # 保证先实例化 main_param_combo 后调用更新函数
         self.update_param_combo()
         self.update_main_param_combo()
@@ -202,7 +219,26 @@ class ADBControlApp(QWidget):
 
 
 
-
+#按钮样式
+    def apply_apple_style(self, button):
+        button.setStyleSheet("""
+            QPushButton {
+                background-color: white;
+                color: black;
+                border: none;
+                padding: 5px 10px;
+                border-radius: 15px;
+                font-size: 14px;
+                font-family: 'Helvetica';
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            QPushButton:hover {
+                background-color: #f0f0f0;
+            }
+            QPushButton:pressed {
+                background-color: #e0e0e0;
+            }
+        """)
  
 
 
@@ -349,13 +385,12 @@ class ADBControlApp(QWidget):
         delay = int((selected_datetime - current_datetime).total_seconds() * 1000)
         task_key = selected_datetime.strftime('%Y-%m-%d %H:%M')
         selected_param_group = self.main_param_combo.currentText().split(' - ')[0]
-        cycle_type = self.cycle_combo.currentText()  # 获取选中的周期类型
+        cycle_type = self.cycle_combo.currentText()
 
         if delay < 0:
             QMessageBox.warning(self, "错误", "选择的时间已过，请选择未来的时间。")
             return
 
-        # 转换 task_key 为 datetime 对象
         task_datetime = datetime.strptime(task_key, "%Y-%m-%d %H:%M")
 
         if cycle_type == "单次执行":
@@ -364,24 +399,35 @@ class ADBControlApp(QWidget):
                 return
             self.add_task_to_list(task_datetime, delay, selected_param_group, cycle_type, first_run=True)
         else:
-            # 周期性任务不检查重复
             self.add_task_to_list(task_datetime, delay, selected_param_group, cycle_type, first_run=True)
 
 
 
     def add_task_to_list(self, task_time, delay, param_group, cycle_type, first_run=False):
+        # 格式化任务执行时间为 "YYYY-MM-DD HH:MM" 格式
+        task_time_str = task_time.strftime("%Y-%m-%d %H:%M")
+        
+        # 遍历现有任务，检查是否存在相同执行时间的任务
+        for i in range(self.task_list.rowCount()):
+            if self.task_list.item(i, 2).text() == task_time_str:
+                QMessageBox.warning(self, "错误", "已存在相同执行时间的任务，请选择其他时间。")
+                return  # 如果找到相同执行时间的任务，则不添加新任务并返回
+
+        # 没有找到相同执行时间的任务，可以添加新任务
         row_count = self.task_list.rowCount()
         self.task_list.insertRow(row_count)
         
         # 为每个任务生成唯一标识符
         task_id = str(uuid.uuid4())
-            # 存储任务详情以便后续引用
+
+        # 存储任务详情以便后续引用
         self.task_details[task_id] = {
             'row_index': row_count,
             'timer': None,
-            'checkbox': None,
+            'param_group': param_group,
             'cycle_type': cycle_type,
-            'execute_time': task_time
+            'execute_time': task_time_str,  # 存储格式化后的执行时间字符串
+            'first_run': first_run
         }
 
         # 周期类型标签
@@ -423,22 +469,26 @@ class ADBControlApp(QWidget):
         btn_layout.setContentsMargins(0, 0, 0, 0)
         btn_layout.setAlignment(Qt.AlignCenter)
         manage_btn = QPushButton('🔨')
-                # 管理按钮样式
+        # 管理按钮样式
         manage_btn.setStyleSheet("""
             QPushButton {
                 background-color: white;
                 color: black;
-                border: 1px solid #cccccc;
+                border: none;
                 padding: 5px 10px;
+                border-radius: 11px;  /* 更圆润的边角 */
+                font-size: 13 px;  /* 字体大小调整 */
+                font-family: 'Helvetica';  /* 使用Helvetica字体，接近Apple的风格 */
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* 添加简单的阴影效果 */
             }
             QPushButton:hover {
-                background-color: #e6e6e6;
+                background-color: #f0f0f0;  /* 鼠标悬停时的颜色，更柔和 */
             }
             QPushButton:pressed {
-                background-color: #cccccc;
+                background-color: #e0e0e0;  /* 鼠标按下时的颜色，更深 */
             }
         """)
-        manage_btn.clicked.connect(lambda: self.manage_task(row_count))
+        manage_btn.clicked.connect(lambda row=row_count: self.manage_task(row))
         remove_btn = QPushButton('✕')
         # 删除按钮样式
         remove_btn.setStyleSheet("""
@@ -447,19 +497,27 @@ class ADBControlApp(QWidget):
                 color: white;
                 border: none;
                 padding: 5px 10px;
+                border-radius: 11px;  /* 更圆润的边角 */
+                font-size: 12px;  /* 字体大小调整 */
+                font-family: 'Helvetica';  /* 使用Helvetica字体，接近Apple的风格 */
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* 添加简单的阴影效果 */
             }
             QPushButton:hover {
-                background-color: #ff6666;
+                background-color: #ff6666;  /* 鼠标悬停时的颜色，更柔和 */
             }
             QPushButton:pressed {
-                background-color: #cc0000;
+                background-color: #cc0000;  /* 鼠标按下时的颜色，更深 */
             }
         """)
-        remove_btn.clicked.connect(lambda: self.remove_task(task_id))
+        remove_btn.clicked.connect(lambda row=row_count, task_id=task_id: self.remove_task(task_id))
         btn_layout.addWidget(manage_btn)
         btn_layout.addWidget(remove_btn)
         btn_widget.setLayout(btn_layout)
         self.task_list.setCellWidget(row_count, 4, btn_widget)
+        
+        self.task_list.setItem(row_count, 5, QTableWidgetItem(task_id))
+        print(f"Task ID {task_id} set for row {row_count}")  # 调试输出
+        self.task_list.setColumnHidden(5, True)  # 隐藏第六列
 
         # 创建并启动定时器
         timer = QTimer(self)
@@ -470,15 +528,72 @@ class ADBControlApp(QWidget):
         timer.start(delay)
         self.timers[task_id] = timer
         self.timer_to_task[task_id] = (row_count, timer, checkbox)
+        print(f"Adding manage button for row {row_count} with task ID {task_id}")
+
+    def remove_task(self, task_id):
+        # 尝试从任务详情中获取与任务ID对应的行索引
+        row_index_to_remove = None
+        for task_id_key, task_info in self.task_details.items():
+            if task_id_key == task_id:
+                row_index_to_remove = task_info['row_index']
+                break
+
+        # 如果找到了对应的任务ID，执行删除操作
+        if row_index_to_remove is not None:
+            print(f"Attempting to remove task with ID: {task_id}")
+
+            # 停止并删除定时器
+            timer = self.timers.get(task_id)
+            if timer:
+                timer.stop()
+                del self.timers[task_id]
+
+            # 移除任务详情
+            del self.task_details[task_id]
+
+            # 移除表格行
+            self.task_list.removeRow(row_index_to_remove)
+
+            # 更新后续任务的行索引
+            for task_id, task_info in self.task_details.items():
+                if task_info['row_index'] > row_index_to_remove:
+                    task_info['row_index'] -= 1
+
+            self.show_auto_close_message(f"任务 {task_id} 已被移除。")
+        else:
+            print(f"无法找到任务ID：{task_id}")
+    def finish_task(self, task_id):
+        if task_id in self.timers:
+            timer = self.timers[task_id]
+            timer.stop()
+            del self.timers[task_id]
+            
+            task_detail = self.task_details[task_id]
+            del self.task_details[task_id]
+            
+            row_index = task_detail['row_index']
+            self.task_list.removeRow(row_index)
+            
+            # 更新后续任务的行索引
+            for key, value in self.task_details.items():
+                if value['row_index'] > row_index:
+                    value['row_index'] -= 1
+
+            self.show_auto_close_message(f"任务 {task_id} 执行完毕并已从列表中移除。")
+        else:
+            print(f"无法找到任务ID：{task_id}")
 
 
+    def show_auto_close_message(self, message):
+        msg = QMessageBox()
+        msg.setIcon(QMessageBox.Information)
+        msg.setWindowTitle("任务完成")
+        msg.setText(message)
+        msg.show()
+        QTimer.singleShot(1000, msg.close)  # 设置定时器在1000毫秒（1秒）后关闭消息框   
 
 
-
-
-
-    
-
+    #周期执行函数
     def schedule_next_run(self, task_id, initial_delay, cycle_type):
         # 计算下一次执行的延迟时间
         delay = initial_delay
@@ -500,80 +615,39 @@ class ADBControlApp(QWidget):
 
 
 #任务列表管理功能
-    def remove_task(self, task_id):
-        task_detail = self.task_details.get(task_id)
-        if task_detail:
-            row_index = task_detail['row_index']
-            # 停止并删除定时器
-            timer = self.timers.get(task_id)
-            if timer:
-                timer.stop()
-                del self.timers[task_id]
-            
-            # 移除表格行
-            self.task_list.removeRow(row_index)
-            del self.task_details[task_id]
-
-            # 更新后续任务的行索引
-            for key, value in self.task_details.items():
-                if value['row_index'] > row_index:
-                    value['row_index'] -= 1
-        else:
-            print(f"无法找到任务ID：{task_id}")
-    def finish_task(self, task_id):
-        # 检查是否存在对应的任务ID
-        if task_id in self.task_details:
-            task_info = self.task_details[task_id]
-            timer = self.timers.get(task_id)
-            if timer:
-                timer.stop()  # 停止任务对应的定时器
-                del self.timers[task_id]  # 删除定时器引用
-
-            # 移除任务列表中的对应行
-            row_index = task_info['row_index']
-            self.task_list.removeRow(row_index)
-            del self.task_details[task_id]  # 从任务详细信息中删除任务
-
-            # 更新后续任务的行索引
-            for key, value in self.task_details.items():
-                if value['row_index'] > row_index:
-                    value['row_index'] -= 1
-
-            # 显示任务完成的消息
-            self.show_auto_close_message(f"任务 {task_id} 执行完毕并已从列表中移除。")
-        else:
-            print(f"无法找到任务ID：{task_id}")
-
-
-    def show_auto_close_message(self, message):
-        msg = QMessageBox()
-        msg.setIcon(QMessageBox.Information)
-        msg.setWindowTitle("任务完成")
-        msg.setText(message)
-        msg.show()
-        QTimer.singleShot(1000, msg.close)  # 设置定时器在1000毫秒（1秒）后关闭消息框   
 
 
     def manage_task(self, row):
-        task_time_str = self.task_list.item(row, 2).text()  # 任务时间
-        task_datetime = QDateTime.fromString(task_time_str, "yyyy-MM-dd HH:mm:ss")
-        
-        # 提取执行的ADB命令（假设任务的ADB命令存储在某处，这里我们从命令日志中获取最新命令）
-        executed_commands = self.command_log[-1] if self.command_log else ""
+        if row >= 0 and row < self.task_list.rowCount():
+            task_item = self.task_list.item(row, 5)
+            if task_item is not None:
+                task_id = task_item.text()
+            # 提取执行的ADB命令（假设任务的ADB命令存储在某处，这里我们从命令日志中获取最新命令）
+            executed_commands = self.command_log[-1] if self.command_log else ""
 
-        task_details = {
-            'device_id': self.device_id,
-            'package_name': self.package_name,
-            'activity_name': self.activity_name,
-            'execute_time': task_datetime,
-            'cycle_type': self.cycle_combo.currentText(),
-            'background': self.task_list.cellWidget(row, 1).findChild(QCheckBox).isChecked(),
-            'adb_command': executed_commands  # 确保传递最后执行的ADB命令
-        }
-        
-        dialog = TaskManagerDialog(self, task_details)
-        if dialog.exec_():
-            print("任务已更新")
+            task_details = {
+                'device_id': self.device_id,
+                'package_name': self.package_name,
+                'activity_name': self.activity_name,
+                'execute_time': self.task_list.item(row, 2).text(),  # 任务时间
+                'cycle_type': self.cycle_combo.currentText(),
+                'background': self.task_list.cellWidget(row, 1).findChild(QCheckBox).isChecked(),
+                'adb_command': executed_commands  # 确保传递最后执行的ADB命令
+            }
+            
+            
+            dialog = TaskManagerDialog(self, task_details, task_id)
+            if dialog.exec_():
+                print("任务已更新")
+        else:
+            print(f"Error: Task ID not found for row {row}")
+            QMessageBox.warning(self, "错误", "无法找到任务ID。")
+
+    def update_task_detail(self, task_id, task_info):
+            """更新或添加任务详情到字典中。"""
+            self.task_details[task_id] = task_info
+            print(f"Task {task_id} has been updated/added with info: {task_info}")
+
 
 
 
@@ -622,35 +696,47 @@ class ADBControlApp(QWidget):
             return '', '', ''
 
     def execute_commands(self, task_id):
-        if task_id in self.timers:
-            row_index, timer, checkbox = self.timer_to_task[task_id]
-            selected_param_group = self.task_list.item(row_index, 3).text().split(' - ')[0]  # 从第四列获取参数组名
-            package_name, activity_name, device_id = self.get_params_from_group(selected_param_group)
-            cycle_type = self.task_list.item(row_index, 0).text()  # 假设周期类型在第一列
+        if task_id not in self.timers:
+            print(f"Error: Task ID {task_id} not found in timers.")
+            return
 
-            if package_name and activity_name and device_id:
-                if checkbox.isChecked():
-                    self.hide()  # 隐藏窗口，不关闭程序
-                    print(f"任务 {task_id} 将在后台运行.")
-                else:
-                    print(f"呼出应用程序并执行任务 {task_id}...")
-                    self.show()
+        row_index, timer, checkbox = self.timer_to_task[task_id]
+        task_detail = self.task_details.get(task_id)
 
-                # 延迟执行ADB命令序列
-                QTimer.singleShot(2000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
-                QTimer.singleShot(4000, lambda: self.adb_command(device_id, "input swipe 300 1000 300 500"))
-                QTimer.singleShot(6000, lambda: self.open_app(package_name, activity_name, device_id))
-                QTimer.singleShot(10000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_HOME"))
-                QTimer.singleShot(12000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
+        if not task_detail:
+            print(f"Error: Task details not found for task ID {task_id}.")
+            return
 
-                # 根据任务类型决定是否结束任务
-                if cycle_type == "单次执行":
-                    QTimer.singleShot(14000, lambda: self.finish_task(task_id))
-                else:
-                    print(f"周期任务 {task_id} 完成一次执行，等待下次触发。")
-            else:
-                print("未找到有效的包名、活动名或设备ID。")
+        # 直接从任务详情中获取参数组名、周期类型等信息
+        param_group = task_detail.get('param_group')
+        cycle_type = task_detail.get('cycle_type')
 
+        # 获取选中的参数组的参数
+        package_name, activity_name, device_id = self.get_params_from_group(param_group)
+
+        if not (package_name and activity_name and device_id):
+            print("Error: Failed to retrieve package name, activity name, or device ID.")
+            return
+
+        # 检查复选框是否选中，以决定是否在后台执行任务
+        if checkbox.isChecked():
+            self.hide()  # 隐藏窗口，不关闭程序
+        else:
+            self.show()  # 显示窗口
+
+            # 延迟执行ADB命令序列
+            QTimer.singleShot(2000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
+            QTimer.singleShot(4000, lambda: self.adb_command(device_id, "input swipe 300 1000 300 500"))
+            QTimer.singleShot(6000, lambda: self.open_app(package_name, activity_name, device_id))
+            QTimer.singleShot(10000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_HOME"))
+            QTimer.singleShot(12000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
+
+        # 对于非周期性任务，执行完毕后移除任务
+        if cycle_type == "单次执行":
+            QTimer.singleShot(14000, lambda: self.finish_task(task_id))
+        else:
+            # 如果是周期性任务，这里不需要再次执行 print 语句
+            print(f"Periodic task {task_id} completed an execution, waiting for the next trigger.")
 
 
 
@@ -693,6 +779,7 @@ class ADBControlApp(QWidget):
 
 
 #自动检测ADB参数
+
     def update_params_list(self):
         # 更新显示的参数列表
         self.params_list.clear()
@@ -706,28 +793,32 @@ class ADBControlApp(QWidget):
     
     
     def detect_adb_parameters(self):
-        device_id, package_name, activity_name, android_version, adb_installed, adb_version = get_adb_info()
-        executed_commands = self.command_log  # Use the stored command log
+        self.device_id, self.package_name, self.activity_name, self.android_version, self.adb_installed, self.adb_version = get_adb_info()
         self.update_params_list()
         return {
-            "device_id": device_id,
-            "package_name": package_name,
-            "activity_name": activity_name,
-            "android_version": android_version,
-            "adb_installed": adb_installed,
-            "adb_version": adb_version,
-            "executed_commands": executed_commands
+            "device_id": self.device_id,
+            "package_name": self.package_name,
+            "activity_name": self.activity_name,
+            "android_version": self.android_version,
+            "adb_installed": self.adb_installed,
+            "adb_version": self.adb_version
         }
+        
+       
 
 
 
 
 from PyQt5.QtCore import QTime
 
+
 class TaskManagerDialog(QDialog):
-    def __init__(self, parent, task_details):
+    def __init__(self, parent, task_details, task_id):
         super().__init__(parent)
+        self.parent = parent  # 存储对父窗口的引用
         self.task_details = task_details
+        self.task_id = task_id  # 存储 task_id
+
         self.init_ui()
 
     def init_ui(self):
@@ -739,10 +830,35 @@ class TaskManagerDialog(QDialog):
         self.package_name_edit = QLineEdit(self.task_details['package_name'])
         self.activity_name_edit = QLineEdit(self.task_details['activity_name'])
         
-        # 执行时间
-        self.execute_time_edit = QDateTimeEdit(self.task_details['execute_time'])
+        
+
+
+         # 尝试从 task_details 获取 execute_time
+        execute_time_str = self.task_details.get('execute_time', '')
+        if execute_time_str:
+            # 如果是字符串，尝试解析为 QDateTime 对象
+            execute_time = QDateTime.fromString(execute_time_str, "yyyy-MM-dd HH:mm")
+            if execute_time.isValid():
+                self.execute_time_edit = QDateTimeEdit(execute_time)
+            else:
+                print("Error - Invalid QDateTime parsed from string")
+                self.execute_time_edit = QDateTimeEdit(QDateTime.currentDateTime())
+        else:
+            self.execute_time_edit = QDateTimeEdit(QDateTime.currentDateTime())
+
         self.execute_time_edit.setDisplayFormat("yyyy-MM-dd HH:mm")
         self.execute_time_edit.setCalendarPopup(True)
+
+        # 设置 QDateTimeEdit 控件
+        self.execute_time_edit = QDateTimeEdit(execute_time)
+        self.execute_time_edit.setDisplayFormat("yyyy-MM-dd HH:mm")
+        self.execute_time_edit.setCalendarPopup(True)
+
+        # 设置 QDateTimeEdit 控件
+        self.execute_time_edit = QDateTimeEdit(execute_time)
+        self.execute_time_edit.setDisplayFormat("yyyy-MM-dd HH:mm")
+        self.execute_time_edit.setCalendarPopup(True)
+
         
         # 周期类型
         self.cycle_type_combo = QComboBox()
@@ -753,8 +869,6 @@ class TaskManagerDialog(QDialog):
         self.background_check = QCheckBox("后台执行")
         self.background_check.setChecked(self.task_details['background'])
 
-        # ADB命令
-        self.adb_command_edit = QLineEdit(self.task_details['adb_command'])
 
         # 添加控件到表单
         layout.addRow('设备ID:', self.device_id_edit)
@@ -762,16 +876,57 @@ class TaskManagerDialog(QDialog):
         layout.addRow('应用名:', self.activity_name_edit)
         layout.addRow('执行时间:', self.execute_time_edit)
         layout.addRow('周期类型:', self.cycle_type_combo)
-        layout.addRow('ADB命令:', self.adb_command_edit)
         layout.addRow(self.background_check)
+
+
+        #自动识别按钮
+        auto_detect_app_btn = QPushButton('自动识别活动应用')
+        auto_detect_app_btn.clicked.connect(self.detect_adb_parameters)
+        layout.addRow(auto_detect_app_btn)
+
 
         # 保存按钮
         save_button = QPushButton('保存更改')
         save_button.clicked.connect(self.save_changes)
         layout.addRow(save_button)
 
+
+        self.setLayout(layout)
+
+    
+    def detect_adb_parameters(self):
+        # 调用 get_adb_info 并接收多个返回值
+        self.device_id, self.package_name, self.activity_name, self.android_version, self.adb_installed, self.adb_version = get_adb_info()
+
+        # 更新界面控件
+        self.device_id_edit.setText(self.device_id)
+        self.package_name_edit.setText(self.package_name)
+        self.activity_name_edit.setText(self.activity_name)
+    
     def save_changes(self):
-        # 这里实现保存逻辑
+        # 获取界面控件中的值
+        device_id = self.device_id_edit.text()
+        package_name = self.package_name_edit.text()
+        activity_name = self.activity_name_edit.text()
+        execute_time = self.execute_time_edit.dateTime().toPyDateTime()
+        cycle_type = self.cycle_type_combo.currentText()
+        background = self.background_check.isChecked()
+
+
+        # 构建更新的任务详情字典
+        updated_task_info = {
+            'device_id': device_id,
+            'package_name': package_name,
+            'activity_name': activity_name,
+            'execute_time': execute_time,
+            'cycle_type': cycle_type,
+            'background': background,
+        }
+
+        # 调用外部类（parent）的方法更新任务详情
+
+        self.parent.update_task_detail(self.task_id, updated_task_info)
+
         print("更改已保存")
         self.accept()
 
