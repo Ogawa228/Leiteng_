@@ -1,4 +1,6 @@
 
+#这是一个按照公文格式要求自动排版的工具。
+#上传DOCX文件，工具将按照指定格式进行排版并输出一个新的DOCX文件。
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QGridLayout, QWidget, QFileDialog, QMessageBox
 from docx import Document
@@ -7,6 +9,11 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml.ns import qn
 import os
 from PyQt5.QtWidgets import QLabel
+from docx import Document
+from docx.shared import Pt, Mm
+from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+from PyQt5.QtWidgets import QMessageBox
+
 
 class App(QMainWindow):
     def __init__(self):
@@ -104,7 +111,7 @@ class App(QMainWindow):
     def modify_document(self, input_path, output_path):
         doc = Document(input_path)
         
-        # Page setup
+        # 页面设置
         for section in doc.sections:
             section.page_width = Mm(210)
             section.page_height = Mm(297)
@@ -113,32 +120,37 @@ class App(QMainWindow):
             section.left_margin = Mm(28)
             section.right_margin = Mm(15)
 
-        # Font settings
+        # 字体和段落格式设置
         for paragraph in doc.paragraphs:
-            if paragraph.text.startswith('题目部分'):
+            # 默认字体和大小设置
+            font_name = '仿宋_GB2312'
+            font_size = Pt(16)
+
+            # 特殊格式处理
+            if paragraph == doc.paragraphs[0]:  # 判断为文章大标题
                 font_name = '方正小标宋简体'
-                font_size = Pt(18)  # Corresponds to font size "Small No. 2"
-            elif paragraph.text.startswith('正文：'):
-                font_name = '仿宋_GB2312'
-                font_size = Pt(16)  # Corresponds to font size "No. 3"
-                paragraph.paragraph_format.line_spacing = Pt(30)  # Line spacing of 30 pt
-            elif any(paragraph.text.startswith(level) for level in ['一、', '二、', '三、']):
+                font_size = Pt(18)
+            elif paragraph.text.startswith(('一、', '二、', '三、')):
                 font_name = '黑体'
-                font_size = Pt(16)
-            elif any(paragraph.text.startswith(level) for level in ['（一）', '（二）']):
+            elif paragraph.text.startswith(('（一）', '（二）')):
                 font_name = '楷体_GB2312'
-                font_size = Pt(16)
-            else:
-                font_name = '仿宋_GB2312'
-                font_size = Pt(16)
+
+            # 段落首行缩进（排除标题）
+            if not paragraph.text.startswith(('题目部分', '一、', '二、', '三、', '（一）', '（二）')):
+                paragraph.paragraph_format.first_line_indent = Pt(16 * 2)
 
             for run in paragraph.runs:
                 run.font.name = font_name
                 run._element.rPr.rFonts.set(qn('w:eastAsia'), font_name)
                 run.font.size = font_size
-                paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
+                # 设置西文字体以确保数字和特殊字符的字体
+                run._element.rPr.rFonts.set(qn('w:ascii'), 'Times New Roman')
+                run._element.rPr.rFonts.set(qn('w:hAnsi'), 'Times New Roman')
+
+            paragraph.paragraph_format.line_spacing = Pt(30)  # 设置固定行间距为30磅
+            paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.JUSTIFY
         
-        # Save the document
+        # 保存文档
         doc.save(output_path)
         QMessageBox.information(self, "完成", "文档排版完成！")
 
