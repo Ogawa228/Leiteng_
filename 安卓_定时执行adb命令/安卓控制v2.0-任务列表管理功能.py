@@ -416,19 +416,27 @@ class ADBControlApp(QWidget):
         # 没有找到相同执行时间的任务，可以添加新任务
         row_count = self.task_list.rowCount()
         self.task_list.insertRow(row_count)
-        
-        # 为每个任务生成唯一标识符
+
+        # 生成任务 ID
         task_id = str(uuid.uuid4())
 
-        # 存储任务详情以便后续引用
+        # 存储任务详情
         self.task_details[task_id] = {
             'row_index': row_count,
             'timer': None,
-            'param_group': param_group,
+            'checkbox': None,
             'cycle_type': cycle_type,
-            'execute_time': task_time_str,  # 存储格式化后的执行时间字符串
+            'execute_time': task_time,
+            'delay': delay,
+            'param_group': param_group,
             'first_run': first_run
         }
+
+        # 在表格中设置 task_id（假设为第 5 列，此列将设置为隐藏）
+        task_id_item = QTableWidgetItem(task_id)
+        self.task_list.setItem(row_count, 5, task_id_item)  # 第 5 列存储 task_id
+        print(f"Task ID {task_id} set for row {row_count}")  # 调试输出
+        self.task_list.setColumnHidden(5, True)  # 隐藏存储 task_id 的列
 
         # 周期类型标签
         cycle_label = QTableWidgetItem(cycle_type)
@@ -515,9 +523,8 @@ class ADBControlApp(QWidget):
         btn_widget.setLayout(btn_layout)
         self.task_list.setCellWidget(row_count, 4, btn_widget)
         
-        self.task_list.setItem(row_count, 5, QTableWidgetItem(task_id))
-        print(f"Task ID {task_id} set for row {row_count}")  # 调试输出
-        self.task_list.setColumnHidden(5, True)  # 隐藏第六列
+
+
 
         # 创建并启动定时器
         timer = QTimer(self)
@@ -700,6 +707,7 @@ class ADBControlApp(QWidget):
             print(f"Error: Task ID {task_id} not found in timers.")
             return
 
+        # 从 timers 获取任务的详细信息
         row_index, timer, checkbox = self.timer_to_task[task_id]
         task_detail = self.task_details.get(task_id)
 
@@ -713,7 +721,6 @@ class ADBControlApp(QWidget):
 
         # 获取选中的参数组的参数
         package_name, activity_name, device_id = self.get_params_from_group(param_group)
-
         if not (package_name and activity_name and device_id):
             print("Error: Failed to retrieve package name, activity name, or device ID.")
             return
@@ -724,19 +731,19 @@ class ADBControlApp(QWidget):
         else:
             self.show()  # 显示窗口
 
-            # 延迟执行ADB命令序列
-            QTimer.singleShot(2000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
-            QTimer.singleShot(4000, lambda: self.adb_command(device_id, "input swipe 300 1000 300 500"))
-            QTimer.singleShot(6000, lambda: self.open_app(package_name, activity_name, device_id))
-            QTimer.singleShot(10000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_HOME"))
-            QTimer.singleShot(12000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
+        # 延迟执行ADB命令序列
+        QTimer.singleShot(2000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
+        QTimer.singleShot(4000, lambda: self.adb_command(device_id, "input swipe 300 1000 300 500"))
+        QTimer.singleShot(6000, lambda: self.open_app(package_name, activity_name, device_id))
+        QTimer.singleShot(10000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_HOME"))
+        QTimer.singleShot(12000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
 
         # 对于非周期性任务，执行完毕后移除任务
         if cycle_type == "单次执行":
             QTimer.singleShot(14000, lambda: self.finish_task(task_id))
         else:
-            # 如果是周期性任务，这里不需要再次执行 print 语句
             print(f"Periodic task {task_id} completed an execution, waiting for the next trigger.")
+
 
 
 
