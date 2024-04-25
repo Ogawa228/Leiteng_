@@ -1,3 +1,6 @@
+#4.26更新：
+#1. 重构任务列表管理功能-任务列表中直接操作及右键显示参数详情功能
+#2. 依赖库-ADB工具自动安装功能
 import os
 import pickle
 import uuid
@@ -15,6 +18,8 @@ from PyQt5.QtGui import QIcon  # 图标
 from PyQt5.QtWidgets import QComboBox  # 下拉列表
 from 依赖库.参数.参数详情 import ParameterDetailsViewer
 from PyQt5.QtWidgets import QDialog, QFormLayout, QPushButton, QTimeEdit
+from PyQt5.QtWidgets import QMenu
+from 依赖库.ADB工具自动安装 import ADBInstaller
 
 
 #自动检测ADB参数
@@ -28,19 +33,26 @@ def get_adb_info():
 
     try:
         # 检查ADB是否安装，并获取ADB版本
-        adb_version_output = subprocess.check_output(["adb", "version"], encoding='utf-8').strip()
-        adb_installed = True
-        adb_version = adb_version_output.splitlines()[0]  # 通常是第一行输出
+        try:
+            adb_version_output = subprocess.check_output(["adb", "version"], encoding='utf-8').strip()
+            adb_installed = True
+            adb_version = adb_version_output.splitlines()[0]
+        except subprocess.CalledProcessError:
+            installer = ADBInstaller()
+            installer.offer_installation()
+            return None
 
         # 获取连接的设备列表
         devices_output = subprocess.check_output(["adb", "devices"], encoding='utf-8').strip()
         devices_lines = devices_output.splitlines()[1:]  # 忽略首行的提示信息
 
         if not devices_lines:
-            raise Exception("未检测到已连接的设备或设备状态不正确。")
+            QMessageBox.warning(None, "设备连接问题", "未检测到已连接的设备或设备状态不正确。")
+            return None  # 返回None或相应的值，表示没有找到设备
 
         if "device" not in devices_lines[0]:
-            raise Exception("设备可能未完全连接或未授权调试。")
+            QMessageBox.warning(None, "设备连接问题", "设备可能未完全连接或未授权调试。")
+            return None  # 返回None或相应的值，表示设备未授权
 
         device_id = devices_lines[0].split()[0]  # 获取第一个设备ID
 
@@ -98,7 +110,7 @@ class ADBControlApp(QWidget):
 
     
     def init_ui(self):
-        self.setWindowTitle('ADB控制器')
+        self.setWindowTitle('定时ADB任务管理器')
         self.stack_widget = QStackedWidget(self)
 
         # 创建配置界面
@@ -143,7 +155,7 @@ class ADBControlApp(QWidget):
         config_layout.addWidget(self.params_list)
 
         # 切换到主界面的按钮
-        to_main_btn = QPushButton('切换到主界面')
+        to_main_btn = QPushButton('返回主界面')
         to_main_btn.clicked.connect(lambda: self.stack_widget.setCurrentIndex(1))
         config_layout.addWidget(to_main_btn)
 
@@ -157,8 +169,17 @@ class ADBControlApp(QWidget):
         self.task_list.setSelectionMode(QAbstractItemView.NoSelection)
         self.task_list.setHorizontalHeaderLabels(["周期类型", "后台执行", "任务执行时间", "参数组名", "操作", "任务ID"])
         self.task_list.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        self.task_list.horizontalHeader().setSectionResizeMode(0, QHeaderView.Interactive)
         self.task_list.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeToContents)  # 对后台执行复选框列进行大小调整
-        self.task_list.cellClicked.connect(self.cell_was_clicked)
+        self.task_list.horizontalHeader().setSectionResizeMode(2, QHeaderView.Interactive)
+        self.task_list.horizontalHeader().setSectionResizeMode(3, QHeaderView.Interactive)
+        self.task_list.setColumnWidth(2, 150)   # 设置任务执行时间列的宽度 
+        self.task_list.setColumnWidth(0, 100)    # 设置周期类型列的宽度   
+        self.task_list.setColumnWidth(3, 100)    # 设置参数组名列的宽度       
+        self.task_list.setContextMenuPolicy(Qt.CustomContextMenu)
+
+
+
         self.task_list.setDragDropMode(QAbstractItemView.InternalMove)
         main_layout.addWidget(self.task_list)
 
@@ -186,7 +207,7 @@ class ADBControlApp(QWidget):
         main_layout.addWidget(confirm_time_btn)
 
         # 切换到配置界面的按钮
-        to_config_btn = QPushButton('切换到配置界面')
+        to_config_btn = QPushButton('参数组管理界面')
         to_config_btn.clicked.connect(lambda: self.stack_widget.setCurrentIndex(0))
         main_layout.addWidget(to_config_btn)
 
@@ -253,6 +274,7 @@ class ADBControlApp(QWidget):
                 self.save_parameters_to_file(params, group_name)  # 保存或更新参数组
                 self.update_param_combo()  # 更新配置界面下拉列表
                 self.update_main_param_combo()  # 更新主界面下拉列表
+                self.update_all_param_combos()  # 更新任务列表中所有行的参数组名下拉菜单
                 self.command_log.clear()
             else:
                 QMessageBox.warning(self, "ADB参数未检测到", "未检测到ADB参数，请确保ADB已正确安装并连接设备。")
@@ -274,6 +296,7 @@ class ADBControlApp(QWidget):
         QMessageBox.information(self, "保存成功", f"参数组 '{group_name}' 已保存。")
         self.update_param_combo()  # 更新配置界面下拉列表的数据
         self.update_main_param_combo()  # 更新主界面下拉列表的数据
+        self.update_all_param_combos()  # 更新任务列表中所有行的参数组名下拉菜单
 
 
     def update_param_combo(self):
@@ -289,6 +312,7 @@ class ADBControlApp(QWidget):
             self.save_parameters_to_file({}, text)  # 保存新的参数组
             self.update_param_combo()  # 更新配置界面下拉列表
             self.update_main_param_combo()  # 更新主界面下拉列表
+            self.update_all_param_combos()  # 更新任务列表中所有行的参数组名下拉菜单
 
     def delete_current_param(self):
         current_key = self.param_combo.currentText().split(' - ')[0]
@@ -296,6 +320,7 @@ class ADBControlApp(QWidget):
             self.delete_parameter_group(current_key)
             self.update_param_combo()  # 更新配置界面下拉列表
             self.update_main_param_combo()  # 更新主界面下拉列表
+            self.update_all_param_combos()  # 更新任务列表中所有行的参数组名下拉菜单
 
     def update_main_param_combo(self):
         # 清除主界面下拉列表的既有内容
@@ -345,11 +370,9 @@ class ADBControlApp(QWidget):
             self.adb_version = params.get('adb_version', '')
             self.update_params_list()
     
-    def cell_was_clicked(self, row, column):
-        # 当单元格被点击时执行
-        if column == 3:  # 假设参数组名在第三列
-            param_group = self.task_list.item(row, column).text().split(' - ')[0]
-            self.show_param_details(param_group)
+
+
+
     
     def show_parameters_details(self):
         selected_key = self.param_combo.currentText().split(' - ')[0]
@@ -404,17 +427,19 @@ class ADBControlApp(QWidget):
 
 
     def add_task_to_list(self, task_time, delay, param_group, cycle_type, first_run=False):
+        row_count = self.task_list.rowCount()
+        
         # 格式化任务执行时间为 "YYYY-MM-DD HH:MM" 格式
         task_time_str = task_time.strftime("%Y-%m-%d %H:%M")
-        
+
         # 遍历现有任务，检查是否存在相同执行时间的任务
-        for i in range(self.task_list.rowCount()):
-            if self.task_list.item(i, 2).text() == task_time_str:
+        for i in range(row_count):
+            datetime_editor = self.task_list.cellWidget(i, 2)
+            if datetime_editor and datetime_editor.dateTime().toString("yyyy-MM-dd HH:mm") == task_time_str:
                 QMessageBox.warning(self, "错误", "已存在相同执行时间的任务，请选择其他时间。")
                 return  # 如果找到相同执行时间的任务，则不添加新任务并返回
 
         # 没有找到相同执行时间的任务，可以添加新任务
-        row_count = self.task_list.rowCount()
         self.task_list.insertRow(row_count)
 
         # 生成任务 ID
@@ -438,10 +463,12 @@ class ADBControlApp(QWidget):
         print(f"Task ID {task_id} set for row {row_count}")  # 调试输出
         self.task_list.setColumnHidden(5, True)  # 隐藏存储 task_id 的列
 
-        # 周期类型标签
-        cycle_label = QTableWidgetItem(cycle_type)
-        cycle_label.setTextAlignment(Qt.AlignCenter)
-        self.task_list.setItem(row_count, 0, cycle_label)
+        # 周期类型下拉框
+        cycle_combo = QComboBox()
+        cycle_combo.addItems(["单次执行", "每日", "每周", "每月"])
+        cycle_combo.setCurrentText(cycle_type)  # 设置当前选中的周期类型
+        cycle_combo.currentTextChanged.connect(lambda new_cycle, id=task_id: self.update_cycle_type(id, new_cycle))
+        self.task_list.setCellWidget(row_count, 0, cycle_combo)
 
         # 后台执行复选框
         checkbox = QCheckBox()
@@ -454,49 +481,33 @@ class ADBControlApp(QWidget):
         checkbox_widget.setLayout(checkbox_layout)
         self.task_list.setCellWidget(row_count, 1, checkbox_widget)
 
-        # 根据周期类型调整显示时间格式
+        # 任务时间编辑器，显示格式根据周期类型调整
+        datetime_editor = QDateTimeEdit(task_time)
         if cycle_type == "单次执行":
-            task_time_display = task_time.strftime("%Y-%m-%d %H:%M")
+            datetime_editor.setDisplayFormat("yyyy-MM-dd HH:mm")
         else:
             # 对于周期性任务，仅显示时间（不显示日期）
-            task_time_display = task_time.strftime("%H:%M")
+            datetime_editor.setDisplayFormat("HH:mm")
+        datetime_editor.setCalendarPopup(True)
+        self.task_list.setCellWidget(row_count, 2, datetime_editor)
+        datetime_editor.dateTimeChanged.connect(lambda new_time, id=task_id: self.update_task_time(id, new_time))
 
-        # 任务时间标签
-        task_label = QTableWidgetItem(task_time_display)
-        task_label.setTextAlignment(Qt.AlignCenter)
-        self.task_list.setItem(row_count, 2, task_label)
+        # 参数组名下拉菜单
+        param_combo = QComboBox()
+        param_combo.setContextMenuPolicy(Qt.CustomContextMenu)
+        param_combo.customContextMenuRequested.connect(lambda point, combo=param_combo: self.param_combo_context_menu(point, combo))
+        saved_params = self.load_saved_parameters()  # 加载已保存的参数组
+        for key in saved_params.keys():
+            param_combo.addItem(key)
+        param_combo.setCurrentText(param_group)  # 设置当前选中的参数组
+        param_combo.currentTextChanged.connect(lambda new_group, tid=task_id: self.update_param_group(tid, new_group))
+        self.task_list.setCellWidget(row_count, 3, param_combo)
 
-        # 参数组名标签
-        param_label = QTableWidgetItem(param_group)
-        param_label.setTextAlignment(Qt.AlignCenter)
-        self.task_list.setItem(row_count, 3, param_label)
-
-        # 操作列：添加删除和管理按钮
+        # 操作列：添加删除按钮
         btn_widget = QWidget()
         btn_layout = QHBoxLayout(btn_widget)
         btn_layout.setContentsMargins(0, 0, 0, 0)
         btn_layout.setAlignment(Qt.AlignCenter)
-        manage_btn = QPushButton('🔨')
-        # 管理按钮样式
-        manage_btn.setStyleSheet("""
-            QPushButton {
-                background-color: white;
-                color: black;
-                border: none;
-                padding: 5px 10px;
-                border-radius: 11px;  /* 更圆润的边角 */
-                font-size: 13 px;  /* 字体大小调整 */
-                font-family: 'Helvetica';  /* 使用Helvetica字体，接近Apple的风格 */
-                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* 添加简单的阴影效果 */
-            }
-            QPushButton:hover {
-                background-color: #f0f0f0;  /* 鼠标悬停时的颜色，更柔和 */
-            }
-            QPushButton:pressed {
-                background-color: #e0e0e0;  /* 鼠标按下时的颜色，更深 */
-            }
-        """)
-        manage_btn.clicked.connect(lambda row=row_count: self.manage_task(row))
         remove_btn = QPushButton('✕')
         # 删除按钮样式
         remove_btn.setStyleSheet("""
@@ -518,7 +529,6 @@ class ADBControlApp(QWidget):
             }
         """)
         remove_btn.clicked.connect(lambda row=row_count, task_id=task_id: self.remove_task(task_id))
-        btn_layout.addWidget(manage_btn)
         btn_layout.addWidget(remove_btn)
         btn_widget.setLayout(btn_layout)
         self.task_list.setCellWidget(row_count, 4, btn_widget)
@@ -537,6 +547,7 @@ class ADBControlApp(QWidget):
         self.timer_to_task[task_id] = (row_count, timer, checkbox)
         print(f"Adding manage button for row {row_count} with task ID {task_id}")
 
+    
     def remove_task(self, task_id):
         # 尝试从任务详情中获取与任务ID对应的行索引
         row_index_to_remove = None
@@ -622,38 +633,71 @@ class ADBControlApp(QWidget):
 
 
 #任务列表管理功能
+    #更新任务时间
+    def update_task_time(self, task_id, new_time):
+        """ 更新任务的执行时间 """
+        if task_id in self.task_details:
+            task_details = self.task_details[task_id]
+            task_details['execute_time'] = new_time.toPyDateTime()
+            print(f"任务 {task_id} 的执行时间已更新为 {new_time.toString()}")
 
-
-    def manage_task(self, row):
-        if row >= 0 and row < self.task_list.rowCount():
-            task_item = self.task_list.item(row, 5)
-            if task_item is not None:
-                task_id = task_item.text()
-            # 提取执行的ADB命令（假设任务的ADB命令存储在某处，这里我们从命令日志中获取最新命令）
-            executed_commands = self.command_log[-1] if self.command_log else ""
-
-            task_details = {
-                'device_id': self.device_id,
-                'package_name': self.package_name,
-                'activity_name': self.activity_name,
-                'execute_time': self.task_list.item(row, 2).text(),  # 任务时间
-                'cycle_type': self.cycle_combo.currentText(),
-                'background': self.task_list.cellWidget(row, 1).findChild(QCheckBox).isChecked(),
-                'adb_command': executed_commands  # 确保传递最后执行的ADB命令
-            }
+            # 计算延迟时间
+            current_datetime = datetime.now()
+            delay = int((new_time.toPyDateTime() - current_datetime).total_seconds() * 1000)
             
-            
-            dialog = TaskManagerDialog(self, task_details, task_id)
-            if dialog.exec_():
-                print("任务已更新")
+            if delay < 0:
+                print(f"任务 {task_id} 的设定时间已过，将立即结束任务。")
+                self.finish_task(task_id)
+            else:
+                # 重新设置定时器
+                timer = self.timers.get(task_id)
+                if timer:
+                    timer.stop()
+                    timer.start(delay)
+                    print(f"任务 {task_id} 的定时器已更新，将在 {delay} 毫秒后执行。")
         else:
-            print(f"Error: Task ID not found for row {row}")
-            QMessageBox.warning(self, "错误", "无法找到任务ID。")
+            print(f"未找到任务ID：{task_id}")
 
-    def update_task_detail(self, task_id, task_info):
-            """更新或添加任务详情到字典中。"""
-            self.task_details[task_id] = task_info
-            print(f"Task {task_id} has been updated/added with info: {task_info}")
+    def update_cycle_type(self, task_id, new_cycle):
+        task_details = self.task_details.get(task_id)
+        if task_details:
+            task_details['cycle_type'] = new_cycle
+            datetime_editor = self.task_list.cellWidget(task_details['row_index'], 2)
+            if datetime_editor:
+                # 根据新的周期类型调整日期时间编辑器的显示格式
+                if new_cycle == "单次执行":
+                    datetime_editor.setDisplayFormat("yyyy-MM-dd HH:mm:ss")
+                else:
+                    datetime_editor.setDisplayFormat("HH:mm:ss")
+                print(f"任务 {task_id} 的周期类型已更新为 {new_cycle}.")
+        else:
+            print(f"未找到任务ID：{task_id}")
+    
+    def update_param_group(self, task_id, new_group):
+        """ 更新任务的参数组名 """
+        if task_id in self.task_details:
+            self.task_details[task_id]['param_group'] = new_group
+            print(f"任务 {task_id} 的参数组已更新为 {new_group}")
+    
+    def update_all_param_combos(self):
+        row_count = self.task_list.rowCount()
+        saved_params = self.load_saved_parameters()  # 加载已保存的参数组
+        for i in range(row_count):
+            param_combo = self.task_list.cellWidget(i, 3)  # 假设参数组名下拉菜单在第四列
+            if param_combo:
+                current_param = param_combo.currentText()
+                param_combo.clear()
+                for key in saved_params.keys():
+                    param_combo.addItem(key)
+                if current_param in saved_params:
+                    param_combo.setCurrentText(current_param)  # 重新设置之前选中的参数组
+    def param_combo_context_menu(self, point, combo):
+        menu = QMenu()
+        view_details_action = menu.addAction("查看参数组详情")
+        action = menu.exec_(combo.mapToGlobal(point))
+        if action == view_details_action:
+            self.show_param_details(combo.currentText())
+
 
 
 
@@ -755,34 +799,7 @@ class ADBControlApp(QWidget):
 
 
 
-                
-
-
-#初始对话框
-    def show_initial_dialog(self):
-        info_msg = QMessageBox()
-        info_msg.setIcon(QMessageBox.Information)
-        info_msg.setWindowTitle("当前ADB配置")
-        info_msg.setText(f"设备ID: {self.device_id}\n包名: {self.package_name}\n活动名: {self.activity_name}")
-        info_msg.setInformativeText("您想要更改这些参数吗？")
-        info_msg.setStandardButtons(QMessageBox.No | QMessageBox.Yes)
-        response = info_msg.exec_()
-        if response == QMessageBox.Yes:
-            self.change_params_dialog()
-
-    def change_params_dialog(self):
-        guide_msg = QMessageBox()
-        guide_msg.setIcon(QMessageBox.Information)
-        guide_msg.setWindowTitle("如何获取参数")
-        guide_msg.setText("您可以使用以下ADB命令来获取所需参数：\n"
-                          "- 设备ID: adb devices\n"
-                          "- 包名和活动名: adb shell dumpsys window | grep mCurrentFocus")
-        guide_msg.exec_()
-        self.device_id, ok = QInputDialog.getText(self, "输入新的设备ID", "设备ID:")
-        if ok:
-            self.package_name, ok = QInputDialog.getText(self, "输入新的包名", "包名:")
-        if ok:
-            self.activity_name, ok = QInputDialog.getText(self, "输入新的活动名", "活动名:")
+    
 
 
 #自动检测ADB参数
@@ -800,8 +817,17 @@ class ADBControlApp(QWidget):
     
     
     def detect_adb_parameters(self):
-        self.device_id, self.package_name, self.activity_name, self.android_version, self.adb_installed, self.adb_version = get_adb_info()
-        self.update_params_list()
+        adb_info = get_adb_info()  # 调用 get_adb_info 并接收返回值
+        if adb_info is None:
+            # 如果 get_adb_info 返回 None，则说明检测过程中出现了问题，弹出错误提示
+            QMessageBox.warning(self, "错误", "无法获取ADB设备信息，请检查设备连接和ADB设置。")
+            return None  # 可选择返回 None 或进行其他适当的错误处理
+
+        # 如果返回有效的结果，则解包
+        self.device_id, self.package_name, self.activity_name, self.android_version, self.adb_installed, self.adb_version = adb_info
+
+        self.update_params_list()  # 更新参数列表
+
         return {
             "device_id": self.device_id,
             "package_name": self.package_name,
@@ -810,135 +836,8 @@ class ADBControlApp(QWidget):
             "adb_installed": self.adb_installed,
             "adb_version": self.adb_version
         }
-        
-       
-
-
-
-
-from PyQt5.QtCore import QTime
-
-
-class TaskManagerDialog(QDialog):
-    def __init__(self, parent, task_details, task_id):
-        super().__init__(parent)
-        self.parent = parent  # 存储对父窗口的引用
-        self.task_details = task_details
-        self.task_id = task_id  # 存储 task_id
-
-        self.init_ui()
-
-    def init_ui(self):
-        layout = QFormLayout(self)
-        self.setWindowTitle('任务管理')
-
-        # 设备ID, 包名, 应用名
-        self.device_id_edit = QLineEdit(self.task_details['device_id'])
-        self.package_name_edit = QLineEdit(self.task_details['package_name'])
-        self.activity_name_edit = QLineEdit(self.task_details['activity_name'])
-        
-        
-
-
-         # 尝试从 task_details 获取 execute_time
-        execute_time_str = self.task_details.get('execute_time', '')
-        if execute_time_str:
-            # 如果是字符串，尝试解析为 QDateTime 对象
-            execute_time = QDateTime.fromString(execute_time_str, "yyyy-MM-dd HH:mm")
-            if execute_time.isValid():
-                self.execute_time_edit = QDateTimeEdit(execute_time)
-            else:
-                print("Error - Invalid QDateTime parsed from string")
-                self.execute_time_edit = QDateTimeEdit(QDateTime.currentDateTime())
-        else:
-            self.execute_time_edit = QDateTimeEdit(QDateTime.currentDateTime())
-
-        self.execute_time_edit.setDisplayFormat("yyyy-MM-dd HH:mm")
-        self.execute_time_edit.setCalendarPopup(True)
-
-        # 设置 QDateTimeEdit 控件
-        self.execute_time_edit = QDateTimeEdit(execute_time)
-        self.execute_time_edit.setDisplayFormat("yyyy-MM-dd HH:mm")
-        self.execute_time_edit.setCalendarPopup(True)
-
-        # 设置 QDateTimeEdit 控件
-        self.execute_time_edit = QDateTimeEdit(execute_time)
-        self.execute_time_edit.setDisplayFormat("yyyy-MM-dd HH:mm")
-        self.execute_time_edit.setCalendarPopup(True)
 
         
-        # 周期类型
-        self.cycle_type_combo = QComboBox()
-        self.cycle_type_combo.addItems(["单次执行", "每日", "每周", "每月"])
-        self.cycle_type_combo.setCurrentText(self.task_details['cycle_type'])
-
-        # 后台执行
-        self.background_check = QCheckBox("后台执行")
-        self.background_check.setChecked(self.task_details['background'])
-
-
-        # 添加控件到表单
-        layout.addRow('设备ID:', self.device_id_edit)
-        layout.addRow('包名:', self.package_name_edit)
-        layout.addRow('应用名:', self.activity_name_edit)
-        layout.addRow('执行时间:', self.execute_time_edit)
-        layout.addRow('周期类型:', self.cycle_type_combo)
-        layout.addRow(self.background_check)
-
-
-        #自动识别按钮
-        auto_detect_app_btn = QPushButton('自动识别活动应用')
-        auto_detect_app_btn.clicked.connect(self.detect_adb_parameters)
-        layout.addRow(auto_detect_app_btn)
-
-
-        # 保存按钮
-        save_button = QPushButton('保存更改')
-        save_button.clicked.connect(self.save_changes)
-        layout.addRow(save_button)
-
-
-        self.setLayout(layout)
-
-    
-    def detect_adb_parameters(self):
-        # 调用 get_adb_info 并接收多个返回值
-        self.device_id, self.package_name, self.activity_name, self.android_version, self.adb_installed, self.adb_version = get_adb_info()
-
-        # 更新界面控件
-        self.device_id_edit.setText(self.device_id)
-        self.package_name_edit.setText(self.package_name)
-        self.activity_name_edit.setText(self.activity_name)
-    
-    def save_changes(self):
-        # 获取界面控件中的值
-        device_id = self.device_id_edit.text()
-        package_name = self.package_name_edit.text()
-        activity_name = self.activity_name_edit.text()
-        execute_time = self.execute_time_edit.dateTime().toPyDateTime()
-        cycle_type = self.cycle_type_combo.currentText()
-        background = self.background_check.isChecked()
-
-
-        # 构建更新的任务详情字典
-        updated_task_info = {
-            'device_id': device_id,
-            'package_name': package_name,
-            'activity_name': activity_name,
-            'execute_time': execute_time,
-            'cycle_type': cycle_type,
-            'background': background,
-        }
-
-        # 调用外部类（parent）的方法更新任务详情
-
-        self.parent.update_task_detail(self.task_id, updated_task_info)
-
-        print("更改已保存")
-        self.accept()
-
-
-
 #主函数
 def main():
     app = QApplication(sys.argv)
