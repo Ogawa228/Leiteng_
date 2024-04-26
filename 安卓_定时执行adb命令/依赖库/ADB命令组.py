@@ -184,7 +184,7 @@ class ADBCommandExecutor:
             with open(self.commands_file, "w") as file:
                 json.dump(data, file, indent=4)
 
-            QMessageBox.information(None, "Success", "Commands saved successfully.")
+            QMessageBox.information(None, "成功", "命令成功保存.")
 
     def new_command_group(self):
         # 弹出对话框让用户输入新的命令组名称
