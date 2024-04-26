@@ -11,6 +11,8 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtWidgets import QDialog
 from PyQt5.QtCore import QUrl
+from 依赖库.自动检测ADB命令 import CommandDetector
+
 
 class ADBCommandExecutor:
     def __init__(self, device_id, package_name, activity_name, back_to_main_ui, back_to_config_ui):
@@ -142,11 +144,17 @@ class ADBCommandExecutor:
         return self.adb_commands_list
 
 
-#自动识别命令
+#自动识别ADB命令
     def auto_detect_command(self):
-        # 假设这个方法会通过某种机制（如监听设备操作）自动识别用户在设备上的操作并转换成ADB命令
-        detected_command = "input text 'example'"
-        self.commands_list_widget.addItem(detected_command)
+        # 创建CommandDetector实例
+        detector = CommandDetector()
+        # 显示控制界面
+        detector.show_control_dialog()
+        # 连接信号到添加命令的逻辑
+        detector.new_command_signal.connect(self.add_command_to_list_widget)
+
+    def add_command_to_list_widget(self, command):
+        self.commands_list_widget.addItem(command)
 
 
 
@@ -271,7 +279,7 @@ class ADBCommandExecutor:
                 padding: 5px 10px;
                 border-radius: 15px;
                 font-size: 14px;
-                font-family: 'Helvetica';
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             }
             QPushButton:hover {

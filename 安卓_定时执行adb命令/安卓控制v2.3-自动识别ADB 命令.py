@@ -1,4 +1,4 @@
-#4.26更新：ADB 命令可视化界面
+#4.26更新：ADB 命令可视化界面、ADB命令自动识别、新的icon
 
 import os
 import pickle
@@ -22,7 +22,8 @@ from 依赖库.ADB工具自动安装 import ADBInstaller
 from 依赖库.ADB命令组 import ADBCommandExecutor
 
 
-#自动检测ADB参数
+
+#自动检测设备参数
 def get_adb_info():
     adb_installed = False
     adb_version = ""
@@ -118,6 +119,8 @@ class ADBControlApp(QWidget):
     
     def init_ui(self):
         self.setWindowTitle('定时ADB任务管理器')
+        self.setWindowIcon(QIcon('安卓_定时执行adb命令\律所LOGO.ico'))  # 设置窗口图标
+        self.show()
         self.stack_widget = QStackedWidget(self)
 
 
@@ -149,7 +152,7 @@ class ADBControlApp(QWidget):
         config_layout.addWidget(new_param_button)
 
         # 自动检测ADB参数按钮
-        detect_adb_btn = QPushButton('自动检测ADB参数')
+        detect_adb_btn = QPushButton('自动检测设备参数')
         detect_adb_btn.clicked.connect(self.detect_adb_parameters)
         config_layout.addWidget(detect_adb_btn)
 
@@ -271,7 +274,7 @@ class ADBControlApp(QWidget):
                 padding: 5px 10px;
                 border-radius: 15px;
                 font-size: 14px;
-                font-family: 'Helvetica';
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             }
             QPushButton:hover {
@@ -728,7 +731,7 @@ class ADBControlApp(QWidget):
 
 
 
-#ADB命令组
+#ADB命令执行组
 
     def get_params_from_group(self, group_name):
         data = self.load_saved_parameters()
@@ -798,7 +801,7 @@ class ADBControlApp(QWidget):
     
 
 
-#自动检测ADB参数
+#自动检测设备参数
 
     def update_params_list(self):
         # 更新显示的参数列表
