@@ -282,7 +282,7 @@ class ADBControlApp(QWidget):
             }
         """)
     def back_to_main_ui(self):
-        self.stack_widget.setCurrentIndex(1)  # Assuming 1 is the main UI index
+            self.stack_widget.setCurrentIndex(1)  # Assuming 1 is the main UI index
 
     def back_to_config_ui(self):
         self.stack_widget.setCurrentIndex(0)  # Assuming 0 is the config UI index
@@ -743,45 +743,53 @@ class ADBControlApp(QWidget):
             print(f"未找到名为'{group_name}'的参数组。")
             return '', '', ''
 
+    # ADBControlApp类中的execute_commands方法
     def execute_commands(self, task_id):
+        # 检查任务ID是否在计时器中
         if task_id not in self.timers:
             print(f"Error: Task ID {task_id} not found in timers.")
             return
 
+        # 获取任务详细信息
         task_detail = self.task_details.get(task_id)
         if not task_detail:
             print(f"Error: Task details not found for task ID {task_id}.")
             return
 
-        param_group = task_detail.get('param_group')
-        cycle_type = task_detail.get('cycle_type')
-
         # 从参数组获取设备ID、包名和活动名
+        param_group = task_detail.get('param_group')
         package_name, activity_name, device_id = self.get_params_from_group(param_group)
-        if not device_id:
+
+        # 验证设备ID、包名和活动名是否有效
+        if not device_id or not package_name or not activity_name:
             print("Error: Failed to retrieve device ID, package name, or activity name.")
             return
 
-        # 创建ADBCommandExecutor实例
-        adb_executor = ADBCommandExecutor(device_id, package_name, activity_name)
+        # 定义或获取返回到主UI和配置UI的函数或状态
+        back_to_main_ui = self.back_to_main_ui # 修改此行以匹配你的实际应用逻辑
+        back_to_config_ui = self.back_to_config_ui # 修改此行以匹配你的实际应用逻辑
 
-        # 获取后台执行复选框状态
+        # 创建ADBCommandExecutor实例，并确保传递所有必要参数
+        adb_executor = ADBCommandExecutor(device_id, package_name, activity_name, back_to_main_ui, back_to_config_ui)
+
+        # 获取复选框的状态以确定是否在后台执行
         checkbox = self.timer_to_task[task_id][2]
         if checkbox.isChecked():
             self.hide()
         else:
             self.show()
 
-        
+        # 获取将执行的命令数并估计执行时间
         command_count = len(adb_executor.get_commands())
         estimated_execution_time = command_count * 3000  # 假设每个命令需要3000毫秒
 
-        # 执行命令列表
+        # 使用单次定时器在3秒后执行ADB命令
         QTimer.singleShot(3000, adb_executor.execute_commands)
 
-        #对于单次执行的任务，设置任务完成后的清理工作
-        if cycle_type == "单次执行":
+        # 如果任务类型是“单次执行”，在执行完成后清理任务
+        if task_detail.get('cycle_type') == "单次执行":
             QTimer.singleShot(3000 + estimated_execution_time, lambda: self.finish_task(task_id))
+
 
 
 
