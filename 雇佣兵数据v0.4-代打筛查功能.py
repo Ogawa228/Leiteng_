@@ -611,6 +611,7 @@ from tkinter import Tk, filedialog
 from PyQt5.QtWidgets import QMessageBox, QFileDialog
 from geopy.distance import geodesic
 import requests
+from urllib3.util.retry import Retry
 
 class PersonnelScreener:
     @staticmethod
@@ -620,12 +621,19 @@ class PersonnelScreener:
         """
         if ip.startswith('127.'):  # 忽略本地IP地址
             return None
+
+        session = requests.Session()
+        retry = Retry(total=3, backoff_factor=0.3, status_forcelist=[500, 502, 503, 504])
+        adapter = requests.adapters.HTTPAdapter(max_retries=retry)
+        session.mount('http://', adapter)
+        session.mount('https://', adapter)
+
         try:
             # 禁用代理的配置
-            response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5, proxies={"http": None, "https": None})
+            response = session.get(f"http://ip-api.com/json/{ip}", timeout=10, proxies={"http": None, "https": None})
             response.raise_for_status()  # 检查HTTP请求状态码
             data = response.json()
-            if data['status'] == 'success':
+            if data['status'] == 'success' and data['country'] != 'Hong Kong':
                 return (data['lat'], data['lon'], data['city'], data['country'])
             return None
         except requests.exceptions.RequestException as e:
@@ -667,7 +675,8 @@ class PersonnelScreener:
                 for time, ip in ips:
                     if ip not in ip_locations and not ip.startswith('127.'):
                         location = PersonnelScreener.get_ip_location(ip)
-                        ip_locations[ip] = location
+                        if location:
+                            ip_locations[ip] = location
                     else:
                         location = ip_locations.get(ip)
                     location_str = f"{location[2]}, {location[3]}" if location else "Unknown location"
@@ -677,14 +686,14 @@ class PersonnelScreener:
                 unique_ips = list(set(ip for _, ip in ips if not ip.startswith('127.')))
                 for i in range(len(unique_ips)):
                     for j in range(i + 1, len(unique_ips)):
-                        loc1 = ip_locations[unique_ips[i]]
-                        loc2 = ip_locations[unique_ips[j]]
+                        loc1 = ip_locations.get(unique_ips[i])
+                        loc2 = ip_locations.get(unique_ips[j])
                         if loc1 and loc2:
                             distances.append(geodesic((loc1[0], loc1[1]), (loc2[0], loc2[1])).kilometers)
 
                 max_distance = max(distances) if distances else 0
 
-                if max_distance > 300:  # 你可以根据需要调整距离阈值
+                if max_distance > 500:  # 你可以根据需要调整距离阈值
                     details_split = '\n'.join([f"{ip_details[i]} {'; ' + ip_details[i + 1] if i + 1 < len(ip_details) else ''}" for i in range(0, len(ip_details), 2)])
                     reason = f"IPs: {', '.join(unique_ips)}; Max Distance: {max_distance:.2f} km; Details: {details_split}"
                     suspicious_players.append((player, reason))
@@ -697,11 +706,13 @@ class PersonnelScreener:
                 df.to_excel(writer, index=False)
                 worksheet = writer.sheets['Sheet1']
                 worksheet.set_column('B:B', 80)  # 调整 Reason 列的宽度以完全显示内容
-                writer.save()
+                writer.close()
                 ui.log_status(f"嫌疑玩家信息已保存至: {output_path}")
                 QMessageBox.information(ui, "完成", f"嫌疑玩家信息已保存至: {output_path}")
         else:
             ui.log_status("未发现嫌疑玩家")
+
+
 
 
 
