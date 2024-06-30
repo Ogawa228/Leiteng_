@@ -2,4 +2,4 @@
                           + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
                           + 2 * combo_count
                           + 0.01 * k_dmg
-                          + 2 * len(hits)) + kill_death_ratio * 2 - tk_kills * 5
+                          ) + 1.5 * len(hits)+ kill_death_ratio * 1 - tk_kills * 5
