@@ -545,7 +545,7 @@ class ExcelSaver:
                           + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
                           + 2 * combo_count
                           + 0.01 * k_dmg
-                          ) + 1.5 * len(hits)+ kill_death_ratio * 1 - tk_kills * 5
+                          ) + 1.8 * len(hits)+ kill_death_ratio * 1 - tk_kills * 5
             data_for_excel.append([player, rank_score, len(hits), total_dmg, most_used_weapon, combo_count, kills, deaths, tk_damage, received_tk_damage, kill_death_ratio, combo_hits_ratio, received_combos, k_dmg, k_dmg_damage_ratio, k_dmg_combo_ratio, received_k_dmg, received_k_dmg_combo_ratio, team_hits, tk_kills])
 
         df = pd.DataFrame(data_for_excel, columns=['Player ID', 'Rank Score', 'Hit', 'DMG', 'Most Used Weapon', 'Combos', 'Kills', 'Deaths', 'TK DMG', 'Received TK DMG', 'Kill/Death Ratio', 'Combo/Hits Ratio', 'Received Combos', 'K-DMG', 'K-DMG/DMG', 'K-DMG/Combos', 'Received K-DMG', 'Received K-DMG/Combos', 'Team Hits', 'TK Kills'])
