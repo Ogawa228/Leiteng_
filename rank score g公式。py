@@ -1,4 +1,4 @@
-            rank_score = 0.485 *( 0.8 * ((combo_hits_ratio + 2 * k_dmg_damage_ratio) / 2) * 100
+            rank_score = 0.2 *( 0.8 * ((combo_hits_ratio + 2 * k_dmg_damage_ratio) / 2) * 100
                           + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
                           + 2 * combo_count
                           + 0.01 * k_dmg
