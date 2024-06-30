@@ -1,0 +1,258 @@
+
+
+23:39:23 - *SERVER* [[X1]Yuukasama]: 比 赛 开 始 
+
+23:39:40 - Tanguan has hit teammate Pageup (One Handed Bar Mace, 21 DMG).
+23:39:44 - Tanguan has hit qimama (One Handed Bar Mace, 18 DMG).
+23:39:45 - Raphael has hit Tanguan (One Handed Bar Mace, 19 DMG).
+23:39:46 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 21 DMG).
+23:39:46 - Raphael has hit teammate qimama (One Handed Bar Mace, 21 DMG).
+23:39:48 - Tanguan has hit Raphael (One Handed Bar Mace, 45 DMG).
+23:39:49 - Raphael has hit Tanguan (One Handed Bar Mace, 19 DMG).
+23:39:51 - qimama has hit Tanguan (Long Spear, 4 DMG).
+23:39:52 - Pageup has hit Raphael (One Handed Bar Mace, 10 DMG).
+23:39:55 - qimama has hit Tanguan (Long Spear, 6 DMG).
+23:39:55 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 14 DMG).
+23:39:55 - Pageup has hit qimama (One Handed Bar Mace, 21 DMG).
+23:39:56 - qimama has hit Pageup (Long Spear, 23 DMG).
+23:39:57 - Tanguan has hit qimama (One Handed Bar Mace, 35 DMG).
+23:39:57 - Tanguan <img=ico_blunt> qimama
+23:40:00 - Tanguan has hit Raphael (One Handed Bar Mace, 18 DMG).
+23:40:00 - Tanguan <img=ico_blunt> Raphael
+23:40:00 - Pageup has hit teammate Tanguan (One Handed Bar Mace, 15 DMG).
+23:40:04 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 66 DMG).
+23:40:04 - [X1]Yuukasama <img=ico_axeone> Pageup
+23:40:08 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 32 DMG).
+23:40:08 - [X1]Yuukasama <img=ico_axeone> Tanguan
+23:40:15 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 16 DMG).
+23:40:17 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 30 DMG).
+23:40:17 - [X1]Yuukasama <img=ico_axeone> [DK]naned
+23:40:17 - The round 20 has ended
+23:40:39 - Raphael has hit Pageup (One Handed Bar Mace, 15 DMG).
+23:40:40 - qimama has hit [DK]naned (Long Spear, 23 DMG).
+23:40:42 - [DK]naned has hit Raphael (Iron Axe, 11 DMG).
+23:40:42 - Pageup has hit qimama (One Handed Bar Mace, 31 DMG).
+23:40:42 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 19 DMG).
+23:40:42 - Tanguan has hit [X1]Yuukasama (One Handed Bar Mace, 17 DMG).
+23:40:44 - [KT]lst has left the game with ID: 5881848 and IP: 118.80.194.158
+23:40:44 - [KT]lst has left the game with ID: 5881848.
+23:40:44 - qimama has hit [DK]naned (Long Spear, 9 DMG).
+23:40:45 - Raphael has hit Pageup (One Handed Bar Mace, 25 DMG).
+23:40:46 - Raphael has hit [DK]naned (One Handed Bar Mace, 26 DMG).
+23:40:46 - Raphael <img=ico_blunt> [DK]naned
+23:40:47 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 16 DMG).
+23:40:47 - qimama has hit Pageup (Long Spear, 36 DMG).
+23:40:47 - qimama <img=ico_spear> Pageup
+23:40:50 - qimama has hit Tanguan (Long Spear, 33 DMG).
+23:40:50 - Raphael has hit Tanguan (One Handed Bar Mace, 39 DMG).
+23:40:50 - Raphael <img=ico_blunt> Tanguan
+23:40:50 - The round 21 has ended
+23:41:10 - qimama has hit Pageup (Long Spear, 26 DMG).
+23:41:11 - Raphael has hit Pageup (One Handed Bar Mace, 23 DMG).
+23:41:11 - [DK]naned has hit qimama (Iron Axe, 30 DMG).
+23:41:11 - Tanguan has hit Raphael (One Handed Bar Mace, 25 DMG).
+23:41:12 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 22 DMG).
+23:41:12 - Raphael has hit Tanguan (One Handed Bar Mace, 40 DMG).
+23:41:13 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 22 DMG).
+23:41:13 - [X1]Yuukasama <img=ico_axeone> Pageup
+23:41:14 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 30 DMG).
+23:41:15 - qimama has hit [DK]naned (Long Spear, 39 DMG).
+23:41:15 - qimama <img=ico_spear> [DK]naned
+23:41:15 - Tanguan has hit Raphael (One Handed Bar Mace, 31 DMG).
+23:41:16 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 22 DMG).
+23:41:18 - [X1]Yuukasama has hit teammate qimama (One Handed Knightly Axe, 7 DMG).
+23:41:18 - Raphael has hit Tanguan (One Handed Bar Mace, 47 DMG).
+23:41:18 - Raphael <img=ico_blunt> Tanguan
+23:41:18 - The round 22 has ended
+23:41:38 - Raphael has hit Tanguan (One Handed Bar Mace, 37 DMG).
+23:41:40 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 22 DMG).
+23:41:42 - Pageup has hit Raphael (One Handed Bar Mace, 26 DMG).
+23:41:44 - Raphael has hit Tanguan (One Handed Bar Mace, 25 DMG).
+23:41:45 - [DK]naned has hit teammate Pageup (Iron Axe, 16 DMG).
+23:41:45 - Raphael has hit Pageup (One Handed Bar Mace, 20 DMG).
+23:41:46 - Raphael has hit Tanguan (One Handed Bar Mace, 17 DMG).
+23:41:46 - Raphael <img=ico_blunt> Tanguan
+23:41:47 - Pageup has hit Raphael (One Handed Bar Mace, 22 DMG).
+23:41:49 - qimama has hit [DK]naned (Long Spear, 44 DMG).
+23:41:49 - qimama <img=ico_spear> [DK]naned
+23:41:50 - qimama has hit Pageup (Long Spear, 17 DMG).
+23:41:51 - Raphael has hit Pageup (One Handed Bar Mace, 24 DMG).
+23:41:51 - Raphael <img=ico_blunt> Pageup
+23:41:51 - The round 23 has ended
+23:41:54 - *DEAD* [[DK]naned] SRY
+23:42:12 - Raphael has hit Pageup (One Handed Bar Mace, 47 DMG).
+23:42:14 - [DK]naned has hit Raphael (Iron Axe, 32 DMG).
+23:42:14 - Pageup has hit qimama (One Handed Bar Mace, 37 DMG).
+23:42:17 - Raphael has hit Pageup (One Handed Bar Mace, 39 DMG).
+23:42:17 - Raphael <img=ico_blunt> Pageup
+23:42:18 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 15 DMG).
+23:42:19 - qimama has hit [DK]naned (Long Spear, 4 DMG).
+23:42:20 - Tanguan has hit [X1]Yuukasama (One Handed Bar Mace, 24 DMG).
+23:42:21 - Raphael has hit [DK]naned (One Handed Bar Mace, 16 DMG).
+23:42:25 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 19 DMG).
+23:42:25 - [DK]naned has hit Raphael (Iron Axe, 24 DMG).
+23:42:27 - Raphael has hit [DK]naned (One Handed Bar Mace, 28 DMG).
+23:42:28 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 4 DMG).
+23:42:28 - Raphael has hit [DK]naned (One Handed Bar Mace, 22 DMG).
+23:42:28 - Raphael <img=ico_blunt> [DK]naned
+23:42:30 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 11 DMG).
+23:42:33 - Tanguan has hit [X1]Yuukasama (One Handed Bar Mace, 33 DMG).
+23:42:33 - Raphael has hit Tanguan (One Handed Bar Mace, 17 DMG).
+23:42:33 - Raphael <img=ico_blunt> Tanguan
+23:42:33 - The round 24 has ended
+23:42:38 - *SERVER* [[X1]Yuukasama]: 上 半 场 结 束 
+23:42:41 -  <img=ico_headshot> qimama
+23:42:41 -  <img=ico_headshot> Pageup
+23:42:41 -  <img=ico_headshot> [DK]naned
+23:42:41 -  <img=ico_headshot> Tanguan
+23:42:41 - The round 25 has ended
+23:42:41 -  <img=ico_headshot> Raphael
+23:42:45 - The map has been reset.
+23:42:54 - *SERVER* [[X1]Yuukasama]: 下 半 场 开 始 
+23:43:05 - [DK]naned has hit [X1]Yuukasama (Iron Axe, 11 DMG).
+23:43:10 - Raphael has hit [DK]naned (One Handed Bar Mace, 34 DMG).
+23:43:11 - Pageup has hit Raphael (One Handed Bar Mace, 20 DMG).
+23:43:12 - [DK]naned has hit Raphael (Iron Axe, 26 DMG).
+23:43:12 - qimama has hit [DK]naned (Heavy Scimitar, 19 DMG).
+23:43:13 - Pageup has hit Raphael (One Handed Bar Mace, 34 DMG).
+23:43:13 - Pageup <img=ico_blunt> Raphael
+23:43:15 - Pageup has hit [X1]Yuukasama (One Handed Bar Mace, 32 DMG).
+23:43:17 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 9 DMG).
+23:43:19 - [DK]naned has hit qimama (Iron Axe, 26 DMG).
+23:43:20 - [DK]naned has hit qimama (Iron Axe, 9 DMG).
+23:43:20 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 29 DMG).
+23:43:22 - qimama has hit [DK]naned (Heavy Scimitar, 25 DMG).
+23:43:22 - qimama <img=ico_swordone> [DK]naned
+23:43:28 - qimama has hit Tanguan (Heavy Scimitar, 11 DMG).
+23:43:30 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 35 DMG).
+23:43:30 - [X1]Yuukasama <img=ico_axeone> Tanguan
+23:43:35 - qimama has hit Pageup (Heavy Scimitar, 24 DMG).
+23:43:36 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 6 DMG).
+23:43:37 - qimama has hit Pageup (Heavy Scimitar, 18 DMG).
+23:43:39 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 22 DMG).
+23:43:39 - [X1]Yuukasama <img=ico_axeone> Pageup
+23:43:39 - The round 26 has ended
+23:43:59 - Raphael has hit Tanguan (One Handed Bar Mace, 50 DMG).
+23:44:02 - Pageup has hit [X1]Yuukasama (One Handed Bar Mace, 33 DMG).
+23:44:03 - Raphael has hit Tanguan (One Handed Bar Mace, 26 DMG).
+23:44:03 - Raphael <img=ico_blunt> Tanguan
+23:44:04 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 6 DMG).
+23:44:05 - Raphael has hit [DK]naned (One Handed Bar Mace, 25 DMG).
+23:44:05 - qimama has hit [DK]naned (Heavy Scimitar, 29 DMG).
+23:44:07 - Pageup has hit Raphael (One Handed Bar Mace, 40 DMG).
+23:44:08 - Raphael has hit Pageup (One Handed Bar Mace, 25 DMG).
+23:44:13 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 8 DMG).
+23:44:14 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 4 DMG).
+23:44:15 - Pageup has hit [X1]Yuukasama (One Handed Bar Mace, 18 DMG).
+23:44:19 - Raphael has hit [DK]naned (One Handed Bar Mace, 12 DMG).
+23:44:19 - Raphael <img=ico_blunt> [DK]naned
+23:44:22 - Pageup has hit Raphael (One Handed Bar Mace, 40 DMG).
+23:44:22 - Pageup <img=ico_blunt> Raphael
+23:44:23 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 11 DMG).
+23:44:24 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 25 DMG).
+23:44:24 - [X1]Yuukasama <img=ico_axeone> Pageup
+23:44:24 - The round 27 has ended
+23:44:44 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 31 DMG).
+23:44:44 - Pageup has hit qimama (One Handed Bar Mace, 51 DMG).
+23:44:45 - [DK]naned has hit Raphael (Iron Axe, 18 DMG).
+23:44:46 - Pageup has hit qimama (One Handed Bar Mace, 21 DMG).
+23:44:46 - [DK]naned has hit qimama (Iron Axe, 16 DMG).
+23:44:46 - [DK]naned <img=ico_axeone> qimama
+23:44:46 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 18 DMG).
+23:44:52 - [DK]naned has hit [X1]Yuukasama (Iron Axe, 5 DMG).
+23:44:52 - Pageup has hit [X1]Yuukasama (One Handed Bar Mace, 19 DMG).
+23:44:53 - Tanguan has hit Raphael (One Handed Bar Mace, 19 DMG).
+23:44:54 - Pageup has hit [X1]Yuukasama (One Handed Bar Mace, 30 DMG).
+23:44:59 - Raphael has hit teammate [X1]Yuukasama (One Handed Bar Mace, 12 DMG).
+23:44:59 - Raphael <img=ico_blunt> [X1]Yuukasama
+23:45:01 - Pageup has hit Raphael (One Handed Bar Mace, 29 DMG).
+23:45:01 - Pageup <img=ico_blunt> Raphael
+23:45:01 - The round 28 has ended
+23:45:19 - [DK]naned has hit qimama (Iron Axe, 7 DMG).
+23:45:21 - qimama has hit [DK]naned (Heavy Scimitar, 13 DMG).
+23:45:22 - Pageup has hit qimama (One Handed Bar Mace, 16 DMG).
+23:45:24 - Raphael has hit Tanguan (One Handed Bar Mace, 26 DMG).
+23:45:24 - qimama has hit Pageup (Heavy Scimitar, 22 DMG).
+23:45:24 - Raphael has hit Pageup (One Handed Bar Mace, 17 DMG).
+23:45:25 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 15 DMG).
+23:45:25 - qimama has hit Pageup (Heavy Scimitar, 22 DMG).
+23:45:26 - Raphael has hit Tanguan (One Handed Bar Mace, 33 DMG).
+23:45:27 - Raphael has hit Tanguan (One Handed Bar Mace, 25 DMG).
+23:45:27 - Raphael <img=ico_blunt> Tanguan
+23:45:27 - [DK]naned has hit Raphael (Iron Axe, 36 DMG).
+23:45:27 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 15 DMG).
+23:45:31 - qimama has hit Pageup (Heavy Scimitar, 5 DMG).
+23:45:32 - Raphael has hit [DK]naned (One Handed Bar Mace, 17 DMG).
+23:45:32 - Raphael <img=ico_blunt> [DK]naned
+23:45:36 - Pageup has hit [X1]Yuukasama (One Handed Bar Mace, 28 DMG).
+23:45:37 - Raphael has hit Pageup (One Handed Bar Mace, 18 DMG).
+23:45:37 - Raphael <img=ico_blunt> Pageup
+23:45:37 - The round 29 has ended
+23:45:38 - qimama has hit teammate [X1]Yuukasama (Heavy Scimitar, 13 DMG).
+23:45:56 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 13 DMG).
+23:45:58 - Raphael has hit Pageup (One Handed Bar Mace, 30 DMG).
+23:45:58 - [DK]naned has hit qimama (Iron Axe, 19 DMG).
+23:45:59 - [DK]naned has hit Raphael (Iron Axe, 20 DMG).
+23:46:00 - Tanguan has hit [X1]Yuukasama (One Handed Bar Mace, 17 DMG).
+23:46:01 - Tanguan has hit [X1]Yuukasama (One Handed Bar Mace, 24 DMG).
+23:46:02 - Best player's score: 3997
+23:46:02 - [DK]naned has hit Raphael (Iron Axe, 55 DMG).
+23:46:02 - [DK]naned <img=ico_axeone> Raphael
+23:46:04 - Tanguan has hit [X1]Yuukasama (One Handed Bar Mace, 27 DMG).
+23:46:04 - Tanguan <img=ico_blunt> [X1]Yuukasama
+23:46:06 - Pageup has hit qimama (One Handed Bar Mace, 15 DMG).
+23:46:06 - [DK]naned has hit qimama (Iron Axe, 25 DMG).
+23:46:09 - Tanguan has hit qimama (One Handed Bar Mace, 40 DMG).
+23:46:09 - Tanguan <img=ico_blunt> qimama
+23:46:09 - The round 30 has ended
+23:46:29 - Tanguan has hit [X1]Yuukasama (One Handed Bar Mace, 18 DMG).
+23:46:29 - Pageup has hit Raphael (One Handed Bar Mace, 28 DMG).
+23:46:30 - [DK]naned has hit [X1]Yuukasama (Iron Axe, 26 DMG).
+23:46:31 - [DK]naned has hit qimama (Iron Axe, 24 DMG).
+23:46:33 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 21 DMG).
+23:46:33 - qimama has hit teammate [X1]Yuukasama (One Handed Bar Mace, 14 DMG).
+23:46:33 - qimama <img=ico_blunt> [X1]Yuukasama
+23:46:34 - Raphael has hit Pageup (One Handed Bar Mace, 25 DMG).
+23:46:35 - [DK]naned has hit qimama (Iron Axe, 16 DMG).
+23:46:39 - Tanguan has hit qimama (One Handed Bar Mace, 16 DMG).
+23:46:40 - [DK]naned has hit qimama (Iron Axe, 19 DMG).
+23:46:40 - Pageup has hit Raphael (One Handed Bar Mace, 17 DMG).
+23:46:41 - Pageup has hit Raphael (One Handed Bar Mace, 41 DMG).
+23:46:41 - Pageup <img=ico_blunt> Raphael
+23:46:43 - qimama has hit [DK]naned (One Handed Bar Mace, 25 DMG).
+23:46:44 - Tanguan has hit qimama (One Handed Bar Mace, 23 DMG).
+23:46:44 - Tanguan <img=ico_blunt> qimama
+23:46:44 - The round 31 has ended
+23:47:05 - Raphael has hit Pageup (One Handed Bar Mace, 15 DMG).
+23:47:05 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 25 DMG).
+23:47:06 - qimama has hit Tanguan (Long Spear, 17 DMG).
+23:47:06 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 22 DMG).
+23:47:08 - [X1]Yuukasama has hit Tanguan (One Handed Knightly Axe, 10 DMG).
+23:47:08 - Raphael has hit [DK]naned (One Handed Bar Mace, 30 DMG).
+23:47:09 - qimama has hit Pageup (Long Spear, 38 DMG).
+23:47:10 - Tanguan has hit qimama (One Handed Bar Mace, 20 DMG).
+23:47:10 - [X1]Yuukasama has hit Pageup (One Handed Knightly Axe, 24 DMG).
+23:47:10 - [X1]Yuukasama <img=ico_axeone> Pageup
+23:47:10 - Raphael has hit Tanguan (One Handed Bar Mace, 27 DMG).
+23:47:10 - Raphael <img=ico_blunt> Tanguan
+23:47:11 - [DK]naned has hit Raphael (Iron Axe, 6 DMG).
+23:47:12 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 31 DMG).
+23:47:12 - [X1]Yuukasama <img=ico_axeone> [DK]naned
+23:47:12 - The round 32 has ended
+23:47:32 - [DK]naned has hit qimama (Iron Axe, 21 DMG).
+23:47:32 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 28 DMG).
+23:47:33 - Raphael has hit Pageup (One Handed Bar Mace, 30 DMG).
+23:47:34 - qimama has hit Pageup (Long Spear, 29 DMG).
+23:47:35 - Best player's score: 3996
+23:47:35 - Raphael has hit Pageup (One Handed Bar Mace, 33 DMG).
+23:47:35 - Raphael <img=ico_blunt> Pageup
+23:47:35 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 27 DMG).
+23:47:35 - qimama has hit Tanguan (Long Spear, 41 DMG).
+23:47:36 - Raphael has hit Tanguan (One Handed Bar Mace, 29 DMG).
+23:47:36 - Raphael <img=ico_blunt> Tanguan
+23:47:38 - [X1]Yuukasama has hit teammate Raphael (One Handed Knightly Axe, 9 DMG).
+23:47:40 - qimama has hit teammate Raphael (Long Spear, 16 DMG).
+23:47:42 - [X1]Yuukasama has hit [DK]naned (One Handed Knightly Axe, 24 DMG).
+23:47:42 - [X1]Yuukasama <img=ico_axeone> [DK]naned
+23:47:42 - The round 33 has ended
+23:47:46 - *SERVER* [[X1]Yuukasama]: 比 赛 结 束 

@@ -1,0 +1,3403 @@
+18:54:48 - Dynamic server settings have been reset.
+18:54:48 - The map has started: The Arena.
+18:54:48 - SERVER has joined the game with ID: 0 and has administrator rights.
+18:54:48 - Dynamic server settings have been updated.
+18:54:53 - The map has started: Desert Village.
+19:44:39 - [DK]DaCongMing has joined the game with ID: 4642268 and IP: 60.170.38.67 and has administrator rights.
+19:45:16 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+19:45:17 - [COH]XinDi has been given administrator rights (100)
+19:45:24 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+19:45:24 - [COH]XinDi has left the game with ID: 4019251.
+19:48:33 - Lucky_Boyyy has joined the game with ID: 4532852 and IP: 223.66.34.245
+19:48:48 - The map has started: Round Arena.
+19:48:49 - Dynamic server settings have been updated.
+19:49:23 - The map has started: The Cage.
+19:49:23 - Dynamic server settings have been updated.
+19:50:16 - *SERVER* [[DK]DaCongMing]: 。 
+19:50:26 - Lucky_Boyyy has hit [DK]DaCongMing (Long Spear, 16 DMG).
+19:50:32 - Lucky_Boyyy has hit [DK]DaCongMing (Long Spear, 13 DMG).
+19:50:34 - Lucky_Boyyy has hit [DK]DaCongMing (Long Spear, 22 DMG).
+19:50:35 - Lucky_Boyyy has hit [DK]DaCongMing (Long Spear, 28 DMG).
+19:50:35 - Lucky_Boyyy <img=ico_spear> [DK]DaCongMing
+19:50:35 - The round 1 has ended
+19:51:32 - Lucky_Boyyy has hit [DK]DaCongMing (Outlander Warhammer, 17 DMG).
+19:51:55 - lubyrose has joined the game with ID: 3324767 and IP: 113.13.148.88
+19:52:32 - Lucky_Boyyy has hit [DK]DaCongMing (Outlander Warhammer, 19 DMG).
+19:53:12 - [DK]DaCongMing has hit Lucky_Boyyy (Heavy Scimitar, 19 DMG).
+19:53:18 - [DK]DaCongMing has hit Lucky_Boyyy (Heavy Scimitar, 35 DMG).
+19:53:19 - [DK]DaCongMing has hit Lucky_Boyyy (Heavy Scimitar, 10 DMG).
+19:53:22 - Lucky_Boyyy has hit [DK]DaCongMing (Outlander Warhammer, 32 DMG).
+19:53:31 - Lucky_Boyyy has hit [DK]DaCongMing (Outlander Warhammer, 25 DMG).
+19:53:31 - Lucky_Boyyy <img=ico_blunt> [DK]DaCongMing
+19:53:31 - The round 2 has ended
+19:54:23 - [DK]DaCongMing has hit Lucky_Boyyy (Outlanders Strange Pick, 23 DMG).
+19:54:40 - [DK]DaCongMing has hit Lucky_Boyyy (Outlanders Strange Pick, 23 DMG).
+19:54:41 - [DK]DaCongMing has hit Lucky_Boyyy (Outlanders Strange Pick, 29 DMG).
+19:54:41 - [DK]DaCongMing <img=ico_blunt> Lucky_Boyyy
+19:54:41 - The round 3 has ended
+19:54:48 - [DK]DaCongMing has left the game with ID: 4642268 and IP: 60.170.38.67
+19:54:48 - [DK]DaCongMing has left the game with ID: 4642268.
+19:54:48 -  <img=ico_headshot> [DK]DaCongMing
+19:54:48 - The round 4 has ended
+19:55:34 - [DK]DaCongMing has joined the game with ID: 4642268 and IP: 60.170.38.67 and has administrator rights.
+19:56:29 - YQS_ZhuaZhua has joined the game with ID: 4566151 and IP: 58.255.40.67
+19:56:56 - YQS_ZhuaZhua opened the door as an attacker
+19:57:12 - Lucky_Boyyy has hit YQS_ZhuaZhua (Long Spear, 27 DMG).
+19:57:16 - Lucky_Boyyy has hit YQS_ZhuaZhua (Long Spear, 11 DMG).
+19:57:19 - YQS_ZhuaZhua has hit Lucky_Boyyy (Scimitar, 13 DMG).
+19:57:25 - Lucky_Boyyy has hit YQS_ZhuaZhua (Long Spear, 18 DMG).
+19:57:33 - YQS_ZhuaZhua has hit Lucky_Boyyy (Scimitar, 18 DMG).
+19:57:34 - Lucky_Boyyy has hit YQS_ZhuaZhua (Long Spear, 17 DMG).
+19:57:34 - Lucky_Boyyy <img=ico_spear> YQS_ZhuaZhua
+19:57:34 - The round 5 has ended
+19:57:34 - [COH]XinMei has joined the game with ID: 5414106 and IP: 111.23.19.123
+19:57:52 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+19:57:53 - [COH]XinDi has been given administrator rights (100)
+19:57:55 - [DK]DaCongMing opened the door as a defender
+19:58:06 - Lucky_Boyyy has hit YQS_ZhuaZhua (Long Spear, 21 DMG).
+19:58:08 - Lucky_Boyyy has hit YQS_ZhuaZhua (Long Spear, 32 DMG).
+19:58:09 - Lucky_Boyyy has hit YQS_ZhuaZhua (Long Spear, 18 DMG).
+19:58:09 - Lucky_Boyyy <img=ico_spear> YQS_ZhuaZhua
+19:58:31 - [DK]Tanguan has joined the game with ID: 5913410 and IP: 39.82.60.181
+19:58:46 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+19:58:46 - [COH]XinDi has left the game with ID: 4019251.
+19:58:51 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+19:58:52 - [COH]XinDi has been given administrator rights (100)
+19:59:34 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+19:59:44 -  <img=ico_headshot> [COH]XinMei
+19:59:44 - The round 6 has ended
+19:59:44 -  <img=ico_headshot> [DK]DaCongMing
+19:59:44 -  <img=ico_headshot> Lucky_Boyyy
+19:59:44 - The map has been reset.
+19:59:49 - MingRiXiang has been moved by the autobalancer (-2000)
+20:00:01 - mama has joined the game with ID: 4736098 and IP: 124.164.116.142 and WSE2: 1122
+20:00:08 - MingRiXiang has hit [DK]DaCongMing (Long Awlpike, 27 DMG).
+20:00:09 - YQS_ZhuaZhua has hit [DK]DaCongMing (Scimitar, 4 DMG).
+20:00:09 - MingRiXiang has hit [DK]DaCongMing (Long Awlpike, 22 DMG).
+20:00:12 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 23 DMG).
+20:00:15 - YQS_ZhuaZhua has hit teammate MingRiXiang (Scimitar, 7 DMG).
+20:00:16 - [DK]DaCongMing has hit MingRiXiang (Outlander Warhammer, 21 DMG).
+20:00:16 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 19 DMG).
+20:00:18 - [DK]DaCongMing has hit MingRiXiang (Outlander Warhammer, 28 DMG).
+20:00:18 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 25 DMG).
+20:00:18 - Lucky_Boyyy <img=ico_blunt> YQS_ZhuaZhua
+20:00:19 - *SPEC* [[COH]XinDi] 人 齐 了 
+20:00:20 - [DK]DaCongMing has hit MingRiXiang (Outlander Warhammer, 22 DMG).
+20:00:20 - [DK]DaCongMing <img=ico_blunt> MingRiXiang
+20:00:20 - The round 7 has ended
+20:00:24 -  <img=ico_headshot> Lucky_Boyyy
+20:00:24 -  <img=ico_headshot> [DK]DaCongMing
+20:00:24 - The map has been reset.
+20:00:25 - *SERVER* [[COH]XinDi]: 人 齐 了 
+20:00:35 - *CLAN* [[DK]DaCongMing]: 好 的 
+20:00:38 - *SERVER* [[DK]DaCongMing]: 好 的 
+20:00:41 -  <img=ico_headshot> MingRiXiang
+20:00:49 -  <img=ico_headshot> YQS_ZhuaZhua
+20:00:50 - *CLAN* [[COH]XinMei]: 我 们 要 乐 观 
+20:00:56 - *CLAN* [[DK]DaCongMing]: 我 们 在 一 队 吧 
+20:00:58 - Raphael has joined the game with ID: 4951826 and IP: 42.81.205.137
+20:01:06 - Raphael has left the game with ID: 4951826 and IP: 42.81.205.137
+20:01:06 - Raphael has left the game with ID: 4951826.
+20:01:06 - *SPEC* [[DK]Tanguan] 不 要 再 模 仿 大 冰 老 师 了 好 吗 ？ 好 的 
+20:01:10 - *SERVER* [[DK]DaCongMing]: 我 是 这 场 的 裁 判 
+20:01:19 - *DEAD* [MingRiXiang]  
+20:01:23 - *DEAD* [[COH]XinMei] 蒽 
+20:01:24 - *CLAN* [[DK]DaCongMing]: 每 队 允 许 一 个 带 非 单 手 武 器 
+20:01:32 - *DEAD* [MingRiXiang] 可 以 喝 药 水 吗 ?
+20:01:39 - *SERVER* [[DK]DaCongMing]: 每 队 允 许 一 个 人 带 非 单 手 武 器 
+20:02:10 -  <img=ico_headshot> [COH]XinDi
+20:02:10 - The round 8 has ended
+20:02:10 -  <img=ico_headshot> Lucky_Boyyy
+20:02:10 -  <img=ico_headshot> [DK]DaCongMing
+20:02:10 - The map has been reset.
+20:02:30 - *SERVER* [[DK]DaCongMing]: 双 方 抢 5
+20:02:39 - *CLAN* [[DK]DaCongMing]: 然 后 换 边 哦 
+20:02:45 - *SERVER* [[DK]DaCongMing]: 然 后 换 边 哦 
+20:02:59 - *SERVER* [[DK]DaCongMing]: COH准 备 好 了 嘛 
+20:03:04 - [[COH]XinDi] 准 备 好 了 
+20:03:23 - mama has hit [DK]DaCongMing (Outlanders Great Sword, 14 DMG).
+
+20:03:25 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 21 DMG).
+20:03:27 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 13 DMG).
+20:03:28 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 14 DMG).
+20:03:29 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 11 DMG).
+20:03:30 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 25 DMG).
+20:03:30 - mama <img=ico_swordtwo> Lucky_Boyyy
+20:03:31 - mama has hit [DK]DaCongMing (Outlanders Great Sword, 24 DMG).
+20:03:32 - mama has hit [DK]DaCongMing (Outlanders Great Sword, 9 DMG).
+20:03:35 - mama has hit MingRiXiang (Outlanders Great Sword, 25 DMG).
+20:03:38 - mama has hit MingRiXiang (Outlanders Great Sword, 18 DMG).
+20:03:49 - *SERVER* [[DK]DaCongMing]: 只 允 许 一 个 人 带 非 单 手 武 器 哈 
+20:03:55 - MingRiXiang has hit mama (Warhammer, 18 DMG).
+20:03:55 - [[COH]XinMei] 蒽 
+20:04:02 -  <img=ico_headshot> [COH]XinMei
+20:04:02 -  <img=ico_headshot> MingRiXiang
+20:04:02 -  <img=ico_headshot> mama
+20:04:02 -  <img=ico_headshot> [COH]XinDi
+20:04:02 - The round 9 has ended
+20:04:02 -  <img=ico_headshot> [DK]DaCongMing
+20:04:02 - The map has been reset.
+20:04:02 - *SPEC* [[DK]Tanguan] 一 帮 老 毕 登 
+20:04:05 - The map has been reset.
+20:04:08 -  <img=ico_headshot> mama
+20:04:08 -  <img=ico_headshot> MingRiXiang
+20:04:08 -  <img=ico_headshot> [COH]XinMei
+20:04:08 -  <img=ico_headshot> [COH]XinDi
+20:04:08 - The round 10 has ended
+20:04:08 -  <img=ico_headshot> Lucky_Boyyy
+20:04:08 - The map has been reset.
+20:04:15 - *SERVER* [[DK]DaCongMing]: 上 半 场 开 始 
+20:04:28 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 35 DMG).
+20:04:29 - Lucky_Boyyy has hit mama (Long Spear, 32 DMG).
+20:04:29 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 28 DMG).
+20:04:30 - MingRiXiang has hit mama (Warhammer, 43 DMG).
+20:04:30 - MingRiXiang <img=ico_blunt> mama
+20:04:30 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 36 DMG).
+20:04:30 - Lucky_Boyyy <img=ico_spear> [COH]XinDi
+20:04:34 - MingRiXiang has hit [COH]XinMei (Warhammer, 35 DMG).
+20:04:34 - MingRiXiang <img=ico_blunt> [COH]XinMei
+20:04:34 - The round 11 has ended
+20:04:35 - ribenren has joined the game with ID: 3418338 and IP: 221.195.27.119
+20:04:54 - MingRiXiang has hit [COH]XinDi (Warhammer, 41 DMG).
+20:04:55 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 9 DMG).
+20:04:57 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 32 DMG).
+20:04:57 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 10 DMG).
+20:04:59 - mama has hit MingRiXiang (Outlanders Great Sword, 11 DMG).
+20:05:01 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 20 DMG).
+20:05:02 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 15 DMG).
+20:05:02 - mama has hit MingRiXiang (Outlanders Great Sword, 22 DMG).
+20:05:02 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 5 DMG).
+20:05:04 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 16 DMG).
+20:05:05 - ribenren has left the game with ID: 3418338 and IP: 221.195.27.119
+20:05:05 - ribenren has left the game with ID: 3418338.
+20:05:07 - MingRiXiang has hit mama (Warhammer, 18 DMG).
+20:05:07 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 27 DMG).
+20:05:07 - [COH]XinDi <img=ico_swordone> MingRiXiang
+20:05:07 - Lucky_Boyyy has hit mama (Long Spear, 25 DMG).
+20:05:10 - [COH]XinDi has hit Lucky_Boyyy (Nordlander Elite Sword, 11 DMG).
+20:05:11 - Lucky_Boyyy has hit [COH]XinDi (Outlander Warhammer, 15 DMG).
+20:05:11 - Lucky_Boyyy <img=ico_blunt> [COH]XinDi
+20:05:14 - Lucky_Boyyy has hit teammate [DK]DaCongMing (Outlander Warhammer, 2 DMG).
+20:05:17 - mama has hit [DK]DaCongMing (Outlanders Great Sword, 40 DMG).
+20:05:17 - mama <img=ico_swordtwo> [DK]DaCongMing
+20:05:20 - [COH]XinMei has hit Lucky_Boyyy (Demi Knight Cavalary Sword, 25 DMG).
+20:05:20 - mama has hit Lucky_Boyyy (Outlanders Great Sword, 21 DMG).
+20:05:20 - mama <img=ico_swordtwo> Lucky_Boyyy
+20:05:20 - The round 12 has ended
+20:05:40 - MingRiXiang has hit mama (Warhammer, 14 DMG).
+20:05:40 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 25 DMG).
+20:05:41 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 36 DMG).
+20:05:42 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 27 DMG).
+20:05:48 - MingRiXiang has hit mama (Warhammer, 28 DMG).
+20:05:48 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 18 DMG).
+20:05:48 - [DK]DaCongMing <img=ico_blunt> [COH]XinMei
+20:05:49 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 14 DMG).
+20:05:50 - MingRiXiang has hit mama (Warhammer, 22 DMG).
+20:05:50 - MingRiXiang <img=ico_blunt> mama
+20:05:50 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 6 DMG).
+20:05:52 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 14 DMG).
+20:05:55 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 26 DMG).
+20:05:55 - [DK]DaCongMing has hit [COH]XinDi (Outlander Warhammer, 18 DMG).
+20:05:55 - [DK]DaCongMing <img=ico_blunt> [COH]XinDi
+20:05:55 - The round 13 has ended
+20:06:15 - MingRiXiang has hit [COH]XinDi (Warhammer, 28 DMG).
+20:06:18 - Lucky_Boyyy has hit mama (Long Spear, 25 DMG).
+20:06:21 - [DK]DaCongMing has hit mama (Outlander Warhammer, 27 DMG).
+20:06:21 - MingRiXiang has hit [COH]XinDi (Warhammer, 26 DMG).
+20:06:23 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 37 DMG).
+20:06:25 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 14 DMG).
+20:06:26 - [COH]XinDi has hit [DK]DaCongMing (Nordlander Elite Sword, 12 DMG).
+20:06:29 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 48 DMG).
+20:06:31 - [COH]XinDi has hit [DK]DaCongMing (Nordlander Elite Sword, 4 DMG).
+20:06:32 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 19 DMG).
+20:06:32 - Lucky_Boyyy <img=ico_spear> [COH]XinDi
+20:06:33 - MingRiXiang has hit mama (Warhammer, 21 DMG).
+20:06:33 - MingRiXiang <img=ico_blunt> mama
+20:06:40 - MingRiXiang has hit [COH]XinMei (Warhammer, 24 DMG).
+20:06:40 - MingRiXiang <img=ico_blunt> [COH]XinMei
+20:06:40 - The round 14 has ended
+20:06:59 - MingRiXiang has hit [COH]XinDi (Warhammer, 28 DMG).
+20:07:00 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 30 DMG).
+20:07:00 - Lucky_Boyyy has hit mama (Long Spear, 44 DMG).
+20:07:01 - Lucky_Boyyy has hit mama (Long Spear, 29 DMG).
+20:07:01 - Lucky_Boyyy <img=ico_spear> mama
+20:07:01 - MingRiXiang has hit [COH]XinDi (Warhammer, 15 DMG).
+20:07:02 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 34 DMG).
+20:07:02 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 17 DMG).
+20:07:03 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 29 DMG).
+20:07:03 - MingRiXiang has hit [COH]XinDi (Warhammer, 11 DMG).
+20:07:03 - MingRiXiang <img=ico_blunt> [COH]XinDi
+20:07:07 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 24 DMG).
+20:07:07 - [DK]DaCongMing <img=ico_blunt> [COH]XinMei
+20:07:07 - The round 15 has ended
+20:07:26 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 29 DMG).
+20:07:26 - Lucky_Boyyy has hit mama (Long Spear, 30 DMG).
+20:07:27 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 22 DMG).
+20:07:29 - Lucky_Boyyy has hit mama (Long Spear, 28 DMG).
+20:07:29 - MingRiXiang has hit [COH]XinDi (Warhammer, 21 DMG).
+20:07:30 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 22 DMG).
+20:07:32 - Lucky_Boyyy has hit teammate MingRiXiang (Long Spear, 18 DMG).
+20:07:32 - mama has hit Lucky_Boyyy (Long Spear, 10 DMG).
+20:07:32 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 23 DMG).
+20:07:32 - [DK]DaCongMing <img=ico_blunt> [COH]XinMei
+20:07:34 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 23 DMG).
+20:07:35 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 1 DMG).
+20:07:40 - MingRiXiang has hit mama (Warhammer, 18 DMG).
+20:07:40 - MingRiXiang <img=ico_blunt> mama
+20:07:42 - MingRiXiang has hit [COH]XinDi (Warhammer, 30 DMG).
+20:07:42 - MingRiXiang <img=ico_blunt> [COH]XinDi
+20:07:42 - The round 16 has ended
+20:07:46 - *SERVER* [[DK]DaCongMing]: 上 半 场 结 束 
+20:08:00 -  <img=ico_headshot> [DK]DaCongMing
+20:08:00 -  <img=ico_headshot> Lucky_Boyyy
+20:08:00 -  <img=ico_headshot> [COH]XinDi
+20:08:00 -  <img=ico_headshot> [COH]XinMei
+20:08:00 -  <img=ico_headshot> MingRiXiang
+20:08:00 - The round 17 has ended
+20:08:00 -  <img=ico_headshot> mama
+20:08:05 - The map has been reset.
+20:08:12 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 扣 1
+20:08:16 - [Lucky_Boyyy] 1
+20:08:18 - [[COH]XinDi] 1
+20:08:23 - [[COH]XinMei] 蒽 
+
+20:08:27 -  <img=ico_headshot> [COH]XinDi
+20:08:27 -  <img=ico_headshot> mama
+20:08:27 -  <img=ico_headshot> MingRiXiang
+20:08:27 -  <img=ico_headshot> [COH]XinMei
+20:08:27 - The round 18 has ended
+20:08:27 -  <img=ico_headshot> Lucky_Boyyy
+20:08:27 -  <img=ico_headshot> [DK]DaCongMing
+20:08:27 - The map has been reset.
+20:08:29 - The map has been reset.
+20:08:32 - The map has been reset.
+20:08:36 - The map has been reset.
+20:08:37 - The map has been reset.
+20:08:40 - *SERVER* [[DK]DaCongMing]: 下 半 场 开 始 
+20:08:57 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 19 DMG).
+20:09:00 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 41 DMG).
+20:09:00 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 5 DMG).
+20:09:00 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 19 DMG).
+20:09:01 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 21 DMG).
+20:09:01 - Lucky_Boyyy <img=ico_spear> [COH]XinMei
+20:09:01 - mama has hit teammate [COH]XinDi (Long Spear, 8 DMG).
+20:09:02 - Lucky_Boyyy has hit mama (Long Spear, 47 DMG).
+20:09:03 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 14 DMG).
+20:09:04 - MingRiXiang has hit [COH]XinDi (Warhammer, 12 DMG).
+20:09:04 - [DK]DaCongMing has hit mama (Outlander Warhammer, 14 DMG).
+20:09:04 - [DK]DaCongMing <img=ico_blunt> mama
+20:09:06 - Lucky_Boyyy has hit teammate MingRiXiang (Long Spear, 20 DMG).
+20:09:06 - [COH]XinDi has hit Lucky_Boyyy (Nordlander Elite Sword, 17 DMG).
+20:09:12 - [DK]DaCongMing has hit [COH]XinDi (Outlander Warhammer, 23 DMG).
+20:09:12 - MingRiXiang has hit [COH]XinDi (Warhammer, 23 DMG).
+20:09:12 - MingRiXiang <img=ico_blunt> [COH]XinDi
+20:09:12 - The round 19 has ended
+20:09:14 - [DK]DaCongMing has hit teammate MingRiXiang (Outlander Warhammer, 18 DMG).
+20:09:31 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 26 DMG).
+20:09:32 - [DK]DaCongMing has hit mama (Outlander Warhammer, 27 DMG).
+20:09:34 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 18 DMG).
+20:09:35 - mama has hit [DK]DaCongMing (Long Spear, 11 DMG).
+20:09:35 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 6 DMG).
+20:09:36 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 33 DMG).
+20:09:37 - MingRiXiang has hit [COH]XinDi (Warhammer, 19 DMG).
+20:09:37 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 3 DMG).
+20:09:39 - mama has hit Lucky_Boyyy (Long Spear, 9 DMG).
+20:09:40 - mama has hit MingRiXiang (Long Spear, 14 DMG).
+20:09:42 - mama has hit Lucky_Boyyy (Long Spear, 32 DMG).
+20:09:43 - mama has hit MingRiXiang (Long Spear, 14 DMG).
+20:09:43 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 35 DMG).
+20:09:43 - [DK]DaCongMing <img=ico_blunt> [COH]XinMei
+20:09:43 - Lucky_Boyyy has hit mama (Long Spear, 32 DMG).
+20:09:43 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 9 DMG).
+20:09:43 - [COH]XinDi <img=ico_swordone> MingRiXiang
+20:09:44 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 31 DMG).
+20:09:45 - [DK]DaCongMing has hit mama (Outlander Warhammer, 33 DMG).
+20:09:45 - [DK]DaCongMing <img=ico_blunt> mama
+20:09:48 - [DK]DaCongMing has hit [COH]XinDi (Outlander Warhammer, 11 DMG).
+20:09:49 - [DK]DaCongMing has hit [COH]XinDi (Outlander Warhammer, 13 DMG).
+20:09:49 - [DK]DaCongMing <img=ico_blunt> [COH]XinDi
+20:09:49 - The round 20 has ended
+20:09:52 - [[DK]DaCongMing] sry
+20:10:10 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 8 DMG).
+20:10:10 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 1 DMG).
+20:10:10 - mama has hit [DK]DaCongMing (Long Spear, 13 DMG).
+20:10:11 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 13 DMG).
+20:10:11 - Lucky_Boyyy has hit mama (Long Spear, 6 DMG).
+20:10:12 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 8 DMG).
+20:10:12 - MingRiXiang has hit mama (Warhammer, 29 DMG).
+20:10:12 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 10 DMG).
+20:10:14 - Lucky_Boyyy has hit mama (Long Spear, 20 DMG).
+20:10:15 - [COH]XinMei has hit [DK]DaCongMing (Demi Knight Cavalary Sword, 16 DMG).
+20:10:17 - MingRiXiang has hit [COH]XinDi (Warhammer, 39 DMG).
+20:10:17 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 23 DMG).
+20:10:19 - [COH]XinDi has hit Lucky_Boyyy (Nordlander Elite Sword, 21 DMG).
+20:10:21 - [RK]YUsama has joined the game with ID: 6157744 and IP: 112.48.64.189
+20:10:21 - Lucky_Boyyy has hit mama (Long Spear, 25 DMG).
+20:10:21 - Lucky_Boyyy <img=ico_spear> mama
+20:10:21 - [COH]XinDi has hit Lucky_Boyyy (Nordlander Elite Sword, 15 DMG).
+20:10:23 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 19 DMG).
+20:10:23 - MingRiXiang has hit [COH]XinDi (Warhammer, 18 DMG).
+20:10:23 - MingRiXiang <img=ico_blunt> [COH]XinDi
+20:10:27 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 64 DMG).
+20:10:27 - Lucky_Boyyy <img=ico_spear> [COH]XinMei
+20:10:27 - The round 21 has ended
+20:10:29 - [RK]YUsama has left the game with ID: 6157744 and IP: 112.48.64.189
+20:10:29 - [RK]YUsama has left the game with ID: 6157744.
+20:10:45 - [COH]XinDi has hit MingRiXiang (Nordlander Elite Sword, 18 DMG).
+20:10:47 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 30 DMG).
+20:10:50 - mama has hit teammate [COH]XinDi (Long Spear, 12 DMG).
+20:10:50 - Lucky_Boyyy has hit mama (Long Spear, 35 DMG).
+20:10:51 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 9 DMG).
+20:10:51 - MingRiXiang has hit [COH]XinDi (Warhammer, 31 DMG).
+20:10:51 - MingRiXiang <img=ico_blunt> [COH]XinDi
+20:10:53 - Lucky_Boyyy has hit mama (Long Spear, 21 DMG).
+20:10:54 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 11 DMG).
+20:10:55 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 34 DMG).
+20:10:55 - MingRiXiang has hit mama (Warhammer, 30 DMG).
+20:10:55 - MingRiXiang <img=ico_blunt> mama
+20:10:57 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 14 DMG).
+20:10:58 - [DK]DaCongMing has hit [COH]XinMei (Outlander Warhammer, 30 DMG).
+20:10:58 - [DK]DaCongMing <img=ico_blunt> [COH]XinMei
+20:10:58 - The round 22 has ended
+20:11:19 - MingRiXiang has hit mama (Warhammer, 31 DMG).
+20:11:20 - [DK]DaCongMing has hit [COH]XinDi (Outlander Warhammer, 43 DMG).
+20:11:20 - Lucky_Boyyy has hit mama (Long Spear, 17 DMG).
+20:11:20 - [COH]XinMei has hit Lucky_Boyyy (Demi Knight Cavalary Sword, 22 DMG).
+20:11:22 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 3 DMG).
+20:11:24 - [COH]XinMei has hit MingRiXiang (Demi Knight Cavalary Sword, 10 DMG).
+20:11:24 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 16 DMG).
+20:11:26 - [COH]XinMei has hit Lucky_Boyyy (Demi Knight Cavalary Sword, 13 DMG).
+20:11:27 - [DK]DaCongMing has hit [COH]XinDi (Outlander Warhammer, 11 DMG).
+20:11:28 - Lucky_Boyyy has hit [COH]XinDi (Long Spear, 15 DMG).
+20:11:28 - Lucky_Boyyy <img=ico_spear> [COH]XinDi
+20:11:29 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 26 DMG).
+20:11:30 - Lucky_Boyyy has hit [COH]XinMei (Long Spear, 22 DMG).
+20:11:30 - Lucky_Boyyy <img=ico_spear> [COH]XinMei
+20:11:33 - MingRiXiang has hit mama (Warhammer, 18 DMG).
+20:11:33 - MingRiXiang <img=ico_blunt> mama
+20:11:33 - The round 23 has ended
+20:11:39 - *SERVER* [[DK]DaCongMing]: 下 半 场 结 束 
+20:11:51 - mama has left the game with ID: 4736098 and IP: 124.164.116.142
+20:11:51 - mama has left the game with ID: 4736098.
+20:11:51 -  <img=ico_headshot> mama
+20:11:55 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+20:11:55 - [COH]XinDi has left the game with ID: 4019251.
+20:11:55 -  <img=ico_headshot> [COH]XinDi
+20:12:13 - [COH]XinMei has left the game with ID: 5414106 and IP: 111.23.19.123
+20:12:13 - [COH]XinMei has left the game with ID: 5414106.
+20:12:13 -  <img=ico_headshot> [COH]XinMei
+20:12:25 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 15 DMG).
+20:12:26 -  <img=ico_headshot> [DK]DaCongMing
+20:12:29 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 34 DMG).
+20:12:32 -  <img=ico_headshot> Lucky_Boyyy
+20:12:36 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 17 DMG).
+20:12:36 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:12:36 - The round 24 has ended
+20:13:00 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 35 DMG).
+20:13:03 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 21 DMG).
+20:13:05 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 28 DMG).
+20:13:07 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 24 DMG).
+20:13:07 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:13:10 - lubyrose has hit MingRiXiang (Old Axe, 13 DMG).
+20:13:39 - MingRiXiang has hit lubyrose (Warhammer, 27 DMG).
+20:13:40 - MingRiXiang has hit lubyrose (Warhammer, 22 DMG).
+20:13:42 - lubyrose has hit MingRiXiang (Old Axe, 8 DMG).
+20:13:54 - lubyrose has hit MingRiXiang (Old Axe, 17 DMG).
+20:13:54 - lubyrose <img=ico_axeone> MingRiXiang
+20:13:54 - The round 25 has ended
+20:13:58 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
+20:14:13 - *SPEC* [[DK]Tanguan] 裁 判 ， 我 队 一 个 队 员 准 备 上 线 了 ， 还 有 一 个 队 员 暂 时 没 消 息 
+20:14:22 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 38 DMG).
+20:14:24 - *SERVER* [[DK]DaCongMing]: 好 的 ， 尽 快 
+20:14:25 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 23 DMG).
+20:14:26 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 24 DMG).
+20:14:26 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:14:37 - MingRiXiang has hit lubyrose (Warhammer, 29 DMG).
+20:14:46 - MingRiXiang has hit lubyrose (Warhammer, 26 DMG).
+20:14:47 - MingRiXiang has hit lubyrose (Warhammer, 11 DMG).
+20:14:47 - MingRiXiang <img=ico_blunt> lubyrose
+20:14:47 - The round 26 has ended
+20:14:55 - Lucky_Boyyy has left the game with ID: 4532852 and IP: 223.66.34.245
+20:14:55 - Lucky_Boyyy has left the game with ID: 4532852.
+20:15:15 - MingRiXiang has hit lubyrose (Warhammer, 39 DMG).
+20:15:16 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 17 DMG).
+20:15:17 - lubyrose has hit MingRiXiang (Scimitar, 7 DMG).
+20:15:22 - YQS_ZhuaZhua has hit MingRiXiang (Old Axe, 6 DMG).
+20:15:23 - lubyrose has hit MingRiXiang (Scimitar, 21 DMG).
+20:15:25 - lubyrose has hit teammate YQS_ZhuaZhua (Scimitar, 5 DMG).
+20:15:27 - lubyrose has hit MingRiXiang (Scimitar, 16 DMG).
+20:15:27 - YQS_ZhuaZhua has hit MingRiXiang (Old Axe, 13 DMG).
+20:15:28 - lubyrose has hit MingRiXiang (Scimitar, 4 DMG).
+20:15:28 - lubyrose <img=ico_swordone> MingRiXiang
+20:15:28 - The round 27 has ended
+20:15:30 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
+20:15:30 - [X1]NewPlayer has left the game with ID: 4270208.
+20:15:48 - YQS_ZhuaZhua has hit MingRiXiang (Old Axe, 18 DMG).
+20:15:49 - MingRiXiang has hit lubyrose (Warhammer, 16 DMG).
+20:15:50 - MingRiXiang has hit lubyrose (Warhammer, 15 DMG).
+20:15:52 - YQS_ZhuaZhua has hit MingRiXiang (Old Axe, 7 DMG).
+20:15:52 - lubyrose has hit MingRiXiang (Scimitar, 14 DMG).
+20:15:53 - YQS_ZhuaZhua has hit MingRiXiang (Old Axe, 7 DMG).
+20:15:53 - lubyrose has hit MingRiXiang (Scimitar, 5 DMG).
+20:15:54 - YQS_ZhuaZhua has hit MingRiXiang (Old Axe, 23 DMG).
+20:15:54 - YQS_ZhuaZhua <img=ico_axeone> MingRiXiang
+20:15:57 - lubyrose has hit [DK]Tanguan (Scimitar, 20 DMG).
+20:15:58 - lubyrose has hit [DK]Tanguan (Scimitar, 6 DMG).
+20:16:01 - YQS_ZhuaZhua has hit [DK]Tanguan (Old Axe, 16 DMG).
+20:16:05 - YQS_ZhuaZhua has hit [DK]Tanguan (Old Axe, 2 DMG).
+20:16:07 - YQS_ZhuaZhua has hit [DK]Tanguan (Old Axe, 6 DMG).
+20:16:08 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 27 DMG).
+20:16:10 - YQS_ZhuaZhua has hit [DK]Tanguan (Old Axe, 12 DMG).
+20:16:11 - lubyrose has hit [DK]Tanguan (Scimitar, 22 DMG).
+20:16:11 - lubyrose <img=ico_swordone> [DK]Tanguan
+20:16:11 - The round 28 has ended
+20:16:32 - YQS_ZhuaZhua has hit [DK]Tanguan (Old Axe, 5 DMG).
+20:16:34 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 18 DMG).
+20:16:35 - lubyrose has hit MingRiXiang (Scimitar, 13 DMG).
+20:16:36 - lubyrose has hit [DK]Tanguan (Scimitar, 5 DMG).
+20:16:36 - MingRiXiang has hit teammate [DK]Tanguan (Warhammer, 10 DMG).
+20:16:42 - lubyrose has hit MingRiXiang (Scimitar, 6 DMG).
+20:16:42 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 27 DMG).
+20:16:43 - lubyrose has hit [DK]Tanguan (Scimitar, 13 DMG).
+20:16:45 - YQS_ZhuaZhua has hit [DK]Tanguan (Old Axe, 2 DMG).
+20:16:47 - YQS_ZhuaZhua has hit [DK]Tanguan (Old Axe, 14 DMG).
+20:16:48 - [DK]DaCongMing has left the game with ID: 4642268 and IP: 60.170.38.67
+20:16:48 - [DK]DaCongMing has left the game with ID: 4642268.
+20:16:50 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 33 DMG).
+20:16:50 - [DK]Tanguan <img=ico_blunt> YQS_ZhuaZhua
+20:16:54 - MingRiXiang has hit lubyrose (Warhammer, 35 DMG).
+20:16:54 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 15 DMG).
+20:16:58 - MingRiXiang has hit lubyrose (Warhammer, 34 DMG).
+20:16:58 - MingRiXiang <img=ico_blunt> lubyrose
+20:16:58 - The round 29 has ended
+20:17:07 - [[DK]Tanguan] 裁 判 ， 可 以 捡 盾 牌 吗 
+20:17:19 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 38 DMG).
+20:17:21 - Raphael has joined the game with ID: 4951826 and IP: 42.81.205.137
+20:17:22 - [[DK]Tanguan] 踏 马 裁 判 都 没 了 
+20:17:25 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 11 DMG).
+20:17:26 - Raphael has left the game with ID: 4951826 and IP: 42.81.205.137
+20:17:26 - Raphael has left the game with ID: 4951826.
+20:17:27 - lubyrose has hit MingRiXiang (Scimitar, 15 DMG).
+20:17:27 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 11 DMG).
+20:17:27 - YQS_ZhuaZhua <img=ico_swordone> MingRiXiang
+20:17:31 -  <img=ico_headshot> [DK]Tanguan
+20:17:31 - The round 30 has ended
+20:17:59 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 22 DMG).
+20:18:00 - lubyrose has hit MingRiXiang (Scimitar, 7 DMG).
+20:18:00 - lubyrose has hit MingRiXiang (Scimitar, 13 DMG).
+20:18:02 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 30 DMG).
+20:18:03 - lubyrose has hit MingRiXiang (Scimitar, 29 DMG).
+20:18:03 - lubyrose <img=ico_swordone> MingRiXiang
+20:18:03 - The round 31 has ended
+20:18:11 - Lannister has joined the game with ID: 6058429 and IP: 119.123.135.29
+20:18:13 - [DK]DaCongMing has joined the game with ID: 4642268 and IP: 60.170.38.67
+20:18:14 - [DK]Tanguan has left the game with ID: 5913410 and IP: 39.82.60.181
+20:18:14 - [DK]Tanguan has left the game with ID: 5913410.
+20:18:26 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 25 DMG).
+20:18:27 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 20 DMG).
+20:18:29 - [DK]Tanguan has joined the game with ID: 5913410 and IP: 39.82.60.181
+20:18:30 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 26 DMG).
+20:18:30 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:18:33 - MingRiXiang has hit lubyrose (Warhammer, 17 DMG).
+20:18:34 - MingRiXiang has hit lubyrose (Warhammer, 18 DMG).
+20:18:35 - MingRiXiang has hit lubyrose (Warhammer, 27 DMG).
+20:18:36 - MingRiXiang has hit lubyrose (Warhammer, 25 DMG).
+20:18:36 - MingRiXiang <img=ico_blunt> lubyrose
+20:18:36 - The round 32 has ended
+20:18:59 - Lannister has hit YQS_ZhuaZhua (Long Spear, 34 DMG).
+20:19:08 - lubyrose has hit MingRiXiang (Old Axe, 9 DMG).
+20:19:10 - Lannister has hit YQS_ZhuaZhua (Scimitar, 13 DMG).
+20:19:11 - MingRiXiang has hit lubyrose (Warhammer, 18 DMG).
+20:19:13 - YQS_ZhuaZhua has hit Lannister (Scimitar, 16 DMG).
+20:19:15 - YQS_ZhuaZhua has hit Lannister (Scimitar, 29 DMG).
+20:19:22 - YQS_ZhuaZhua has hit Lannister (Scimitar, 5 DMG).
+20:19:22 - [DK]DaCongMing has left the game with ID: 4642268 and IP: 60.170.38.67
+20:19:22 - [DK]DaCongMing has left the game with ID: 4642268.
+20:19:23 - YQS_ZhuaZhua has hit Lannister (Scimitar, 24 DMG).
+20:19:23 - YQS_ZhuaZhua <img=ico_swordone> Lannister
+20:19:26 - MingRiXiang has hit lubyrose (Warhammer, 24 DMG).
+20:19:27 - lubyrose has hit MingRiXiang (Old Axe, 19 DMG).
+20:19:29 - lubyrose has hit MingRiXiang (Old Axe, 7 DMG).
+20:19:31 - YQS_ZhuaZhua has hit teammate lubyrose (Scimitar, 5 DMG).
+20:19:32 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 24 DMG).
+20:19:34 - MingRiXiang has hit lubyrose (Warhammer, 24 DMG).
+20:19:34 - MingRiXiang <img=ico_blunt> lubyrose
+20:19:41 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 23 DMG).
+20:19:41 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:19:41 - The round 33 has ended
+20:20:05 - [DK]DaCongMing has joined the game with ID: 4642268 and IP: 60.170.38.67 and has administrator rights.
+20:20:07 - Lannister has hit YQS_ZhuaZhua (Long Spear, 14 DMG).
+20:20:11 - YQS_ZhuaZhua has hit Lannister (Scimitar, 21 DMG).
+20:20:13 - YQS_ZhuaZhua has hit Lannister (Scimitar, 38 DMG).
+20:20:13 - MingRiXiang has hit lubyrose (Warhammer, 28 DMG).
+20:20:15 - YQS_ZhuaZhua has hit Lannister (Scimitar, 7 DMG).
+20:20:21 - Lannister has hit YQS_ZhuaZhua (Scimitar, 4 DMG).
+20:20:22 - lubyrose has hit MingRiXiang (Spear, 3 DMG).
+20:20:24 - YQS_ZhuaZhua has hit Lannister (Scimitar, 32 DMG).
+20:20:24 - YQS_ZhuaZhua <img=ico_swordone> Lannister
+20:20:27 - *SERVER* [[DK]DaCongMing]: DK精 锐 队 人 齐 了 嘛 
+20:20:28 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 10 DMG).
+20:20:30 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 11 DMG).
+20:20:33 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 2 DMG).
+20:20:34 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 14 DMG).
+20:20:36 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 39 DMG).
+20:20:41 - lubyrose has hit teammate YQS_ZhuaZhua (Spear, 7 DMG).
+20:20:47 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 23 DMG).
+20:20:47 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:20:49 - MingRiXiang has hit lubyrose (Warhammer, 35 DMG).
+20:20:49 - *SPEC* [[DK]Tanguan] 有 一 个 队 员 还 没 到 家 
+20:20:51 - MingRiXiang has hit lubyrose (Warhammer, 37 DMG).
+20:20:51 - MingRiXiang <img=ico_blunt> lubyrose
+20:20:51 - The round 34 has ended
+20:20:56 - *SERVER* [[DK]DaCongMing]: 好 的 ， 等 你 们 
+20:21:08 - *SPEC* [[DK]Tanguan] 裁 判 ， 地 上 的 盾 牌 能 捡 吗 
+20:21:12 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 12 DMG).
+20:21:13 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 13 DMG).
+20:21:16 - lubyrose has hit Lannister (Scimitar, 25 DMG).
+20:21:17 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 30 DMG).
+20:21:17 - lubyrose has hit Lannister (Scimitar, 26 DMG).
+20:21:21 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 21 DMG).
+20:21:24 - lubyrose has hit Lannister (Scimitar, 20 DMG).
+20:21:25 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 33 DMG).
+20:21:28 - Lannister has hit lubyrose (Long Spear, 26 DMG).
+20:21:30 - lubyrose has hit teammate YQS_ZhuaZhua (Scimitar, 8 DMG).
+20:21:30 - lubyrose <img=ico_swordone> YQS_ZhuaZhua
+20:21:33 - MingRiXiang has hit lubyrose (Warhammer, 17 DMG).
+20:21:36 - Lannister has hit lubyrose (Long Spear, 20 DMG).
+20:21:37 - Lannister has hit lubyrose (Long Spear, 28 DMG).
+20:21:37 - Lannister <img=ico_spear> lubyrose
+20:21:37 - The round 35 has ended
+20:22:01 - lubyrose has hit Lannister (Scimitar, 19 DMG).
+20:22:03 - lubyrose has hit Lannister (Scimitar, 27 DMG).
+20:22:04 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 7 DMG).
+20:22:07 - lubyrose has hit Lannister (Scimitar, 20 DMG).
+20:22:08 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 25 DMG).
+20:22:10 - lubyrose has hit Lannister (Scimitar, 32 DMG).
+20:22:10 - lubyrose <img=ico_swordone> Lannister
+20:22:11 - [RK]YUsama has joined the game with ID: 6157744 and IP: 112.48.64.189
+20:22:13 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 2 DMG).
+20:22:13 - lubyrose has hit MingRiXiang (Scimitar, 29 DMG).
+20:22:15 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 28 DMG).
+20:22:20 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 14 DMG).
+20:22:20 - lubyrose has hit MingRiXiang (Scimitar, 14 DMG).
+20:22:20 - lubyrose <img=ico_swordone> MingRiXiang
+20:22:20 - The round 36 has ended
+20:22:31 - [RK]YUsama has left the game with ID: 6157744 and IP: 112.48.64.189
+20:22:31 - [RK]YUsama has left the game with ID: 6157744.
+20:22:43 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 11 DMG).
+20:22:46 - lubyrose has hit Lannister (Scimitar, 12 DMG).
+20:22:46 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 19 DMG).
+20:22:48 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 6 DMG).
+20:22:49 - lubyrose has hit Lannister (Scimitar, 26 DMG).
+20:22:50 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 25 DMG).
+20:22:50 - lubyrose has hit Lannister (Scimitar, 30 DMG).
+20:22:51 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 3 DMG).
+20:22:52 - lubyrose has hit Lannister (Scimitar, 27 DMG).
+20:22:52 - lubyrose <img=ico_swordone> Lannister
+20:22:55 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 21 DMG).
+20:22:55 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:23:00 - MingRiXiang has hit lubyrose (Warhammer, 27 DMG).
+20:23:05 - lubyrose has hit MingRiXiang (Scimitar, 14 DMG).
+20:23:18 - MingRiXiang has hit lubyrose (Warhammer, 24 DMG).
+20:23:22 - MingRiXiang has hit lubyrose (Warhammer, 17 DMG).
+20:23:22 - MingRiXiang <img=ico_blunt> lubyrose
+20:23:22 - The round 37 has ended
+20:23:45 - lubyrose has hit Lannister (Scimitar, 19 DMG).
+20:23:45 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 17 DMG).
+20:23:48 - lubyrose has hit Lannister (Scimitar, 26 DMG).
+20:23:49 - lubyrose has hit teammate YQS_ZhuaZhua (Scimitar, 6 DMG).
+20:23:51 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 24 DMG).
+20:23:52 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 3 DMG).
+20:23:53 - lubyrose has hit Lannister (Scimitar, 22 DMG).
+20:23:55 - lubyrose has hit Lannister (Scimitar, 28 DMG).
+20:23:55 - lubyrose <img=ico_swordone> Lannister
+20:24:00 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 4 DMG).
+20:24:04 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 46 DMG).
+20:24:04 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:24:06 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 32 DMG).
+20:24:09 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 35 DMG).
+20:24:09 - [DK]Tanguan <img=ico_blunt> lubyrose
+20:24:09 - The round 38 has ended
+20:24:31 - lubyrose has hit MingRiXiang (Scimitar, 15 DMG).
+20:24:32 - lubyrose has hit [DK]Tanguan (Scimitar, 26 DMG).
+20:24:32 - YQS_ZhuaZhua has hit Lannister (Scimitar, 16 DMG).
+20:24:35 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 22 DMG).
+20:24:37 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 19 DMG).
+20:24:38 - Lannister has hit YQS_ZhuaZhua (Long Spear, 10 DMG).
+20:24:38 - lubyrose has hit [DK]Tanguan (Scimitar, 13 DMG).
+20:24:39 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 38 DMG).
+20:24:39 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:24:42 - Lannister has hit lubyrose (Long Spear, 15 DMG).
+20:24:44 - lubyrose has hit MingRiXiang (Scimitar, 29 DMG).
+20:24:45 - Lannister has hit lubyrose (Long Spear, 29 DMG).
+20:24:45 - Lannister <img=ico_spear> lubyrose
+20:24:45 - The round 39 has ended
+20:25:08 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 14 DMG).
+20:25:09 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 25 DMG).
+20:25:12 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 15 DMG).
+20:25:13 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 15 DMG).
+20:25:15 - lubyrose has hit Lannister (Scimitar, 20 DMG).
+20:25:17 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 23 DMG).
+20:25:19 - Lannister has hit lubyrose (Long Spear, 40 DMG).
+20:25:20 - lubyrose has hit Lannister (Scimitar, 31 DMG).
+20:25:21 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 18 DMG).
+20:25:21 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 18 DMG).
+20:25:21 - [DK]Tanguan <img=ico_blunt> lubyrose
+20:25:24 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 32 DMG).
+20:25:25 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 21 DMG).
+20:25:25 - [DK]Tanguan <img=ico_blunt> YQS_ZhuaZhua
+20:25:25 - The round 40 has ended
+20:25:55 - YQS_ZhuaZhua has hit [DK]Tanguan (Scimitar, 22 DMG).
+20:25:55 - lubyrose has hit [DK]Tanguan (Scimitar, 10 DMG).
+20:25:56 - YQS_ZhuaZhua has hit [DK]Tanguan (Scimitar, 3 DMG).
+20:26:02 - lubyrose has hit Lannister (Scimitar, 18 DMG).
+20:26:03 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 55 DMG).
+20:26:03 - lubyrose has hit [DK]Tanguan (Scimitar, 16 DMG).
+20:26:04 - Lannister has hit YQS_ZhuaZhua (Long Spear, 18 DMG).
+20:26:04 - Lannister <img=ico_spear> YQS_ZhuaZhua
+20:26:06 - lubyrose has hit Lannister (Scimitar, 34 DMG).
+20:26:07 - lubyrose has hit [DK]Tanguan (Scimitar, 14 DMG).
+20:26:07 - lubyrose <img=ico_swordone> [DK]Tanguan
+20:26:17 - lubyrose has hit Lannister (Scimitar, 19 DMG).
+20:26:17 - lubyrose <img=ico_swordone> Lannister
+20:26:31 - MingRiXiang has hit lubyrose (Warhammer, 13 DMG).
+20:26:39 - MingRiXiang has hit lubyrose (Warhammer, 33 DMG).
+20:26:41 - lubyrose has hit MingRiXiang (Scimitar, 17 DMG).
+20:26:44 - lubyrose has hit MingRiXiang (Scimitar, 14 DMG).
+20:26:47 - lubyrose has hit MingRiXiang (Scimitar, 8 DMG).
+20:26:49 - lubyrose has hit MingRiXiang (Scimitar, 12 DMG).
+20:26:56 - lubyrose has hit MingRiXiang (Scimitar, 14 DMG).
+20:26:56 - lubyrose <img=ico_swordone> MingRiXiang
+20:26:56 - The round 41 has ended
+20:27:23 - Lannister has hit YQS_ZhuaZhua (Scimitar, 23 DMG).
+20:27:24 - lubyrose has hit [DK]Tanguan (Scimitar, 22 DMG).
+20:27:26 - lubyrose has hit [DK]Tanguan (Scimitar, 18 DMG).
+20:27:31 - YQS_ZhuaZhua has hit Lannister (Scimitar, 29 DMG).
+20:27:32 - YQS_ZhuaZhua has hit Lannister (Scimitar, 42 DMG).
+20:27:32 - YQS_ZhuaZhua <img=ico_swordone> Lannister
+20:27:32 - lubyrose has hit [DK]Tanguan (Scimitar, 15 DMG).
+20:27:38 - YQS_ZhuaZhua has hit [DK]Tanguan (Scimitar, 3 DMG).
+20:27:39 - YQS_ZhuaZhua has hit teammate lubyrose (Scimitar, 14 DMG).
+20:27:46 - YQS_ZhuaZhua has hit [DK]Tanguan (Scimitar, 14 DMG).
+20:27:46 - YQS_ZhuaZhua <img=ico_swordone> [DK]Tanguan
+20:29:13 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 16 DMG).
+20:29:16 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 21 DMG).
+20:29:17 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 17 DMG).
+20:29:17 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+20:29:29 - MingRiXiang has hit lubyrose (Warhammer, 22 DMG).
+20:29:36 - lubyrose has hit MingRiXiang (Scimitar, 8 DMG).
+20:29:39 - MingRiXiang has hit lubyrose (Warhammer, 15 DMG).
+20:29:42 - MingRiXiang has hit lubyrose (Warhammer, 23 DMG).
+20:29:42 - MingRiXiang <img=ico_blunt> lubyrose
+20:29:42 - The round 42 has ended
+20:30:05 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 30 DMG).
+20:30:07 - Lannister has hit teammate [DK]Tanguan (Long Spear, 20 DMG).
+20:30:08 - YQS_ZhuaZhua has hit Lannister (Scimitar, 15 DMG).
+20:30:10 - lubyrose has hit [DK]Tanguan (Old Axe, 4 DMG).
+20:30:10 - Lannister has hit lubyrose (Long Spear, 25 DMG).
+20:30:11 - Lannister has hit lubyrose (Long Spear, 40 DMG).
+20:30:12 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 30 DMG).
+20:30:14 - lubyrose has hit [DK]Tanguan (Old Axe, 19 DMG).
+20:30:18 - lubyrose has hit [DK]Tanguan (Old Axe, 20 DMG).
+20:30:21 - lubyrose has hit [DK]Tanguan (Old Axe, 19 DMG).
+20:30:21 - lubyrose <img=ico_axeone> [DK]Tanguan
+20:30:21 - YQS_ZhuaZhua has hit Lannister (Scimitar, 13 DMG).
+20:30:22 - YQS_ZhuaZhua has hit Lannister (Scimitar, 37 DMG).
+20:30:24 - Lannister has hit YQS_ZhuaZhua (Long Spear, 21 DMG).
+20:30:24 - Lannister <img=ico_spear> YQS_ZhuaZhua
+20:30:35 - Lannister has hit lubyrose (Long Spear, 20 DMG).
+20:30:35 - Lannister <img=ico_spear> lubyrose
+20:30:35 - The round 43 has ended
+20:30:48 - *SERVER* [[DK]DaCongMing]: DK精 锐 队 的 兄 弟 来 齐 了 嘛 
+20:30:57 - *CLAN* [[DK]DaCongMing]: lannisiter是 哪 个 队 伍 的 呀 
+20:30:58 - [Lannister] 我 是 VT
+20:31:04 - [Lannister] @贪 官 
+20:31:13 - [lubyrose] 2v2ba 
+20:31:15 - lubyrose has hit MingRiXiang (Old Axe, 10 DMG).
+20:31:17 - MingRiXiang has hit lubyrose (Warhammer, 18 DMG).
+20:31:18 - lubyrose has hit MingRiXiang (Old Axe, 8 DMG).
+20:31:19 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 17 DMG).
+20:31:20 - [Lannister] 我 是 VT
+20:31:27 - lubyrose has hit MingRiXiang (Old Axe, 21 DMG).
+20:31:28 - [Lannister] @贪 官 
+20:31:28 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 23 DMG).
+20:31:28 - YQS_ZhuaZhua <img=ico_swordone> MingRiXiang
+20:31:29 - lubyrose has hit teammate YQS_ZhuaZhua (Old Axe, 3 DMG).
+20:31:32 - [[DK]Tanguan] ？ 
+20:31:41 - [[DK]Tanguan] 退 出 重 进 改 个 名 
+20:31:46 - [[DK]Tanguan] 不 然 违 反 规 则 啊 
+20:31:58 - *SERVER* [[DK]DaCongMing]: 你 报 名 不 是 这 个 ID..
+20:32:02 - Lannister has left the game with ID: 6058429 and IP: 119.123.135.29
+20:32:02 - Lannister has left the game with ID: 6058429.
+20:32:02 -  <img=ico_headshot> Lannister
+20:32:06 - *SERVER* [[DK]DaCongMing]: 是 VT
+20:32:08 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 27 DMG).
+20:32:09 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 26 DMG).
+20:32:10 - [DK]Tanguan has hit lubyrose (One Handed Bar Mace, 31 DMG).
+20:32:10 - [DK]Tanguan <img=ico_blunt> lubyrose
+20:32:11 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 33 DMG).
+20:32:13 - [DK]Tanguan has hit YQS_ZhuaZhua (One Handed Bar Mace, 28 DMG).
+20:32:13 - [DK]Tanguan <img=ico_blunt> YQS_ZhuaZhua
+20:32:13 - The round 44 has ended
+20:32:35 - Mastertryin has joined the game with ID: 6033480 and IP: 43.250.244.10
+20:33:23 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 22 DMG).
+20:33:25 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 19 DMG).
+20:33:27 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 11 DMG).
+20:33:28 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 16 DMG).
+20:33:29 - lubyrose has hit MingRiXiang (Scimitar, 3 DMG).
+20:33:31 - YQS_ZhuaZhua has hit teammate lubyrose (Scimitar, 5 DMG).
+20:33:31 - MingRiXiang has hit lubyrose (Warhammer, 23 DMG).
+20:33:49 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 31 DMG).
+20:33:51 - YQS_ZhuaZhua has hit MingRiXiang (Scimitar, 11 DMG).
+20:34:02 - lubyrose has hit MingRiXiang (Scimitar, 19 DMG).
+20:34:02 - lubyrose <img=ico_swordone> MingRiXiang
+20:34:48 - lubyrose has left the game with ID: 3324767 and IP: 113.13.148.88
+20:34:48 - lubyrose has left the game with ID: 3324767.
+20:34:48 -  <img=ico_headshot> lubyrose
+20:35:17 - The round 45 has ended
+20:35:19 -  <img=ico_headshot> [DK]Tanguan
+20:35:33 - Mastertryin has hit teammate MingRiXiang (Spear, 5 DMG).
+20:35:37 - Lucky_Boyyy has joined the game with ID: 4532852 and IP: 223.66.34.245
+20:35:41 - [Mastertryin] 来 了 
+20:35:47 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:35:47 - MingRiXiang has left the game with ID: 4087139.
+20:35:47 -  <img=ico_headshot> MingRiXiang
+20:35:50 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 28 DMG).
+20:35:53 - YQS_ZhuaZhua has hit Mastertryin (Scimitar, 21 DMG).
+20:35:58 - YQS_ZhuaZhua has hit Mastertryin (Scimitar, 27 DMG).
+20:35:59 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 5 DMG).
+20:36:02 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 7 DMG).
+20:36:11 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 17 DMG).
+20:36:13 - YQS_ZhuaZhua has hit Mastertryin (Scimitar, 28 DMG).
+20:36:13 - YQS_ZhuaZhua <img=ico_swordone> Mastertryin
+20:36:13 - The round 46 has ended
+20:36:22 - [Mastertryin] 另 外 一 队 呢 
+20:36:33 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 17 DMG).
+20:36:36 - YQS_ZhuaZhua has hit Mastertryin (Scimitar, 38 DMG).
+20:36:38 - *SERVER* [[DK]DaCongMing]: 他 们 延 迟 了 ， 先 顺 延 和 我 们 打 吧 
+20:36:39 - YQS_ZhuaZhua has hit Mastertryin (Scimitar, 33 DMG).
+20:36:39 - YQS_ZhuaZhua <img=ico_swordone> Mastertryin
+20:36:39 - The round 47 has ended
+20:36:42 - *CLAN* [[DK]DaCongMing]: 我 们 人 齐 了 的 
+20:36:45 - *SERVER* [[DK]DaCongMing]: 我 们 人 齐 了 
+20:36:51 - *SERVER* [[DK]DaCongMing]: VT呢 
+20:37:04 - [Mastertryin] 改 名 了 好 像 
+20:37:06 - YQS_ZhuaZhua has hit Mastertryin (Scimitar, 20 DMG).
+20:37:08 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 17 DMG).
+20:37:10 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 13 DMG).
+20:37:11 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 21 DMG).
+20:37:13 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 13 DMG).
+20:37:17 - Mastertryin has hit YQS_ZhuaZhua (Spiked Mace, 19 DMG).
+20:37:17 - Mastertryin <img=ico_blunt> YQS_ZhuaZhua
+20:37:17 - The round 48 has ended
+20:37:20 - The map has started: Old Village Ruins.
+20:37:20 - Dynamic server settings have been updated.
+20:37:26 - [DK]VT has joined the game with ID: 6058429 and IP: 119.123.135.29
+20:37:34 - The map has started: The Cage.
+20:37:34 - Dynamic server settings have been updated.
+20:37:56 - *SERVER* [[DK]DaCongMing]: 等 等 DK精 锐 队 和 DK海 军 四 大 将 队 伍 先 打 
+20:38:04 - *SERVER* [[DK]DaCongMing]: 撸 管 队 人 不 齐 
+20:38:07 - Mastertryin opened the door as an attacker
+20:38:08 - YQS_ZhuaZhua has left the game with ID: 4566151 and IP: 58.255.40.67
+20:38:08 - YQS_ZhuaZhua has left the game with ID: 4566151.
+20:38:15 - [Mastertryin] 哦 
+20:38:15 - *SERVER* [[DK]DaCongMing]: 到 时 候 再 约 时 间 吧 
+20:38:20 - Mastertryin opened the door as an attacker
+20:38:24 - [Mastertryin] 什 么 情 况 
+20:38:40 - *SERVER* [[DK]DaCongMing]: 顺 延 下 一 场 次 
+20:38:49 - [Mastertryin] 所 以 现 在 打 不 打 
+20:38:52 - *SPEC* [[DK]VT] 不 打 了 ？ 
+20:38:55 - *SERVER* [[DK]DaCongMing]: 大 
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - *SERVER* [[DK]DaCongMing]: 打 
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:57 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:57 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:58 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:58 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - *SERVER* [[DK]DaCongMing]: 你 们 和 我 们 打 
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:38:59 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:38:59 - MingRiXiang has left the game with ID: 4087139.
+20:39:00 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139.
+20:39:00 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139.
+20:39:00 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139.
+20:39:00 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139.
+20:39:00 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139.
+20:39:00 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139.
+20:39:00 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:39:00 - MingRiXiang has left the game with ID: 4087139.
+20:39:04 - *SERVER* [[DK]DaCongMing]: 顺 延 下 一 场 
+20:39:06 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:39:13 - [Mastertryin] 好 了 
+20:39:16 - *CLAN* [[DK]DaCongMing]: 比 分 也 会 正 常 记 录 的 
+20:39:16 - [Mastertryin] 人 够 了 
+20:39:26 -  <img=ico_headshot> Mastertryin
+20:39:26 - The round 1 has ended
+20:39:26 - The map has been reset.
+20:39:38 - [Mastertryin] 上 来 啊 
+20:39:39 - [[DK]VT] 坏 了 
+20:39:48 - *SERVER* [[DK]DaCongMing]: 双 方 只 允 许 一 个 成 员 带 非 单 手 武 器 
+20:40:09 - [Mastertryin] 刺 客 信 条 
+20:40:09 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 后 扣 1
+20:40:12 - [Mastertryin] 1
+20:40:14 - [[DK]Tanguan] 1
+20:40:14 - [Lucky_Boyyy] 1
+20:40:15 - [[DK]VT] 1
+20:40:18 -  <img=ico_headshot> [DK]DaCongMing
+20:40:18 -  <img=ico_headshot> [DK]Tanguan
+20:40:18 -  <img=ico_headshot> Lucky_Boyyy
+20:40:18 - The round 2 has ended
+20:40:18 -  <img=ico_headshot> [DK]VT
+20:40:18 -  <img=ico_headshot> Mastertryin
+20:40:18 - The map has been reset.
+20:40:33 - *SERVER* [[DK]DaCongMing]: 上 半 场 开 始 
+20:40:38 - lubyrose has joined the game with ID: 3324767 and IP: 113.13.148.88
+20:40:43 - [DK]VT has hit MingRiXiang (Long Spear, 23 DMG).
+20:40:43 - Lucky_Boyyy has hit [DK]VT (Long Spear, 46 DMG).
+20:40:45 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 15 DMG).
+20:40:46 - Lucky_Boyyy has hit [DK]VT (Long Spear, 34 DMG).
+20:40:46 - Lucky_Boyyy <img=ico_spear> [DK]VT
+20:40:46 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 11 DMG).
+20:40:47 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 3 DMG).
+20:40:48 - Lucky_Boyyy has hit teammate MingRiXiang (Long Spear, 4 DMG).
+20:40:49 - MingRiXiang has hit [DK]Tanguan (Warhammer, 40 DMG).
+20:40:50 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 37 DMG).
+20:40:51 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 48 DMG).
+20:40:51 - [DK]DaCongMing <img=ico_blunt> Mastertryin
+20:40:53 - MingRiXiang has hit [DK]Tanguan (Warhammer, 19 DMG).
+20:40:53 - MingRiXiang <img=ico_blunt> [DK]Tanguan
+20:40:53 - The round 3 has ended
+20:40:55 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
+20:40:56 - *DEAD* [Mastertryin] 可 以 
+20:41:04 - *SERVER* [[DK]DaCongMing]: 双 方 抢 5 然 后 换 边 哈 
+20:41:09 - YQS_ZhuaZhua has joined the game with ID: 4566151 and IP: 58.255.40.67
+20:41:15 - Mastertryin has hit [DK]DaCongMing (Old Axe, 11 DMG).
+20:41:16 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 1 DMG).
+20:41:16 - Lucky_Boyyy has hit [DK]VT (Long Spear, 42 DMG).
+20:41:17 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 21 DMG).
+20:41:17 - Lucky_Boyyy has hit [DK]VT (Long Spear, 12 DMG).
+20:41:18 - MingRiXiang has hit [DK]VT (Warhammer, 39 DMG).
+20:41:18 - MingRiXiang <img=ico_blunt> [DK]VT
+20:41:19 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 45 DMG).
+20:41:21 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 30 DMG).
+20:41:21 - Lucky_Boyyy has hit Mastertryin (Long Spear, 40 DMG).
+20:41:21 - Lucky_Boyyy <img=ico_spear> Mastertryin
+20:41:22 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 22 DMG).
+20:41:22 - Lucky_Boyyy <img=ico_spear> [DK]Tanguan
+20:41:22 - The round 4 has ended
+20:41:33 - [Mastertryin] 哈 哈 
+20:41:42 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 20 DMG).
+20:41:42 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 33 DMG).
+20:41:44 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 36 DMG).
+20:41:45 - Mastertryin has hit Lucky_Boyyy (Old Axe, 11 DMG).
+20:41:47 - [DK]Tanguan has hit MingRiXiang (One Handed Bar Mace, 22 DMG).
+20:41:48 - Lucky_Boyyy has hit Mastertryin (Long Spear, 35 DMG).
+20:41:49 - Lucky_Boyyy has hit Mastertryin (Long Spear, 31 DMG).
+20:41:50 - MingRiXiang has hit Mastertryin (Warhammer, 36 DMG).
+20:41:50 - MingRiXiang <img=ico_blunt> Mastertryin
+20:41:52 - Lucky_Boyyy has hit [DK]VT (Long Spear, 42 DMG).
+20:41:52 - Lucky_Boyyy <img=ico_spear> [DK]VT
+20:41:53 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 20 DMG).
+20:41:53 - MingRiXiang has hit [DK]Tanguan (Warhammer, 15 DMG).
+20:41:54 - MingRiXiang has hit [DK]Tanguan (Warhammer, 14 DMG).
+20:41:54 - MingRiXiang <img=ico_blunt> [DK]Tanguan
+20:41:54 - The round 5 has ended
+20:42:14 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 19 DMG).
+20:42:15 - Lucky_Boyyy has hit [DK]VT (Long Spear, 56 DMG).
+20:42:16 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 45 DMG).
+20:42:17 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 36 DMG).
+20:42:17 - [DK]DaCongMing <img=ico_blunt> Mastertryin
+20:42:20 - MingRiXiang has hit [DK]Tanguan (Warhammer, 14 DMG).
+20:42:20 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 38 DMG).
+20:42:20 - [DK]DaCongMing <img=ico_blunt> [DK]VT
+20:42:22 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 20 DMG).
+20:42:23 - MingRiXiang has hit [DK]Tanguan (Warhammer, 40 DMG).
+20:42:23 - MingRiXiang <img=ico_blunt> [DK]Tanguan
+20:42:23 - The round 6 has ended
+20:42:44 - Lucky_Boyyy has hit [DK]VT (Long Spear, 27 DMG).
+20:42:44 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 39 DMG).
+20:42:45 - MingRiXiang has hit [DK]Tanguan (Warhammer, 10 DMG).
+20:42:47 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 36 DMG).
+20:42:47 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 28 DMG).
+20:42:47 - [DK]DaCongMing <img=ico_blunt> Mastertryin
+20:42:48 - Lucky_Boyyy has hit [DK]VT (Long Spear, 46 DMG).
+20:42:48 - Lucky_Boyyy <img=ico_spear> [DK]VT
+20:42:52 - [DK]DaCongMing has hit [DK]Tanguan (Outlander Warhammer, 27 DMG).
+20:42:52 - [DK]DaCongMing <img=ico_blunt> [DK]Tanguan
+20:42:52 - The round 7 has ended
+20:42:57 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
+20:42:57 - [X1]NewPlayer has left the game with ID: 4270208.
+20:43:03 - [DK]VT has hit teammate [DK]Tanguan (Long Spear, 3 DMG).
+20:43:03 - *SERVER* [[DK]DaCongMing]: 上 半 场 结 束 
+20:43:06 - [DK]VT has hit teammate [DK]Tanguan (Long Spear, 10 DMG).
+20:43:06 -  <img=ico_headshot> Mastertryin
+20:43:06 -  <img=ico_headshot> [DK]VT
+20:43:06 -  <img=ico_headshot> Lucky_Boyyy
+20:43:06 -  <img=ico_headshot> [DK]DaCongMing
+20:43:06 -  <img=ico_headshot> [DK]Tanguan
+20:43:06 - The round 8 has ended
+20:43:06 -  <img=ico_headshot> MingRiXiang
+20:43:20 -  <img=ico_headshot> MingRiXiang
+20:43:20 -  <img=ico_headshot> [DK]Tanguan
+20:43:20 -  <img=ico_headshot> [DK]DaCongMing
+20:43:20 -  <img=ico_headshot> Lucky_Boyyy
+20:43:20 - The round 9 has ended
+20:43:20 -  <img=ico_headshot> [DK]VT
+20:43:20 -  <img=ico_headshot> Mastertryin
+20:43:20 - The map has been reset.
+20:43:27 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 后 扣 1
+20:43:29 - [Mastertryin] 111
+20:43:31 - [[DK]VT] 1
+20:43:31 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+20:43:32 - Sunxingmin has been given administrator rights (100)
+20:43:33 - [[DK]Tanguan] 1
+20:43:39 - *SERVER* [[DK]DaCongMing]: 可 以 不 用 长 杆 的 
+20:43:40 - *SPEC* [Sunxingmin] jibiji le 
+
+20:43:46 -  <img=ico_headshot> [DK]DaCongMing
+20:43:46 -  <img=ico_headshot> MingRiXiang
+20:43:46 -  <img=ico_headshot> [DK]Tanguan
+20:43:46 -  <img=ico_headshot> Lucky_Boyyy
+20:43:46 - The round 10 has ended
+20:43:46 -  <img=ico_headshot> [DK]VT
+20:43:46 -  <img=ico_headshot> Mastertryin
+20:43:46 - The map has been reset.
+20:43:51 -  <img=ico_headshot> MingRiXiang
+20:43:51 -  <img=ico_headshot> [DK]Tanguan
+20:43:51 -  <img=ico_headshot> Lucky_Boyyy
+20:43:51 - The round 11 has ended
+20:43:51 -  <img=ico_headshot> [DK]VT
+20:43:51 -  <img=ico_headshot> Mastertryin
+20:43:51 - The map has been reset.
+20:43:55 - *SERVER* [[DK]DaCongMing]: 下 半 场 开 始 
+20:44:09 - MingRiXiang has hit Mastertryin (Warhammer, 24 DMG).
+20:44:10 - Lucky_Boyyy has hit Mastertryin (Long Spear, 22 DMG).
+20:44:10 - [DK]Tanguan has hit [DK]DaCongMing (One Handed Bar Mace, 20 DMG).
+20:44:11 - MingRiXiang has hit Mastertryin (Warhammer, 40 DMG).
+20:44:11 - MingRiXiang <img=ico_blunt> Mastertryin
+20:44:12 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 37 DMG).
+20:44:12 - MingRiXiang has hit [DK]VT (Warhammer, 24 DMG).
+20:44:13 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 38 DMG).
+20:44:13 - [DK]DaCongMing <img=ico_blunt> [DK]VT
+20:44:13 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 16 DMG).
+20:44:14 - [DK]DaCongMing has hit [DK]Tanguan (Outlander Warhammer, 26 DMG).
+20:44:18 - [DK]DaCongMing has hit [DK]Tanguan (Outlander Warhammer, 17 DMG).
+20:44:20 - [DK]DaCongMing has hit [DK]Tanguan (Outlander Warhammer, 22 DMG).
+20:44:20 - [DK]DaCongMing <img=ico_blunt> [DK]Tanguan
+20:44:20 - The round 12 has ended
+20:44:34 - [DK]Bitch08 has joined the game with ID: 4175168 and IP: 119.39.131.104
+20:44:38 - [DK]VT has hit teammate Mastertryin (Long Spear, 24 DMG).
+20:44:39 - [DK]Tanguan has hit [DK]DaCongMing (One Handed Bar Mace, 40 DMG).
+20:44:41 - Lucky_Boyyy has hit [DK]VT (Long Spear, 33 DMG).
+20:44:42 - MingRiXiang has hit Mastertryin (Warhammer, 39 DMG).
+20:44:42 - [DK]Tanguan has hit [DK]DaCongMing (One Handed Bar Mace, 35 DMG).
+20:44:42 - [DK]Tanguan <img=ico_blunt> [DK]DaCongMing
+20:44:43 - [DK]VT has hit Lucky_Boyyy (Long Spear, 23 DMG).
+20:44:43 - MingRiXiang has hit Mastertryin (Warhammer, 52 DMG).
+20:44:43 - MingRiXiang <img=ico_blunt> Mastertryin
+20:44:45 - Lucky_Boyyy has hit [DK]VT (Long Spear, 6 DMG).
+20:44:45 - MingRiXiang has hit [DK]Tanguan (Warhammer, 11 DMG).
+20:44:47 - Lucky_Boyyy has hit [DK]VT (Long Spear, 23 DMG).
+20:44:48 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 16 DMG).
+20:44:49 - Lucky_Boyyy has hit [DK]VT (Long Spear, 42 DMG).
+20:44:49 - Lucky_Boyyy <img=ico_spear> [DK]VT
+20:44:51 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 35 DMG).
+20:44:52 - MingRiXiang has hit [DK]Tanguan (Warhammer, 22 DMG).
+20:44:52 - MingRiXiang <img=ico_blunt> [DK]Tanguan
+20:44:52 - The round 13 has ended
+20:45:13 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 37 DMG).
+20:45:13 - [DK]Tanguan has hit Lucky_Boyyy (One Handed Bar Mace, 53 DMG).
+20:45:15 - MingRiXiang has hit [DK]Tanguan (Warhammer, 35 DMG).
+20:45:15 - Mastertryin has hit MingRiXiang (Old Axe, 16 DMG).
+20:45:15 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 43 DMG).
+20:45:15 - [DK]DaCongMing <img=ico_blunt> [DK]VT
+20:45:16 - Mastertryin has hit MingRiXiang (Old Axe, 20 DMG).
+20:45:17 - Mastertryin has hit teammate [DK]Tanguan (Old Axe, 3 DMG).
+20:45:18 - Lucky_Boyyy has hit Mastertryin (Long Spear, 33 DMG).
+20:45:18 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 49 DMG).
+20:45:18 - [DK]DaCongMing <img=ico_blunt> Mastertryin
+20:45:20 - [DK]Tanguan has hit [DK]DaCongMing (One Handed Bar Mace, 30 DMG).
+20:45:20 - MingRiXiang has hit [DK]Tanguan (Warhammer, 18 DMG).
+20:45:20 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 20 DMG).
+20:45:20 - Lucky_Boyyy <img=ico_spear> [DK]Tanguan
+20:45:20 - The round 14 has ended
+20:45:22 - [DK]DaCongMing has hit teammate MingRiXiang (Outlander Warhammer, 17 DMG).
+20:45:41 - Lucky_Boyyy has hit [DK]VT (Long Spear, 54 DMG).
+20:45:43 - [DK]VT has hit MingRiXiang (Long Spear, 13 DMG).
+20:45:44 - Lucky_Boyyy has hit Mastertryin (Long Spear, 44 DMG).
+20:45:47 - [DK]DaCongMing has hit teammate MingRiXiang (Outlander Warhammer, 18 DMG).
+20:45:49 - [DK]Tanguan has hit Lucky_Boyyy (One Handed Bar Mace, 22 DMG).
+20:45:50 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 41 DMG).
+20:45:50 - [DK]DaCongMing <img=ico_blunt> [DK]VT
+20:45:51 - MingRiXiang has hit [DK]Tanguan (Warhammer, 22 DMG).
+20:45:52 - Mastertryin has hit Lucky_Boyyy (Spiked Mace, 16 DMG).
+20:45:53 - MingRiXiang has hit [DK]Tanguan (Warhammer, 21 DMG).
+20:45:53 - [DK]DaCongMing has hit teammate Lucky_Boyyy (Outlander Warhammer, 8 DMG).
+20:45:53 - Mastertryin has hit Lucky_Boyyy (Spiked Mace, 15 DMG).
+20:45:54 - [DK]DaCongMing has hit Mastertryin (Outlander Warhammer, 29 DMG).
+20:45:54 - [DK]DaCongMing <img=ico_blunt> Mastertryin
+20:45:55 - [DK]Tanguan has hit [DK]DaCongMing (One Handed Bar Mace, 12 DMG).
+20:45:56 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 13 DMG).
+20:45:58 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 15 DMG).
+20:45:58 - Lucky_Boyyy <img=ico_spear> [DK]Tanguan
+20:45:58 - The round 15 has ended
+20:46:09 - *SERVER* [[DK]DaCongMing]: 可 以 不 用 长 杆 的 ..
+20:46:18 - Lucky_Boyyy has hit [DK]VT (Long Spear, 38 DMG).
+20:46:19 - MingRiXiang has hit [DK]Tanguan (Warhammer, 26 DMG).
+20:46:20 - Mastertryin has hit Lucky_Boyyy (Spiked Mace, 17 DMG).
+20:46:21 - Lucky_Boyyy has hit Mastertryin (Long Spear, 59 DMG).
+20:46:23 - MingRiXiang has hit Mastertryin (Warhammer, 34 DMG).
+20:46:23 - MingRiXiang <img=ico_blunt> Mastertryin
+20:46:24 - Lucky_Boyyy has hit [DK]Tanguan (Long Spear, 10 DMG).
+20:46:24 - MingRiXiang has hit [DK]Tanguan (Warhammer, 25 DMG).
+20:46:25 - MingRiXiang has hit [DK]Tanguan (Warhammer, 17 DMG).
+20:46:25 - MingRiXiang <img=ico_blunt> [DK]Tanguan
+20:46:25 - [DK]DaCongMing has hit [DK]VT (Outlander Warhammer, 48 DMG).
+20:46:25 - [DK]DaCongMing <img=ico_blunt> [DK]VT
+20:46:25 - The round 16 has ended
+20:46:27 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+20:46:27 - Sunxingmin has left the game with ID: 1219124.
+ 
+20:46:34 - *SERVER* [[DK]DaCongMing]: 下 半 场 比 赛 结 束 
+20:46:36 - [DK]VT has hit teammate [DK]Tanguan (Long Spear, 13 DMG).
+20:46:38 - [[DK]DaCongMing] 感 谢 
+20:46:41 - [DK]VT has hit teammate Mastertryin (Long Spear, 13 DMG).
+20:46:42 - [Lucky_Boyyy] GX
+20:46:43 - [DK]VT has hit teammate [DK]Tanguan (Long Spear, 2 DMG).
+20:46:49 - [Mastertryin] 走 了 
+20:46:52 - [Mastertryin] 陪 跑 
+20:46:53 - Mastertryin has left the game with ID: 6033480 and IP: 43.250.244.10
+20:46:53 - Mastertryin has left the game with ID: 6033480.
+20:46:53 -  <img=ico_headshot> Mastertryin
+20:46:57 - [DK]VT has hit teammate [DK]Tanguan (Long Spear, 8 DMG).
+20:47:00 - *SPEC* [lubyrose] biezoua
+20:47:01 -  <img=ico_headshot> [DK]Tanguan
+20:47:03 - *SPEC* [lubyrose] 我 们 呢 
+20:47:10 - [DK]Bitch08 has left the game with ID: 4175168 and IP: 119.39.131.104
+20:47:10 - [DK]Bitch08 has left the game with ID: 4175168.
+20:47:10 - [DK]VT has left the game with ID: 6058429 and IP: 119.123.135.29
+20:47:10 - [DK]VT has left the game with ID: 6058429.
+20:47:10 -  <img=ico_headshot> [DK]VT
+20:47:10 - The round 17 has ended
+20:47:12 - [DK]Tanguan has left the game with ID: 5913410 and IP: 39.82.60.181
+20:47:12 - [DK]Tanguan has left the game with ID: 5913410.
+20:47:15 -  <img=ico_headshot> MingRiXiang
+20:47:15 - MingRiXiang has been moved by the autobalancer (-2000)
+20:47:55 - MingRiXiang has hit [DK]DaCongMing (Warhammer, 33 DMG).
+20:47:57 - MingRiXiang has hit [DK]DaCongMing (Warhammer, 21 DMG).
+20:47:57 - MingRiXiang has hit [DK]DaCongMing (Warhammer, 20 DMG).
+20:47:57 - MingRiXiang <img=ico_blunt> [DK]DaCongMing
+20:47:59 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 27 DMG).
+20:48:02 - YQS_ZhuaZhua has hit Lucky_Boyyy (Scimitar, 9 DMG).
+20:48:03 - YQS_ZhuaZhua has hit Lucky_Boyyy (Scimitar, 10 DMG).
+20:48:08 - MingRiXiang has hit Lucky_Boyyy (Warhammer, 30 DMG).
+20:48:09 - YQS_ZhuaZhua has hit Lucky_Boyyy (Scimitar, 13 DMG).
+20:48:10 - MingRiXiang has hit teammate YQS_ZhuaZhua (Warhammer, 15 DMG).
+20:48:17 - MingRiXiang has hit Lucky_Boyyy (Warhammer, 31 DMG).
+20:48:17 - MingRiXiang <img=ico_blunt> Lucky_Boyyy
+20:48:17 - The round 18 has ended
+20:48:44 - MingRiXiang has hit [DK]DaCongMing (Warhammer, 20 DMG).
+20:48:45 - MingRiXiang has hit [DK]DaCongMing (Warhammer, 15 DMG).
+20:48:46 - MingRiXiang has hit [DK]DaCongMing (Warhammer, 25 DMG).
+20:48:47 - MingRiXiang has hit [DK]DaCongMing (Warhammer, 24 DMG).
+20:48:47 - MingRiXiang <img=ico_blunt> [DK]DaCongMing
+20:48:48 - MingRiXiang has hit Lucky_Boyyy (Warhammer, 31 DMG).
+20:48:49 - MingRiXiang has hit Lucky_Boyyy (Warhammer, 24 DMG).
+20:48:50 - MingRiXiang has hit Lucky_Boyyy (Warhammer, 14 DMG).
+20:48:50 - MingRiXiang <img=ico_blunt> Lucky_Boyyy
+20:48:50 - The round 19 has ended
+20:49:21 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+20:49:21 - MingRiXiang has left the game with ID: 4087139.
+20:49:21 -  <img=ico_headshot> MingRiXiang
+20:49:22 - YQS_ZhuaZhua has hit Lucky_Boyyy (Scimitar, 25 DMG).
+20:49:23 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 25 DMG).
+20:49:25 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 28 DMG).
+20:49:28 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 5 DMG).
+20:49:28 - lubyrose has left the game with ID: 3324767 and IP: 113.13.148.88
+20:49:28 - lubyrose has left the game with ID: 3324767.
+20:49:30 - Lucky_Boyyy has hit YQS_ZhuaZhua (Outlander Warhammer, 37 DMG).
+20:49:30 - Lucky_Boyyy <img=ico_blunt> YQS_ZhuaZhua
+20:49:30 - The round 20 has ended
+20:50:21 - YQS_ZhuaZhua has left the game with ID: 4566151 and IP: 58.255.40.67
+20:50:21 - YQS_ZhuaZhua has left the game with ID: 4566151.
+20:50:21 -  <img=ico_headshot> YQS_ZhuaZhua
+20:50:21 - The round 21 has ended
+20:51:10 - Lucky_Boyyy has left the game with ID: 4532852 and IP: 223.66.34.245
+20:51:10 - Lucky_Boyyy has left the game with ID: 4532852.
+20:52:15 - Yu_feng has joined the game with ID: 4265028 and IP: 175.6.5.173
+20:52:33 - Lucky_Boyyy has joined the game with ID: 4532852 and IP: 223.66.34.245
+20:52:39 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:53:02 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+20:53:04 - *DEAD* [DingzhenGanzi] 你 们 哪 个 队 的 ？ 
+20:53:18 - *SERVER* [[DK]DaCongMing]: 丁 真 
+20:53:23 - *CLAN* [[DK]DaCongMing]: 你 报 名 的 是 哪 个 号 
+20:53:28 - *SERVER* [[DK]DaCongMing]: 你 报 名 的 是 哪 个 号 
+20:53:43 - lubyrose has joined the game with ID: 3324767 and IP: 113.13.148.88
+20:53:53 - *DEAD* [DingzhenGanzi] 我 是 凶 巴 巴 的 老 爷 队 
+20:53:56 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 23 DMG).
+20:53:56 - *SERVER* [[DK]DaCongMing]: ZLH还 是 486
+20:53:57 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 19 DMG).
+20:53:59 - YQS_ZhuaZhua has joined the game with ID: 4566151 and IP: 58.255.40.67
+20:54:05 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 27 DMG).
+20:54:05 - Yu_feng <img=ico_blunt> [DK]DaCongMing
+20:54:05 - The round 22 has ended
+20:54:06 - *SERVER* [[DK]DaCongMing]: 要 用 报 名 的 ID哦 
+20:54:10 - [Yu_feng] 他 复 活 才 能 打 字 
+20:54:22 - *SERVER* [[DK]DaCongMing]: 要 用 报 名 的 ID
+20:54:28 - *CLAN* [[DK]DaCongMing]: 否 则 算 违 规 的 
+20:54:33 - [DingzhenGanzi] 就 是 这 个 
+20:54:40 - *SERVER* [[DK]DaCongMing]: 你 是 哪 个 
+20:54:55 - *SERVER* [[DK]DaCongMing]: 你 论 坛 ID是 哪 个 嘞 
+20:55:02 - [DingzhenGanzi] 论 坛 ID？ 
+20:55:08 - [DingzhenGanzi] 神 鸟 骏 河 
+20:55:10 - Yu_feng has hit MingRiXiang (Iron Mace, 29 DMG).
+20:55:11 - *SERVER* [[DK]DaCongMing]: ZLH还 是 486
+20:55:15 - Yu_feng has hit MingRiXiang (Iron Mace, 17 DMG).
+20:55:20 - *SERVER* [[DK]DaCongMing]: 你 看 一 下 那 个 共 享 文 档 表 
+20:55:25 - [Yu_feng] 什 么 情 况 
+20:55:29 - [Yu_feng] 你 ID搞 错 了 ？ 
+20:55:39 - [Lucky_Boyyy] :(
+20:55:42 - [Lucky_Boyyy] ?
+20:55:45 - *SERVER* [[DK]DaCongMing]: 看 下 群 里 面 哦 
+20:56:03 - *SERVER* [[DK]DaCongMing]: 看 下 DK群 
+20:56:09 - [DingzhenGanzi] 我 群 里 的 文 件 就 是 这 个 名 
+20:56:17 - [DingzhenGanzi] 我 是 第 四 组 的 
+20:56:23 -  <img=ico_headshot> DingzhenGanzi
+20:56:32 - *SERVER* [[DK]DaCongMing]: 原 来 这 个 不 是 你 队 友 。 。 
+20:56:44 - *SPEC* [DingzhenGanzi] 不 是 ， 我 的 队 友 和 队 友 都 不 在 
+20:56:48 - *SPEC* [DingzhenGanzi] 我 来 参 观 
+20:57:05 - *SERVER* [[DK]DaCongMing]: 这 边 进 行 的 是 DK瘦 巴 巴 姥 爷 队 和 DK海 军 四 大 将 哈 
+20:57:10 - ZLH has joined the game with ID: 5506520 and IP: 61.164.235.110
+20:57:11 - The round 23 has ended
+20:57:16 - *SPEC* [DingzhenGanzi] 好 ， 我 旁 观 
+20:57:38 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:57:38 - DingzhenGanzi has left the game with ID: 4936676.
+20:57:46 - 486AWA has joined the game with ID: 5130366 and IP: 112.1.173.23
+20:57:49 - *SERVER* [[DK]DaCongMing]: 还 差 一 个 哦 
+20:57:50 - 486AWA has left the game with ID: 5130366 and IP: 112.1.173.23
+20:57:50 - 486AWA has left the game with ID: 5130366.
+20:57:51 - [Yu_feng] 你 装 备 呢 
+20:57:53 - [Yu_feng] 兄 弟 
+20:57:54 - Yu_feng has hit teammate ZLH (none, 1 DMG).
+20:58:01 - [ZLH] 穷 啊 哥 们 
+20:58:05 - [Yu_feng] 不 是 
+20:58:06 - [Yu_feng] 不 是 哥 们 
+20:58:17 - [[DK]DaCongMing] ..
+20:58:24 - [Yu_feng] 打 雇 佣 兵 不 用 装 备 的 
+20:58:24 - [[DK]DaCongMing] 我 来 看 一 眼 
+20:58:32 - [Yu_feng] 这 我 怎 么 打 
+20:58:33 - [Yu_feng] 兄 弟 
+20:58:36 - [Lucky_Boyyy] ?
+20:58:38 - [[DK]DaCongMing] 你 可 以 用 那 个 默 认 兵 种 
+20:58:46 - [[DK]DaCongMing] 默 认 兵 种 有 一 个 剑 盾 的 
+20:58:51 - [Yu_feng] 那 他 武 器 能 用 吗 
+20:58:55 - [[DK]DaCongMing] 然 后 让 你 队 友 
+20:58:55 -  <img=ico_headshot> ZLH
+20:58:57 - [[DK]DaCongMing] 给 你 一 个 武 器 
+20:59:04 -  <img=ico_headshot> [DK]DaCongMing
+20:59:04 -  <img=ico_headshot> Yu_feng
+20:59:04 - The round 24 has ended
+20:59:04 -  <img=ico_headshot> Lucky_Boyyy
+20:59:04 -  <img=ico_headshot> MingRiXiang
+20:59:04 - The map has been reset.
+20:59:11 - [Yu_feng] 我 没 武 器 了 
+20:59:14 - [Yu_feng] 我 就 这 一 把 
+20:59:16 - [Yu_feng] 咋 整 
+20:59:16 - [[DK]DaCongMing] 可 以 带 俩 的 
+20:59:21 -  <img=ico_headshot> ZLH
+20:59:22 - [Yu_feng] 我 没 钱 买 主 要 是 
+20:59:24 - [[DK]DaCongMing] 同 一 个 武 器 可 以 带 俩 
+20:59:28 - [[DK]DaCongMing] 你 右 边 物 品 栏 
+20:59:29 - [Yu_feng] 啊 ？ 
+20:59:34 - [MingRiXiang] youxili
+20:59:36 -  <img=ico_headshot> [DK]DaCongMing
+20:59:36 -  <img=ico_headshot> Yu_feng
+20:59:36 - The round 25 has ended
+20:59:36 -  <img=ico_headshot> Lucky_Boyyy
+20:59:36 -  <img=ico_headshot> MingRiXiang
+20:59:36 - The map has been reset.
+20:59:38 - *DEAD* [Yu_feng] 噢 噢 
+20:59:42 - [ZLH] 没 
+20:59:56 - [Yu_feng] 你 选 那 个 swrod man
+20:59:57 - [[DK]DaCongMing] 默 认 兵 种 你 可 以 选 
+21:00:01 - [Yu_feng] 然 后 装 备 用 那 里 面 的 
+21:00:06 -  <img=ico_headshot> ZLH
+21:00:06 - [[DK]DaCongMing] 装 备 会 比 这 个 号 
+21:00:11 -  <img=ico_headshot> [DK]DaCongMing
+21:00:11 -  <img=ico_headshot> Yu_feng
+21:00:11 - The round 26 has ended
+21:00:11 -  <img=ico_headshot> Lucky_Boyyy
+21:00:11 -  <img=ico_headshot> MingRiXiang
+21:00:11 - The map has been reset.
+21:00:20 - [ZLH] A,A
+21:00:33 - [[DK]DaCongMing] 还 可 以 、 、 
+21:00:34 - casgo has joined the game with ID: 3481467 and IP: 111.194.72.186
+21:00:37 - [[DK]DaCongMing]  
+21:00:41 - [[DK]DaCongMing] 比 你 之 前 的 好 不 少 
+21:00:48 - [Lucky_Boyyy] 帅 
+21:00:51 - [Yu_feng] 真 能 打 吗 
+21:00:55 - [Yu_feng] hhh
+21:00:59 - [[DK]DaCongMing] 相 信 你 兄 弟 ， 哈 哈 
+21:01:02 - [MingRiXiang]  li hai
+21:01:03 - [Yu_feng] 行 行 行 
+21:01:04 - [[DK]DaCongMing] 还 有 个 兄 弟 呢 
+21:01:06 - [MingRiXiang] shuai
+21:01:20 - casgo has left the game with ID: 3481467 and IP: 111.194.72.186
+21:01:20 - casgo has left the game with ID: 3481467.
+21:01:20 - [[DK]DaCongMing] 486呢 
+21:02:12 - 486AWA has joined the game with ID: 5130366 and IP: 112.1.173.23
+21:02:23 - [Yu_feng] 兄 弟 加 油 哈 
+21:02:27 - [ZLH] HAO
+21:02:29 - [MingRiXiang] hao
+21:02:41 - [Yu_feng] 没 说 你 ， 你 落 油 
+21:02:49 - [MingRiXiang] T.T
+21:02:55 - *SERVER* [[DK]DaCongMing]: 双 方 只 允 许 一 个 人 用 非 单 手 武 器 
+21:02:58 -  <img=ico_headshot> ZLH
+21:02:58 -  <img=ico_headshot> [DK]DaCongMing
+21:02:58 -  <img=ico_headshot> Yu_feng
+21:02:58 - The round 27 has ended
+21:02:58 -  <img=ico_headshot> Lucky_Boyyy
+21:02:58 -  <img=ico_headshot> MingRiXiang
+21:02:58 - The map has been reset.
+21:03:10 - *SERVER* [[DK]DaCongMing]: 准 备 好 扣 1
+21:03:11 - [Yu_feng] 你 也 没 武 器 ？ 
+21:03:14 - [Lucky_Boyyy] 1
+21:03:21 - [Yu_feng] 这 怎 么 办 
+21:03:23 - [Yu_feng] 那 我 带 三 把 
+21:03:26 - [Lucky_Boyyy] 啊 
+21:03:32 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+21:03:33 - Sunxingmin has been given administrator rights (100)
+21:03:34 - [[DK]DaCongMing] 我 们 不 亏 是 DK盗 贼 工 会 
+21:03:38 - [Yu_feng] 卧 槽 
+21:03:41 - [[DK]DaCongMing] 太 有 实 力 
+21:03:44 -  <img=ico_headshot> ZLH
+21:03:44 -  <img=ico_headshot> [DK]DaCongMing
+21:03:44 -  <img=ico_headshot> Yu_feng
+21:03:44 -  <img=ico_headshot> Lucky_Boyyy
+21:03:44 -  <img=ico_headshot> 486AWA
+21:03:44 - The round 28 has ended
+21:03:44 -  <img=ico_headshot> MingRiXiang
+21:03:44 - The map has been reset.
+21:03:50 - [Yu_feng] 回 去 再 找 nane算 账 
+21:03:55 - [Yu_feng] 再 刷 一 下 
+21:04:00 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+21:04:00 - Sunxingmin has left the game with ID: 1219124.
+21:04:01 - *SERVER* [[DK]DaCongMing]: 双 方 只 允 许 一 个 成 员 带 非 单 手 武 器 ， 抢 5换 边 
+21:04:04 -  <img=ico_headshot> [DK]DaCongMing
+21:04:04 -  <img=ico_headshot> ZLH
+21:04:04 -  <img=ico_headshot> Yu_feng
+21:04:04 -  <img=ico_headshot> Lucky_Boyyy
+21:04:04 -  <img=ico_headshot> 486AWA
+21:04:04 - The round 29 has ended
+21:04:04 -  <img=ico_headshot> MingRiXiang
+21:04:04 - The map has been reset.
+21:04:17 - *SERVER* [[DK]DaCongMing]: 好 了 ， 扣 1哈 
+21:04:31 - [Yu_feng] 可 以 带 弯 刀 
+21:04:40 - [Yu_feng] 但 是 弯 刀 敲 不 动 人 
+21:04:43 - [Yu_feng] 他 们 是 重 甲 
+21:04:48 - [Yu_feng] 1
+21:04:53 - [ZLH] 1
+21:04:53 - [Lucky_Boyyy] 1
+
+21:04:59 -  <img=ico_headshot> 486AWA
+21:04:59 -  <img=ico_headshot> ZLH
+21:04:59 -  <img=ico_headshot> [DK]DaCongMing
+21:04:59 -  <img=ico_headshot> Yu_feng
+21:04:59 - The round 30 has ended
+21:04:59 -  <img=ico_headshot> Lucky_Boyyy
+21:04:59 -  <img=ico_headshot> MingRiXiang
+21:04:59 - The map has been reset.
+21:05:04 - The map has been reset.
+21:05:05 -  <img=ico_headshot> ZLH
+21:05:05 -  <img=ico_headshot> Yu_feng
+21:05:05 -  <img=ico_headshot> Lucky_Boyyy
+21:05:05 -  <img=ico_headshot> 486AWA
+21:05:05 - The round 31 has ended
+21:05:05 -  <img=ico_headshot> MingRiXiang
+21:05:05 - The map has been reset.
+21:05:10 - *SERVER* [[DK]DaCongMing]: 上 半 场 开 始 
+21:05:28 - Lucky_Boyyy has hit Yu_feng (Long Spear, 38 DMG).
+21:05:28 - MingRiXiang has hit Yu_feng (Warhammer, 27 DMG).
+21:05:28 - MingRiXiang <img=ico_blunt> Yu_feng
+21:05:29 - ZLH has hit Lucky_Boyyy (Iron Mace, 16 DMG).
+21:05:30 - Lucky_Boyyy has hit ZLH (Long Spear, 24 DMG).
+21:05:30 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 24 DMG).
+21:05:32 - MingRiXiang has hit 486AWA (Warhammer, 47 DMG).
+21:05:33 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 45 DMG).
+21:05:33 - [DK]DaCongMing <img=ico_blunt> ZLH
+21:05:34 - Lucky_Boyyy has hit 486AWA (Long Spear, 34 DMG).
+21:05:34 - Lucky_Boyyy <img=ico_spear> 486AWA
+21:05:34 - The round 32 has ended
+21:05:58 - ZLH has hit [DK]DaCongMing (Iron Mace, 39 DMG).
+21:05:58 - Lucky_Boyyy has hit 486AWA (Long Spear, 35 DMG).
+21:05:59 - 486AWA has hit teammate ZLH (Awlpike, 9 DMG).
+21:05:59 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 48 DMG).
+21:05:59 - [DK]DaCongMing <img=ico_blunt> 486AWA
+21:06:07 - Yu_feng has hit MingRiXiang (Iron Mace, 53 DMG).
+21:06:10 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 37 DMG).
+21:06:10 - MingRiXiang has hit ZLH (Warhammer, 35 DMG).
+21:06:10 - MingRiXiang <img=ico_blunt> ZLH
+21:06:16 - Lucky_Boyyy has hit Yu_feng (Outlander Warhammer, 20 DMG).
+21:06:19 - Lucky_Boyyy has hit Yu_feng (Long Spear, 26 DMG).
+21:06:22 - MingRiXiang has hit Yu_feng (Warhammer, 33 DMG).
+21:06:22 - MingRiXiang <img=ico_blunt> Yu_feng
+21:06:22 - The round 33 has ended
+21:06:42 - ZLH has hit MingRiXiang (Iron Mace, 11 DMG).
+21:06:44 - 486AWA has hit [DK]DaCongMing (Awlpike, 2 DMG).
+21:06:44 - Yu_feng has hit Lucky_Boyyy (Iron Mace, 27 DMG).
+21:06:45 - ZLH has hit MingRiXiang (Iron Mace, 26 DMG).
+21:06:46 - 486AWA has hit [DK]DaCongMing (Awlpike, 14 DMG).
+21:06:48 - 486AWA has hit MingRiXiang (Awlpike, 33 DMG).
+21:06:48 - 486AWA <img=ico_spear> MingRiXiang
+21:06:49 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 31 DMG).
+21:06:49 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 19 DMG).
+21:06:50 - ZLH has hit Lucky_Boyyy (Iron Mace, 22 DMG).
+21:06:52 - ZLH has hit Lucky_Boyyy (Iron Mace, 42 DMG).
+21:06:52 - ZLH <img=ico_blunt> Lucky_Boyyy
+21:06:52 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 28 DMG).
+21:06:52 - Yu_feng has hit teammate ZLH (Iron Mace, 17 DMG).
+21:06:53 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 33 DMG).
+21:06:53 - [DK]DaCongMing <img=ico_blunt> 486AWA
+21:06:54 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 13 DMG).
+21:06:55 - ZLH has hit [DK]DaCongMing (Iron Mace, 10 DMG).
+21:07:01 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 18 DMG).
+21:07:01 - Yu_feng <img=ico_blunt> [DK]DaCongMing
+21:07:01 - The round 34 has ended
+21:07:05 - [ZLH] HAO
+21:07:27 - [Yu_feng] bie dai liang ge dun
+21:07:27 - [[DK]DaCongMing] .
+21:07:31 - [Yu_feng] 别 带 两 个 盾 
+21:07:42 - [Yu_feng] 你 那 这 个 盾 
+21:07:51 - Lucky_Boyyy has hit 486AWA (Long Spear, 53 DMG).
+21:07:54 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 46 DMG).
+21:07:54 - ZLH has hit Lucky_Boyyy (Iron Mace, 30 DMG).
+21:07:55 - MingRiXiang has hit ZLH (Warhammer, 28 DMG).
+21:07:59 - MingRiXiang has hit 486AWA (Warhammer, 18 DMG).
+21:07:59 - MingRiXiang <img=ico_blunt> 486AWA
+21:08:00 - ZLH has hit MingRiXiang (Iron Mace, 32 DMG).
+21:08:00 - Lucky_Boyyy has hit ZLH (Long Spear, 19 DMG).
+21:08:00 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 21 DMG).
+21:08:01 - MingRiXiang has hit ZLH (Warhammer, 23 DMG).
+21:08:01 - MingRiXiang <img=ico_blunt> ZLH
+21:08:01 - Lucky_Boyyy has hit teammate MingRiXiang (Long Spear, 12 DMG).
+21:08:04 - Lucky_Boyyy has hit Yu_feng (Long Spear, 18 DMG).
+21:08:06 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 22 DMG).
+21:08:06 - [DK]DaCongMing <img=ico_blunt> Yu_feng
+21:08:06 - The round 35 has ended
+21:08:25 - lubyrose has left the game with ID: 3324767 and IP: 113.13.148.88
+21:08:25 - lubyrose has left the game with ID: 3324767.
+21:08:26 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 18 DMG).
+21:08:27 - Lucky_Boyyy has hit ZLH (Long Spear, 19 DMG).
+21:08:28 - MingRiXiang has hit 486AWA (Warhammer, 42 DMG).
+21:08:28 - Lucky_Boyyy has hit 486AWA (Long Spear, 55 DMG).
+21:08:28 - Lucky_Boyyy <img=ico_spear> 486AWA
+21:08:30 - ZLH has hit [DK]DaCongMing (Iron Mace, 22 DMG).
+21:08:31 - MingRiXiang has hit Yu_feng (Warhammer, 18 DMG).
+21:08:31 - ZLH has hit [DK]DaCongMing (Iron Mace, 18 DMG).
+21:08:32 - Lucky_Boyyy has hit teammate [DK]DaCongMing (Long Spear, 13 DMG).
+21:08:32 - Lucky_Boyyy <img=ico_spear> [DK]DaCongMing
+21:08:34 - ZLH has hit Lucky_Boyyy (Iron Mace, 19 DMG).
+21:08:36 - ZLH has hit Lucky_Boyyy (Iron Mace, 21 DMG).
+21:08:38 - Lucky_Boyyy has hit ZLH (Outlander Warhammer, 21 DMG).
+21:08:40 - ZLH has hit Lucky_Boyyy (Iron Mace, 27 DMG).
+21:08:40 - ZLH <img=ico_blunt> Lucky_Boyyy
+21:08:43 - ZLH has hit MingRiXiang (Iron Mace, 28 DMG).
+21:08:43 - Yu_feng has hit MingRiXiang (Iron Mace, 19 DMG).
+21:08:45 - Yu_feng has hit MingRiXiang (Iron Mace, 18 DMG).
+21:08:45 - Yu_feng <img=ico_blunt> MingRiXiang
+21:08:45 - The round 36 has ended
+21:09:06 - 486AWA has hit Lucky_Boyyy (Iron Mace, 15 DMG).
+21:09:07 - 486AWA has hit MingRiXiang (Iron Mace, 36 DMG).
+21:09:10 - Lucky_Boyyy has hit 486AWA (Long Spear, 27 DMG).
+21:09:11 - MingRiXiang has hit Yu_feng (Warhammer, 8 DMG).
+21:09:12 - MingRiXiang has hit 486AWA (Warhammer, 52 DMG).
+21:09:12 - MingRiXiang <img=ico_blunt> 486AWA
+21:09:13 - Lucky_Boyyy has hit Yu_feng (Long Spear, 16 DMG).
+21:09:13 - MingRiXiang has hit teammate Lucky_Boyyy (Warhammer, 10 DMG).
+21:09:18 - Lucky_Boyyy has hit ZLH (Long Spear, 25 DMG).
+21:09:18 - Lucky_Boyyy has hit ZLH (Long Spear, 2 DMG).
+21:09:20 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 29 DMG).
+21:09:20 - [DK]DaCongMing <img=ico_blunt> ZLH
+21:09:22 - Yu_feng has hit MingRiXiang (Iron Mace, 25 DMG).
+21:09:22 - Yu_feng <img=ico_blunt> MingRiXiang
+21:09:24 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 13 DMG).
+21:09:25 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 32 DMG).
+21:09:25 - Lucky_Boyyy has hit Yu_feng (Long Spear, 12 DMG).
+21:09:34 - Lucky_Boyyy has hit teammate [DK]DaCongMing (Long Spear, 12 DMG).
+21:09:47 - Lucky_Boyyy has hit Yu_feng (Long Spear, 1 DMG).
+21:09:47 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 28 DMG).
+21:09:47 - [DK]DaCongMing <img=ico_blunt> Yu_feng
+21:09:47 - The round 37 has ended
+21:10:08 - Yu_feng has hit Lucky_Boyyy (Iron Mace, 35 DMG).
+21:10:08 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 43 DMG).
+21:10:09 - Lucky_Boyyy has hit ZLH (Long Spear, 43 DMG).
+21:10:09 - Lucky_Boyyy <img=ico_spear> ZLH
+21:10:11 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 31 DMG).
+21:10:12 - Lucky_Boyyy has hit 486AWA (Long Spear, 2 DMG).
+21:10:12 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 15 DMG).
+21:10:13 - Lucky_Boyyy has hit 486AWA (Long Spear, 24 DMG).
+21:10:13 - Lucky_Boyyy <img=ico_spear> 486AWA
+21:10:15 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 21 DMG).
+21:10:15 - Lucky_Boyyy has hit Yu_feng (Long Spear, 14 DMG).
+21:10:16 - MingRiXiang has hit Yu_feng (Warhammer, 31 DMG).
+21:10:16 - Lucky_Boyyy has hit Yu_feng (Long Spear, 6 DMG).
+21:10:16 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 16 DMG).
+21:10:16 - [DK]DaCongMing <img=ico_blunt> Yu_feng
+21:10:16 - The round 38 has ended
+21:10:22 - *CLAN* [[DK]DaCongMing]: 上 半 场 
+21:10:27 - *SERVER* [[DK]DaCongMing]: 上 半 场 结 束 
+21:10:31 -  <img=ico_headshot> MingRiXiang
+21:10:31 -  <img=ico_headshot> 486AWA
+21:10:31 -  <img=ico_headshot> Lucky_Boyyy
+21:10:31 -  <img=ico_headshot> Yu_feng
+21:10:31 -  <img=ico_headshot> [DK]DaCongMing
+21:10:31 - The round 39 has ended
+21:10:31 -  <img=ico_headshot> ZLH
+21:10:45 - [Yu_feng] 下 手 轻 一 点 啊 哥 
+21:10:48 -  <img=ico_headshot> ZLH
+21:10:48 -  <img=ico_headshot> [DK]DaCongMing
+21:10:48 -  <img=ico_headshot> Yu_feng
+21:10:48 -  <img=ico_headshot> Lucky_Boyyy
+21:10:48 -  <img=ico_headshot> 486AWA
+21:10:48 - The round 40 has ended
+21:10:48 -  <img=ico_headshot> MingRiXiang
+21:10:48 - The map has been reset.
+21:11:12 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 扣 1
+21:11:14 - [[DK]DaCongMing] 0.0
+21:11:15 - [Yu_feng] 1
+21:11:21 - [Lucky_Boyyy] 1
+
+21:11:29 -  <img=ico_headshot> [DK]DaCongMing
+21:11:29 -  <img=ico_headshot> ZLH
+21:11:29 -  <img=ico_headshot> Yu_feng
+21:11:29 -  <img=ico_headshot> Lucky_Boyyy
+21:11:29 -  <img=ico_headshot> 486AWA
+21:11:29 - The round 41 has ended
+21:11:29 -  <img=ico_headshot> MingRiXiang
+21:11:29 - The map has been reset.
+21:11:36 -  <img=ico_headshot> ZLH
+21:11:36 -  <img=ico_headshot> Yu_feng
+21:11:36 -  <img=ico_headshot> Lucky_Boyyy
+21:11:36 -  <img=ico_headshot> 486AWA
+21:11:36 - The round 42 has ended
+21:11:36 -  <img=ico_headshot> MingRiXiang
+21:11:36 - The map has been reset.
+21:11:42 - *SERVER* [[DK]DaCongMing]: 下 半 场 开 始 
+21:12:00 - Lucky_Boyyy has hit ZLH (Long Spear, 13 DMG).
+21:12:00 - 486AWA has hit teammate ZLH (Iron Mace, 8 DMG).
+21:12:04 - ZLH has hit MingRiXiang (Iron Mace, 20 DMG).
+21:12:04 - 486AWA has hit [DK]DaCongMing (Iron Mace, 11 DMG).
+21:12:05 - Yu_feng has hit MingRiXiang (Iron Mace, 11 DMG).
+21:12:05 - ZLH has hit MingRiXiang (Iron Mace, 25 DMG).
+21:12:06 - Lucky_Boyyy has hit Yu_feng (Long Spear, 42 DMG).
+21:12:06 - ZLH has hit MingRiXiang (Iron Mace, 40 DMG).
+21:12:06 - ZLH <img=ico_blunt> MingRiXiang
+21:12:07 - 486AWA has hit [DK]DaCongMing (Iron Mace, 13 DMG).
+21:12:09 - Yu_feng has hit Lucky_Boyyy (Iron Mace, 19 DMG).
+21:12:09 - 486AWA has hit [DK]DaCongMing (Iron Mace, 23 DMG).
+21:12:09 - ZLH has hit Lucky_Boyyy (Iron Mace, 34 DMG).
+21:12:13 - Lucky_Boyyy has hit ZLH (Outlander Warhammer, 29 DMG).
+21:12:17 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 49 DMG).
+21:12:21 - Yu_feng has hit Lucky_Boyyy (Iron Mace, 18 DMG).
+21:12:21 - Yu_feng <img=ico_blunt> Lucky_Boyyy
+21:12:23 - ZLH has hit [DK]DaCongMing (Iron Mace, 31 DMG).
+21:12:23 - ZLH <img=ico_blunt> [DK]DaCongMing
+21:12:23 - The round 43 has ended
+21:12:29 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+21:12:30 - Sunxingmin has been given administrator rights (100)
+21:12:38 - Katsuyori has joined the game with ID: 4153280 and IP: 113.118.65.204
+21:12:39 - [X1]benboba has joined the game with ID: 4946740 and IP: 106.8.174.177
+21:12:39 - [X1]benboba has been given administrator rights (100)
+21:12:44 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 2 DMG).
+21:12:44 - 486AWA has hit teammate ZLH (Iron Mace, 16 DMG).
+21:12:46 - Lucky_Boyyy has hit 486AWA (Long Spear, 60 DMG).
+21:12:49 - Lucky_Boyyy has hit ZLH (Long Spear, 22 DMG).
+21:12:51 - ZLH has hit Lucky_Boyyy (Iron Mace, 28 DMG).
+21:12:51 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 37 DMG).
+21:12:51 - [DK]DaCongMing <img=ico_blunt> ZLH
+21:12:52 - MingRiXiang has hit Yu_feng (One Handed Bar Mace, 22 DMG).
+21:12:52 - Lucky_Boyyy has hit 486AWA (Long Spear, 31 DMG).
+21:12:52 - Lucky_Boyyy <img=ico_spear> 486AWA
+21:12:54 - Raphael has joined the game with ID: 4951826 and IP: 42.81.205.137
+21:12:54 - Yu_feng has hit MingRiXiang (Iron Mace, 19 DMG).
+21:12:57 - Lucky_Boyyy has hit Yu_feng (Long Spear, 24 DMG).
+21:12:57 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+21:12:57 - Sunxingmin has left the game with ID: 1219124.
+21:12:58 - MingRiXiang has hit teammate [DK]DaCongMing (One Handed Bar Mace, 14 DMG).
+21:13:01 - Lucky_Boyyy has hit teammate MingRiXiang (Long Spear, 9 DMG).
+21:13:03 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 20 DMG).
+21:13:03 - [DK]DaCongMing <img=ico_blunt> Yu_feng
+21:13:03 - The round 44 has ended
+21:13:05 - Marcovaldo has joined the game with ID: 3474873 and IP: 111.124.162.71
+21:13:25 - ZLH has hit [DK]DaCongMing (Iron Mace, 20 DMG).
+21:13:27 - MingRiXiang has hit 486AWA (One Handed Bar Mace, 53 DMG).
+21:13:28 - MingRiXiang has hit 486AWA (One Handed Bar Mace, 37 DMG).
+21:13:28 - MingRiXiang <img=ico_blunt> 486AWA
+21:13:33 - Lucky_Boyyy has hit teammate [DK]DaCongMing (Long Spear, 12 DMG).
+21:13:37 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 42 DMG).
+21:13:38 - Lucky_Boyyy has hit ZLH (Long Spear, 14 DMG).
+21:13:38 - Lucky_Boyyy <img=ico_spear> ZLH
+21:13:39 - Lucky_Boyyy has hit Yu_feng (Long Spear, 13 DMG).
+21:13:40 - [DK]DaCongMing has hit teammate MingRiXiang (Outlander Warhammer, 16 DMG).
+21:13:43 - Yu_feng has hit MingRiXiang (Iron Mace, 30 DMG).
+21:13:45 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 35 DMG).
+21:13:45 - MingRiXiang has hit Yu_feng (One Handed Bar Mace, 27 DMG).
+21:13:45 - MingRiXiang <img=ico_blunt> Yu_feng
+21:13:45 - The round 45 has ended
+21:14:08 - Lucky_Boyyy has hit ZLH (Long Spear, 23 DMG).
+21:14:09 - Yu_feng has hit Lucky_Boyyy (Iron Mace, 14 DMG).
+21:14:11 - Yu_feng has hit Lucky_Boyyy (Iron Mace, 24 DMG).
+21:14:11 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 10 DMG).
+21:14:11 - MingRiXiang has hit 486AWA (Warhammer, 31 DMG).
+21:14:12 - Lucky_Boyyy has hit Yu_feng (Long Spear, 22 DMG).
+21:14:14 - Lucky_Boyyy has hit ZLH (Long Spear, 30 DMG).
+21:14:14 - Lucky_Boyyy <img=ico_spear> ZLH
+21:14:15 - 486AWA has hit [DK]DaCongMing (Iron Mace, 51 DMG).
+21:14:20 - Lucky_Boyyy has hit Yu_feng (Long Spear, 6 DMG).
+21:14:20 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 19 DMG).
+21:14:21 - 486AWA has hit Lucky_Boyyy (Iron Mace, 25 DMG).
+21:14:21 - MingRiXiang has hit 486AWA (Warhammer, 49 DMG).
+21:14:21 - MingRiXiang <img=ico_blunt> 486AWA
+21:14:25 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 32 DMG).
+21:14:25 - [DK]DaCongMing <img=ico_blunt> Yu_feng
+21:14:25 - The round 46 has ended
+21:14:50 - ZLH has hit Lucky_Boyyy (Iron Mace, 9 DMG).
+21:14:51 - 486AWA has hit [DK]DaCongMing (Iron Mace, 9 DMG).
+21:14:55 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 29 DMG).
+21:14:56 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 30 DMG).
+21:14:56 - [DK]DaCongMing <img=ico_blunt> ZLH
+21:14:56 - MingRiXiang has hit 486AWA (Warhammer, 36 DMG).
+21:14:56 - Lucky_Boyyy has hit teammate [DK]DaCongMing (Long Spear, 5 DMG).
+21:14:58 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 31 DMG).
+21:15:00 - Yu_feng has hit [DK]DaCongMing (Iron Mace, 18 DMG).
+21:15:01 - MingRiXiang has hit 486AWA (Warhammer, 28 DMG).
+21:15:01 - MingRiXiang <img=ico_blunt> 486AWA
+21:15:07 - Yu_feng has hit MingRiXiang (Iron Mace, 45 DMG).
+21:15:07 - Lucky_Boyyy has hit teammate MingRiXiang (Long Spear, 16 DMG).
+21:15:07 - Lucky_Boyyy <img=ico_spear> MingRiXiang
+21:15:12 - Lucky_Boyyy has hit Yu_feng (Long Spear, 15 DMG).
+21:15:13 - [DK]DaCongMing has hit Yu_feng (Outlander Warhammer, 25 DMG).
+21:15:13 - [DK]DaCongMing <img=ico_blunt> Yu_feng
+21:15:13 - The round 47 has ended
+21:15:27 - [ZLH] QIANG GEIWO BA
+21:15:41 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 44 DMG).
+21:15:45 - [DK]DaCongMing has hit ZLH (Outlander Warhammer, 11 DMG).
+21:15:45 - [DK]DaCongMing <img=ico_blunt> ZLH
+21:15:51 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 35 DMG).
+21:15:55 - MingRiXiang has hit Yu_feng (Warhammer, 22 DMG).
+21:15:57 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 20 DMG).
+21:15:59 - [DK]DaCongMing has hit 486AWA (Outlander Warhammer, 39 DMG).
+21:15:59 - [DK]DaCongMing <img=ico_blunt> 486AWA
+21:16:12 - Lucky_Boyyy has hit Yu_feng (Outlander Warhammer, 16 DMG).
+21:16:14 - MingRiXiang has hit Yu_feng (Warhammer, 20 DMG).
+21:16:14 - MingRiXiang <img=ico_blunt> Yu_feng
+21:16:14 - The round 48 has ended
+21:16:18 - *SERVER* [[DK]DaCongMing]: 下 半 场 比 赛 结 束 
+21:16:19 - [X1]benboba has left the game with ID: 4946740 and IP: 106.8.174.177
+21:16:19 - [X1]benboba has left the game with ID: 4946740.
+21:16:21 - Katsuyori has left the game with ID: 4153280 and IP: 113.118.65.204
+21:16:21 - Katsuyori has left the game with ID: 4153280.
+21:16:21 - Raphael has left the game with ID: 4951826 and IP: 42.81.205.137
+21:16:21 - Raphael has left the game with ID: 4951826.
+21:16:27 - Marcovaldo has left the game with ID: 3474873 and IP: 111.124.162.71
+21:16:27 - Marcovaldo has left the game with ID: 3474873.
+21:16:34 - [[DK]DaCongMing] 感 谢 
+21:16:37 - [Yu_feng] 感 谢 
+21:16:38 - [ZLH] GX
+21:16:39 - [486AWA] ganxie
+21:16:46 - [[DK]DaCongMing] 你 们 还 有 队 伍 要 打 
+21:16:48 - [Lucky_Boyyy] gx
+21:16:48 - [[DK]DaCongMing] 我 帮 你 们 喊 下 
+21:16:51 - [Yu_feng] OK
+21:17:06 - MingRiXiang has hit ZLH (Warhammer, 14 DMG).
+21:17:09 - ZLH has hit MingRiXiang (Iron Mace, 27 DMG).
+21:17:12 - MingRiXiang has hit ZLH (Warhammer, 29 DMG).
+21:17:20 - MingRiXiang has hit ZLH (Warhammer, 21 DMG).
+21:17:20 - MingRiXiang <img=ico_blunt> ZLH
+21:17:40 - MingRiXiang has hit 486AWA (Warhammer, 36 DMG).
+21:17:41 - MingRiXiang has hit 486AWA (Warhammer, 31 DMG).
+21:17:41 - MingRiXiang <img=ico_blunt> 486AWA
+21:17:44 - MingRiXiang has hit Yu_feng (Warhammer, 40 DMG).
+21:17:45 - MingRiXiang has hit Yu_feng (Warhammer, 31 DMG).
+21:17:45 - MingRiXiang <img=ico_blunt> Yu_feng
+21:17:45 - The round 49 has ended
+21:18:03 - 486AWA has left the game with ID: 5130366 and IP: 112.1.173.23
+21:18:03 - 486AWA has left the game with ID: 5130366.
+21:18:03 -  <img=ico_headshot> 486AWA
+21:18:14 - [Yu_feng] ZLH你 本 来 就 没 装 备 吗 
+21:18:21 - [ZLH] 嗯 
+21:18:26 - 486AWA has joined the game with ID: 5130366 and IP: 112.1.173.23
+21:18:38 - [ZLH] 娜 娜 打 钱 了 
+21:18:42 - [ZLH] 嘿 嘿 
+21:18:46 - [MingRiXiang] wo de ne
+21:18:55 - MingRiXiang has hit ZLH (Warhammer, 32 DMG).
+21:18:56 - MingRiXiang has hit ZLH (Warhammer, 21 DMG).
+21:18:56 - MingRiXiang <img=ico_blunt> ZLH
+21:19:02 - ZLH has left the game with ID: 5506520 and IP: 61.164.235.110
+21:19:02 - ZLH has left the game with ID: 5506520.
+21:19:06 - MingRiXiang has hit Yu_feng (Warhammer, 17 DMG).
+21:19:11 - MingRiXiang has hit Yu_feng (Warhammer, 23 DMG).
+21:19:25 - MingRiXiang has hit Yu_feng (Warhammer, 20 DMG).
+21:19:25 - MingRiXiang <img=ico_blunt> Yu_feng
+21:19:25 - The round 50 has ended
+21:20:16 - Yu_feng has hit MingRiXiang (Iron Mace, 15 DMG).
+21:20:24 - Yu_feng has hit MingRiXiang (Iron Mace, 28 DMG).
+21:20:33 -  <img=ico_headshot> 486AWA
+21:20:33 -  <img=ico_headshot> Yu_feng
+21:20:33 - The round 51 has ended
+21:20:33 -  <img=ico_headshot> Lucky_Boyyy
+21:20:33 -  <img=ico_headshot> MingRiXiang
+21:20:33 - The map has been reset.
+21:20:55 - [DK]DaCongMing has left the game with ID: 4642268 and IP: 60.170.38.67
+21:20:55 - [DK]DaCongMing has left the game with ID: 4642268.
+21:20:55 -  <img=ico_headshot> [DK]DaCongMing
+21:21:01 - MingRiXiang has hit Yu_feng (Warhammer, 30 DMG).
+21:21:02 - MingRiXiang has hit 486AWA (Warhammer, 51 DMG).
+21:21:04 - MingRiXiang has hit 486AWA (Warhammer, 49 DMG).
+21:21:04 - MingRiXiang <img=ico_blunt> 486AWA
+21:21:16 - lubyrose has joined the game with ID: 3324767 and IP: 113.13.148.88
+21:21:23 - MingRiXiang has hit Yu_feng (Warhammer, 24 DMG).
+21:21:23 - MingRiXiang <img=ico_blunt> Yu_feng
+21:21:23 - The round 52 has ended
+21:21:25 - lubyrose has left the game with ID: 3324767 and IP: 113.13.148.88
+21:21:25 - lubyrose has left the game with ID: 3324767.
+21:21:48 - Yu_feng has hit MingRiXiang (Iron Mace, 19 DMG).
+21:21:49 - Yu_feng has hit MingRiXiang (Iron Mace, 22 DMG).
+21:21:50 - 486AWA has hit MingRiXiang (Outlander Warhammer, 28 DMG).
+21:21:50 - 486AWA <img=ico_blunt> MingRiXiang
+21:21:50 - YQS_ZhuaZhua has hit 486AWA (Scimitar, 26 DMG).
+21:21:51 - Yu_feng has hit YQS_ZhuaZhua (Iron Mace, 19 DMG).
+21:21:55 - Yu_feng has hit YQS_ZhuaZhua (Iron Mace, 25 DMG).
+21:21:56 - 486AWA has hit YQS_ZhuaZhua (Awlpike, 12 DMG).
+21:21:57 - Yu_feng has hit YQS_ZhuaZhua (Iron Mace, 23 DMG).
+21:21:57 - Yu_feng <img=ico_blunt> YQS_ZhuaZhua
+21:22:15 - Yu_feng has left the game with ID: 4265028 and IP: 175.6.5.173
+21:22:15 - Yu_feng has left the game with ID: 4265028.
+21:22:15 -  <img=ico_headshot> Yu_feng
+21:22:19 - 486AWA has left the game with ID: 5130366 and IP: 112.1.173.23
+21:22:19 - 486AWA has left the game with ID: 5130366.
+21:22:19 -  <img=ico_headshot> 486AWA
+21:22:19 - The round 53 has ended
+21:22:24 - YQS_ZhuaZhua has been moved by the autobalancer (0)
+21:23:20 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 27 DMG).
+21:23:26 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 23 DMG).
+21:23:32 - MingRiXiang has hit YQS_ZhuaZhua (Warhammer, 18 DMG).
+21:23:32 - MingRiXiang <img=ico_blunt> YQS_ZhuaZhua
+21:23:32 - The round 54 has ended
+21:24:52 - Lucky_Boyyy has left the game with ID: 4532852 and IP: 223.66.34.245
+21:24:52 - Lucky_Boyyy has left the game with ID: 4532852.
+21:24:52 -  <img=ico_headshot> Lucky_Boyyy
+21:24:53 - [DK]DaCongMing has joined the game with ID: 4642268 and IP: 60.170.38.67 and has administrator rights.
+21:25:27 - YQS_ZhuaZhua has left the game with ID: 4566151 and IP: 58.255.40.67
+21:25:27 - YQS_ZhuaZhua has left the game with ID: 4566151.
+21:25:27 -  <img=ico_headshot> YQS_ZhuaZhua
+21:25:27 - The round 55 has ended
+21:25:35 - Yu_feng has joined the game with ID: 4265028 and IP: 175.6.5.173
+21:26:01 - [COH]XinMei has joined the game with ID: 5414106 and IP: 111.23.19.123
+21:26:16 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+21:26:20 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+21:26:20 - MingRiXiang has left the game with ID: 4087139.
+21:26:20 -  <img=ico_headshot> MingRiXiang
+21:26:22 - Yu_feng has hit [COH]XinMei (Iron Mace, 21 DMG).
+21:26:23 - [COH]XinDi has been given administrator rights (100)
+21:26:23 - Yu_feng has hit [COH]XinMei (Iron Mace, 3 DMG).
+21:26:26 - Yu_feng has hit [COH]XinMei (Iron Mace, 24 DMG).
+21:26:28 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 25 DMG).
+21:26:28 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+21:26:28 - [COH]XinDi has left the game with ID: 4019251.
+21:26:33 - *SERVER* [[DK]DaCongMing]: 下 场 比 赛 DK瘦 巴 巴 姥 爷 队 伍 VS乐 观 王 国 队 
+21:26:35 - mama has joined the game with ID: 4736098 and IP: 124.164.116.142 and WSE2: 1122
+21:26:40 - Yu_feng has hit [COH]XinMei (Iron Mace, 29 DMG).
+21:26:40 - Yu_feng <img=ico_blunt> [COH]XinMei
+21:26:40 - The round 56 has ended
+21:26:46 - *SERVER* [[DK]DaCongMing]: 双 方 叫 下 队 友 哈 
+21:26:54 - [Yu_feng] OK
+21:27:16 - mama has hit Yu_feng (Outlanders Great Sword, 41 DMG).
+21:27:17 - mama has hit Yu_feng (Outlanders Great Sword, 18 DMG).
+21:27:17 - mama <img=ico_swordtwo> Yu_feng
+21:27:17 - The round 57 has ended
+21:27:33 - [Yu_feng] 他 们 可 能 在 买 装 备 
+21:27:43 - ZLH has joined the game with ID: 5506520 and IP: 61.164.235.110
+21:28:01 - Yu_feng has hit mama (Iron Mace, 15 DMG).
+21:28:09 - mama has hit Yu_feng (Outlanders Great Sword, 31 DMG).
+21:28:11 - mama has hit Yu_feng (Outlanders Great Sword, 17 DMG).
+21:28:15 - Yu_feng has hit mama (Iron Mace, 12 DMG).
+21:28:18 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+21:28:19 - [COH]XinDi has been given administrator rights (100)
+21:28:21 - *SERVER* [[DK]DaCongMing]: 双 方 还 差 一 名 成 员 
+21:28:23 - mama has hit Yu_feng (Outlanders Great Sword, 19 DMG).
+21:28:23 - mama <img=ico_swordtwo> Yu_feng
+21:28:23 - The round 58 has ended
+21:28:35 - *SERVER* [[DK]DaCongMing]: DK瘦 巴 巴 姥 爷 还 差 486哦 
+21:28:38 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+21:28:38 - [COH]XinDi has left the game with ID: 4019251.
+21:28:38 -  <img=ico_headshot> [COH]XinDi
+21:28:40 - [Yu_feng] OK
+21:28:43 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+21:28:44 - [COH]XinDi has been given administrator rights (100)
+21:28:45 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+21:28:45 - [COH]XinDi has left the game with ID: 4019251.
+21:28:52 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+21:28:53 - [COH]XinDi has been given administrator rights (100)
+21:28:53 - mama has hit Yu_feng (Outlanders Great Sword, 35 DMG).
+21:28:54 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+21:28:54 - [COH]XinDi has left the game with ID: 4019251.
+21:28:59 - mama has hit Yu_feng (Outlanders Great Sword, 30 DMG).
+21:28:59 - mama <img=ico_swordtwo> Yu_feng
+21:29:00 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+21:29:01 - [COH]XinDi has been given administrator rights (100)
+21:29:02 - 486AWA has joined the game with ID: 5130366 and IP: 112.1.173.23
+21:29:04 - mama has hit ZLH (Outlanders Great Sword, 23 DMG).
+21:29:06 - mama has hit ZLH (Outlanders Great Sword, 35 DMG).
+21:29:06 - mama <img=ico_swordtwo> ZLH
+21:29:06 - The round 59 has ended
+21:29:08 - [COH]XinMei has hit teammate mama (Demi Knight Cavalary Sword, 13 DMG).
+21:29:13 - *SERVER* [[DK]DaCongMing]: 好 的 ， 双 方 到 齐 了 
+21:29:30 - [Yu_feng] 你 能 多 带 个 盾 吗 
+21:29:31 - [Yu_feng] 兄 弟 
+21:29:37 - [Yu_feng] 还 是 说 你 想 玩 枪 
+21:29:37 - [[COH]XinMei] 好 的 
+21:29:44 - *SERVER* [[DK]DaCongMing]: 只 允 许 队 伍 一 人 带 非 单 手 武 器 ， 抢 5， 上 下 半 场 ， 准 备 好 了 扣 1
+21:29:45 - [Yu_feng] 你 们 要 不 要 玩 枪 
+21:29:47 - [[COH]XinDi] 准 保 了 
+21:29:51 - [[COH]XinDi] 准 备 好 了 
+21:30:01 - Marcovaldo has joined the game with ID: 3474873 and IP: 111.124.162.71
+21:30:11 - Marcovaldo has left the game with ID: 3474873 and IP: 111.124.162.71
+21:30:11 - Marcovaldo has left the game with ID: 3474873.
+21:30:13 - *SERVER* [[DK]DaCongMing]: DK瘦 巴 巴 姥 爷 队 好 了 嘛 
+21:30:19 - [Yu_feng] 就 是 你 们 想 玩 长 杆 还 是 剑 盾 
+21:30:23 - [Yu_feng] 稍 等 
+21:30:24 - [Yu_feng] 交 流 一 下 
+21:30:27 - [COH]XinDi has hit teammate mama (Nordlander Elite Sword, 12 DMG).
+21:30:30 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 11 DMG).
+21:30:32 - [COH]XinDi has hit teammate mama (Nordlander Elite Sword, 5 DMG).
+21:30:37 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 18 DMG).
+21:30:44 - [COH]XinDi has hit teammate mama (Nordlander Elite Sword, 5 DMG).
+21:30:46 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 4 DMG).
+21:30:51 - [COH]XinDi has hit teammate mama (Nordlander Elite Sword, 16 DMG).
+21:30:52 - [Yu_feng] 卡 了 吗 
+21:30:54 - [486AWA] 让 他 来 吧 
+21:30:56 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 14 DMG).
+21:30:57 - [486AWA] 我 不 会 长 杆 
+21:30:57 -  <img=ico_headshot> ZLH
+21:30:59 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 10 DMG).
+21:31:00 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 17 DMG).
+21:31:00 - mama <img=ico_swordtwo> [COH]XinDi
+21:31:03 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 16 DMG).
+21:31:07 - *DEAD* [ZLH] mai le
+21:31:18 - [Yu_feng] 你 要 玩 枪 吗 ？ 
+21:31:18 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 2 DMG).
+21:31:20 - [COH]XinMei has hit teammate mama (Demi Knight Cavalary Sword, 14 DMG).
+21:31:24 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 7 DMG).
+21:31:28 - [COH]XinMei has hit teammate mama (Demi Knight Cavalary Sword, 12 DMG).
+21:31:28 -  <img=ico_headshot> mama
+21:31:28 -  <img=ico_headshot> Yu_feng
+21:31:28 -  <img=ico_headshot> 486AWA
+21:31:28 - The round 60 has ended
+21:31:28 -  <img=ico_headshot> [COH]XinMei
+21:31:28 - The map has been reset.
+21:31:30 - *DEAD* [Yu_feng] 那 就 是 三 剑 盾 是 吧 
+21:31:36 - [ZLH] mai le chui zi
+21:31:38 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 了 扣 1哈 
+21:31:40 - [[COH]XinDi] 1
+21:31:40 - ZLH has left the game with ID: 5506520 and IP: 61.164.235.110
+21:31:40 - ZLH has left the game with ID: 5506520.
+21:31:40 -  <img=ico_headshot> ZLH
+21:31:40 - [[COH]XinDi] 1
+21:31:41 - [[COH]XinDi] 1
+21:31:41 - [[COH]XinDi] 1
+21:31:42 - [[COH]XinDi] 1
+21:31:43 - [Yu_feng] ok
+21:31:43 - [[COH]XinDi] 1
+21:31:49 - [486AWA] ?
+21:31:50 - [[COH]XinMei] 壹 
+21:31:51 - ZLH has joined the game with ID: 5506520 and IP: 61.164.235.110
+21:31:52 - [Yu_feng] 那 我 给 你 带 个 好 点 的 盾 
+21:31:59 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 13 DMG).
+21:32:03 - [Yu_feng] 我 给 你 俩 带 好 点 的 盾 
+21:32:11 - *SERVER* [[DK]DaCongMing]: DK瘦 巴 巴 姥 爷 队 ， 准 备 的 怎 么 样 
+21:32:14 - [Yu_feng] 1
+21:32:17 - mama has hit 486AWA (Outlanders Great Sword, 18 DMG).
+21:32:18 - mama has hit 486AWA (Outlanders Great Sword, 35 DMG).
+21:32:20 - [[COH]XinDi] 1
+21:32:20 - mama has hit 486AWA (Outlanders Great Sword, 37 DMG).
+21:32:20 - mama <img=ico_swordtwo> 486AWA
+
+21:32:24 - Mastertryin has joined the game with ID: 6033480 and IP: 43.250.244.10
+21:32:24 - [[COH]XinDi] 好 
+
+21:32:25 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 19 DMG).
+21:32:28 - ZLH has hit [COH]XinMei (Outlanders Flanged Mace, 21 DMG).
+21:32:28 -  <img=ico_headshot> ZLH
+21:32:28 -  <img=ico_headshot> [COH]XinDi
+21:32:28 -  <img=ico_headshot> mama
+21:32:28 -  <img=ico_headshot> Yu_feng
+21:32:28 - The round 61 has ended
+21:32:28 -  <img=ico_headshot> [COH]XinMei
+21:32:28 - The map has been reset.
+21:32:30 - The map has been reset.
+21:32:32 - The map has been reset.
+21:32:34 -  <img=ico_headshot> mama
+21:32:34 -  <img=ico_headshot> [COH]XinDi
+21:32:34 -  <img=ico_headshot> Yu_feng
+21:32:34 -  <img=ico_headshot> [COH]XinMei
+21:32:34 - The round 62 has ended
+21:32:34 -  <img=ico_headshot> ZLH
+21:32:34 - The map has been reset.
+21:32:38 - *SERVER* [[DK]DaCongMing]: 上 半 场 开 始 
+21:32:52 - [[COH]XinDi] 开 了 
+21:33:02 - 486AWA has hit teammate Yu_feng (Outlander Warhammer, 15 DMG).
+21:33:04 - mama has hit 486AWA (Outlanders Great Sword, 26 DMG).
+21:33:06 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 22 DMG).
+21:33:07 - mama has hit 486AWA (Outlanders Great Sword, 38 DMG).
+21:33:07 - mama <img=ico_swordtwo> 486AWA
+21:33:10 - ZLH has hit mama (Outlanders Flanged Mace, 42 DMG).
+21:33:12 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 14 DMG).
+21:33:15 - mama has hit ZLH (Outlanders Great Sword, 29 DMG).
+21:33:16 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 20 DMG).
+21:33:16 - [COH]XinDi <img=ico_swordone> Yu_feng
+21:33:17 - mama has hit ZLH (Outlanders Great Sword, 13 DMG).
+21:33:17 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 58 DMG).
+21:33:17 - [COH]XinMei <img=ico_swordone> ZLH
+21:33:17 - The round 63 has ended
+21:33:18 - *DEAD* [486AWA] sry
+21:33:24 - [ZLH] jian bu liao
+21:33:25 - *SPEC* [[DK]DaCongMing] master叫 下 你 队 友 哦 ， 下 一 场 就 是 你 们 
+21:33:38 - Yu_feng has hit [COH]XinDi (Iron Mace, 12 DMG).
+21:33:38 - 486AWA has hit [COH]XinMei (Outlander Warhammer, 39 DMG).
+21:33:41 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 50 DMG).
+21:33:44 - mama has hit ZLH (Outlanders Great Sword, 32 DMG).
+21:33:46 - 486AWA has hit [COH]XinDi (Outlander Warhammer, 25 DMG).
+21:33:47 - ZLH has hit mama (Outlanders Flanged Mace, 23 DMG).
+21:33:48 - [COH]XinDi has hit 486AWA (Nordlander Elite Sword, 31 DMG).
+21:33:48 - [COH]XinDi <img=ico_swordone> 486AWA
+21:33:49 - mama has hit ZLH (Outlanders Great Sword, 27 DMG).
+21:33:50 - Yu_feng has hit [COH]XinDi (Iron Mace, 45 DMG).
+21:33:50 - Yu_feng <img=ico_blunt> [COH]XinDi
+21:33:51 - mama has hit ZLH (Outlanders Great Sword, 3 DMG).
+21:33:53 - mama has hit ZLH (Outlanders Great Sword, 17 DMG).
+21:33:56 - Yu_feng has hit [COH]XinMei (Iron Mace, 25 DMG).
+21:33:59 - mama has hit ZLH (Outlanders Great Sword, 28 DMG).
+21:33:59 - mama <img=ico_swordtwo> ZLH
+21:34:04 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 12 DMG).
+21:34:06 - Yu_feng has hit mama (Iron Mace, 23 DMG).
+21:34:09 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 9 DMG).
+21:34:09 - mama <img=ico_swordtwo> [COH]XinMei
+21:34:43 - Yu_feng has hit mama (Iron Mace, 5 DMG).
+21:35:08 - *SPEC* [[DK]DaCongMing] 这 么 焦 灼 
+21:35:21 - *DEAD* [[COH]XinMei] 有 点 困 了 
+21:35:40 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+21:35:41 - Sunxingmin has been given administrator rights (100)
+21:35:42 - *SERVER* [[DK]DaCongMing]: 可 以 站 旗 帜 的 哈 
+21:35:56 - mama has hit Yu_feng (Outlanders Great Sword, 28 DMG).
+21:35:58 - mama has hit Yu_feng (Outlanders Great Sword, 27 DMG).
+21:35:58 - mama <img=ico_swordtwo> Yu_feng
+21:35:58 - The round 64 has ended
+21:36:01 - *SPEC* [Mastertryin] 66
+21:36:06 - [Yu_feng] 太 长 了 
+21:36:13 - *SPEC* [Mastertryin] TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTFGGGGGGGGGGGGGG
+21:36:18 - Yu_feng has hit [COH]XinMei (Iron Mace, 23 DMG).
+21:36:21 - mama has hit 486AWA (Outlanders Great Sword, 51 DMG).
+21:36:24 - 486AWA has hit [COH]XinDi (Outlander Warhammer, 38 DMG).
+21:36:25 - mama has hit ZLH (Outlanders Great Sword, 67 DMG).
+21:36:27 - mama has hit ZLH (Outlanders Great Sword, 13 DMG).
+21:36:27 - mama <img=ico_swordtwo> ZLH
+21:36:33 - mama has hit 486AWA (Outlanders Great Sword, 40 DMG).
+21:36:33 - mama <img=ico_swordtwo> 486AWA
+21:36:33 - Yu_feng has hit [COH]XinMei (Iron Mace, 32 DMG).
+21:36:37 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 9 DMG).
+21:36:38 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 16 DMG).
+21:36:38 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 19 DMG).
+21:36:39 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 11 DMG).
+21:36:42 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 27 DMG).
+21:36:42 - [COH]XinDi <img=ico_swordone> Yu_feng
+21:36:42 - The round 65 has ended
+21:36:47 - NotYourDope has joined the game with ID: 5350841 and IP: 180.105.82.226
+21:36:48 - The map has started: Desert Town.
+21:36:48 - Dynamic server settings have been updated.
+21:36:51 - Sunxingmin has been given administrator rights (100)
+21:36:51 - [COH]XinDi has been given administrator rights (100)
+21:36:53 - *SPEC* [[COH]XinDi] 。 
+21:36:57 - [[COH]XinMei] ??????????????????????、 、 
+21:37:06 - The map has started: The Cage.
+21:37:07 - Dynamic server settings have been updated.
+21:37:09 - Sunxingmin has been given administrator rights (100)
+21:37:09 - [COH]XinDi has been given administrator rights (100)
+21:37:14 - *SERVER* [[DK]DaCongMing]: 没 事 ， 比 分 我 记 着 了 
+21:37:24 - [COH]XinDi opened the door as a defender
+21:37:24 - ZLH opened the door as an attacker
+21:37:25 - *SERVER* [[DK]DaCongMing]: 3-0
+21:37:28 - *SERVER* [[DK]DaCongMing]: 比 赛 继 续 
+21:37:30 - Yu_feng has hit [COH]XinMei (Iron Mace, 45 DMG).
+21:37:31 - Yu_feng has hit [COH]XinMei (Iron Mace, 35 DMG).
+21:37:31 - Yu_feng <img=ico_blunt> [COH]XinMei
+21:37:32 - [COH]XinDi has hit ZLH (Nordlander Elite Sword, 55 DMG).
+21:37:33 - mama has hit 486AWA (Outlanders Great Sword, 17 DMG).
+21:37:34 - mama has hit 486AWA (Outlanders Great Sword, 28 DMG).
+21:37:35 - mama has hit 486AWA (Outlanders Great Sword, 40 DMG).
+21:37:35 - mama <img=ico_swordtwo> 486AWA
+21:37:36 - [IM]XiaoXiGua has joined the game with ID: 5803128 and IP: 120.238.225.213
+21:37:37 - mama has hit ZLH (Outlanders Great Sword, 2 DMG).
+21:37:39 - ZLH has hit mama (Outlanders Flanged Mace, 3 DMG).
+21:37:39 - Yu_feng has hit [COH]XinDi (Iron Mace, 26 DMG).
+21:37:44 - mama has hit ZLH (Outlanders Great Sword, 26 DMG).
+21:37:44 - mama <img=ico_swordtwo> ZLH
+21:37:46 - [DK]Tanguan has joined the game with ID: 5913410 and IP: 39.82.60.181
+21:37:47 - Yu_feng has hit [COH]XinDi (Iron Mace, 19 DMG).
+21:37:49 - [COH]XinDi has hit teammate mama (Nordlander Elite Sword, 11 DMG).
+21:37:51 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 17 DMG).
+21:37:57 - Yu_feng has hit mama (Iron Mace, 25 DMG).
+21:37:59 - mama has hit Yu_feng (Outlanders Great Sword, 15 DMG).
+21:38:01 - Yu_feng has hit [COH]XinDi (Iron Mace, 26 DMG).
+21:38:01 - Yu_feng <img=ico_blunt> [COH]XinDi
+21:38:03 - mama has hit Yu_feng (Outlanders Great Sword, 24 DMG).
+21:38:03 - mama <img=ico_swordtwo> Yu_feng
+21:38:03 - The round 1 has ended
+21:38:12 - *SERVER* [[DK]DaCongMing]: 4比 0
+21:38:29 - Yu_feng has hit [COH]XinDi (Iron Mace, 20 DMG).
+21:38:31 - Yu_feng has hit [COH]XinDi (Iron Mace, 26 DMG).
+21:38:32 - mama has hit 486AWA (Outlanders Great Sword, 28 DMG).
+21:38:34 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 37 DMG).
+21:38:35 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 16 DMG).
+21:38:42 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 17 DMG).
+21:38:42 - 486AWA has hit mama (Outlander Warhammer, 18 DMG).
+21:38:43 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 18 DMG).
+21:38:45 - 486AWA has hit mama (Outlander Warhammer, 4 DMG).
+21:38:45 - Yu_feng has hit [COH]XinDi (Iron Mace, 35 DMG).
+21:38:45 - Yu_feng <img=ico_blunt> [COH]XinDi
+21:38:47 - mama has hit 486AWA (Outlanders Great Sword, 35 DMG).
+21:38:47 - mama <img=ico_swordtwo> 486AWA
+21:38:48 - ZLH has hit [COH]XinMei (Outlanders Flanged Mace, 42 DMG).
+21:38:49 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 27 DMG).
+21:38:49 - [COH]XinMei <img=ico_swordone> ZLH
+21:38:55 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 13 DMG).
+21:38:56 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 16 DMG).
+21:39:01 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 30 DMG).
+21:39:01 - [COH]XinMei <img=ico_swordone> Yu_feng
+21:39:01 - The round 2 has ended
+21:39:05 - *SERVER* [[DK]DaCongMing]: 上 半 场 结 束 
+21:39:08 - [IM]XiaoXiGua has left the game with ID: 5803128 and IP: 120.238.225.213
+21:39:08 - [IM]XiaoXiGua has left the game with ID: 5803128.
+21:39:10 -  <img=ico_headshot> ZLH
+21:39:10 -  <img=ico_headshot> [COH]XinMei
+21:39:10 -  <img=ico_headshot> Yu_feng
+21:39:10 -  <img=ico_headshot> [COH]XinDi
+21:39:10 -  <img=ico_headshot> mama
+21:39:10 - The round 3 has ended
+21:39:10 -  <img=ico_headshot> 486AWA
+21:39:22 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 扣 1
+21:39:23 - [[COH]XinDi] 什 么 1
+21:39:24 - [[COH]XinDi] 1
+21:39:25 - [[COH]XinMei] 1111
+21:39:25 - [[COH]XinDi] 1
+21:39:28 - [Yu_feng] 1
+
+21:39:36 -  <img=ico_headshot> mama
+21:39:36 -  <img=ico_headshot> [COH]XinMei
+21:39:36 -  <img=ico_headshot> 486AWA
+21:39:36 -  <img=ico_headshot> [COH]XinDi
+21:39:36 - The round 4 has ended
+21:39:36 -  <img=ico_headshot> Yu_feng
+21:39:36 -  <img=ico_headshot> ZLH
+21:39:36 - The map has been reset.
+21:39:39 - The map has been reset.
+21:39:41 - The map has been reset.
+21:39:44 - The map has been reset.
+21:39:49 - *SERVER* [[DK]DaCongMing]: 下 半 场 开 始 
+21:39:59 - Yu_feng has hit [COH]XinDi (Iron Mace, 15 DMG).
+21:40:01 - mama has hit 486AWA (Outlanders Great Sword, 27 DMG).
+21:40:04 - mama has hit ZLH (Outlanders Great Sword, 20 DMG).
+21:40:07 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 17 DMG).
+21:40:07 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 40 DMG).
+21:40:07 - [COH]XinMei <img=ico_swordone> 486AWA
+21:40:08 - mama has hit ZLH (Outlanders Great Sword, 26 DMG).
+21:40:10 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 15 DMG).
+21:40:11 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 27 DMG).
+21:40:11 - [COH]XinDi <img=ico_swordone> Yu_feng
+21:40:15 - ZLH has hit mama (Outlanders Flanged Mace, 16 DMG).
+21:40:18 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 15 DMG).
+21:40:19 - mama has hit ZLH (Outlanders Great Sword, 24 DMG).
+21:40:19 - mama <img=ico_swordtwo> ZLH
+21:40:19 - The round 5 has ended
+21:40:38 - Yu_feng has hit [COH]XinDi (Iron Mace, 20 DMG).
+21:40:41 - Yu_feng has hit [COH]XinDi (Iron Mace, 27 DMG).
+21:40:43 - 486AWA has hit [COH]XinMei (Awlpike, 19 DMG).
+21:40:46 - 486AWA has hit [COH]XinMei (Awlpike, 22 DMG).
+21:40:46 - mama has hit ZLH (Outlanders Great Sword, 28 DMG).
+21:40:49 - mama has hit ZLH (Outlanders Great Sword, 23 DMG).
+21:40:51 - 486AWA has hit [COH]XinMei (Awlpike, 2 DMG).
+21:40:53 - mama has hit ZLH (Outlanders Great Sword, 14 DMG).
+21:40:57 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 27 DMG).
+21:40:58 - mama has hit ZLH (Outlanders Great Sword, 23 DMG).
+21:40:58 - mama <img=ico_swordtwo> ZLH
+21:41:02 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 32 DMG).
+21:41:02 - Yu_feng has hit [COH]XinDi (Iron Mace, 8 DMG).
+21:41:02 - mama has hit Yu_feng (Outlanders Great Sword, 22 DMG).
+21:41:03 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 37 DMG).
+21:41:03 - [COH]XinMei <img=ico_swordone> 486AWA
+21:41:05 - Yu_feng has hit [COH]XinDi (Iron Mace, 29 DMG).
+21:41:05 - Yu_feng <img=ico_blunt> [COH]XinDi
+21:41:08 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 35 DMG).
+21:41:08 - [COH]XinMei <img=ico_swordone> Yu_feng
+21:41:08 - The round 6 has ended
+21:41:29 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 28 DMG).
+21:41:30 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 40 DMG).
+21:41:30 - [COH]XinMei <img=ico_swordone> 486AWA
+21:41:31 - Yu_feng has hit [COH]XinMei (Iron Mace, 22 DMG).
+21:41:33 - mama has hit ZLH (Outlanders Great Sword, 65 DMG).
+21:41:35 - mama has hit ZLH (Outlanders Great Sword, 60 DMG).
+21:41:35 - mama <img=ico_swordtwo> ZLH
+21:41:37 - *SPEC* [[DK]DaCongMing] DK精 锐 队 ， 还 差 一 个 人 
+21:41:37 - Yu_feng has hit [COH]XinMei (Iron Mace, 43 DMG).
+21:41:37 - Yu_feng <img=ico_blunt> [COH]XinMei
+21:41:40 - mama has hit Yu_feng (Outlanders Great Sword, 10 DMG).
+21:41:43 - Yu_feng has hit [COH]XinDi (Iron Mace, 33 DMG).
+21:41:47 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 7 DMG).
+21:41:48 - Yu_feng has hit [COH]XinDi (Iron Mace, 14 DMG).
+21:41:51 - Yu_feng has hit [COH]XinDi (Iron Mace, 20 DMG).
+21:41:52 - mama has hit Yu_feng (Outlanders Great Sword, 12 DMG).
+21:41:58 - Yu_feng has hit [COH]XinDi (Iron Mace, 27 DMG).
+21:41:58 - Yu_feng <img=ico_blunt> [COH]XinDi
+21:42:28 - mama has hit Yu_feng (Outlanders Great Sword, 28 DMG).
+21:42:28 - mama <img=ico_swordtwo> Yu_feng
+21:42:28 - The round 7 has ended
+21:42:50 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 23 DMG).
+21:42:53 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 18 DMG).
+21:42:53 - mama has hit ZLH (Outlanders Great Sword, 25 DMG).
+21:42:53 - [COH]XinDi has hit 486AWA (Nordlander Elite Sword, 42 DMG).
+21:42:54 - mama has hit ZLH (Outlanders Great Sword, 20 DMG).
+21:42:54 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 21 DMG).
+21:42:58 - mama has hit Yu_feng (Outlanders Great Sword, 24 DMG).
+21:42:58 - mama <img=ico_swordtwo> Yu_feng
+21:43:01 - ZLH has hit mama (Outlanders Flanged Mace, 6 DMG).
+21:43:02 - [COH]XinMei has hit ZLH (Demi Knight Cavalary Sword, 25 DMG).
+21:43:02 - [COH]XinMei <img=ico_swordone> ZLH
+21:43:03 - 486AWA has hit [COH]XinDi (Outlander Warhammer, 20 DMG).
+21:43:06 - mama has hit 486AWA (Outlanders Great Sword, 27 DMG).
+21:43:06 - mama <img=ico_swordtwo> 486AWA
+21:43:06 - The round 8 has ended
+21:43:06 - [COH]XinMei has hit teammate mama (Demi Knight Cavalary Sword, 16 DMG).
+21:43:30 - 486AWA has hit [COH]XinMei (Awlpike, 17 DMG).
+21:43:32 - Yu_feng has hit [COH]XinDi (Iron Mace, 47 DMG).
+21:43:32 - ZLH has hit mama (Light Sabre, 23 DMG).
+21:43:32 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 31 DMG).
+21:43:33 - 486AWA has hit [COH]XinMei (Awlpike, 16 DMG).
+21:43:35 - 486AWA has hit [COH]XinMei (Awlpike, 23 DMG).
+21:43:35 - mama has hit ZLH (Outlanders Great Sword, 3 DMG).
+21:43:35 - Yu_feng has hit [COH]XinMei (Iron Mace, 26 DMG).
+21:43:35 - Yu_feng <img=ico_blunt> [COH]XinMei
+21:43:40 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 9 DMG).
+21:43:40 - mama has hit 486AWA (Outlanders Great Sword, 28 DMG).
+21:43:41 - mama has hit 486AWA (Outlanders Great Sword, 31 DMG).
+21:43:41 - mama <img=ico_swordtwo> 486AWA
+21:43:42 - ZLH has hit mama (Light Sabre, 22 DMG).
+21:43:43 - *SPEC* [[DK]DaCongMing] 叫 薯 片 哦 
+21:43:43 - mama has hit ZLH (Outlanders Great Sword, 19 DMG).
+21:43:47 - mama has hit ZLH (Outlanders Great Sword, 4 DMG).
+21:43:48 - *SPEC* [[DK]DaCongMing] 下 一 场 就 是 你 们 
+21:43:49 - mama has hit ZLH (Outlanders Great Sword, 20 DMG).
+21:43:51 - ZLH has hit mama (Light Sabre, 7 DMG).
+21:43:52 - mama has hit ZLH (Outlanders Great Sword, 15 DMG).
+21:43:53 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 8 DMG).
+21:43:55 - ZLH has hit mama (Light Sabre, 9 DMG).
+21:43:57 - Yu_feng has hit [COH]XinDi (Iron Mace, 18 DMG).
+21:43:58 - ZLH has hit mama (Light Sabre, 14 DMG).
+21:43:58 - ZLH <img=ico_swordone> mama
+21:44:00 - Yu_feng has hit [COH]XinDi (Iron Mace, 19 DMG).
+21:44:00 - Yu_feng <img=ico_blunt> [COH]XinDi
+21:44:00 - The round 9 has ended
+21:44:05 - [DK]VT has joined the game with ID: 6058429 and IP: 119.123.135.29
+21:44:09 - Marcovaldo has joined the game with ID: 3474873 and IP: 111.124.162.71
+21:44:10 - *SPEC* [Mastertryin] OKle1
+21:44:18 - *SPEC* [Mastertryin] ??
+21:44:21 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 7 DMG).
+21:44:21 - mama has hit ZLH (Outlanders Great Sword, 16 DMG).
+21:44:22 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 24 DMG).
+21:44:22 -  <img=ico_headshot> [DK]VT
+21:44:23 - mama has hit ZLH (Outlanders Great Sword, 27 DMG).
+21:44:23 - Yu_feng has hit [COH]XinMei (Outlanders Great Sword, 17 DMG).
+21:44:23 - *SPEC* [Mastertryin] TA
+21:44:24 - [COH]XinDi has hit teammate [COH]XinMei (Nordlander Elite Sword, 15 DMG).
+21:44:24 - mama has hit ZLH (Outlanders Great Sword, 46 DMG).
+21:44:24 - mama <img=ico_swordtwo> ZLH
+21:44:25 - Yu_feng has hit [COH]XinDi (Outlanders Great Sword, 1 DMG).
+21:44:27 - *SPEC* [[DK]VT] woc
+21:44:28 - Yu_feng has hit [COH]XinDi (Outlanders Great Sword, 9 DMG).
+21:44:28 - [COH]XinMei has hit 486AWA (Demi Knight Cavalary Sword, 40 DMG).
+21:44:28 - [COH]XinMei <img=ico_swordone> 486AWA
+21:44:29 - *SPEC* [Mastertryin] ben
+21:44:31 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 4 DMG).
+21:44:31 - Yu_feng has hit mama (Outlanders Great Sword, 9 DMG).
+21:44:32 - *SPEC* [[DK]DaCongMing] 抢 5
+21:44:32 - [COH]XinDi has hit Yu_feng (Nordlander Elite Sword, 17 DMG).
+21:44:33 - [COH]XinMei has hit teammate mama (Demi Knight Cavalary Sword, 6 DMG).
+21:44:34 - [COH]XinMei has hit Yu_feng (Demi Knight Cavalary Sword, 42 DMG).
+21:44:34 - [COH]XinMei <img=ico_swordone> Yu_feng
+21:44:34 - The round 10 has ended
+21:44:34 - *SPEC* [[DK]VT] sry
+21:44:37 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 10 DMG).
+21:44:38 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 15 DMG).
+21:44:40 - *SERVER* [[DK]DaCongMing]: 下 半 场 结 束 
+21:44:42 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 5 DMG).
+21:44:43 - Marcovaldo has left the game with ID: 3474873 and IP: 111.124.162.71
+21:44:43 - Marcovaldo has left the game with ID: 3474873.
+21:44:43 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 14 DMG).
+21:44:44 - [ZLH] gx
+21:44:44 - [[COH]XinDi] 感 谢 
+21:44:44 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 16 DMG).
+21:44:45 - [486AWA] 感 谢 
+21:44:46 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 20 DMG).
+21:44:47 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 20 DMG).
+21:44:47 - mama <img=ico_swordtwo> [COH]XinDi
+21:44:48 - [Yu_feng] 感 谢 
+21:44:49 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 19 DMG).
+21:44:49 - Yu_feng has left the game with ID: 4265028 and IP: 175.6.5.173
+21:44:49 - Yu_feng has left the game with ID: 4265028.
+21:44:49 -  <img=ico_headshot> Yu_feng
+21:44:54 - *SERVER* [[DK]DaCongMing]: 总 分 10比 1
+21:44:54 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 8 DMG).
+21:44:55 - *DEAD* [[COH]XinDi] 感 谢 
+21:44:56 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+21:44:56 - [COH]XinDi has left the game with ID: 4019251.
+21:44:58 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 19 DMG).
+21:44:59 - *SERVER* [[DK]DaCongMing]: 等 下 
+21:45:01 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 8 DMG).
+21:45:04 - *SERVER* [[DK]DaCongMing]: 下 一 场 
+21:45:06 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 12 DMG).
+21:45:06 - mama <img=ico_swordtwo> [COH]XinMei
+
+21:45:18 - mama has hit 486AWA (Outlanders Great Sword, 38 DMG).
+21:45:19 - mama has hit 486AWA (Outlanders Great Sword, 25 DMG).
+21:45:19 - mama <img=ico_swordtwo> 486AWA
+21:45:19 - *SERVER* [[DK]DaCongMing]: DK精 锐 队 打 乐 观 王 国 队 
+21:45:22 - mama has hit ZLH (Outlanders Great Sword, 11 DMG).
+21:45:24 - 486AWA has left the game with ID: 5130366 and IP: 112.1.173.23
+21:45:24 - 486AWA has left the game with ID: 5130366.
+21:45:30 - ZLH has hit mama (Light Sabre, 7 DMG).
+21:45:36 - ZLH has hit mama (Light Sabre, 7 DMG).
+21:45:37 - mama has hit ZLH (Outlanders Great Sword, 25 DMG).
+21:45:39 - mama has hit ZLH (Outlanders Great Sword, 9 DMG).
+21:45:42 - mama has hit ZLH (Outlanders Great Sword, 27 DMG).
+21:45:45 - ZLH has hit mama (Light Sabre, 13 DMG).
+21:45:46 - mama has hit ZLH (Outlanders Great Sword, 14 DMG).
+21:45:46 - mama <img=ico_swordtwo> ZLH
+21:45:46 - The round 11 has ended
+21:45:51 - *SERVER* [[DK]DaCongMing]: ZLH你 们 下 下 场 还 有 
+21:45:53 - ZLH has left the game with ID: 5506520 and IP: 61.164.235.110
+21:45:53 - ZLH has left the game with ID: 5506520.
+21:45:53 -  <img=ico_headshot> ZLH
+21:45:56 - mama has hit teammate [DK]VT (Outlanders Great Sword, 21 DMG).
+21:45:58 - mama has hit teammate [DK]VT (Outlanders Great Sword, 19 DMG).
+21:46:02 - *SERVER* [[DK]DaCongMing]: 乐 观 王 国 还 差 一 人 
+21:46:02 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 8 DMG).
+21:46:05 - ZLH has joined the game with ID: 5506520 and IP: 61.164.235.110
+21:46:05 - [DK]VT has hit teammate mama (Outlander Elite Long Sword, 22 DMG).
+21:46:06 - [DK]VT has hit teammate mama (Outlander Elite Long Sword, 25 DMG).
+21:46:07 - [COH]XinMei has left the game with ID: 5414106 and IP: 111.23.19.123
+21:46:07 - [COH]XinMei has left the game with ID: 5414106.
+21:46:07 -  <img=ico_headshot> [COH]XinMei
+21:46:10 - mama has hit teammate [DK]VT (Outlanders Great Sword, 21 DMG).
+21:46:11 - mama has hit teammate [DK]VT (Outlanders Great Sword, 15 DMG).
+21:46:11 - mama <img=ico_swordtwo> [DK]VT
+21:46:16 - [ZLH] a\
+21:46:18 - mama has hit Mastertryin (Outlanders Great Sword, 57 DMG).
+21:46:21 - Mastertryin has hit teammate [DK]Tanguan (Old Axe, 2 DMG).
+21:46:25 - mama has hit [DK]Tanguan (Outlanders Great Sword, 15 DMG).
+21:46:28 - *SERVER* [[DK]DaCongMing]: 乐 观 王 国 VSDK精 锐 队 
+21:46:30 - mama has hit Mastertryin (Outlanders Great Sword, 53 DMG).
+21:46:30 - mama <img=ico_swordtwo> Mastertryin
+21:46:30 - [ZLH] 还 有 吗 
+21:46:31 - mama has hit [DK]Tanguan (Outlanders Great Sword, 23 DMG).
+21:46:33 - mama has hit [DK]Tanguan (Outlanders Great Sword, 30 DMG).
+21:46:33 - mama <img=ico_swordtwo> [DK]Tanguan
+21:46:33 - [X1]benboba has joined the game with ID: 4946740 and IP: 106.8.174.177
+21:46:34 - [X1]benboba has been given administrator rights (100)
+21:46:36 -  <img=ico_headshot> ZLH
+21:46:36 - The round 12 has ended
+21:46:41 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+21:46:41 - Sunxingmin has left the game with ID: 1219124.
+21:46:45 - [X1]benboba has left the game with ID: 4946740 and IP: 106.8.174.177
+21:46:45 - [X1]benboba has left the game with ID: 4946740.
+21:46:50 - [Mastertryin] xianda da
+21:46:56 - [DK]VT has hit Mastertryin (Outlander Elite Long Sword, 27 DMG).
+21:47:05 - Mastertryin has hit [DK]VT (Old Axe, 28 DMG).
+21:47:05 - *SERVER* [[DK]DaCongMing]: 乐 观 王 国 队 伍 在 洗 点 
+21:47:14 - Mastertryin has hit [DK]VT (Old Axe, 4 DMG).
+21:47:18 - NotYourDope has left the game with ID: 5350841 and IP: 180.105.82.226
+21:47:18 - NotYourDope has left the game with ID: 5350841.
+21:47:20 - [DK]VT has hit Mastertryin (Outlander Elite Long Sword, 51 DMG).
+21:47:20 - [DK]VT <img=ico_swordtwo> Mastertryin
+21:47:22 - [DK]VT has hit [DK]Tanguan (Outlander Elite Long Sword, 15 DMG).
+21:47:22 - mama has hit teammate [DK]VT (Outlanders Great Sword, 22 DMG).
+21:47:33 - [DK]Tanguan has hit [DK]VT (One Handed Bar Mace, 67 DMG).
+21:47:33 - [DK]Tanguan <img=ico_blunt> [DK]VT
+21:47:38 - [DK]Tanguan has hit mama (One Handed Bar Mace, 30 DMG).
+21:47:44 - [DK]Tanguan has hit mama (One Handed Bar Mace, 39 DMG).
+21:47:44 - [DK]Tanguan <img=ico_blunt> mama
+21:47:44 - The round 13 has ended
+21:47:53 - mama has left the game with ID: 4736098 and IP: 124.164.116.142
+21:47:53 - mama has left the game with ID: 4736098.
+21:48:03 - [DK]VT closed the door as an attacker
+21:48:04 - [COH]XinMei has joined the game with ID: 5414106 and IP: 111.23.19.123
+21:48:05 - [Mastertryin] BUZHIDAI
+21:48:09 - Mastertryin opened the door as a defender
+21:48:10 - [[DK]Tanguan] 对 面 人 呢 
+21:48:13 - *SPEC* [[DK]DaCongMing] 在 洗 点 
+21:48:14 - NotYourDope has joined the game with ID: 5350841 and IP: 180.105.82.226
+21:48:17 - *SERVER* [[DK]DaCongMing]: 在 洗 点 
+21:48:18 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+21:48:18 - Sunxingmin has been given administrator rights (100)
+21:48:21 - [DK]VT has hit Mastertryin (Outlander Elite Long Sword, 40 DMG).
+21:48:22 - [DK]VT has hit Mastertryin (Outlander Elite Long Sword, 42 DMG).
+21:48:22 - [DK]VT <img=ico_swordtwo> Mastertryin
+21:48:25 - *SERVER* [[DK]DaCongMing]: 乐 观 王 国 队 伍 还 差 2人 
+21:48:29 - *SERVER* [[DK]DaCongMing]: 尽 快 到 齐 哦 
+21:48:35 - [[COH]XinMei] 下 把 还 是 乐 观 王 国 打 吗 
+21:48:39 - *SERVER* [[DK]DaCongMing]: 是 的 
+21:48:44 - [DK]Tanguan has hit [DK]VT (One Handed Bar Mace, 14 DMG).
+21:48:46 - [DK]Tanguan has hit [DK]VT (One Handed Bar Mace, 36 DMG).
+21:48:47 - [[COH]XinMei] 蒽 蒽 
+21:48:54 - [DK]Tanguan has hit [DK]VT (One Handed Bar Mace, 56 DMG).
+21:48:54 - [DK]Tanguan <img=ico_blunt> [DK]VT
+21:48:59 - [DK]Tanguan has hit [COH]XinMei (One Handed Bar Mace, 25 DMG).
+21:49:02 - *SERVER* [[DK]DaCongMing]: 这 一 场 是 DK精 锐 队 VS乐 观 王 国 队 
+21:49:07 - [DK]Tanguan has hit [COH]XinMei (One Handed Bar Mace, 34 DMG).
+21:49:16 - [DK]Tanguan has hit [COH]XinMei (One Handed Bar Mace, 4 DMG).
+21:49:18 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 20 DMG).
+21:49:20 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 16 DMG).
+21:49:27 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 14 DMG).
+21:49:30 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 22 DMG).
+21:49:30 - [COH]XinMei <img=ico_swordone> [DK]Tanguan
+21:49:30 - The round 14 has ended
+21:49:41 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+21:49:41 - Sunxingmin has left the game with ID: 1219124.
+21:49:44 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+21:49:45 - [COH]XinDi has been given administrator rights (100)
+21:49:54 - *SERVER* [[DK]DaCongMing]: 还 差 mama
+21:50:04 - NotYourDope has hit [COH]XinMei (Warhammer, 24 DMG).
+21:50:17 - [COH]XinMei has hit NotYourDope (Demi Knight Cavalary Sword, 34 DMG).
+21:50:18 - [DK]VT has hit [DK]Tanguan (Outlander Elite Long Sword, 16 DMG).
+21:50:18 - [DK]VT has hit [DK]Tanguan (Outlander Elite Long Sword, 34 DMG).
+21:50:19 - [COH]XinMei has hit NotYourDope (Demi Knight Cavalary Sword, 33 DMG).
+21:50:19 - [COH]XinDi has hit NotYourDope (Heavy Scimitar, 32 DMG).
+21:50:19 - [COH]XinDi <img=ico_swordone> NotYourDope
+21:50:20 - [DK]VT has hit [DK]Tanguan (Outlander Elite Long Sword, 19 DMG).
+21:50:20 - [DK]VT <img=ico_swordtwo> [DK]Tanguan
+21:50:27 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 7 DMG).
+21:50:27 - [DK]VT has hit teammate [COH]XinDi (Outlander Elite Long Sword, 13 DMG).
+21:50:46 - Yu_feng has joined the game with ID: 4265028 and IP: 175.6.5.173
+21:50:50 - *SERVER* [[DK]DaCongMing]: mama呢 
+21:50:54 - [[COH]XinDi] 马 上 来 
+21:51:15 - mama has joined the game with ID: 4736098 and IP: 124.164.116.142 and WSE2: 1122
+21:51:21 - [[COH]XinDi] 来 了 
+21:51:29 - *SERVER* [[DK]DaCongMing]: 双 方 仅 允 许 一 名 成 员 带 非 单 手 武 器 ， 抢 5， 上 下 半 场 
+21:51:34 -  <img=ico_headshot> [COH]XinDi
+21:51:34 -  <img=ico_headshot> [COH]XinMei
+21:51:34 -  <img=ico_headshot> Mastertryin
+21:51:34 - The round 15 has ended
+21:51:34 -  <img=ico_headshot> [DK]VT
+21:51:34 - The map has been reset.
+21:51:42 -  <img=ico_headshot> [DK]VT
+21:51:45 - NotYourDope has left the game with ID: 5350841 and IP: 180.105.82.226
+21:51:45 - NotYourDope has left the game with ID: 5350841.
+21:51:48 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 扣 1
+21:51:50 - *DEAD* [[DK]VT] 1
+21:51:51 - [Mastertryin] 11
+21:51:51 -  <img=ico_headshot> [DK]Tanguan
+21:51:51 -  <img=ico_headshot> [COH]XinMei
+21:51:51 -  <img=ico_headshot> [COH]XinDi
+21:51:51 -  <img=ico_headshot> Mastertryin
+21:51:51 - The round 16 has ended
+21:51:51 -  <img=ico_headshot> mama
+21:51:51 - The map has been reset.
+21:51:54 - *DEAD* [[COH]XinDi] 1
+21:51:55 - *DEAD* [[COH]XinDi] 1
+21:51:57 - [[DK]Tanguan] VT， 小 明 ， 你 俩 不 能 两 个 双 手 武 器 
+
+21:52:10 - Yu_feng has left the game with ID: 4265028 and IP: 175.6.5.173
+21:52:10 - Yu_feng has left the game with ID: 4265028.
+21:52:16 - [DK]VT has hit mama (Outlander Elite Long Sword, 10 DMG).
+21:52:17 - *SERVER* [[DK]DaCongMing]: 不 用 就 可 以 了 
+21:52:17 - [[DK]Tanguan] 等 一 下 
+21:52:18 - mama has hit [DK]VT (Outlanders Great Sword, 2 DMG).
+21:52:27 - [[DK]Tanguan] 我 们 这 边 能 这 么 装 备 吗 ？ 
+21:52:28 - mama has hit [DK]VT (Outlanders Great Sword, 11 DMG).
+21:52:29 - *SERVER* [[DK]DaCongMing]: 只 能 用 一 个 非 单 手 武 器 
+21:52:30 - mama has hit [DK]VT (Outlanders Great Sword, 33 DMG).
+21:52:31 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 28 DMG).
+21:52:31 - [COH]XinDi <img=ico_swordone> [DK]VT
+21:52:37 - [[DK]Tanguan] 裁 判 看 一 下 
+21:52:38 - mama has hit [DK]Tanguan (Outlanders Great Sword, 15 DMG).
+21:52:39 - mama has hit [DK]Tanguan (Outlanders Great Sword, 6 DMG).
+21:52:40 - mama has hit [DK]Tanguan (Outlanders Great Sword, 4 DMG).
+21:52:41 - [COH]XinDi has hit teammate mama (Heavy Scimitar, 12 DMG).
+21:52:44 - [Mastertryin] okLE1
+21:52:44 - *SERVER* [[DK]DaCongMing]: Master别 带 矛 
+21:52:48 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 12 DMG).
+21:52:50 - [COH]XinDi has hit teammate mama (Heavy Scimitar, 10 DMG).
+
+21:52:54 - mama has hit Mastertryin (Outlanders Great Sword, 38 DMG).
+21:52:55 -  <img=ico_headshot> [DK]Tanguan
+21:52:55 -  <img=ico_headshot> mama
+21:52:55 -  <img=ico_headshot> [COH]XinMei
+21:52:55 -  <img=ico_headshot> [COH]XinDi
+21:52:55 - The round 17 has ended
+21:52:55 -  <img=ico_headshot> Mastertryin
+21:52:55 - The map has been reset.
+21:52:58 - The map has been reset.
+21:53:00 - The map has been reset.
+21:53:02 -  <img=ico_headshot> [DK]Tanguan
+21:53:02 -  <img=ico_headshot> [DK]VT
+21:53:02 -  <img=ico_headshot> mama
+21:53:02 -  <img=ico_headshot> [COH]XinMei
+21:53:02 -  <img=ico_headshot> [COH]XinDi
+21:53:02 - The round 18 has ended
+21:53:02 -  <img=ico_headshot> Mastertryin
+21:53:02 - The map has been reset.
+21:53:07 - *SERVER* [[DK]DaCongMing]: 上 半 场 开 始 
+21:53:23 - Mastertryin has hit [COH]XinDi (Spiked Mace, 14 DMG).
+21:53:25 - mama has hit [DK]VT (Outlanders Great Sword, 40 DMG).
+21:53:25 - Mastertryin has hit [COH]XinMei (Spiked Mace, 13 DMG).
+21:53:26 - mama has hit [DK]VT (Outlanders Great Sword, 41 DMG).
+21:53:26 - mama <img=ico_swordtwo> [DK]VT
+21:53:28 - Mastertryin has hit [COH]XinMei (Spiked Mace, 17 DMG).
+21:53:29 - mama has hit Mastertryin (Outlanders Great Sword, 36 DMG).
+21:53:30 - ZLH has left the game with ID: 5506520 and IP: 61.164.235.110
+21:53:30 - ZLH has left the game with ID: 5506520.
+21:53:30 - mama has hit Mastertryin (Outlanders Great Sword, 35 DMG).
+21:53:30 - mama <img=ico_swordtwo> Mastertryin
+21:53:30 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 23 DMG).
+21:53:33 - mama has hit [DK]Tanguan (Outlanders Great Sword, 29 DMG).
+21:53:35 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 18 DMG).
+21:53:35 - [COH]XinMei <img=ico_swordone> [DK]Tanguan
+21:53:35 - The round 19 has ended
+21:53:58 - [DK]VT has hit mama (Outlander Elite Long Sword, 17 DMG).
+21:53:59 - Mastertryin has hit [COH]XinMei (Spiked Mace, 11 DMG).
+21:54:00 - [DK]VT has hit [COH]XinDi (Outlander Elite Long Sword, 13 DMG).
+21:54:00 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 39 DMG).
+21:54:01 - [DK]VT has hit [COH]XinDi (Outlander Elite Long Sword, 13 DMG).
+21:54:02 - mama has hit [DK]Tanguan (Outlanders Great Sword, 8 DMG).
+21:54:03 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 24 DMG).
+21:54:04 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 21 DMG).
+21:54:04 - mama has hit [DK]Tanguan (Outlanders Great Sword, 14 DMG).
+21:54:06 - [DK]VT has hit [COH]XinDi (Outlander Elite Long Sword, 21 DMG).
+21:54:07 - mama has hit [DK]Tanguan (Outlanders Great Sword, 27 DMG).
+21:54:07 - [DK]VT has hit [COH]XinDi (Outlander Elite Long Sword, 33 DMG).
+21:54:07 - [DK]VT <img=ico_swordtwo> [COH]XinDi
+21:54:10 - Mastertryin has hit [COH]XinMei (Spiked Mace, 17 DMG).
+21:54:10 - [DK]VT has hit [COH]XinMei (Outlander Elite Long Sword, 18 DMG).
+21:54:11 - Mastertryin has hit [COH]XinMei (Spiked Mace, 15 DMG).
+21:54:13 - [DK]VT has hit [COH]XinMei (Outlander Elite Long Sword, 39 DMG).
+21:54:13 - [DK]VT <img=ico_swordtwo> [COH]XinMei
+21:54:15 - mama has hit [DK]VT (Outlanders Great Sword, 9 DMG).
+21:54:18 - mama has hit Mastertryin (Outlanders Great Sword, 55 DMG).
+21:54:18 - mama <img=ico_swordtwo> Mastertryin
+21:54:22 - mama has hit [DK]Tanguan (Outlanders Great Sword, 2 DMG).
+21:54:24 - mama has hit [DK]VT (Outlanders Great Sword, 26 DMG).
+21:54:28 - [DK]Tanguan has hit mama (One Handed Bar Mace, 18 DMG).
+21:54:29 - [DK]Tanguan has hit mama (One Handed Bar Mace, 18 DMG).
+21:54:33 - mama has hit [DK]VT (Outlanders Great Sword, 39 DMG).
+21:54:33 - mama <img=ico_swordtwo> [DK]VT
+21:54:34 - mama has hit [DK]Tanguan (Outlanders Great Sword, 25 DMG).
+21:54:34 - mama <img=ico_swordtwo> [DK]Tanguan
+21:54:34 - The round 20 has ended
+21:54:38 - *DEAD* [[DK]VT] NB
+21:54:56 - Mastertryin has hit [COH]XinMei (Spiked Mace, 6 DMG).
+21:54:56 - mama has hit [DK]VT (Outlanders Great Sword, 40 DMG).
+21:54:57 - Mastertryin has hit [COH]XinMei (Spiked Mace, 12 DMG).
+21:55:02 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 30 DMG).
+21:55:02 - [COH]XinDi <img=ico_swordone> [DK]VT
+21:55:03 - [DK]Tanguan has hit mama (One Handed Bar Mace, 47 DMG).
+21:55:03 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 15 DMG).
+21:55:03 - Mastertryin has hit [COH]XinMei (Spiked Mace, 26 DMG).
+21:55:05 - mama has hit [DK]Tanguan (Outlanders Great Sword, 16 DMG).
+21:55:06 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 11 DMG).
+21:55:06 - Mastertryin has hit [COH]XinMei (Spiked Mace, 40 DMG).
+21:55:06 - Mastertryin <img=ico_blunt> [COH]XinMei
+21:55:07 - Mastertryin has hit [COH]XinDi (Spiked Mace, 17 DMG).
+21:55:08 - Mastertryin has hit [COH]XinDi (Spiked Mace, 2 DMG).
+21:55:09 - [DK]Tanguan has hit teammate Mastertryin (One Handed Bar Mace, 1 DMG).
+21:55:09 - mama has hit Mastertryin (Outlanders Great Sword, 24 DMG).
+21:55:10 - [DK]Tanguan has hit [COH]XinDi (One Handed Bar Mace, 19 DMG).
+21:55:17 - Yu_feng has joined the game with ID: 4265028 and IP: 175.6.5.173
+21:55:17 - mama has hit Mastertryin (Outlanders Great Sword, 34 DMG).
+21:55:20 - mama has hit Mastertryin (Outlanders Great Sword, 29 DMG).
+21:55:20 - mama <img=ico_swordtwo> Mastertryin
+21:55:22 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 20 DMG).
+21:55:23 - [DK]Tanguan has hit [COH]XinDi (One Handed Bar Mace, 24 DMG).
+21:55:24 - mama has hit [DK]Tanguan (Outlanders Great Sword, 23 DMG).
+21:55:24 - mama <img=ico_swordtwo> [DK]Tanguan
+21:55:24 - The round 21 has ended
+21:55:46 - [DK]VT has hit [COH]XinDi (Outlander Elite Long Sword, 18 DMG).
+21:55:49 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 50 DMG).
+21:55:52 - mama has hit [DK]Tanguan (Outlanders Great Sword, 17 DMG).
+21:55:54 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 25 DMG).
+21:55:54 - [COH]XinMei <img=ico_swordone> Mastertryin
+21:55:56 - mama has hit [DK]Tanguan (Outlanders Great Sword, 13 DMG).
+21:55:56 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 41 DMG).
+21:55:56 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 32 DMG).
+21:55:57 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 10 DMG).
+21:55:57 - [COH]XinMei <img=ico_swordone> [DK]Tanguan
+21:56:00 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 53 DMG).
+21:56:00 - [COH]XinDi <img=ico_swordone> [DK]VT
+21:56:00 - The round 22 has ended
+21:56:02 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 10 DMG).
+21:56:21 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 58 DMG).
+21:56:25 - Mastertryin has hit [COH]XinDi (Spiked Mace, 19 DMG).
+21:56:30 - [DK]Tanguan has hit [COH]XinMei (One Handed Bar Mace, 29 DMG).
+21:56:33 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 14 DMG).
+21:56:34 - [COH]XinDi has hit teammate mama (Outlanders Great Sword, 14 DMG).
+21:56:38 - [COH]XinDi has hit Mastertryin (Outlanders Great Sword, 33 DMG).
+21:56:38 - [COH]XinDi <img=ico_swordtwo> Mastertryin
+21:56:39 - [DK]VT has hit mama (Outlander Elite Long Sword, 14 DMG).
+21:56:40 - mama has hit [DK]VT (Heavy Scimitar, 14 DMG).
+21:56:40 - [COH]XinDi has hit [DK]VT (Outlanders Great Sword, 30 DMG).
+21:56:41 - mama has hit [DK]VT (Heavy Scimitar, 14 DMG).
+21:56:42 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 22 DMG).
+21:56:43 - [COH]XinDi has hit [DK]VT (Outlanders Great Sword, 20 DMG).
+21:56:43 - [COH]XinDi <img=ico_swordtwo> [DK]VT
+21:56:45 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 5 DMG).
+21:56:48 - [DK]Tanguan has hit [COH]XinMei (One Handed Bar Mace, 48 DMG).
+21:56:48 - [DK]Tanguan <img=ico_blunt> [COH]XinMei
+21:56:48 - [COH]XinDi has hit [DK]Tanguan (Outlanders Great Sword, 19 DMG).
+21:56:49 - [COH]XinDi has hit [DK]Tanguan (Outlanders Great Sword, 20 DMG).
+21:56:49 - [COH]XinDi <img=ico_swordtwo> [DK]Tanguan
+21:56:49 - The round 23 has ended
+21:56:55 - *SERVER* [[DK]DaCongMing]: 上 半 场 结 束 
+21:56:58 -  <img=ico_headshot> Mastertryin
+21:56:58 -  <img=ico_headshot> [COH]XinDi
+21:56:58 -  <img=ico_headshot> [COH]XinMei
+21:56:58 -  <img=ico_headshot> mama
+21:56:58 - The round 24 has ended
+21:56:58 -  <img=ico_headshot> [DK]VT
+21:56:58 -  <img=ico_headshot> [DK]Tanguan
+21:57:03 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 扣 1
+21:57:04 - [[DK]VT] 1
+21:57:06 - [[COH]XinDi] 1
+21:57:10 - [Mastertryin] 1
+21:57:11 - [[COH]XinDi] 1
+21:57:12 - [Mastertryin] g
+
+21:57:13 - [[COH]XinMei] 1
+21:57:13 - [[DK]Tanguan] 1
+21:57:14 -  <img=ico_headshot> [DK]Tanguan
+21:57:14 -  <img=ico_headshot> [DK]VT
+21:57:14 -  <img=ico_headshot> mama
+21:57:14 -  <img=ico_headshot> [COH]XinMei
+21:57:14 -  <img=ico_headshot> [COH]XinDi
+21:57:14 - The round 25 has ended
+21:57:14 -  <img=ico_headshot> Mastertryin
+21:57:14 - The map has been reset.
+21:57:15 - *DEAD* [Mastertryin] t
+21:57:19 - The map has been reset.
+21:57:20 -  <img=ico_headshot> [DK]Tanguan
+21:57:20 -  <img=ico_headshot> [DK]VT
+21:57:20 - The round 26 has ended
+21:57:20 -  <img=ico_headshot> mama
+21:57:20 -  <img=ico_headshot> [COH]XinMei
+21:57:20 -  <img=ico_headshot> [COH]XinDi
+21:57:20 - The map has been reset.
+21:57:25 - *SERVER* [[DK]DaCongMing]: 下 半 场 开 始 
+21:57:40 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 34 DMG).
+21:57:41 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 12 DMG).
+21:57:42 - Mastertryin has hit [COH]XinMei (Spiked Mace, 18 DMG).
+21:57:42 - *CLAN* [[DK]DaCongMing]: 打 完 DK兄 弟 别 走 哈 ， 你 们 还 有 下 一 场 
+21:57:43 - mama has hit [DK]Tanguan (Outlanders Great Sword, 16 DMG).
+21:57:46 - mama has hit [DK]Tanguan (Outlanders Great Sword, 13 DMG).
+21:57:47 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 15 DMG).
+21:57:50 - mama has hit [DK]Tanguan (Outlanders Great Sword, 18 DMG).
+21:57:50 - [DK]VT has hit [COH]XinDi (Outlander Elite Long Sword, 6 DMG).
+21:57:51 - Mastertryin has hit [COH]XinMei (Spiked Mace, 16 DMG).
+21:57:52 - Mastertryin has hit [COH]XinMei (Spiked Mace, 26 DMG).
+21:57:57 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 25 DMG).
+21:57:57 - mama has hit [DK]Tanguan (Outlanders Great Sword, 13 DMG).
+21:57:58 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 26 DMG).
+21:57:58 - [COH]XinMei <img=ico_swordone> Mastertryin
+21:57:59 - [COH]XinMei has hit [DK]VT (Demi Knight Cavalary Sword, 31 DMG).
+21:58:00 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 19 DMG).
+21:58:00 - [COH]XinDi <img=ico_swordone> [DK]VT
+21:58:00 - mama has hit [DK]Tanguan (Outlanders Great Sword, 9 DMG).
+21:58:00 - mama <img=ico_swordtwo> [DK]Tanguan
+21:58:00 - The round 27 has ended
+21:58:20 - mama has hit Mastertryin (Outlanders Great Sword, 11 DMG).
+21:58:22 - Mastertryin has hit mama (Spiked Mace, 13 DMG).
+21:58:23 - [DK]Tanguan has hit [COH]XinMei (One Handed Bar Mace, 33 DMG).
+21:58:24 - mama has hit Mastertryin (none, 2 DMG).
+21:58:25 - mama has hit Mastertryin (Outlanders Great Sword, 40 DMG).
+21:58:26 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 17 DMG).
+21:58:26 - mama has hit Mastertryin (Outlanders Great Sword, 34 DMG).
+21:58:26 - mama <img=ico_swordtwo> Mastertryin
+21:58:27 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 23 DMG).
+21:58:31 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 36 DMG).
+21:58:31 - [COH]XinDi <img=ico_swordone> [DK]VT
+21:58:35 - mama has hit [DK]Tanguan (Outlanders Great Sword, 11 DMG).
+21:58:36 - mama has hit [DK]Tanguan (Outlanders Great Sword, 18 DMG).
+21:58:36 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 10 DMG).
+21:58:37 - mama has hit [DK]Tanguan (Outlanders Great Sword, 17 DMG).
+21:58:37 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 20 DMG).
+21:58:37 - [COH]XinMei <img=ico_swordone> [DK]Tanguan
+21:58:37 - The round 28 has ended
+21:58:37 - [COH]XinDi has hit teammate mama (Heavy Scimitar, 10 DMG).
+21:58:39 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 14 DMG).
+21:58:42 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 9 DMG).
+21:58:43 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 8 DMG).
+21:59:00 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 26 DMG).
+21:59:02 - mama has hit [DK]VT (Outlanders Great Sword, 31 DMG).
+21:59:05 - mama has hit [DK]VT (Outlanders Great Sword, 34 DMG).
+21:59:05 - mama <img=ico_swordtwo> [DK]VT
+21:59:06 - [COH]XinDi has hit teammate mama (Heavy Scimitar, 16 DMG).
+21:59:07 - [DK]Tanguan has hit mama (One Handed Bar Mace, 47 DMG).
+21:59:07 - [DK]Tanguan <img=ico_blunt> mama
+21:59:08 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 34 DMG).
+21:59:08 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 17 DMG).
+21:59:10 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 28 DMG).
+21:59:10 - [COH]XinMei <img=ico_swordone> Mastertryin
+21:59:11 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 20 DMG).
+21:59:11 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 8 DMG).
+21:59:14 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 11 DMG).
+21:59:14 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 7 DMG).
+21:59:16 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 43 DMG).
+21:59:16 - [COH]XinDi <img=ico_swordone> [DK]Tanguan
+21:59:16 - The round 29 has ended
+21:59:25 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 7 DMG).
+21:59:28 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 9 DMG).
+21:59:31 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 9 DMG).
+21:59:37 - [COH]XinMei has hit [DK]VT (Demi Knight Cavalary Sword, 46 DMG).
+21:59:38 - mama has hit Mastertryin (Outlanders Great Sword, 25 DMG).
+21:59:39 - [COH]XinMei has hit [DK]VT (Demi Knight Cavalary Sword, 8 DMG).
+21:59:40 - mama has hit Mastertryin (Outlanders Great Sword, 33 DMG).
+21:59:40 - [COH]XinDi has hit teammate mama (Heavy Scimitar, 4 DMG).
+21:59:41 - [DK]VT has hit [COH]XinMei (Outlander Elite Long Sword, 23 DMG).
+21:59:41 - [DK]Tanguan has hit mama (One Handed Bar Mace, 30 DMG).
+21:59:46 - ZLH has joined the game with ID: 5506520 and IP: 61.164.235.110
+21:59:46 - [COH]XinMei has hit [DK]VT (Demi Knight Cavalary Sword, 26 DMG).
+21:59:46 - [COH]XinMei <img=ico_swordone> [DK]VT
+21:59:48 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 10 DMG).
+21:59:50 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 23 DMG).
+21:59:51 - Mastertryin has hit [COH]XinDi (Spiked Mace, 9 DMG).
+21:59:52 - Mastertryin has hit [COH]XinDi (Spiked Mace, 16 DMG).
+21:59:52 - mama has hit Mastertryin (Outlanders Great Sword, 36 DMG).
+21:59:52 - mama <img=ico_swordtwo> Mastertryin
+21:59:52 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 13 DMG).
+21:59:54 - mama has hit [DK]Tanguan (Outlanders Great Sword, 15 DMG).
+21:59:54 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 17 DMG).
+21:59:55 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 9 DMG).
+21:59:55 - [COH]XinMei <img=ico_swordone> [DK]Tanguan
+21:59:55 - The round 30 has ended
+21:59:58 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 12 DMG).
+21:59:58 - mama <img=ico_swordtwo> [COH]XinDi
+22:00:09 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 6 DMG).
+22:00:10 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 6 DMG).
+22:00:14 - [COH]XinMei has hit [DK]VT (Demi Knight Cavalary Sword, 38 DMG).
+22:00:14 - [DK]Tanguan has hit teammate Mastertryin (One Handed Bar Mace, 16 DMG).
+22:00:14 - mama has hit Mastertryin (Outlanders Great Sword, 23 DMG).
+22:00:15 - [COH]XinDi has hit [DK]VT (Heavy Scimitar, 44 DMG).
+22:00:15 - [COH]XinDi <img=ico_swordone> [DK]VT
+22:00:18 - mama has hit [DK]Tanguan (Outlanders Great Sword, 14 DMG).
+22:00:20 - [COH]XinMei has hit Mastertryin (Demi Knight Cavalary Sword, 40 DMG).
+22:00:20 - [COH]XinMei <img=ico_swordone> Mastertryin
+22:00:20 - [DK]Tanguan has hit mama (One Handed Bar Mace, 24 DMG).
+22:00:22 - [DK]Tanguan has hit [COH]XinDi (One Handed Bar Mace, 1 DMG).
+22:00:22 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 16 DMG).
+22:00:23 - [COH]XinMei has hit [DK]Tanguan (Demi Knight Cavalary Sword, 10 DMG).
+22:00:23 - [COH]XinDi has hit [DK]Tanguan (Heavy Scimitar, 22 DMG).
+22:00:24 - mama has hit [DK]Tanguan (Outlanders Great Sword, 25 DMG).
+22:00:24 - mama <img=ico_swordtwo> [DK]Tanguan
+22:00:24 - The round 31 has ended
+22:00:24 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 12 DMG).
+22:00:25 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 7 DMG).
+22:00:26 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 9 DMG).
+22:00:26 - [COH]XinMei has hit teammate mama (Demi Knight Cavalary Sword, 11 DMG).
+22:00:27 - *SERVER* [[DK]DaCongMing]: 下 半 场 比 赛 结 束 ， 
+22:00:28 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 15 DMG).
+22:00:28 - [COH]XinMei <img=ico_swordone> [COH]XinDi
+22:00:31 - [[COH]XinDi] 感 谢 
+22:00:32 - [[COH]XinDi] 感 谢 
+22:00:33 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 24 DMG).
+22:00:33 - [[COH]XinDi] 感 谢 
+22:00:34 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 4 DMG).
+22:00:34 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 6 DMG).
+22:00:35 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 15 DMG).
+22:00:36 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 19 DMG).
+22:00:36 - [Mastertryin] women ma
+22:00:37 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 14 DMG).
+22:00:38 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 15 DMG).
+22:00:39 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 8 DMG).
+22:00:39 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 19 DMG).
+22:00:40 - [COH]XinMei has hit teammate [COH]XinDi (Demi Knight Cavalary Sword, 11 DMG).
+22:00:40 - *SPEC* [[DK]DaCongMing] 嗯 嗯 
+22:00:40 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 14 DMG).
+22:00:40 - mama has hit teammate [COH]XinDi (Outlanders Great Sword, 12 DMG).
+22:00:40 - mama <img=ico_swordtwo> [COH]XinDi
+22:00:42 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 10 DMG).
+22:00:43 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 6 DMG).
+22:00:43 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+22:00:43 - [COH]XinDi has left the game with ID: 4019251.
+22:00:43 - *SPEC* [[DK]DaCongMing] 你 们 还 有 一 场 
+22:00:44 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 17 DMG).
+22:00:44 - [DK]VT <img=ico_swordtwo> [DK]Tanguan
+22:00:45 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 17 DMG).
+22:00:46 - [Mastertryin] 是 我 们 吗 
+22:00:46 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 11 DMG).
+22:00:48 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 7 DMG).
+22:00:49 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 18 DMG).
+22:00:51 - mama has hit teammate [COH]XinMei (Outlanders Great Sword, 22 DMG).
+22:00:51 - mama <img=ico_swordtwo> [COH]XinMei
+22:00:53 - mama has hit Mastertryin (Outlanders Great Sword, 28 DMG).
+22:00:55 - mama has hit Mastertryin (Outlanders Great Sword, 31 DMG).
+22:00:55 - mama <img=ico_swordtwo> Mastertryin
+22:00:57 - *SPEC* [[DK]DaCongMing] 是 的 
+22:00:59 - [DK]VT has hit mama (Outlander Elite Long Sword, 26 DMG).
+22:01:02 - mama has hit [DK]VT (Outlanders Great Sword, 27 DMG).
+22:01:05 - mama has hit [DK]VT (Outlanders Great Sword, 14 DMG).
+22:01:07 - [DK]VT has hit mama (Outlander Elite Long Sword, 21 DMG).
+22:01:07 - *DEAD* [[COH]XinMei] 我 们 今 天 还 有 吗 
+22:01:10 - mama has hit [DK]VT (Outlanders Great Sword, 26 DMG).
+22:01:10 - mama <img=ico_swordtwo> [DK]VT
+22:01:10 - The round 32 has ended
+22:01:10 - *SERVER* [[DK]DaCongMing]: 下 场 比 赛 DK精 锐 队 VSDK瘦 巴 巴 姥 爷 队 伍 
+22:01:13 - *SPEC* [[DK]DaCongMing] 没 有 了 
+22:01:14 - *DEAD* [Mastertryin] 我 去 
+22:01:16 - [[COH]XinMei] 哦 哦 谢 谢 
+22:01:18 - *SPEC* [[DK]DaCongMing] 你 们 还 差 和 撸 管 队 伍 
+22:01:18 - [COH]XinMei has left the game with ID: 5414106 and IP: 111.23.19.123
+22:01:18 - [COH]XinMei has left the game with ID: 5414106.
+22:01:18 -  <img=ico_headshot> [COH]XinMei
+22:01:20 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 25 DMG).
+22:01:21 - *SPEC* [[DK]DaCongMing] 可 以 问 下 他 们 
+22:01:21 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 4 DMG).
+22:01:22 - [Mastertryin] 快 开 
+22:01:22 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 23 DMG).
+22:01:23 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 11 DMG).
+22:01:23 - 486AWA has joined the game with ID: 5130366 and IP: 112.1.173.23
+22:01:24 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 13 DMG).
+22:01:25 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 15 DMG).
+22:01:25 - [DK]VT <img=ico_swordtwo> [DK]Tanguan
+22:01:33 - mama has hit Mastertryin (none, 1 DMG).
+22:01:33 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+22:01:34 - mama has hit Mastertryin (Outlanders Great Sword, 56 DMG).
+22:01:34 - mama <img=ico_swordtwo> Mastertryin
+22:01:34 - Sunxingmin has been given administrator rights (100)
+22:01:35 - mama has hit [DK]VT (Outlanders Great Sword, 28 DMG).
+22:01:38 -  <img=ico_headshot> [DK]VT
+22:01:38 - The round 33 has ended
+22:01:38 -  <img=ico_headshot> mama
+22:01:38 -  <img=ico_headshot> Yu_feng
+22:01:38 -  <img=ico_headshot> ZLH
+22:01:38 - The map has been reset.
+22:01:45 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+22:01:45 - Sunxingmin has left the game with ID: 1219124.
+22:01:48 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 5 DMG).
+22:01:49 - [Mastertryin] 11
+22:01:49 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 扣 1
+22:01:55 - [[DK]VT] 1
+22:01:56 - [Yu_feng] 兄 弟 们 加 油 
+22:01:58 - [[DK]Tanguan] 1
+22:01:58 - [Yu_feng] 1
+22:02:11 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 27 DMG).
+22:02:12 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 26 DMG).
+22:02:13 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 21 DMG).
+22:02:13 - [DK]VT <img=ico_swordtwo> Mastertryin
+22:02:18 - *SERVER* [[DK]DaCongMing]: 抢 5， 双 方 只 允 许 一 个 人 带 非 单 手 武 器 ， 加 油 ， 宝 宝 们 
+22:02:18 - [Yu_feng] 1
+22:02:20 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 43 DMG).
+
+22:02:27 -  <img=ico_headshot> 486AWA
+22:02:27 -  <img=ico_headshot> [DK]Tanguan
+22:02:27 -  <img=ico_headshot> [DK]VT
+22:02:27 - The round 34 has ended
+22:02:27 -  <img=ico_headshot> ZLH
+22:02:27 -  <img=ico_headshot> Yu_feng
+22:02:27 - The map has been reset.
+22:02:33 -  <img=ico_headshot> [DK]Tanguan
+22:02:33 -  <img=ico_headshot> [DK]VT
+22:02:33 -  <img=ico_headshot> ZLH
+22:02:33 -  <img=ico_headshot> Yu_feng
+22:02:33 -  <img=ico_headshot> Mastertryin
+22:02:33 - The round 35 has ended
+22:02:33 -  <img=ico_headshot> 486AWA
+22:02:33 - The map has been reset.
+22:02:38 - *SERVER* [[DK]DaCongMing]: 上 半 场 开 始 
+22:02:51 - Katsuyori has joined the game with ID: 4153280 and IP: 113.118.65.204
+22:02:56 - Katsuyori has left the game with ID: 4153280 and IP: 113.118.65.204
+22:02:56 - Katsuyori has left the game with ID: 4153280.
+22:02:56 - Yu_feng has hit Mastertryin (Iron Mace, 28 DMG).
+22:02:58 - ZLH has hit [DK]VT (Light Sabre, 37 DMG).
+22:03:00 - 486AWA has hit [DK]VT (Long Spear, 29 DMG).
+22:03:00 - 486AWA <img=ico_spear> [DK]VT
+22:03:01 - Yu_feng has hit Mastertryin (Iron Mace, 53 DMG).
+22:03:01 - Yu_feng <img=ico_blunt> Mastertryin
+22:03:04 - ZLH has hit [DK]Tanguan (Light Sabre, 9 DMG).
+22:03:06 - ZLH has hit [DK]Tanguan (Light Sabre, 6 DMG).
+22:03:06 - 486AWA has hit [DK]Tanguan (Long Spear, 7 DMG).
+22:03:07 - Yu_feng has hit [DK]Tanguan (Iron Mace, 31 DMG).
+22:03:09 - Yu_feng has hit [DK]Tanguan (Iron Mace, 17 DMG).
+22:03:09 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:03:09 - The round 36 has ended
+22:03:16 - [X1]benboba has joined the game with ID: 4946740 and IP: 106.8.174.177
+22:03:20 - [X1]benboba has been given administrator rights (100)
+22:03:32 - Mastertryin has hit 486AWA (Spiked Mace, 36 DMG).
+22:03:35 - ZLH has hit [DK]VT (Light Sabre, 23 DMG).
+22:03:35 - Yu_feng has hit [DK]VT (Iron Mace, 23 DMG).
+22:03:36 - 486AWA has hit Mastertryin (Long Spear, 16 DMG).
+22:03:39 - Yu_feng has hit [DK]Tanguan (Iron Mace, 22 DMG).
+22:03:39 - Mastertryin has hit 486AWA (Spiked Mace, 18 DMG).
+22:03:40 - Yu_feng has hit [DK]Tanguan (Iron Mace, 16 DMG).
+22:03:40 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 16 DMG).
+22:03:40 - [DK]VT <img=ico_swordtwo> 486AWA
+22:03:44 - Mastertryin has hit ZLH (Spiked Mace, 16 DMG).
+22:03:45 - Mastertryin has hit ZLH (Spiked Mace, 23 DMG).
+22:03:46 - Pageup has joined the game with ID: 3693051 and IP: 120.241.117.197
+22:03:46 - Yu_feng has hit [DK]VT (Iron Mace, 30 DMG).
+22:03:46 - Yu_feng <img=ico_blunt> [DK]VT
+22:03:47 - [X1]Yuukasama has joined the game with ID: 3976752 and IP: 183.209.85.9
+22:03:49 - ZLH has hit Mastertryin (Light Sabre, 35 DMG).
+22:03:50 - Mastertryin has hit ZLH (Spiked Mace, 22 DMG).
+22:03:52 - ZLH has hit Mastertryin (Light Sabre, 16 DMG).
+22:03:58 - Yu_feng has hit [DK]Tanguan (Iron Mace, 34 DMG).
+22:03:58 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:04:01 - ZLH has hit Mastertryin (Light Sabre, 7 DMG).
+22:04:01 - ZLH <img=ico_swordone> Mastertryin
+22:04:01 - The round 37 has ended
+22:04:04 - [X1]benboba has left the game with ID: 4946740 and IP: 106.8.174.177
+22:04:04 - [X1]benboba has left the game with ID: 4946740.
+22:04:07 - NotYourDope has joined the game with ID: 5350841 and IP: 180.105.82.226
+22:04:15 - [Yu_feng] 怎 么 啦 ？ 
+22:04:19 - [Yu_feng] 兄 弟 
+22:04:29 - NotYourDope has left the game with ID: 5350841 and IP: 180.105.82.226
+22:04:29 - NotYourDope has left the game with ID: 5350841.
+22:04:30 - ZLH has hit Mastertryin (Light Sabre, 21 DMG).
+22:04:31 - 486AWA has hit Mastertryin (Long Spear, 31 DMG).
+22:04:31 - ZLH has hit Mastertryin (Light Sabre, 22 DMG).
+22:04:31 - ZLH <img=ico_swordone> Mastertryin
+22:04:32 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 45 DMG).
+22:04:32 - Yu_feng has hit [DK]Tanguan (Iron Mace, 33 DMG).
+22:04:33 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 31 DMG).
+22:04:33 - [DK]VT <img=ico_swordtwo> 486AWA
+22:04:38 - ribenren has joined the game with ID: 3418338 and IP: 221.195.27.119 and WSE2: 1124
+22:04:43 - ZLH has hit [DK]VT (Light Sabre, 19 DMG).
+22:04:43 - Yu_feng has hit [DK]VT (Iron Mace, 34 DMG).
+22:04:45 - ZLH has hit [DK]VT (Light Sabre, 20 DMG).
+22:04:45 - ZLH <img=ico_swordone> [DK]VT
+22:04:46 - Yu_feng has hit [DK]Tanguan (Iron Mace, 26 DMG).
+22:04:47 - ZLH has hit [DK]Tanguan (Light Sabre, 11 DMG).
+22:04:47 - ZLH <img=ico_swordone> [DK]Tanguan
+22:04:47 - The round 38 has ended
+22:04:49 - *SPEC* [ribenren] 比 赛 中 ？ 
+22:04:54 - *SERVER* [[DK]DaCongMing]: 是 的 
+22:05:04 - [[DK]VT] 盾 剑 贴 近 点 
+22:05:09 - *SERVER* [[DK]DaCongMing]: 人 没 齐 
+22:05:10 - 486AWA has hit [DK]Tanguan (Long Spear, 15 DMG).
+22:05:10 - WinnieHusband has joined the game with ID: 3359509 and IP: 180.103.45.111
+22:05:10 - ZLH has hit [DK]Tanguan (Light Sabre, 2 DMG).
+22:05:11 - 486AWA has hit [DK]Tanguan (Long Spear, 7 DMG).
+22:05:11 - [X1]Yuukasama has left the game with ID: 3976752 and IP: 183.209.85.9
+22:05:11 - [X1]Yuukasama has left the game with ID: 3976752.
+22:05:13 - Yu_feng has hit Mastertryin (Iron Mace, 44 DMG).
+22:05:14 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 53 DMG).
+22:05:16 - ZLH has hit [DK]Tanguan (Light Sabre, 7 DMG).
+22:05:16 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 23 DMG).
+22:05:16 - [DK]VT <img=ico_swordtwo> 486AWA
+22:05:17 - Yu_feng has hit Mastertryin (Iron Mace, 18 DMG).
+22:05:17 - WinnieHusband has left the game with ID: 3359509 and IP: 180.103.45.111
+22:05:17 - WinnieHusband has left the game with ID: 3359509.
+22:05:21 - ZLH has hit [DK]VT (Light Sabre, 30 DMG).
+22:05:22 - *SERVER* [[DK]DaCongMing]: 比 赛 继 续 
+22:05:28 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 32 DMG).
+22:05:28 - Mastertryin has hit Yu_feng (Spiked Mace, 31 DMG).
+22:05:32 - Yu_feng has hit Mastertryin (Iron Mace, 41 DMG).
+22:05:32 - Yu_feng <img=ico_blunt> Mastertryin
+22:05:33 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 36 DMG).
+22:05:33 - [DK]VT <img=ico_swordtwo> Yu_feng
+22:05:36 - ZLH has hit [DK]VT (Light Sabre, 21 DMG).
+22:05:47 - ZLH has hit [DK]VT (Light Sabre, 22 DMG).
+22:05:47 - ZLH <img=ico_swordone> [DK]VT
+22:05:52 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 38 DMG).
+22:06:13 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 29 DMG).
+22:06:13 - [DK]Tanguan <img=ico_blunt> ZLH
+22:06:13 - The round 39 has ended
+22:06:16 - *DEAD* [[DK]VT] ！ 
+22:06:22 - Pageup has left the game with ID: 3693051 and IP: 120.241.117.197
+22:06:22 - Pageup has left the game with ID: 3693051.
+22:06:38 - 486AWA has hit Mastertryin (Long Spear, 38 DMG).
+22:06:39 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 30 DMG).
+22:06:40 - Mastertryin has hit 486AWA (Spiked Mace, 26 DMG).
+22:06:41 - Mastertryin has hit 486AWA (Spiked Mace, 31 DMG).
+22:06:41 - ZLH has hit Mastertryin (Light Sabre, 17 DMG).
+22:06:41 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 10 DMG).
+22:06:45 - Mastertryin has hit ZLH (Spiked Mace, 47 DMG).
+22:06:46 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 57 DMG).
+22:06:46 - [DK]VT <img=ico_swordtwo> 486AWA
+22:06:50 - ZLH has hit Mastertryin (Light Sabre, 19 DMG).
+22:06:50 - ZLH <img=ico_swordone> Mastertryin
+22:06:51 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 28 DMG).
+22:06:55 - Yu_feng has hit [DK]VT (Iron Mace, 38 DMG).
+22:06:55 - ZLH has hit [DK]Tanguan (Light Sabre, 18 DMG).
+22:06:57 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 34 DMG).
+22:06:57 - [DK]Tanguan <img=ico_blunt> ZLH
+22:06:58 - Yu_feng has hit [DK]VT (Iron Mace, 19 DMG).
+22:07:21 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 30 DMG).
+22:07:21 - [DK]VT <img=ico_swordtwo> Yu_feng
+22:07:21 - The round 40 has ended
+22:07:39 - *SERVER* [[DK]DaCongMing]: 十 分 焦 灼 ， 加 油 ， 饱 饱 们 
+22:07:48 - Mastertryin has hit ZLH (Old Axe, 22 DMG).
+22:07:52 - Yu_feng has hit [DK]VT (Iron Mace, 28 DMG).
+22:07:54 - ZLH has hit Mastertryin (Light Sabre, 36 DMG).
+22:07:54 - [DK]Tanguan has hit 486AWA (One Handed Bar Mace, 46 DMG).
+22:07:55 - Mastertryin has hit ZLH (Old Axe, 11 DMG).
+22:07:56 - [DK]Tanguan has hit 486AWA (One Handed Bar Mace, 48 DMG).
+22:07:56 - [DK]Tanguan <img=ico_blunt> 486AWA
+22:07:56 - Yu_feng has hit [DK]VT (Iron Mace, 31 DMG).
+22:07:58 - Yu_feng has hit [DK]VT (Iron Mace, 47 DMG).
+22:07:58 - Yu_feng <img=ico_blunt> [DK]VT
+22:07:58 - ZLH has hit teammate Yu_feng (Light Sabre, 13 DMG).
+22:07:59 - Mastertryin has hit ZLH (Old Axe, 53 DMG).
+22:07:59 - Mastertryin <img=ico_axeone> ZLH
+22:08:01 - Yu_feng has hit Mastertryin (Iron Mace, 61 DMG).
+22:08:01 - Yu_feng <img=ico_blunt> Mastertryin
+22:08:21 - Yu_feng has hit [DK]Tanguan (Iron Mace, 20 DMG).
+22:08:24 - Yu_feng has hit [DK]Tanguan (Iron Mace, 29 DMG).
+22:08:29 - Yu_feng has hit [DK]Tanguan (Iron Mace, 28 DMG).
+22:08:29 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:08:29 - The round 41 has ended
+22:08:35 - [ZLH] sry
+22:08:38 - ribenren has left the game with ID: 3418338 and IP: 221.195.27.119
+22:08:38 - ribenren has left the game with ID: 3418338.
+22:08:49 - ZLH has hit [DK]Tanguan (Light Sabre, 11 DMG).
+22:08:52 - Yu_feng has hit [DK]VT (Iron Mace, 30 DMG).
+22:08:57 - Yu_feng has hit [DK]VT (Iron Mace, 29 DMG).
+22:08:57 - Mastertryin has hit 486AWA (Old Axe, 26 DMG).
+22:08:57 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 34 DMG).
+22:08:58 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 29 DMG).
+22:08:58 - [DK]Tanguan <img=ico_blunt> Yu_feng
+22:09:01 - Mastertryin has hit 486AWA (Old Axe, 12 DMG).
+22:09:02 - Mastertryin has hit teammate [DK]Tanguan (Old Axe, 3 DMG).
+22:09:03 - ZLH has hit [DK]VT (Light Sabre, 32 DMG).
+22:09:03 - ZLH <img=ico_swordone> [DK]VT
+22:09:06 - 486AWA has hit Mastertryin (Outlander Warhammer, 45 DMG).
+22:09:07 - [DK]Tanguan has hit 486AWA (One Handed Bar Mace, 46 DMG).
+22:09:07 - [DK]Tanguan <img=ico_blunt> 486AWA
+22:09:11 - Mastertryin has hit ZLH (Old Axe, 18 DMG).
+22:09:13 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 57 DMG).
+22:09:13 - Mastertryin has hit ZLH (Old Axe, 21 DMG).
+22:09:13 - Mastertryin <img=ico_axeone> ZLH
+22:09:13 - The round 42 has ended
+22:09:36 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 35 DMG).
+22:09:37 - ZLH has hit [DK]Tanguan (Light Sabre, 27 DMG).
+22:09:38 - ZLH has hit [DK]VT (Light Sabre, 15 DMG).
+22:09:40 - Yu_feng has hit Mastertryin (Iron Mace, 23 DMG).
+22:09:43 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 45 DMG).
+22:09:46 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 35 DMG).
+22:09:46 - [DK]Tanguan <img=ico_blunt> ZLH
+22:09:46 - Mastertryin has hit 486AWA (Old Axe, 32 DMG).
+22:09:46 - Mastertryin <img=ico_axeone> 486AWA
+22:09:52 - Yu_feng has hit [DK]Tanguan (Iron Mace, 28 DMG).
+22:09:55 - Mastertryin has hit Yu_feng (Old Axe, 8 DMG).
+22:09:57 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 27 DMG).
+22:10:02 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 38 DMG).
+22:10:02 - [DK]Tanguan <img=ico_blunt> Yu_feng
+22:10:02 - The round 43 has ended
+22:10:05 - *CLAN* [[DK]DaCongMing]: DK宝 宝 们 ， 加 油 
+22:10:25 - ZLH has hit [DK]Tanguan (Light Sabre, 15 DMG).
+22:10:26 - Yu_feng has hit Mastertryin (Iron Mace, 29 DMG).
+22:10:27 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 17 DMG).
+22:10:27 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 22 DMG).
+22:10:31 - Yu_feng has hit [DK]Tanguan (Iron Mace, 30 DMG).
+22:10:32 - Yu_feng has hit Mastertryin (Iron Mace, 27 DMG).
+22:10:34 - chouxiaoya has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+22:10:34 - 486AWA has hit [DK]Tanguan (Awlpike, 19 DMG).
+22:10:37 - chouxiaoya has left the game with ID: 4019251 and IP: 112.51.138.185
+22:10:37 - chouxiaoya has left the game with ID: 4019251.
+22:10:37 - Yu_feng has hit Mastertryin (Iron Mace, 68 DMG).
+22:10:37 - Yu_feng <img=ico_blunt> Mastertryin
+22:10:38 - ZLH has hit [DK]VT (Light Sabre, 28 DMG).
+22:10:41 - [DK]Tanguan has hit 486AWA (One Handed Bar Mace, 30 DMG).
+22:10:42 - Yu_feng has hit [DK]Tanguan (Iron Mace, 22 DMG).
+22:10:42 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:10:43 - 486AWA has hit [DK]VT (Awlpike, 46 DMG).
+22:10:43 - 486AWA <img=ico_spear> [DK]VT
+22:10:43 - The round 44 has ended
+22:10:46 - [COH]XinDi has joined the game with ID: 4019251 and IP: 112.51.138.185 and WSE2: 1110
+22:10:46 - [ZLH] gx
+22:10:46 - [COH]XinDi has been given administrator rights (100)
+22:10:48 - *SERVER* [[DK]DaCongMing]: 上 半 场 结 束 
+22:10:50 - [[DK]VT] 惜 败 
+22:10:52 - [ZLH] A.A
+22:10:52 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 30 DMG).
+22:10:53 - *SERVER* [[DK]DaCongMing]: 还 有 下 半 场 呢 
+22:10:55 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 9 DMG).
+22:10:57 -  <img=ico_headshot> 486AWA
+22:10:57 -  <img=ico_headshot> Mastertryin
+22:10:57 -  <img=ico_headshot> Yu_feng
+22:10:57 -  <img=ico_headshot> ZLH
+22:10:57 - The round 45 has ended
+22:10:57 -  <img=ico_headshot> [DK]VT
+22:10:57 -  <img=ico_headshot> [DK]Tanguan
+22:11:05 - [Yu_feng] 1
+22:11:07 - [Mastertryin] 1
+22:11:07 - [[DK]VT] 1
+22:11:07 - *SERVER* [[DK]DaCongMing]: 双 方 准 备 好 扣 1
+22:11:17 - [[DK]Tanguan] 1
+22:11:22 - Mastertryin has hit ZLH (Old Axe, 27 DMG).
+22:11:22 - ZLH has hit Mastertryin (none, 4 DMG).
+
+22:11:23 - Yu_feng has hit Mastertryin (Iron Mace, 36 DMG).
+22:11:25 - Yu_feng has hit Mastertryin (Iron Mace, 24 DMG).
+22:11:25 - 486AWA has hit Mastertryin (Outlander Warhammer, 34 DMG).
+22:11:25 - 486AWA <img=ico_blunt> Mastertryin
+22:11:27 -  <img=ico_headshot> [DK]Tanguan
+22:11:27 -  <img=ico_headshot> [DK]VT
+22:11:27 - The round 46 has ended
+22:11:27 -  <img=ico_headshot> ZLH
+22:11:27 -  <img=ico_headshot> Yu_feng
+22:11:27 -  <img=ico_headshot> 486AWA
+22:11:27 - The map has been reset.
+22:11:32 -  <img=ico_headshot> [DK]Tanguan
+22:11:32 -  <img=ico_headshot> [DK]VT
+22:11:32 -  <img=ico_headshot> ZLH
+22:11:32 -  <img=ico_headshot> Yu_feng
+22:11:32 -  <img=ico_headshot> Mastertryin
+22:11:32 - The round 47 has ended
+22:11:32 -  <img=ico_headshot> 486AWA
+22:11:32 - The map has been reset.
+22:11:33 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
+22:11:36 - *SERVER* [[DK]DaCongMing]: 下 半 场 开 始 
+22:11:42 - [[DK]VT] 你 俩 别 似 的 太 快 熬 
+22:11:48 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
+22:11:48 - [X1]NewPlayer has left the game with ID: 4270208.
+22:11:55 - 486AWA has hit Mastertryin (Awlpike, 44 DMG).
+22:11:56 - ZLH has hit [DK]Tanguan (Light Sabre, 15 DMG).
+22:11:59 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 50 DMG).
+22:12:02 - ZLH has hit [DK]VT (Light Sabre, 25 DMG).
+22:12:03 - Yu_feng has hit [DK]VT (Iron Mace, 24 DMG).
+22:12:03 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 18 DMG).
+22:12:04 - Yu_feng has hit [DK]VT (Iron Mace, 40 DMG).
+22:12:04 - Yu_feng <img=ico_blunt> [DK]VT
+22:12:05 - Mastertryin has hit 486AWA (Old Axe, 22 DMG).
+22:12:06 - ZLH has hit [DK]Tanguan (Light Sabre, 14 DMG).
+22:12:07 - Yu_feng has hit Mastertryin (Iron Mace, 47 DMG).
+22:12:07 - Yu_feng <img=ico_blunt> Mastertryin
+22:12:12 - Yu_feng has hit [DK]Tanguan (Iron Mace, 25 DMG).
+22:12:15 - Yu_feng has hit [DK]Tanguan (Iron Mace, 26 DMG).
+22:12:15 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:12:15 - The round 48 has ended
+22:12:37 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 51 DMG).
+22:12:38 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 38 DMG).
+22:12:38 - [DK]VT <img=ico_swordtwo> 486AWA
+22:12:40 - ZLH has hit [DK]Tanguan (Light Sabre, 8 DMG).
+22:12:40 - Yu_feng has hit Mastertryin (Iron Mace, 21 DMG).
+22:12:41 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 25 DMG).
+22:12:42 - Mastertryin has hit teammate [DK]Tanguan (Old Axe, 2 DMG).
+22:12:44 - Yu_feng has hit [DK]VT (Iron Mace, 30 DMG).
+22:12:49 - Mastertryin has hit ZLH (Old Axe, 23 DMG).
+22:12:50 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 2 DMG).
+22:12:51 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 7 DMG).
+22:12:52 - Mastertryin has hit ZLH (Old Axe, 14 DMG).
+22:12:53 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 29 DMG).
+22:12:59 - Yu_feng has hit [DK]VT (Iron Mace, 47 DMG).
+22:12:59 - Yu_feng <img=ico_blunt> [DK]VT
+22:13:01 - Mastertryin has hit ZLH (Old Axe, 17 DMG).
+22:13:01 - Mastertryin <img=ico_axeone> ZLH
+22:13:04 - ribenren has joined the game with ID: 3418338 and IP: 221.195.27.119 and WSE2: 1124
+22:13:12 - Yu_feng has hit Mastertryin (Iron Mace, 32 DMG).
+22:13:13 - ribenren has left the game with ID: 3418338 and IP: 221.195.27.119
+22:13:13 - ribenren has left the game with ID: 3418338.
+22:13:27 - Mastertryin has hit Yu_feng (Old Axe, 13 DMG).
+22:13:39 - Yu_feng has hit [DK]Tanguan (Iron Mace, 39 DMG).
+22:13:47 - Yu_feng has hit Mastertryin (Iron Mace, 42 DMG).
+22:13:47 - Yu_feng <img=ico_blunt> Mastertryin
+22:13:48 - Yu_feng has hit [DK]Tanguan (Iron Mace, 18 DMG).
+22:13:48 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:13:48 - The round 49 has ended
+22:13:53 - [ZLH] 666
+22:13:56 - [[DK]VT] 小 明 压 刀 啊 
+22:14:10 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 20 DMG).
+22:14:12 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 31 DMG).
+22:14:14 - Mastertryin has hit Yu_feng (Old Axe, 9 DMG).
+22:14:16 - Mastertryin has hit 486AWA (Old Axe, 24 DMG).
+22:14:16 - Mastertryin <img=ico_axeone> 486AWA
+22:14:18 - Yu_feng has hit Mastertryin (Iron Mace, 18 DMG).
+22:14:18 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 36 DMG).
+22:14:20 - ZLH has hit [DK]VT (Light Sabre, 15 DMG).
+22:14:21 - [DK]naned has joined the game with ID: 4502486 and IP: 120.239.28.239 and WSE2: 1097
+22:14:21 - ZLH has hit [DK]VT (Light Sabre, 3 DMG).
+22:14:21 - Yu_feng has hit [DK]Tanguan (Iron Mace, 14 DMG).
+22:14:22 - ZLH has hit [DK]VT (Light Sabre, 1 DMG).
+22:14:22 - Yu_feng has hit Mastertryin (Iron Mace, 43 DMG).
+22:14:26 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 1 DMG).
+22:14:26 - [RK]YUsama has joined the game with ID: 6157744 and IP: 124.71.83.191
+22:14:30 - Mastertryin has hit ZLH (Old Axe, 18 DMG).
+22:14:31 - Mastertryin has hit ZLH (Old Axe, 16 DMG).
+22:14:33 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 19 DMG).
+22:14:33 - [DK]VT <img=ico_swordtwo> ZLH
+22:14:34 - *SPEC* [[DK]naned] wolai我 来 给 宝 宝 们 加 油 
+22:14:37 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 18 DMG).
+22:14:43 - *CLAN* [[DK]DaCongMing]: 好 
+22:14:44 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 16 DMG).
+22:14:47 - [RK]YUsama has left the game with ID: 6157744 and IP: 124.71.83.191
+22:14:47 - [RK]YUsama has left the game with ID: 6157744.
+22:15:02 - Yu_feng has hit [DK]Tanguan (Iron Mace, 33 DMG).
+22:15:11 - Mastertryin has hit Yu_feng (Old Axe, 7 DMG).
+22:15:12 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 37 DMG).
+22:15:12 - [DK]Tanguan <img=ico_blunt> Yu_feng
+22:15:12 - The round 50 has ended
+22:15:22 - [DK]Shing02 has joined the game with ID: 5164741 and IP: 115.216.131.216 and WSE2: 1085
+22:15:31 - *SPEC* [[DK]Shing02] 内 战 我 去 
+22:15:33 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 45 DMG).
+22:15:37 - Mastertryin has hit 486AWA (Old Axe, 21 DMG).
+22:15:40 - Mastertryin has hit 486AWA (Old Axe, 23 DMG).
+22:15:40 - ZLH has hit Mastertryin (Light Sabre, 21 DMG).
+22:15:41 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 33 DMG).
+22:15:42 - *SPEC* [[DK]DaCongMing] 无 敌 内 战 啊 ， 上 半 场 4比 5
+22:15:42 - Yu_feng has hit [DK]VT (Iron Mace, 48 DMG).
+22:15:43 - ZLH has hit [DK]Tanguan (Light Sabre, 12 DMG).
+22:15:43 - Mastertryin has hit 486AWA (Old Axe, 27 DMG).
+22:15:43 - Mastertryin <img=ico_axeone> 486AWA
+22:15:45 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 38 DMG).
+22:15:47 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 31 DMG).
+22:15:47 - [DK]Tanguan <img=ico_blunt> ZLH
+22:15:48 - Yu_feng has hit [DK]VT (Iron Mace, 22 DMG).
+22:15:48 - Yu_feng <img=ico_blunt> [DK]VT
+22:15:49 - [DK]Shing02 has left the game with ID: 5164741 and IP: 115.216.131.216
+22:15:49 - [DK]Shing02 has left the game with ID: 5164741.
+22:15:58 - Yu_feng has hit Mastertryin (Iron Mace, 48 DMG).
+22:15:58 - Yu_feng <img=ico_blunt> Mastertryin
+22:16:00 - *DEAD* [[DK]VT] 我 ping不 行 了 
+22:16:01 - Yu_feng has hit [DK]Tanguan (Iron Mace, 8 DMG).
+22:16:04 - Yu_feng has hit [DK]Tanguan (Iron Mace, 26 DMG).
+22:16:06 - *SPEC* [[DK]DaCongMing] 怎 么 回 事 
+22:16:07 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 23 DMG).
+22:16:07 - [DK]Tanguan <img=ico_blunt> Yu_feng
+22:16:07 - The round 51 has ended
+22:16:10 - *DEAD* [Yu_feng] 啊 ？ 
+22:16:13 - [Yu_feng] 这 么 短 吗 
+22:16:30 - Mastertryin has hit ZLH (Old Axe, 13 DMG).
+22:16:32 - Yu_feng has hit Mastertryin (Iron Mace, 34 DMG).
+22:16:33 - ZLH has hit Mastertryin (Light Sabre, 20 DMG).
+22:16:33 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 35 DMG).
+22:16:35 - ZLH has hit Mastertryin (Light Sabre, 32 DMG).
+22:16:35 - ZLH <img=ico_swordone> Mastertryin
+22:16:38 - ZLH has hit [DK]VT (Light Sabre, 13 DMG).
+22:16:40 - ZLH has hit [DK]VT (Light Sabre, 8 DMG).
+22:16:41 - ZLH has hit [DK]VT (Light Sabre, 21 DMG).
+22:16:41 - Yu_feng has hit [DK]Tanguan (Iron Mace, 12 DMG).
+22:16:43 - 486AWA has hit [DK]Tanguan (Outlander Warhammer, 10 DMG).
+22:16:43 - Yu_feng has hit teammate 486AWA (Iron Mace, 15 DMG).
+22:16:44 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 54 DMG).
+22:16:47 - Yu_feng has hit [DK]Tanguan (Iron Mace, 14 DMG).
+22:16:55 - 486AWA has hit [DK]Tanguan (Outlander Warhammer, 5 DMG).
+22:16:56 - ZLH has hit [DK]VT (Light Sabre, 33 DMG).
+22:16:56 - ZLH <img=ico_swordone> [DK]VT
+22:17:03 - ZLH has hit [DK]Tanguan (Light Sabre, 11 DMG).
+22:17:03 - Yu_feng has hit [DK]Tanguan (Iron Mace, 19 DMG).
+22:17:03 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:17:03 - The round 52 has ended
+22:17:11 - *CLAN* [[DK]DaCongMing]: 真 精 彩 ， DK饱 饱 们 ， 加 油 
+22:17:24 - Yu_feng has hit [DK]VT (Iron Mace, 28 DMG).
+22:17:27 - [DK]VT has hit Yu_feng (Outlander Elite Long Sword, 32 DMG).
+22:17:34 - Mastertryin has hit ZLH (Old Axe, 9 DMG).
+22:17:34 - 486AWA has hit Mastertryin (Awlpike, 19 DMG).
+22:17:35 - 486AWA has hit Mastertryin (Awlpike, 5 DMG).
+22:17:36 - ZLH has hit Mastertryin (Light Sabre, 17 DMG).
+22:17:37 - 486AWA has hit [DK]VT (Awlpike, 57 DMG).
+22:17:37 - 486AWA <img=ico_spear> [DK]VT
+22:17:37 - Mastertryin has hit ZLH (Old Axe, 23 DMG).
+22:17:38 - [DK]Tanguan has hit Yu_feng (One Handed Bar Mace, 25 DMG).
+22:17:38 - [DK]Tanguan <img=ico_blunt> Yu_feng
+22:17:43 - Mastertryin has hit ZLH (Old Axe, 18 DMG).
+22:17:43 - 486AWA has hit [DK]Tanguan (Awlpike, 13 DMG).
+22:17:44 - 486AWA has hit Mastertryin (Awlpike, 42 DMG).
+22:17:44 - 486AWA <img=ico_spear> Mastertryin
+22:17:47 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
+22:17:49 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 42 DMG).
+22:17:49 - [DK]Tanguan <img=ico_blunt> ZLH
+22:18:07 - 486AWA has hit [DK]Tanguan (Outlander Warhammer, 19 DMG).
+22:18:20 - 486AWA has hit [DK]Tanguan (Outlander Warhammer, 27 DMG).
+22:18:21 - 486AWA has hit [DK]Tanguan (Outlander Warhammer, 16 DMG).
+22:18:21 - 486AWA <img=ico_blunt> [DK]Tanguan
+22:18:21 - The round 53 has ended
+22:18:24 - *DEAD* [[DK]VT] 可 惜 
+22:18:27 - *SERVER* [[DK]DaCongMing]: 十 分 精 彩 ， DK饱 饱 们 ， 加 油 
+22:18:29 - [Yu_feng] 好 兄 弟 厉 害 厉 害 
+22:18:29 - [COH]XinDi has left the game with ID: 4019251 and IP: 112.51.138.185
+22:18:29 - [COH]XinDi has left the game with ID: 4019251.
+22:18:32 - *CLAN* [[DK]naned]: 宝 宝 们 加 油 
+22:18:46 - Mastertryin has hit 486AWA (Old Axe, 5 DMG).
+22:18:47 - Yu_feng has hit [DK]VT (Iron Mace, 30 DMG).
+22:18:47 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 27 DMG).
+22:18:50 - Mastertryin has hit 486AWA (Old Axe, 19 DMG).
+22:18:52 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 25 DMG).
+22:18:53 - 486AWA has hit Mastertryin (One Handed Bar Mace, 33 DMG).
+22:18:53 - Yu_feng has hit Mastertryin (Iron Mace, 30 DMG).
+22:18:54 - [DK]Tanguan has hit teammate [DK]VT (One Handed Bar Mace, 32 DMG).
+22:18:54 - [DK]Tanguan <img=ico_blunt> [DK]VT
+22:18:57 - 486AWA has hit [DK]Tanguan (One Handed Bar Mace, 13 DMG).
+22:18:59 - [DK]Tanguan has hit 486AWA (One Handed Bar Mace, 42 DMG).
+22:18:59 - [DK]Tanguan <img=ico_blunt> 486AWA
+22:19:00 - Yu_feng has hit [DK]Tanguan (Iron Mace, 28 DMG).
+22:19:02 - ZLH has hit [DK]Tanguan (Light Sabre, 12 DMG).
+22:19:09 - ZLH has hit Mastertryin (Light Sabre, 35 DMG).
+22:19:09 - ZLH <img=ico_swordone> Mastertryin
+22:19:12 - [DK]Tanguan has hit ZLH (One Handed Bar Mace, 10 DMG).
+22:19:15 - Yu_feng has hit [DK]Tanguan (Iron Mace, 16 DMG).
+22:19:15 - Yu_feng <img=ico_blunt> [DK]Tanguan
+22:19:15 - The round 54 has ended
+22:19:18 - *SERVER* [[DK]DaCongMing]: 下 半 场 结 束 
+22:19:19 - [ZLH] GX
+22:19:22 - [486AWA] 感 谢 
+22:19:24 - [DK]VT has hit teammate Mastertryin (Outlander Elite Long Sword, 21 DMG).
+22:19:25 - Mastertryin has left the game with ID: 6033480 and IP: 43.250.244.10
+22:19:25 - Mastertryin has left the game with ID: 6033480.
+22:19:25 -  <img=ico_headshot> Mastertryin
+22:19:25 - [Yu_feng] 感 谢 
+22:19:25 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
+22:19:25 - [X1]NewPlayer has left the game with ID: 4270208.
+22:19:28 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 13 DMG).
+22:19:30 - *SERVER* [[DK]DaCongMing]: 感 谢 
+22:19:31 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 15 DMG).
+22:19:31 - *SERVER* [[DK]DaCongMing]: 辛 苦 啦 
+22:19:32 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 8 DMG).
+22:19:33 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 6 DMG).
+22:19:33 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+22:19:34 - Sunxingmin has been given administrator rights (100)
+22:19:34 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 14 DMG).
+22:19:35 - *SERVER* [[DK]DaCongMing]: 今 天 比 赛 到 这 里 结 束 啦 
+22:19:35 - [DK]VT has hit teammate [DK]Tanguan (Outlander Elite Long Sword, 14 DMG).
+22:19:35 - [DK]VT <img=ico_swordtwo> [DK]Tanguan
+22:19:37 - [Yu_feng] 辛 苦 了 兄 弟 们 
+22:19:40 - *SERVER* [[DK]DaCongMing]: 辛 苦 了 
+22:19:42 - mama has hit 486AWA (Outlanders Great Sword, 43 DMG).
+22:19:43 - mama has hit 486AWA (Outlanders Great Sword, 1 DMG).
+22:19:45 - 486AWA has hit mama (Outlander Warhammer, 19 DMG).
+22:19:47 - *SERVER* [[DK]DaCongMing]: DK宝 宝 们 真 棒 
+22:19:47 - 486AWA has hit mama (Outlander Warhammer, 22 DMG).
+22:19:51 - 486AWA has hit teammate ZLH (Outlander Warhammer, 12 DMG).
+22:19:56 - ZLH has hit mama (Light Sabre, 16 DMG).
+22:19:56 - 486AWA has hit mama (Outlander Warhammer, 25 DMG).
+22:19:56 - 486AWA <img=ico_blunt> mama
+22:19:58 - [DK]DaCongMing has left the game with ID: 4642268 and IP: 60.170.38.67
+22:19:58 - [DK]DaCongMing has left the game with ID: 4642268.
+22:20:00 - [DK]VT has hit [DK]naned (Outlander Elite Long Sword, 26 DMG).
+22:20:01 - [DK]VT has hit [DK]naned (Outlander Elite Long Sword, 36 DMG).
+22:20:01 - [DK]VT <img=ico_swordtwo> [DK]naned
+22:20:02 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+22:20:02 - Sunxingmin has left the game with ID: 1219124.
+22:20:12 - mama has left the game with ID: 4736098 and IP: 124.164.116.142
+22:20:12 - mama has left the game with ID: 4736098.
+22:20:14 - [DK]VT has hit 486AWA (Outlander Elite Long Sword, 31 DMG).
+22:20:14 - [DK]VT <img=ico_swordtwo> 486AWA
+22:20:16 - 486AWA has left the game with ID: 5130366 and IP: 112.1.173.23
+22:20:16 - 486AWA has left the game with ID: 5130366.
+22:20:35 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 30 DMG).
+22:20:38 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 32 DMG).
+22:20:47 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 46 DMG).
+22:20:47 - [DK]VT <img=ico_swordtwo> ZLH
+22:20:47 - Yu_feng has left the game with ID: 4265028 and IP: 175.6.5.173
+22:20:47 - Yu_feng has left the game with ID: 4265028.
+22:20:47 -  <img=ico_headshot> Yu_feng
+22:20:47 - The round 55 has ended
+22:20:50 - [DK]Tanguan has left the game with ID: 5913410 and IP: 39.82.60.181
+22:20:50 - [DK]Tanguan has left the game with ID: 5913410.
+22:21:08 - ZLH has hit [DK]VT (Light Sabre, 24 DMG).
+22:21:10 - ZLH has hit [DK]VT (Light Sabre, 15 DMG).
+22:21:19 - ZLH has hit [DK]VT (Light Sabre, 17 DMG).
+22:21:21 - [DK]VT has hit ZLH (Outlander Elite Long Sword, 23 DMG).
+22:21:22 - ZLH has hit [DK]VT (Light Sabre, 19 DMG).
+22:21:22 - ZLH <img=ico_swordone> [DK]VT
+22:21:22 - The round 56 has ended
+22:21:26 - [DK]VT has left the game with ID: 6058429 and IP: 119.123.135.29
+22:21:26 - [DK]VT has left the game with ID: 6058429.
+22:21:27 -  <img=ico_headshot> [DK]naned
+22:21:27 - [DK]naned has been moved by the autobalancer (-1000)
+22:21:39 - [[DK]naned] 你 队 友 好 烦 老 是 情 绪 化 
+22:21:43 - ZLH has hit [DK]naned (Light Sabre, 26 DMG).
+22:21:46 - ZLH has hit [DK]naned (Light Sabre, 8 DMG).
+22:21:48 - ZLH has hit [DK]naned (Light Sabre, 12 DMG).
+22:21:52 - [DK]naned has hit ZLH (One Handed Bar Mace, 17 DMG).
+22:21:59 - [DK]naned has hit ZLH (One Handed Bar Mace, 12 DMG).
+22:22:02 - ZLH has hit [DK]naned (Light Sabre, 13 DMG).
+22:22:02 - ZLH <img=ico_swordone> [DK]naned
+22:22:02 - The round 57 has ended
+22:22:12 - [ZLH] mei ban fa
+22:22:23 - [DK]naned has hit ZLH (Long Spear, 33 DMG).
+22:22:29 - [DK]naned has hit ZLH (Long Spear, 35 DMG).
+22:22:35 - [DK]naned has hit ZLH (Long Spear, 9 DMG).
+22:22:40 - [DK]naned has hit ZLH (Long Spear, 15 DMG).
+22:22:40 - [DK]naned <img=ico_spear> ZLH
+22:22:40 - The round 58 has ended
+22:22:41 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
+22:23:08 - ZLH has hit [DK]naned (Long Spear, 14 DMG).
+22:23:13 - [DK]naned has hit ZLH (Long Spear, 9 DMG).
+22:23:31 - ZLH has hit teammate [X1]NewPlayer (Long Spear, 11 DMG).
+22:23:33 - ZLH has hit teammate [X1]NewPlayer (Long Spear, 6 DMG).
+22:23:34 - ZLH has hit teammate [X1]NewPlayer (Long Spear, 7 DMG).
+22:23:36 - [[DK]naned] 你 们 我 们 如 果 打 比 赛 
+22:23:37 - ZLH has hit [DK]naned (Long Spear, 15 DMG).
+22:23:43 - [[DK]naned] 这 么 表 演 一 下 可 以 吗 
+22:23:47 - [DK]naned has hit [X1]NewPlayer (Long Spear, 21 DMG).
+22:23:48 - [DK]naned has hit [X1]NewPlayer (Long Spear, 29 DMG).
+22:23:48 - [DK]naned <img=ico_spear> [X1]NewPlayer
+22:23:49 - *DEAD* [[X1]NewPlayer] buxing
+22:23:49 - [ZLH] ky
+22:23:53 - [DK]naned has hit ZLH (Long Spear, 9 DMG).
+22:23:58 - ZLH has hit [DK]naned (Long Spear, 9 DMG).
+22:24:00 - ZLH has hit [DK]naned (Long Spear, 6 DMG).
+22:24:01 - ZLH has hit [DK]naned (Long Spear, 6 DMG).
+22:24:07 - ZLH has hit [DK]naned (Long Spear, 15 DMG).
+22:24:07 - ZLH <img=ico_spear> [DK]naned
+22:24:07 - The round 59 has ended
+22:24:09 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
+22:24:09 - [X1]NewPlayer has left the game with ID: 4270208.
+22:24:10 - [ZLH] ben dan
+22:24:42 - [DK]naned has hit ZLH (Long Spear, 9 DMG).
+22:24:48 - [DK]naned has hit ZLH (Long Spear, 8 DMG).
+22:24:51 - [DK]naned has hit ZLH (Long Spear, 7 DMG).
+22:24:58 - ZLH has hit [DK]naned (Long Spear, 14 DMG).
+22:25:06 - ZLH has hit [DK]naned (Long Spear, 9 DMG).
+22:25:16 - [DK]naned has hit ZLH (Long Spear, 36 DMG).
+22:25:27 - [DK]naned has hit ZLH (Long Spear, 15 DMG).
+22:25:27 - [ZLH] 知 道 为 什 么 当 饭 不 了 吗 
+22:25:36 - [[DK]naned] 你 向 上 甩 
+22:25:39 - [[DK]naned] 男 挡 住 
+22:25:41 - [ZLH] 瞄 头 打 
+22:25:46 - ZLH has hit [DK]naned (Long Spear, 16 DMG).
+22:25:56 - [ZLH] 拿 破 仑 也 一 样 
+22:26:05 - [ZLH] 这 就 是 111的 挡 反 
+22:26:12 - [ZLH] 顺 杀 
+22:26:17 - [ZLH] 瞄 头 
+22:26:33 - [ZLH] 无 法 格 挡 硬 直 一 死 
+22:26:36 - ZLH has hit [DK]naned (Long Spear, 10 DMG).
+22:27:04 - [ZLH] 3局 打 赢 1局 ， 也 让 队 友 满 意 了 
+22:27:12 - The round 60 has ended
+22:27:21 - [[DK]naned] 来 了 
+22:27:33 - [[DK]naned] 你 今 晚 也 累 了 吧 
+22:27:36 - [[DK]naned] 我 也 想 早 点 下 了 
+22:27:42 - [[DK]naned] 你 跟 你 队 友 交 流 一 下 吧 
+22:27:48 - [[DK]naned] 他 老 是 找 我 怼 我 
+22:27:51 - [[DK]naned] 我 感 觉 好 累 
+22:27:56 - [ZLH] 御 风 还 是 yuanzi
+22:28:01 - [[DK]naned] 与 风 
+22:28:04 - [ZLH] ao
+22:28:06 - [[DK]naned] yuanzi是 我 的 老 队 员 
+22:28:09 - [[DK]naned] 我 们 不 会 怼 
+22:28:21 - [[DK]naned] 你 跟 他 说 
+22:28:23 - [[DK]naned] 有 事 情 好 哦 啊 好 说 
+22:28:36 - [[DK]naned] 不 要 一 来 就 怼 人 
+22:28:38 - [[DK]naned] 就 行 了 
+22:28:42 - [ZLH] 行 
+22:28:44 - [[DK]naned] 劝 导 一 下 
+22:28:57 - [[DK]naned] 好 谢 谢 
+22:29:00 - [[DK]naned] 你 们 队 队 员 都 问 下 
+22:29:03 - [[DK]naned] 差 金 找 我 
+22:29:07 - [[DK]naned] 润 了 
+22:29:09 - [DK]naned has left the game with ID: 4502486 and IP: 120.239.28.239
+22:29:09 - [DK]naned has left the game with ID: 4502486.
+22:29:09 -  <img=ico_headshot> [DK]naned
+22:29:09 - The round 61 has ended
+22:29:24 - ZLH has left the game with ID: 5506520 and IP: 61.164.235.110
+22:29:24 - ZLH has left the game with ID: 5506520.
+22:29:24 -  <img=ico_headshot> ZLH
+22:29:24 - The round 62 has ended
+23:11:16 - [X1]Yuukasama has joined the game with ID: 3976752 and IP: 183.209.85.9
+23:14:55 - [X1]Yuukasama has left the game with ID: 3976752 and IP: 183.209.85.9
+23:14:55 - [X1]Yuukasama has left the game with ID: 3976752.
+23:14:55 -  <img=ico_headshot> [X1]Yuukasama
+23:14:55 - The round 63 has ended

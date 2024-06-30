@@ -1,0 +1,4 @@
+22:41:59 - Dynamic server settings have been reset. 
+ 22:41:59 - The map has started: Desert Town. 
+ 22:41:59 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 

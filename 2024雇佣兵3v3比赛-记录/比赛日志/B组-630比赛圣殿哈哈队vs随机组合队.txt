@@ -1,0 +1,694 @@
+16:31:39 - [DK]Passionfruit has joined the game with ID: 4446830 and IP: 119.166.168.45 and WSE2: 1111
+16:31:42 - [DK]Passionfruit has left the game with ID: 4446830 and IP: 119.166.168.45
+16:31:42 - [DK]Passionfruit has left the game with ID: 4446830.
+20:47:29 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+20:47:32 - Sunxingmin has been given administrator rights (100)
+20:47:43 - The map has started: The Cage.
+20:47:43 - Dynamic server settings have been updated.
+20:47:45 - Sunxingmin has been given administrator rights (100)
+20:48:49 - [KT]lst has joined the game with ID: 5881848 and IP: 118.80.194.158
+20:49:07 - [KT]lst opened the door as an attacker
+20:49:17 - [KT]lst opened the door as an attacker
+20:49:35 - Sunxingmin has hit [KT]lst (Long Spear, 29 DMG).
+20:49:39 - Sunxingmin has hit [KT]lst (Long Spear, 23 DMG).
+20:49:50 - [KT]lst has hit Sunxingmin (Iron Mace, 28 DMG).
+20:49:51 - [KT]lst has hit Sunxingmin (Iron Mace, 27 DMG).
+20:49:55 - Sunxingmin has hit [KT]lst (Long Spear, 20 DMG).
+20:49:55 - Sunxingmin <img=ico_spear> [KT]lst
+20:49:55 - The round 1 has ended
+20:50:33 - Sunxingmin has hit [KT]lst (Outlanders Great Sword, 28 DMG).
+20:50:36 - [KT]lst has hit Sunxingmin (Iron Mace, 42 DMG).
+20:50:37 - Sunxingmin has hit [KT]lst (Outlanders Great Sword, 16 DMG).
+20:50:41 - Sunxingmin has hit [KT]lst (Outlanders Great Sword, 16 DMG).
+20:50:52 - Sunxingmin has hit [KT]lst (Long Spear, 25 DMG).
+20:50:52 - Sunxingmin <img=ico_spear> [KT]lst
+20:50:52 - The round 2 has ended
+20:51:27 - Sunxingmin has hit [KT]lst (Long Spear, 24 DMG).
+20:51:31 - [KT]lst has hit Sunxingmin (Iron Mace, 15 DMG).
+20:51:34 - Sunxingmin has hit [KT]lst (Long Spear, 38 DMG).
+20:51:37 - [KT]lst has hit Sunxingmin (Iron Mace, 25 DMG).
+20:51:41 - Sunxingmin has hit [KT]lst (Long Spear, 24 DMG).
+20:51:41 - Sunxingmin <img=ico_spear> [KT]lst
+20:51:41 - The round 3 has ended
+20:52:10 - [KT]lst has hit Sunxingmin (Iron Mace, 32 DMG).
+20:52:13 - MengGu_BuBing has joined the game with ID: 1953383 and IP: 14.199.13.127
+20:52:19 - *SPEC* [MengGu_BuBing] KTP,QQ
+20:52:20 - Sunxingmin has hit [KT]lst (Long Spear, 37 DMG).
+20:52:25 - Sunxingmin has hit [KT]lst (Long Spear, 16 DMG).
+20:52:37 - Sunxingmin has hit [KT]lst (Long Spear, 3 DMG).
+20:52:40 - Sunxingmin has hit [KT]lst (Long Spear, 26 DMG).
+20:52:40 - Sunxingmin <img=ico_spear> [KT]lst
+20:52:40 - The round 4 has ended
+20:53:05 - KT_Vergil has joined the game with ID: 3870768 and IP: 39.185.106.244
+20:53:07 - [KT]lst has hit Sunxingmin (Iron Mace, 29 DMG).
+20:53:13 - Sunxingmin has hit [KT]lst (Long Spear, 12 DMG).
+20:53:25 - Sunxingmin has hit [KT]lst (Long Spear, 30 DMG).
+20:53:26 - Sunxingmin has hit [KT]lst (Long Spear, 34 DMG).
+20:53:26 - Sunxingmin <img=ico_spear> [KT]lst
+20:53:26 - The round 5 has ended
+20:53:51 - MengGu_BuBing has left the game with ID: 1953383 and IP: 14.199.13.127
+20:53:51 - MengGu_BuBing has left the game with ID: 1953383.
+20:54:01 - [KT]lst has hit Sunxingmin (Iron Mace, 42 DMG).
+20:54:04 - Sunxingmin has hit [KT]lst (Long Spear, 38 DMG).
+20:54:05 - wanglicha has joined the game with ID: 5707597 and IP: 49.69.127.66
+20:54:07 - Sunxingmin has hit KT_Vergil (Long Spear, 28 DMG).
+20:54:10 - Sunxingmin has hit [KT]lst (Long Spear, 61 DMG).
+20:54:10 - Sunxingmin <img=ico_spear> [KT]lst
+20:54:13 - KT_Vergil has hit Sunxingmin (Light Sabre, 6 DMG).
+20:54:20 - Sunxingmin has hit KT_Vergil (Long Spear, 33 DMG).
+20:54:23 - Sunxingmin has hit KT_Vergil (Outlanders Great Sword, 23 DMG).
+20:54:30 - Sunxingmin has hit KT_Vergil (Outlanders Great Sword, 5 DMG).
+20:54:30 - Sunxingmin <img=ico_swordtwo> KT_Vergil
+20:54:30 - The round 6 has ended
+20:54:34 - dou_dou has joined the game with ID: 5266925 and IP: 42.48.1.232
+20:54:47 - MengGu_BuBing has joined the game with ID: 1953383 and IP: 14.199.13.127
+20:54:54 - KT_Vergil has hit wanglicha (Light Sabre, 12 DMG).
+20:55:02 - [KT]lst has hit Sunxingmin (Iron Mace, 32 DMG).
+20:55:03 - KT_Vergil has hit wanglicha (Light Sabre, 14 DMG).
+20:55:10 - wanglicha has hit KT_Vergil (Iron Mace, 6 DMG).
+20:55:18 - wanglicha has hit KT_Vergil (Iron Mace, 27 DMG).
+20:55:19 - Sunxingmin has hit [KT]lst (Long Spear, 20 DMG).
+20:55:34 - Sunxingmin has hit [KT]lst (Long Spear, 21 DMG).
+20:55:36 - Sunxingmin has hit KT_Vergil (Long Spear, 25 DMG).
+20:55:37 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 9 DMG).
+20:55:39 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 8 DMG).
+20:55:41 - KT_Vergil has hit wanglicha (Light Sabre, 4 DMG).
+20:55:41 - Sunxingmin has hit [KT]lst (Long Spear, 25 DMG).
+20:55:43 - Sunxingmin has hit KT_Vergil (Long Spear, 24 DMG).
+20:55:43 - Sunxingmin <img=ico_spear> KT_Vergil
+20:55:49 - Sunxingmin has hit [KT]lst (Long Spear, 22 DMG).
+20:55:49 - Sunxingmin <img=ico_spear> [KT]lst
+20:55:49 - The round 7 has ended
+20:56:02 - MengGu_BuBing has left the game with ID: 1953383 and IP: 14.199.13.127
+20:56:02 - MengGu_BuBing has left the game with ID: 1953383.
+20:56:11 - [KT]lst has hit Sunxingmin (Iron Mace, 37 DMG).
+20:56:14 - Best player's score: 9000
+20:56:14 - [KT]lst has hit Sunxingmin (Iron Mace, 35 DMG).
+20:56:14 - [KT]lst <img=ico_blunt> Sunxingmin
+20:56:14 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 12 DMG).
+20:56:15 - KT_Vergil has hit wanglicha (Iron Mace, 16 DMG).
+20:56:22 - [KT]lst has hit dou_dou (Iron Mace, 51 DMG).
+20:56:22 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 1 DMG).
+20:56:23 - [KT]lst has hit dou_dou (Iron Mace, 8 DMG).
+20:56:24 - KT_Vergil has hit wanglicha (Iron Mace, 22 DMG).
+20:56:25 - dou_dou has hit [KT]lst (Iron Mace, 31 DMG).
+20:56:26 - dou_dou has hit [KT]lst (Iron Mace, 28 DMG).
+20:56:27 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 7 DMG).
+20:56:30 - [KT]lst has hit dou_dou (Iron Mace, 23 DMG).
+20:56:30 - [KT]lst <img=ico_blunt> dou_dou
+20:56:40 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 14 DMG).
+20:56:40 - wanglicha <img=ico_axeone> [KT]lst
+20:56:44 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 14 DMG).
+20:56:46 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 14 DMG).
+20:56:50 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 18 DMG).
+20:56:52 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 21 DMG).
+20:56:52 - wanglicha <img=ico_axeone> KT_Vergil
+20:56:52 - The round 8 has ended
+20:56:52 - Katsuyori has joined the game with ID: 4153280 and IP: 113.118.65.204
+20:57:14 - [KT]lst has hit wanglicha (Iron Mace, 36 DMG).
+20:57:16 - KT_Vergil has hit wanglicha (Iron Mace, 20 DMG).
+20:57:18 - KT_Vergil has hit wanglicha (Iron Mace, 23 DMG).
+20:57:18 - KT_Vergil <img=ico_blunt> wanglicha
+20:57:19 - dou_dou has hit [KT]lst (Iron Mace, 18 DMG).
+20:57:21 - [DK]pAceR has joined the game with ID: 3021909 and IP: 113.81.107.190 and WSE2: 1123
+20:57:23 - Katsuyori has hit dou_dou (One Handed Bar Mace, 30 DMG).
+20:57:25 - Katsuyori has hit dou_dou (One Handed Bar Mace, 26 DMG).
+20:57:27 - Katsuyori has hit dou_dou (One Handed Bar Mace, 29 DMG).
+20:57:27 - Katsuyori <img=ico_blunt> dou_dou
+20:57:30 - [Blood]mR_Wha7eVEr has joined the game with ID: 1957157 and IP: 58.16.217.141 and has administrator rights.
+20:57:40 - [KT]lst has hit Sunxingmin (Iron Mace, 29 DMG).
+20:57:41 - [KT]lst has hit Sunxingmin (Iron Mace, 33 DMG).
+20:57:42 - [KT]lst has hit Sunxingmin (Iron Mace, 30 DMG).
+20:57:42 - [KT]lst <img=ico_blunt> Sunxingmin
+20:57:42 - The round 9 has ended
+20:58:04 - [DK]pAceR has hit wanglicha (Heavy Scimitar, 48 DMG).
+20:58:07 - [DK]pAceR has hit wanglicha (Heavy Scimitar, 35 DMG).
+20:58:07 - [DK]pAceR <img=ico_swordone> wanglicha
+20:58:10 - [DK]pAceR has hit [Blood]mR_Wha7eVEr (Heavy Scimitar, 38 DMG).
+20:58:12 - [DK]pAceR has hit [Blood]mR_Wha7eVEr (Heavy Scimitar, 29 DMG).
+20:58:14 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Heavy Axe, 30 DMG).
+20:58:14 - KT_Vergil <img=ico_axeone> [Blood]mR_Wha7eVEr
+20:58:14 - [KT]lst has hit teammate KT_Vergil (Iron Mace, 19 DMG).
+20:58:16 - [X1]Yuukasama has joined the game with ID: 3976752 and IP: 183.209.85.9 and has administrator rights.
+20:58:20 - KT_Vergil has hit dou_dou (Heavy Axe, 24 DMG).
+20:58:21 - [KT]lst has hit dou_dou (Iron Mace, 13 DMG).
+20:58:22 - Katsuyori has hit dou_dou (One Handed Bar Mace, 27 DMG).
+20:58:22 - [KT]lst has hit dou_dou (Iron Mace, 27 DMG).
+20:58:22 - [KT]lst <img=ico_blunt> dou_dou
+20:58:29 - [DK]pAceR has hit Sunxingmin (Heavy Scimitar, 30 DMG).
+20:58:30 - [DK]pAceR has hit Sunxingmin (Heavy Scimitar, 18 DMG).
+20:58:31 - [DK]pAceR has hit Sunxingmin (Heavy Scimitar, 36 DMG).
+20:58:31 - [DK]pAceR <img=ico_swordone> Sunxingmin
+20:58:31 - The round 10 has ended
+20:58:36 - [IM]XiaoXiGua has joined the game with ID: 5803128 and IP: 59.37.129.37
+20:58:43 - [HorN]Bl4ckGeez has joined the game with ID: 3703366 and IP: 183.219.42.1
+20:58:44 - [X1]benboba has joined the game with ID: 4946740 and IP: 106.8.174.177
+20:58:45 - [X1]benboba has been given administrator rights (100)
+20:58:55 - [KT]lst has hit wanglicha (Iron Mace, 19 DMG).
+20:58:56 - KT_Vergil has hit wanglicha (Heavy Axe, 25 DMG).
+20:58:56 - [DK]pAceR has hit Sunxingmin (Heavy Scimitar, 18 DMG).
+20:58:57 - [KT]lst has hit Sunxingmin (Iron Mace, 16 DMG).
+20:58:58 - [DK]pAceR has hit teammate [KT]lst (Heavy Scimitar, 10 DMG).
+20:59:01 - Katsuyori has hit dou_dou (One Handed Bar Mace, 32 DMG).
+20:59:02 - dou_dou has hit Katsuyori (Heavy Cleaver, 16 DMG).
+20:59:03 - Sunxingmin has hit [DK]pAceR (Long Spear, 56 DMG).
+20:59:04 - dou_dou has hit Katsuyori (Heavy Cleaver, 13 DMG).
+20:59:04 - KT_Vergil has hit wanglicha (Heavy Axe, 7 DMG).
+20:59:09 - [X1]Yuukasama has left the game with ID: 3976752 and IP: 183.209.85.9
+20:59:09 - [X1]Yuukasama has left the game with ID: 3976752.
+20:59:10 - [DK]pAceR has hit dou_dou (Heavy Scimitar, 16 DMG).
+20:59:11 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 5 DMG).
+20:59:11 - [KT]lst has hit Sunxingmin (Iron Mace, 40 DMG).
+20:59:11 - [KT]lst <img=ico_blunt> Sunxingmin
+20:59:13 - [DK]pAceR has hit dou_dou (Heavy Scimitar, 30 DMG).
+20:59:13 - [DK]pAceR <img=ico_swordone> dou_dou
+20:59:14 - [DK]pAceR has hit teammate Katsuyori (Heavy Scimitar, 17 DMG).
+20:59:15 - KT_Vergil has hit wanglicha (Heavy Axe, 13 DMG).
+20:59:15 - KT_Vergil <img=ico_axeone> wanglicha
+20:59:15 - The round 11 has ended
+20:59:16 - MINI_Cooper has joined the game with ID: 443956 and IP: 123.189.185.252
+20:59:22 -  <img=ico_headshot> [KT]lst
+20:59:22 -  <img=ico_headshot> KT_Vergil
+20:59:22 -  <img=ico_headshot> wanglicha
+20:59:22 -  <img=ico_headshot> [DK]pAceR
+20:59:22 -  <img=ico_headshot> Katsuyori
+20:59:22 - The round 12 has ended
+20:59:22 -  <img=ico_headshot> dou_dou
+20:59:24 - *SPEC* [dou_dou] 打 呀 
+20:59:40 -  <img=ico_headshot> KT_Vergil
+20:59:42 -  <img=ico_headshot> dou_dou
+20:59:42 -  <img=ico_headshot> [KT]lst
+20:59:42 -  <img=ico_headshot> wanglicha
+20:59:42 - The round 13 has ended
+20:59:42 -  <img=ico_headshot> Sunxingmin
+20:59:42 - The map has been reset.
+20:59:53 - [Sunxingmin] r
+20:59:55 - *SPEC* [MINI_Cooper] 6
+20:59:57 - [dou_dou] t
+20:59:58 - [wanglicha] R
+20:59:59 - [dou_dou] r
+21:00:03 - [[KT]lst] r
+21:00:03 - [KT_Vergil] r
+21:00:05 - Raphael has joined the game with ID: 4951826 and IP: 123.123.40.247
+21:00:10 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Heavy Axe, 21 DMG).
+21:00:11 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Heavy Axe, 27 DMG).
+21:00:11 - dou_dou has hit Sunxingmin (Iron Mace, 28 DMG).
+21:00:14 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 25 DMG).
+21:00:15 - [X1]Yuukasama has joined the game with ID: 3976752 and IP: 183.209.85.9 and has administrator rights.
+21:00:15 - Sunxingmin has hit dou_dou (Long Spear, 22 DMG).
+21:00:16 - Sunxingmin has hit wanglicha (Long Spear, 27 DMG).
+21:00:17 - [KT]lst has hit dou_dou (Iron Mace, 26 DMG).
+21:00:18 - Sunxingmin has hit dou_dou (Long Spear, 15 DMG).
+21:00:19 - Sunxingmin has hit wanglicha (Long Spear, 21 DMG).
+21:00:19 - [KT]lst has hit dou_dou (Iron Mace, 30 DMG).
+21:00:19 - [KT]lst <img=ico_blunt> dou_dou
+21:00:20 - [KT]lst has hit wanglicha (Iron Mace, 21 DMG).
+21:00:20 - [KT]lst <img=ico_blunt> wanglicha
+21:00:23 - *SERVER* [[X1]Yuukasama]: haole?
+21:00:24 - Goganpa has joined the game with ID: 5519439 and IP: 36.251.39.113
+21:00:25 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 30 DMG).
+21:00:25 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Heavy Axe, 35 DMG).
+21:00:25 - KT_Vergil <img=ico_axeone> [Blood]mR_Wha7eVEr
+21:00:25 - The round 14 has ended
+21:00:26 - *DEAD* [dou_dou] r
+21:00:26 - [Sunxingmin] tr
+21:00:28 - NotYourDope has joined the game with ID: 5350841 and IP: 180.105.82.226
+21:00:29 - [Sunxingmin] rrrw
+21:00:29 - *DEAD* [Sunxingmin] rrr
+21:00:31 - [Sunxingmin] rrr
+21:00:32 - [Sunxingmin] rr
+21:00:32 - [Sunxingmin] rr
+21:00:33 - [KT_Vergil] r
+21:00:35 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
+21:00:35 -  <img=ico_headshot> dou_dou
+21:00:35 -  <img=ico_headshot> wanglicha
+21:00:35 - The round 15 has ended
+21:00:35 -  <img=ico_headshot> Sunxingmin
+21:00:35 -  <img=ico_headshot> KT_Vergil
+21:00:35 -  <img=ico_headshot> [KT]lst
+21:00:35 - The map has been reset.
+21:00:42 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
+21:00:42 -  <img=ico_headshot> dou_dou
+21:00:42 -  <img=ico_headshot> wanglicha
+21:00:42 - The round 16 has ended
+21:00:42 -  <img=ico_headshot> Sunxingmin
+21:00:42 -  <img=ico_headshot> KT_Vergil
+21:00:42 -  <img=ico_headshot> [KT]lst
+21:00:42 - The map has been reset.
+21:00:46 - [DK]Passionfruit has joined the game with ID: 4446830 and IP: 119.166.168.45 and WSE2: 1111
+21:00:46 - *SERVER* [[X1]Yuukasama]: 上 半 场 开 始 
+21:01:05 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 30 DMG).
+21:01:08 - DemonHunter has joined the game with ID: 2780258 and IP: 110.86.150.161
+21:01:08 - [KT]lst has hit wanglicha (Iron Mace, 24 DMG).
+21:01:09 - dou_dou has hit Sunxingmin (Iron Mace, 5 DMG).
+21:01:09 - [Blood]mR_Wha7eVEr has hit Sunxingmin (Flambard, 15 DMG).
+21:01:09 - KT_Vergil has hit dou_dou (Heavy Axe, 31 DMG).
+21:01:10 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 23 DMG).
+21:01:10 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 42 DMG).
+21:01:13 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Heavy Axe, 16 DMG).
+21:01:13 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 24 DMG).
+21:01:13 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 17 DMG).
+21:01:15 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 18 DMG).
+21:01:15 - wanglicha <img=ico_axeone> [KT]lst
+21:01:15 - Sunxingmin has hit dou_dou (Long Spear, 8 DMG).
+21:01:17 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 31 DMG).
+21:01:17 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+21:01:17 - dou_dou has hit teammate wanglicha (Iron Mace, 10 DMG).
+21:01:18 - dou_dou has hit KT_Vergil (Iron Mace, 26 DMG).
+21:01:18 - dou_dou <img=ico_blunt> KT_Vergil
+21:01:26 - [Blood]mR_Wha7eVEr has hit Sunxingmin (Flambard, 35 DMG).
+21:01:26 - dou_dou has hit Sunxingmin (Heavy Cleaver, 23 DMG).
+21:01:26 - dou_dou <img=ico_swordone> Sunxingmin
+21:01:26 - The round 17 has ended
+21:01:30 - *SPEC* [MINI_Cooper] 66666
+21:01:33 - *SPEC* [[DK]pAceR] 怎 么 不 玩 单 手 
+21:01:34 - DemonHunter has left the game with ID: 2780258 and IP: 110.86.150.161
+21:01:34 - DemonHunter has left the game with ID: 2780258.
+21:01:36 - DemonHunter has joined the game with ID: 2780258 and IP: 110.86.150.161
+21:01:37 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.9
+21:01:40 - *SPEC* [DingzhenGanzi] 好 多 人 
+21:01:44 - *SPEC* [NotYourDope] 球 王 手 还 没 热 
+21:01:49 - dou_dou has hit Sunxingmin (Heavy Cleaver, 18 DMG).
+21:01:50 - [KT]lst has hit wanglicha (Iron Mace, 23 DMG).
+21:01:50 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 11 DMG).
+21:01:51 - [KT]lst has hit wanglicha (Iron Mace, 29 DMG).
+21:01:51 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 14 DMG).
+21:01:57 - dou_dou has hit KT_Vergil (Heavy Cleaver, 36 DMG).
+21:01:58 - Sunxingmin has hit dou_dou (Long Spear, 30 DMG).
+21:01:58 - [Blood]mR_Wha7eVEr has hit Sunxingmin (Flambard, 31 DMG).
+21:01:58 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 17 DMG).
+21:02:00 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 29 DMG).
+21:02:05 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 13 DMG).
+21:02:06 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 27 DMG).
+21:02:07 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 24 DMG).
+21:02:08 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+21:02:12 - Sunxingmin has hit dou_dou (Long Spear, 20 DMG).
+21:02:14 - Sunxingmin has hit dou_dou (Long Spear, 10 DMG).
+21:02:14 - Sunxingmin <img=ico_spear> dou_dou
+21:02:15 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 24 DMG).
+21:02:21 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Nordlander Elite Sword, 12 DMG).
+21:02:24 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 22 DMG).
+21:02:24 - wanglicha <img=ico_axeone> [KT]lst
+21:02:24 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 26 DMG).
+21:02:24 - KT_Vergil <img=ico_swordone> wanglicha
+21:02:26 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 45 DMG).
+21:02:26 - Sunxingmin <img=ico_spear> [Blood]mR_Wha7eVEr
+21:02:26 - The round 18 has ended
+21:02:38 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+21:02:38 - DingzhenGanzi has left the game with ID: 4936676.
+21:02:47 - Sunxingmin has hit teammate KT_Vergil (Long Spear, 16 DMG).
+21:02:47 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 25 DMG).
+21:02:51 - dou_dou has hit Sunxingmin (Iron Mace, 39 DMG).
+21:02:52 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 9 DMG).
+21:02:54 - Sunxingmin has hit dou_dou (Long Spear, 39 DMG).
+21:02:55 - Sunxingmin has hit teammate KT_Vergil (Long Spear, 13 DMG).
+21:02:56 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 3 DMG).
+21:02:57 - dou_dou has hit Sunxingmin (Iron Mace, 31 DMG).
+21:02:57 - dou_dou <img=ico_blunt> Sunxingmin
+21:02:58 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 36 DMG).
+21:02:59 - *SPEC* [MINI_Cooper] 666666
+21:03:00 - *SPEC* [[X1]benboba] 666
+21:03:01 - dou_dou has hit KT_Vergil (Iron Mace, 15 DMG).
+21:03:02 - *SPEC* [[DK]Passionfruit] 副 作 用 
+21:03:02 - *SPEC* [NotYourDope] 666
+21:03:02 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 21 DMG).
+21:03:03 - *SPEC* [Raphael] 666
+21:03:03 - *SPEC* [[DK]pAceR] 666
+21:03:03 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 4 DMG).
+21:03:03 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 31 DMG).
+21:03:04 - dou_dou has hit KT_Vergil (Iron Mace, 17 DMG).
+21:03:05 - *SPEC* [Pageup] 666
+21:03:05 - *SPEC* [[IM]XiaoXiGua] 666
+21:03:05 - *SPEC* [[X1]NewPlayer] 666
+21:03:05 - dou_dou has hit KT_Vergil (Iron Mace, 21 DMG).
+21:03:05 - dou_dou <img=ico_blunt> KT_Vergil
+21:03:11 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 8 DMG).
+21:03:13 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 33 DMG).
+21:03:13 - dou_dou has hit [KT]lst (Iron Mace, 20 DMG).
+21:03:13 - dou_dou <img=ico_blunt> [KT]lst
+21:03:13 - The round 19 has ended
+21:03:26 - *SPEC* [NotYourDope] 连 续 两 脚 乌 龙 球 
+21:03:36 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 12 DMG).
+21:03:37 - dou_dou has hit KT_Vergil (Iron Mace, 21 DMG).
+21:03:38 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 9 DMG).
+21:03:40 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 13 DMG).
+21:03:41 - [KT]lst has hit dou_dou (Iron Mace, 37 DMG).
+21:03:42 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 31 DMG).
+21:03:43 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 14 DMG).
+21:03:45 - dou_dou has hit Sunxingmin (Iron Mace, 21 DMG).
+21:03:47 - [KT]lst has hit dou_dou (Iron Mace, 16 DMG).
+21:03:48 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 11 DMG).
+21:03:50 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 30 DMG).
+21:03:50 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 30 DMG).
+21:03:50 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Nordlander Elite Sword, 38 DMG).
+21:03:50 - KT_Vergil <img=ico_swordone> [Blood]mR_Wha7eVEr
+21:03:51 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 25 DMG).
+21:03:52 - Sunxingmin has hit dou_dou (Long Spear, 11 DMG).
+21:03:52 - Sunxingmin <img=ico_spear> dou_dou
+21:03:54 - Sunxingmin has hit wanglicha (Long Spear, 28 DMG).
+21:03:54 - [KT]lst has hit wanglicha (Iron Mace, 21 DMG).
+21:03:54 - [KT]lst <img=ico_blunt> wanglicha
+21:03:54 - The round 20 has ended
+21:03:55 - KT_Vergil has hit teammate Sunxingmin (Nordlander Elite Sword, 14 DMG).
+21:04:15 - Sunxingmin has hit wanglicha (Long Spear, 24 DMG).
+21:04:16 - wanglicha has hit Sunxingmin (One Handed Knightly Axe, 29 DMG).
+21:04:18 - Sunxingmin has hit wanglicha (Long Spear, 7 DMG).
+21:04:18 - *SPEC* [Goganpa] 另 一 边 什 么 阵 容 
+21:04:18 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 30 DMG).
+21:04:21 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 15 DMG).
+21:04:21 - Sunxingmin has hit wanglicha (Long Spear, 4 DMG).
+21:04:22 - wanglicha has hit Sunxingmin (One Handed Knightly Axe, 30 DMG).
+21:04:23 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 26 DMG).
+21:04:23 - dou_dou has hit KT_Vergil (Iron Mace, 24 DMG).
+21:04:24 - *SPEC* [[IM]XiaoXiGua] 我 要 买 上 半 场 ktp5-3
+21:04:24 - Sunxingmin has hit wanglicha (Long Spear, 15 DMG).
+21:04:24 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 17 DMG).
+21:04:26 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 20 DMG).
+21:04:27 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 49 DMG).
+21:04:27 - [KT]lst <img=ico_blunt> [Blood]mR_Wha7eVEr
+21:04:28 - [KT]lst has hit dou_dou (Iron Mace, 21 DMG).
+21:04:30 - dou_dou has hit KT_Vergil (Iron Mace, 36 DMG).
+21:04:30 - dou_dou <img=ico_blunt> KT_Vergil
+21:04:31 - Sunxingmin has hit wanglicha (Long Spear, 18 DMG).
+21:04:31 - Sunxingmin <img=ico_spear> wanglicha
+21:04:34 - [KT]lst has hit dou_dou (Iron Mace, 31 DMG).
+21:04:36 - [KT]lst has hit dou_dou (Iron Mace, 18 DMG).
+21:04:36 - [KT]lst <img=ico_blunt> dou_dou
+21:04:36 - The round 21 has ended
+21:04:43 - *SPEC* [[X1]benboba] 半 身 位 
+21:04:56 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 12 DMG).
+21:04:58 - *SPEC* [[X1]benboba] 小 山 渣 到 时 候 二 狗 也 这 么 踹 你 
+21:05:01 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 15 DMG).
+21:05:01 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 9 DMG).
+21:05:04 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 16 DMG).
+21:05:05 - Sunxingmin has hit dou_dou (Long Spear, 24 DMG).
+21:05:06 - *SPEC* [MINI_Cooper] 66
+21:05:07 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 16 DMG).
+21:05:08 - [Blood]mR_Wha7eVEr has hit Sunxingmin (Flambard, 52 DMG).
+21:05:08 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.9
+21:05:08 - [X1]NewPlayer has left the game with ID: 4270208.
+21:05:10 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Nordlander Elite Sword, 24 DMG).
+21:05:13 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 17 DMG).
+21:05:13 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 40 DMG).
+21:05:14 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Nordlander Elite Sword, 24 DMG).
+21:05:14 - KT_Vergil <img=ico_swordone> [Blood]mR_Wha7eVEr
+21:05:15 - wanglicha has hit Sunxingmin (One Handed Knightly Axe, 38 DMG).
+21:05:15 - wanglicha <img=ico_axeone> Sunxingmin
+21:05:16 - [KT]lst has hit dou_dou (Iron Mace, 34 DMG).
+21:05:21 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 17 DMG).
+21:05:24 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 10 DMG).
+21:05:27 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 19 DMG).
+21:05:27 - [KT]lst has hit dou_dou (Iron Mace, 27 DMG).
+21:05:27 - [KT]lst <img=ico_blunt> dou_dou
+21:05:40 - *SPEC* [[X1]benboba] 你 教 的 ？ 
+21:05:41 - [KT]lst has hit wanglicha (Iron Mace, 27 DMG).
+21:05:43 - *SPEC* [[X1]benboba] ktp
+21:05:45 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 17 DMG).
+21:05:45 - KT_Vergil <img=ico_swordone> wanglicha
+21:05:45 - The round 22 has ended
+21:05:50 - *DEAD* [Sunxingmin] ?
+21:05:52 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+21:05:54 - *SPEC* [[IM]XiaoXiGua] 赛 点 
+21:05:55 - *SPEC* [[DK]pAceR] 这 力 王 
+21:06:04 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 21 DMG).
+21:06:05 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 20 DMG).
+21:06:07 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 40 DMG).
+21:06:11 - *SPEC* [DingzhenGanzi] 怎 么 都 来 了 cw2?
+21:06:14 - dou_dou has hit KT_Vergil (Iron Mace, 34 DMG).
+21:06:18 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 24 DMG).
+21:06:18 - dou_dou has hit KT_Vergil (Iron Mace, 29 DMG).
+21:06:18 - dou_dou <img=ico_blunt> KT_Vergil
+21:06:18 - *SPEC* [DingzhenGanzi] 不 是 昨 天 一 样 的 吗 
+21:06:21 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 35 DMG).
+21:06:21 - [KT]lst <img=ico_blunt> [Blood]mR_Wha7eVEr
+21:06:23 - Sunxingmin has hit dou_dou (Long Spear, 27 DMG).
+21:06:26 - Sunxingmin has hit dou_dou (Long Spear, 34 DMG).
+21:06:26 - Sunxingmin <img=ico_spear> dou_dou
+21:06:27 - wanglicha has hit Sunxingmin (One Handed Knightly Axe, 34 DMG).
+21:06:28 - [KT]lst has hit wanglicha (Iron Mace, 21 DMG).
+21:06:29 - *SPEC* [DingzhenGanzi] 其 他 赛 场 怎 么 没 人 
+21:06:29 - Sunxingmin has hit wanglicha (Long Spear, 6 DMG).
+21:06:29 - [KT]lst has hit wanglicha (Iron Mace, 28 DMG).
+21:06:30 - Sunxingmin has hit wanglicha (Long Spear, 31 DMG).
+21:06:30 - Sunxingmin <img=ico_spear> wanglicha
+21:06:30 - The round 23 has ended
+21:06:33 - *SPEC* [[X1]benboba] 666666666666666666666
+21:06:35 - *SERVER* [[X1]Yuukasama]: 上 半 场 结 束 
+21:06:36 - *SPEC* [DemonHunter] 666
+21:06:37 - *SPEC* [[X1]benboba] 666666
+21:06:37 - *SPEC* [[DK]Passionfruit] 66
+21:06:39 -  <img=ico_headshot> [KT]lst
+21:06:39 -  <img=ico_headshot> KT_Vergil
+21:06:39 -  <img=ico_headshot> Sunxingmin
+21:06:39 - The round 24 has ended
+21:06:39 -  <img=ico_headshot> wanglicha
+21:06:39 -  <img=ico_headshot> dou_dou
+21:06:39 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
+21:06:39 - *SPEC* [NotYourDope] 666
+21:06:39 - *SPEC* [[IM]XiaoXiGua] 666666
+21:06:42 - *SPEC* [[DK]Passionfruit] 半 身 位 
+21:06:45 - [Sunxingmin] rrrrr
+21:06:46 - *SERVER* [[X1]benboba]: 伟 大 无 需 多 言 
+21:06:48 - *SERVER* [[X1]Yuukasama]: 圣 殿 哈 哈 5： 2随 机 组 合 
+21:06:49 - [wanglicha] R
+21:06:53 - [[KT]lst] r
+21:06:59 - [KT_Vergil] r
+21:07:00 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
+21:07:00 -  <img=ico_headshot> dou_dou
+21:07:00 -  <img=ico_headshot> wanglicha
+21:07:00 - The round 25 has ended
+21:07:00 -  <img=ico_headshot> Sunxingmin
+21:07:00 -  <img=ico_headshot> KT_Vergil
+21:07:00 -  <img=ico_headshot> [KT]lst
+21:07:00 - The map has been reset.
+21:07:06 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
+21:07:06 -  <img=ico_headshot> dou_dou
+21:07:06 -  <img=ico_headshot> wanglicha
+21:07:06 - The round 26 has ended
+21:07:06 -  <img=ico_headshot> Sunxingmin
+21:07:06 -  <img=ico_headshot> KT_Vergil
+21:07:06 -  <img=ico_headshot> [KT]lst
+21:07:06 - The map has been reset.
+21:07:11 - *SERVER* [[X1]Yuukasama]: 下 半 场 开 始 
+21:07:14 - DemonHunter has left the game with ID: 2780258 and IP: 110.86.150.161
+21:07:14 - DemonHunter has left the game with ID: 2780258.
+21:07:16 - *SPEC* [[IM]XiaoXiGua] KTP半 身 位 踢 腿 理 论 与 实 践 课 程 
+21:07:27 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 36 DMG).
+21:07:29 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 17 DMG).
+21:07:29 - Sunxingmin has hit dou_dou (Long Spear, 7 DMG).
+21:07:31 - Sunxingmin has hit wanglicha (Long Spear, 3 DMG).
+21:07:31 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 24 DMG).
+21:07:34 - Sunxingmin has hit dou_dou (Long Spear, 21 DMG).
+21:07:35 - Sunxingmin has hit wanglicha (Long Spear, 24 DMG).
+21:07:36 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 38 DMG).
+21:07:38 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 14 DMG).
+21:07:38 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 35 DMG).
+21:07:39 - dou_dou has hit Sunxingmin (Heavy Cleaver, 28 DMG).
+21:07:41 - Sunxingmin has hit dou_dou (Long Spear, 19 DMG).
+21:07:42 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 5 DMG).
+21:07:42 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 16 DMG).
+21:07:43 - wanglicha has hit Sunxingmin (One Handed Knightly Axe, 42 DMG).
+21:07:43 - wanglicha <img=ico_axeone> Sunxingmin
+21:07:44 - KT_Vergil has hit [Blood]mR_Wha7eVEr (Nordlander Elite Sword, 15 DMG).
+21:07:44 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 30 DMG).
+21:07:44 - [KT]lst <img=ico_blunt> [Blood]mR_Wha7eVEr
+21:07:47 - dou_dou has hit KT_Vergil (Heavy Cleaver, 11 DMG).
+21:07:50 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 16 DMG).
+21:07:55 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 26 DMG).
+21:07:55 - KT_Vergil <img=ico_swordone> dou_dou
+21:07:55 - [KT]lst has hit wanglicha (Iron Mace, 36 DMG).
+21:07:55 - [KT]lst <img=ico_blunt> wanglicha
+21:07:55 - The round 27 has ended
+21:07:59 - *SPEC* [[X1]benboba] 6666666666666
+21:07:59 - MINI_Cooper has left the game with ID: 443956 and IP: 123.189.185.252
+21:07:59 - MINI_Cooper has left the game with ID: 443956.
+21:08:02 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+21:08:02 - DingzhenGanzi has left the game with ID: 4936676.
+21:08:10 - *SPEC* [[DK]pAceR] 不 动 如 山 ， 其 徐 如 林 
+21:08:14 - *SPEC* [[DK]pAceR] 力 王 后 退 
+21:08:16 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 16 DMG).
+21:08:18 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 22 DMG).
+21:08:19 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 26 DMG).
+21:08:22 - Sunxingmin has hit wanglicha (Long Spear, 16 DMG).
+21:08:27 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 13 DMG).
+21:08:27 - dou_dou has hit [KT]lst (Iron Mace, 10 DMG).
+21:08:27 - Sunxingmin has hit wanglicha (Long Spear, 10 DMG).
+21:08:29 - [KT]lst has hit wanglicha (Iron Mace, 11 DMG).
+21:08:29 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 21 DMG).
+21:08:31 - Sunxingmin has hit wanglicha (Long Spear, 30 DMG).
+21:08:31 - Sunxingmin <img=ico_spear> wanglicha
+21:08:37 - dou_dou has hit KT_Vergil (Iron Mace, 31 DMG).
+21:08:37 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 8 DMG).
+21:08:41 - [X1]benboba has left the game with ID: 4946740 and IP: 106.8.174.177
+21:08:41 - [X1]benboba has left the game with ID: 4946740.
+21:08:42 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 29 DMG).
+21:08:44 - dou_dou has hit KT_Vergil (Iron Mace, 34 DMG).
+21:08:44 - dou_dou <img=ico_blunt> KT_Vergil
+21:08:45 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 38 DMG).
+21:08:45 - Sunxingmin <img=ico_spear> [Blood]mR_Wha7eVEr
+21:08:48 - Sunxingmin has hit dou_dou (Long Spear, 7 DMG).
+21:08:48 - [KT]lst has hit dou_dou (Iron Mace, 7 DMG).
+21:08:49 - Sunxingmin has hit dou_dou (Long Spear, 20 DMG).
+21:08:49 - [KT]lst has hit dou_dou (Iron Mace, 21 DMG).
+21:08:50 - Sunxingmin has hit dou_dou (Long Spear, 11 DMG).
+21:08:50 - [KT]lst has hit dou_dou (Iron Mace, 34 DMG).
+21:08:50 - [KT]lst <img=ico_blunt> dou_dou
+21:08:50 - The round 28 has ended
+21:08:56 - *SPEC* [[IM]XiaoXiGua] 此 刻 他 再 次 手 握 五 个 赛 点 ！ 
+21:08:57 - [wanglicha] 无 奈 了 
+21:09:00 - [wanglicha] 这 长 杆 
+21:09:13 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 5 DMG).
+21:09:14 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 17 DMG).
+21:09:15 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 12 DMG).
+21:09:17 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 31 DMG).
+21:09:17 - Sunxingmin has hit wanglicha (Long Spear, 34 DMG).
+21:09:18 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 16 DMG).
+21:09:18 - [KT]lst has hit teammate KT_Vergil (Iron Mace, 9 DMG).
+21:09:19 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 3 DMG).
+21:09:20 - wanglicha has hit KT_Vergil (One Handed Knightly Axe, 19 DMG).
+21:09:21 - Sunxingmin has hit wanglicha (Long Spear, 18 DMG).
+21:09:24 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 28 DMG).
+21:09:27 - Sunxingmin has hit dou_dou (Long Spear, 33 DMG).
+21:09:27 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 20 DMG).
+21:09:27 - KT_Vergil has hit wanglicha (Nordlander Elite Sword, 10 DMG).
+21:09:27 - KT_Vergil <img=ico_swordone> wanglicha
+21:09:28 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 16 DMG).
+21:09:29 - Sunxingmin has hit dou_dou (Long Spear, 18 DMG).
+21:09:29 - Sunxingmin <img=ico_spear> dou_dou
+21:09:30 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 19 DMG).
+21:09:34 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 20 DMG).
+21:09:34 - Sunxingmin has hit teammate [KT]lst (Long Spear, 17 DMG).
+21:09:40 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 31 DMG).
+21:09:40 - [KT]lst <img=ico_blunt> [Blood]mR_Wha7eVEr
+21:09:40 - The round 29 has ended
+21:09:45 - *SPEC* [[IM]XiaoXiGua] 恭 喜 ktp
+21:09:59 - [KT]lst has hit wanglicha (Iron Mace, 19 DMG).
+21:09:59 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 38 DMG).
+21:10:00 - dou_dou has hit KT_Vergil (Iron Mace, 17 DMG).
+21:10:01 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 14 DMG).
+21:10:06 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 11 DMG).
+21:10:08 - MingRiXiang has joined the game with ID: 4087139 and IP: 116.25.132.31
+21:10:09 - dou_dou has hit [KT]lst (Iron Mace, 20 DMG).
+21:10:10 - Sunxingmin has hit dou_dou (Long Spear, 5 DMG).
+21:10:10 - wanglicha has hit [KT]lst (One Handed Knightly Axe, 16 DMG).
+21:10:10 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 20 DMG).
+21:10:14 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 14 DMG).
+21:10:14 - Sunxingmin has hit dou_dou (Long Spear, 17 DMG).
+21:10:16 - [KT]lst has hit wanglicha (Iron Mace, 31 DMG).
+21:10:16 - mama has joined the game with ID: 4736098 and IP: 124.164.90.137 and WSE2: 1122
+21:10:16 - dou_dou has hit Sunxingmin (Iron Mace, 31 DMG).
+21:10:20 - Sunxingmin has hit dou_dou (Long Spear, 12 DMG).
+21:10:22 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 18 DMG).
+21:10:23 - dou_dou has hit KT_Vergil (Iron Mace, 14 DMG).
+21:10:23 - [KT]lst has hit wanglicha (Iron Mace, 24 DMG).
+21:10:23 - [KT]lst <img=ico_blunt> wanglicha
+21:10:26 - [Blood]mR_Wha7eVEr has hit [KT]lst (Flambard, 17 DMG).
+21:10:28 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 15 DMG).
+21:10:28 - KT_Vergil <img=ico_swordone> dou_dou
+21:10:29 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 36 DMG).
+21:10:29 - Sunxingmin <img=ico_spear> [Blood]mR_Wha7eVEr
+21:10:29 - The round 30 has ended
+21:10:29 - *SPEC* [MingRiXiang]  woquKTP
+21:10:43 - DemonHunter2 has joined the game with ID: 2780258 and IP: 110.86.150.161
+21:10:49 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 22 DMG).
+21:10:51 - Sunxingmin has hit dou_dou (Long Spear, 25 DMG).
+21:10:51 - [Blood]mR_Wha7eVEr has hit Sunxingmin (Flambard, 10 DMG).
+21:10:52 - KT_Vergil has hit dou_dou (Nordlander Elite Sword, 10 DMG).
+21:10:53 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 21 DMG).
+21:10:56 - dou_dou has hit KT_Vergil (Iron Mace, 18 DMG).
+21:10:57 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 11 DMG).
+21:10:57 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 12 DMG).
+21:10:58 - [KT]lst has hit dou_dou (Iron Mace, 30 DMG).
+21:10:58 - [KT]lst <img=ico_blunt> dou_dou
+21:10:59 - [KT]lst has hit teammate KT_Vergil (Iron Mace, 9 DMG).
+21:11:02 - [KT]lst has hit wanglicha (Iron Mace, 13 DMG).
+21:11:02 - Sunxingmin has hit wanglicha (Long Spear, 25 DMG).
+21:11:03 - [KT]lst has hit teammate Sunxingmin (Iron Mace, 9 DMG).
+21:11:04 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 24 DMG).
+21:11:07 - Sunxingmin has hit wanglicha (Long Spear, 16 DMG).
+21:11:08 - [Blood]mR_Wha7eVEr has hit KT_Vergil (Flambard, 32 DMG).
+21:11:08 - [KT]lst has hit wanglicha (Iron Mace, 18 DMG).
+21:11:08 - [KT]lst <img=ico_blunt> wanglicha
+21:11:10 - [Blood]mR_Wha7eVEr has hit Sunxingmin (Flambard, 26 DMG).
+21:11:10 - [KT]lst has hit [Blood]mR_Wha7eVEr (Iron Mace, 16 DMG).
+21:11:11 - Sunxingmin has hit teammate [KT]lst (Long Spear, 19 DMG).
+21:11:13 - Sunxingmin has hit [Blood]mR_Wha7eVEr (Long Spear, 45 DMG).
+21:11:13 - Sunxingmin <img=ico_spear> [Blood]mR_Wha7eVEr
+21:11:13 - The round 31 has ended
+21:11:15 - [DK]pAceR has left the game with ID: 3021909 and IP: 113.81.107.190
+21:11:15 - [DK]pAceR has left the game with ID: 3021909.
+21:11:16 - [Sunxingmin] tgg
+21:11:17 - *SERVER* [[X1]Yuukasama]: 下 半 场 结 束 
+21:11:18 - [Sunxingmin] gg
+21:11:18 - *SPEC* [[IM]XiaoXiGua] 恭 喜 ktp
+21:11:22 - [[Blood]mR_Wha7eVEr] gg
+21:11:24 - [Blood]mR_Wha7eVEr has left the game with ID: 1957157 and IP: 58.16.217.141
+21:11:24 - [Blood]mR_Wha7eVEr has left the game with ID: 1957157.
+21:11:24 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
+21:11:27 - [HorN]Bl4ckGeez has left the game with ID: 3703366 and IP: 183.219.42.1
+21:11:27 - [HorN]Bl4ckGeez has left the game with ID: 3703366.
+21:11:30 - *SERVER* [[X1]Yuukasama]: 全 场 比 分 圣 殿 哈 哈 10： 2随 机 组 合 
+21:11:31 - dou_dou has left the game with ID: 5266925 and IP: 42.48.1.232
+21:11:31 - dou_dou has left the game with ID: 5266925.
+21:11:31 -  <img=ico_headshot> dou_dou
+21:11:33 - Sunxingmin has hit wanglicha (Torch, 25 DMG).
+21:11:33 - Sunxingmin has hit wanglicha (none, 36 DMG).
+21:11:34 - Sunxingmin has hit wanglicha (Torch, 189 DMG).
+21:11:34 - Sunxingmin <img=ico_custom_6> wanglicha
+21:11:42 - NotYourDope has left the game with ID: 5350841 and IP: 180.105.82.226
+21:11:42 - NotYourDope has left the game with ID: 5350841.
+21:11:43 - wanglicha has left the game with ID: 5707597 and IP: 49.69.127.66
+21:11:43 - wanglicha has left the game with ID: 5707597.
+21:11:43 - Raphael has left the game with ID: 4951826 and IP: 123.123.40.247
+21:11:43 - Raphael has left the game with ID: 4951826.
+21:11:44 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+21:11:44 - Sunxingmin has left the game with ID: 1219124.
+21:11:44 -  <img=ico_headshot> Sunxingmin
+21:11:46 - Goganpa has hit [KT]lst (Flanged Mace, 19 DMG).
+21:11:47 - KT_Vergil has left the game with ID: 3870768 and IP: 39.185.106.244
+21:11:47 - KT_Vergil has left the game with ID: 3870768.
+21:11:47 -  <img=ico_headshot> KT_Vergil
+21:11:49 - Goganpa has hit [KT]lst (Flanged Mace, 10 DMG).
+21:11:50 - Katsuyori has left the game with ID: 4153280 and IP: 113.118.65.204
+21:11:50 - Katsuyori has left the game with ID: 4153280.
+21:11:55 - Goganpa has hit [KT]lst (Flanged Mace, 32 DMG).
+21:11:57 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+21:11:57 - Pageup has left the game with ID: 3693051.
+21:11:58 - [KT]lst has hit Goganpa (Iron Mace, 30 DMG).
+21:12:02 - [KT]lst has hit mama (Iron Mace, 13 DMG).
+21:12:05 - [X1]Yuukasama has left the game with ID: 3976752 and IP: 183.209.85.9
+21:12:05 - [X1]Yuukasama has left the game with ID: 3976752.
+21:12:05 - Goganpa has hit [KT]lst (Flanged Mace, 18 DMG).
+21:12:05 - Goganpa <img=ico_blunt> [KT]lst
+21:12:05 - The round 32 has ended
+21:12:11 - MingRiXiang has left the game with ID: 4087139 and IP: 116.25.132.31
+21:12:11 - MingRiXiang has left the game with ID: 4087139.
+21:12:13 - mama has left the game with ID: 4736098 and IP: 124.164.90.137
+21:12:13 - mama has left the game with ID: 4736098.
+21:12:13 -  <img=ico_headshot> mama
+21:12:16 - [IM]XiaoXiGua has left the game with ID: 5803128 and IP: 59.37.129.37
+21:12:16 - [IM]XiaoXiGua has left the game with ID: 5803128.
+21:12:18 - DemonHunter2 has left the game with ID: 2780258 and IP: 110.86.150.161
+21:12:18 - DemonHunter2 has left the game with ID: 2780258.
+21:12:26 - [KT]lst has hit Goganpa (Iron Mace, 15 DMG).
+21:12:42 - [KT]lst has hit Goganpa (Iron Mace, 20 DMG).
+21:12:44 - Goganpa has hit [KT]lst (Flanged Mace, 21 DMG).
+21:12:53 - Goganpa has hit [KT]lst (Flanged Mace, 17 DMG).
+21:12:55 - [KT]lst has hit Goganpa (Iron Mace, 26 DMG).
+21:12:55 - [KT]lst <img=ico_blunt> Goganpa
+21:12:55 - The round 33 has ended
+21:13:03 - [DK]Passionfruit has left the game with ID: 4446830 and IP: 119.166.168.45
+21:13:03 - [DK]Passionfruit has left the game with ID: 4446830.
+21:13:14 - [KT]lst has hit Goganpa (Iron Mace, 46 DMG).
+21:13:18 - Goganpa has hit [KT]lst (Flanged Mace, 29 DMG).
+21:13:20 - [KT]lst has hit Goganpa (Iron Mace, 28 DMG).
+21:13:20 - [KT]lst <img=ico_blunt> Goganpa
+21:13:20 - The round 34 has ended
+21:13:48 - Goganpa has left the game with ID: 5519439 and IP: 36.251.39.113
+21:13:48 - Goganpa has left the game with ID: 5519439.
+21:13:48 -  <img=ico_headshot> Goganpa
+21:13:48 - The round 35 has ended
+21:14:19 - [KT]lst has left the game with ID: 5881848 and IP: 118.80.194.158
+21:14:19 - [KT]lst has left the game with ID: 5881848.
+21:14:19 -  <img=ico_headshot> [KT]lst
+21:14:19 - The round 36 has ended

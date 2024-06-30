@@ -1,0 +1,189 @@
+20:11:32 - Dynamic server settings have been reset. 
+ 20:11:32 - The map has started: Desert Town. 
+ 20:11:33 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 20:21:45 - Dynamic server settings have been reset. 
+ 20:21:45 - The map has started: Desert Town. 
+ 20:21:45 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 20:22:04 - 937 has joined the game with ID: 1219124 
+ 20:22:13 - 937 has left the game with ID: 1219124. 
+ 20:23:34 - Zorro has joined the game with ID: 1936679 
+ 20:24:17 - KillerQuin has joined the game with ID: 4972218 
+ 20:24:32 - KillerQuin has left the game with ID: 4972218. 
+ 20:24:43 - Zorro has left the game with ID: 1936679. 
+ 20:24:43 -  <img=ico_headshot> Zorro 
+ 20:24:43 - The round 1 has ended 
+ 20:24:49 - KillerQuin has joined the game with ID: 4972218 
+ 20:25:21 - Zorro has joined the game with ID: 1936679 
+ 20:25:57 - KillerQuin has left the game with ID: 4972218. 
+ 20:26:17 - KillerQuin has joined the game with ID: 4972218 
+ 20:27:20 - tianjiangzhengyi has joined the game with ID: 3769176 
+ 20:27:28 - [KillerQuin] 你 自 订 角 色 加 载 的 出 来 码  
+ 20:27:32 - [Zorro] 不 行  
+ 20:27:38 - ItsukaKL has joined the game with ID: 3654270 
+ 20:27:40 - [KillerQuin] O-O 
+ 20:27:49 - CCC_LiRusong has joined the game with ID: 3790568 
+ 20:27:52 - Zorro has hit KillerQuin (Javelin, 41 DMG). 
+ 20:28:10 - Zorro has hit KillerQuin (Javelin, 20 DMG). 
+ 20:28:10 - Zorro <img=ico_javelin> KillerQuin 
+ 20:28:10 - The round 2 has ended 
+ 20:29:11 - CCC_LiRusong has left the game with ID: 3790568. 
+ 20:29:12 - Zorro has hit teammate ItsukaKL (Javelin, 5 DMG). 
+ 20:29:13 - KillerQuin has hit ItsukaKL (Axe, 11 DMG). 
+ 20:29:15 - ItsukaKL has hit KillerQuin (Two Handed Sword, 45 DMG). 
+ 20:29:18 - ItsukaKL has hit KillerQuin (Two Handed Sword, 35 DMG). 
+ 20:29:18 - ItsukaKL <img=ico_swordtwo> KillerQuin 
+ 20:29:32 - ItsukaKL has hit tianjiangzhengyi (Two Handed Sword, 19 DMG). 
+ 20:29:35 - WUDA has joined the game with ID: 1220754 
+ 20:29:37 - Zorro has hit tianjiangzhengyi (Two Handed Sword, 18 DMG). 
+ 20:29:37 - ItsukaKL has hit teammate Zorro (Two Handed Sword, 16 DMG). 
+ 20:29:38 - 937 has joined the game with ID: 1219124 
+ 20:29:38 - ItsukaKL has hit tianjiangzhengyi (Two Handed Sword, 46 DMG). 
+ 20:29:38 - ItsukaKL <img=ico_swordtwo> tianjiangzhengyi 
+ 20:29:38 - The round 3 has ended 
+ 20:29:42 - 937 has left the game with ID: 1219124. 
+ 20:30:14 - Zorro has hit tianjiangzhengyi (Two Handed Sword, 20 DMG). 
+ 20:30:15 - KillerQuin has hit Zorro (Sword with Curved Guard, 8 DMG). 
+ 20:30:16 - ItsukaKL has hit tianjiangzhengyi (Two Handed Sword, 50 DMG). 
+ 20:30:16 - ItsukaKL <img=ico_swordtwo> tianjiangzhengyi 
+ 20:30:17 - KillerQuin has hit ItsukaKL (Sword with Curved Guard, 19 DMG). 
+ 20:30:18 - Zorro has hit KillerQuin (Two Handed Sword, 51 DMG). 
+ 20:30:22 - Zorro has hit KillerQuin (Two Handed Sword, 28 DMG). 
+ 20:30:22 - Zorro <img=ico_swordtwo> KillerQuin 
+ 20:30:22 - The round 4 has ended 
+ 20:30:26 - WUDA has left the game with ID: 1220754. 
+ 20:30:34 - WUDA has joined the game with ID: 1220754 
+ 20:30:38 - 937 has joined the game with ID: 1219124 
+ 20:30:53 - tianjiangzhengyi has hit ItsukaKL (Hunting Bow, 19 DMG). 
+ 20:30:56 - CCC_LiRusong has joined the game with ID: 3790568 
+ 20:30:57 - KillerQuin has hit ItsukaKL (Javelin, 20 DMG). 
+ 20:30:58 - Zorro has hit tianjiangzhengyi (Javelin, 26 DMG). 
+ 20:31:01 - ItsukaKL has hit KillerQuin (Two Handed Sword, 31 DMG). 
+ 20:31:01 - Super_Seal has joined the game with ID: 3119346 
+ 20:31:01 - WUDA has left the game with ID: 1220754. 
+ 20:31:02 - ItsukaKL has hit tianjiangzhengyi (Two Handed Sword, 16 DMG). 
+ 20:31:03 - tianjiangzhengyi has hit ItsukaKL (Axe, 15 DMG). 
+ 20:31:06 - Zorro has hit KillerQuin (Two Handed Sword, 22 DMG). 
+ 20:31:09 - Zorro has hit KillerQuin (Two Handed Sword, 26 DMG). 
+ 20:31:09 - Zorro <img=ico_swordtwo> KillerQuin 
+ 20:31:09 - tianjiangzhengyi has hit ItsukaKL (Axe, 17 DMG). 
+ 20:31:09 - tianjiangzhengyi <img=ico_axeone> ItsukaKL 
+ 20:31:11 - tianjiangzhengyi has hit Zorro (Axe, 26 DMG). 
+ 20:31:12 - tianjiangzhengyi has hit Zorro (Axe, 9 DMG). 
+ 20:31:19 - WUDA has joined the game with ID: 1220754 
+ 20:31:20 - Zorro has hit tianjiangzhengyi (Two Handed Sword, 33 DMG). 
+ 20:31:20 - Zorro <img=ico_swordtwo> tianjiangzhengyi 
+ 20:31:20 - The round 5 has ended 
+ 20:31:47 - Dynamic server settings have been reset. 
+ 20:31:47 - The map has started: Desert Town. 
+ 20:31:48 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 20:31:50 - smd has joined the game with ID: 3725364 
+ 20:31:58 - KillerQuin has joined the game with ID: 4972218 
+ 20:32:11 - 937 has joined the game with ID: 1219124 
+ 20:32:29 - Zorro has joined the game with ID: 1936679 
+ 20:32:39 - Zorro has left the game with ID: 1936679. 
+ 20:32:40 - 937 has left the game with ID: 1219124. 
+ 20:32:40 -  <img=ico_headshot> 937 
+ 20:32:40 - The round 1 has ended 
+ 20:32:42 - ItsukaKL has joined the game with ID: 3654270 
+ 20:32:59 - Tupac_love_nane has joined the game with ID: 5427356 
+ 20:33:21 - Super_Seal has joined the game with ID: 3119346 
+ 20:33:23 - CCC_LiRusong has joined the game with ID: 3790568 
+ 20:33:24 - tianjiangzhengyi has joined the game with ID: 3769176 
+ 20:33:26 - LeeMooie has joined the game with ID: 2863820 
+ 20:33:55 - Bitch08 has joined the game with ID: 4175168 
+ 20:34:04 - miaoshen has joined the game with ID: 2760196 
+ 20:34:06 - [Blood]DongBeiFeiTianDiYiRen has joined the game with ID: 4641384 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:12 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:12 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:13 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:13 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:34:14 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:34:20 - miaoshen has left the game with ID: 2760196. 
+ 20:34:34 - diyuluguan has joined the game with ID: 1860809 
+ 20:34:41 - *SPEC* [CCC_LiRusong] p 
+ 20:34:57 - [HorN]Nige1 has joined the game with ID: 2402826 
+ 20:35:04 - [DK]ZhangHongDe has left the game with ID: 4638884. 
+ 20:35:17 - [Blood]miaoshen has joined the game with ID: 2760196 
+ 20:35:23 - [DK]ZhangHongDe has joined the game with ID: 4638884 
+ 20:35:34 - smd has left the game with ID: 3725364. 
+ 20:35:34 -  <img=ico_headshot> smd 
+ 20:35:34 - The round 2 has ended 
+ 20:43:30 - Dynamic server settings have been reset. 
+ 20:43:30 - The map has started: Desert Town. 
+ 20:43:31 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 20:43:56 - WUDA has joined the game with ID: 1220754 
+ 20:44:01 - 937 has joined the game with ID: 1219124 
+ 20:44:09 - WUDA has left the game with ID: 1220754. 
+ 20:44:38 - 937 has left the game with ID: 1219124. 
+ 20:44:38 -  <img=ico_headshot> 937 
+ 20:44:38 - The round 1 has ended 
+ 20:44:43 - CCC_LiRusong has joined the game with ID: 3790568 
+ 20:44:53 - Tupac has joined the game with ID: 5427356 
+ 20:45:13 - Super_Seal has joined the game with ID: 3119346 
+ 20:45:39 - Dynamic server settings have been reset. 
+ 20:45:39 - The map has started: Desert Town. 
+ 20:45:40 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 20:45:40 - Dynamic server settings have been updated. 
+ 20:46:16 - 937 has joined the game with ID: 1219124 
+ 20:46:47 - Tupac has joined the game with ID: 5427356 
+ 20:47:06 - WinnieHusband has joined the game with ID: 3359509 
+ 20:47:22 - *SPEC* [Tupac] guoba 
+ 20:47:28 - *SPEC* [Tupac] xun zhe wei jiu lai le 
+ 20:47:32 - CCC_LiRusong has joined the game with ID: 3790568 
+ 20:47:37 - *SPEC* [WinnieHusband] 6 
+ 20:47:59 - wielkaczarnaknaga has joined the game with ID: 3044995 
+ 20:48:02 - wielkaczarnaknaga has left the game with ID: 3044995. 
+ 20:48:03 - [HorN]Nige1 has joined the game with ID: 2402826 
+ 20:48:34 - [HorN]Nige1 has left the game with ID: 2402826. 
+ 20:48:51 - Christopher_Robin has joined the game with ID: 1537560 
+ 20:49:00 - casgo has joined the game with ID: 3481467 
+ 20:49:20 - casgo has left the game with ID: 3481467. 
+ 20:49:21 - 937 has left the game with ID: 1219124. 
+ 20:49:45 - CCC_LiRusong has left the game with ID: 3790568. 
+ 20:49:57 - 937 has joined the game with ID: 1219124 
+ 20:50:05 - 937 has left the game with ID: 1219124. 
+ 20:50:29 - WinnieHusband has left the game with ID: 3359509. 
+ 20:50:48 - Dynamic server settings have been reset. 
+ 20:50:48 - The map has started: Desert Town. 
+ 20:50:48 - SERVER has joined the game with ID: 0 and has administrator rights. 
+ 20:50:49 - Dynamic server settings have been updated. 
+ 20:51:11 - Christopher_Robin has joined the game with ID: 1537560 
+ 20:51:25 - Tupac has joined the game with ID: 5427356 
+ 20:51:46 - Super_Seal has joined the game with ID: 3119346 
+ 20:52:43 - CCC_LiRusong has joined the game with ID: 3790568 
+ 20:52:55 - CCC_LiRusong has left the game with ID: 3790568. 
+ 

@@ -1,0 +1,1512 @@
+18:54:50 - Dynamic server settings have been reset.
+18:54:50 - The map has started: The Arena.
+18:54:50 - SERVER has joined the game with ID: 0 and has administrator rights.
+18:54:50 - Dynamic server settings have been updated.
+18:54:56 - The map has started: Desert Village.
+19:49:00 - ttt has joined the game with ID: 5911418 and IP: 115.60.195.29
+19:50:50 - [DK]Bitch08 has joined the game with ID: 4175168 and IP: 119.39.131.104
+19:51:00 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+19:51:52 - [DingzhenGanzi] 八 点 开 赛 
+19:52:42 - [ttt] 哥 们 你 身 防 多 少 呀 
+19:52:52 - [DingzhenGanzi] 35
+19:52:58 - [DingzhenGanzi] 我 都 是 便 宜 的 东 西 
+19:53:04 - [DingzhenGanzi] 打 折 时 买 
+19:53:12 - [ttt] 这 就 是 强 者 的 松 弛 感 吗 
+19:53:28 - [DingzhenGanzi] 我 是 来 蹭 钱 的 
+19:53:48 - ttt has hit DingzhenGanzi (One Handed Bar Mace, 34 DMG).
+19:53:49 - ttt has hit DingzhenGanzi (One Handed Bar Mace, 49 DMG).
+19:53:49 - ttt <img=ico_blunt> DingzhenGanzi
+19:53:49 - The round 1 has ended
+19:54:10 - [DingzhenGanzi] 还 有 6分 钟 
+19:54:19 - [DingzhenGanzi] 队 友 都 不 知 道 来 不 来 
+19:54:30 - [ttt] 人 到 的 挺 齐 
+19:54:32 - ttt has hit DingzhenGanzi (One Handed Bar Mace, 35 DMG).
+19:54:47 - ttt has hit DingzhenGanzi (One Handed Bar Mace, 34 DMG).
+19:54:47 - ttt <img=ico_blunt> DingzhenGanzi
+19:54:47 - The round 2 has ended
+19:54:53 - [DingzhenGanzi] 就 三 个 人 
+19:55:14 - [ttt] 我 们 凑 一 队 打 人 机 吧 
+19:55:50 - [DingzhenGanzi] 我 要 去 服 务 器 打 人 了 
+19:55:56 - [DingzhenGanzi] 八 点 再 回 来 
+19:55:58 - [ttt] 还 有 5分 钟 
+19:56:00 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+19:56:00 - DingzhenGanzi has left the game with ID: 4936676.
+19:56:00 -  <img=ico_headshot> DingzhenGanzi
+19:56:00 - The round 3 has ended
+19:56:04 -  <img=ico_headshot> ttt
+19:58:22 -  <img=ico_headshot> ttt
+19:58:22 - The round 4 has ended
+19:58:47 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:00:24 - [ttt] 直 接 狠 狠 迟 到 
+20:00:27 - [DingzhenGanzi] 八 点 了 
+20:00:43 - ttt has hit DingzhenGanzi (One Handed Bar Mace, 33 DMG).
+20:00:48 - ttt has hit DingzhenGanzi (One Handed Bar Mace, 37 DMG).
+20:00:48 - ttt <img=ico_blunt> DingzhenGanzi
+20:00:48 - The round 5 has ended
+20:01:23 - [ttt] 居 然 裁 判 和 选 手 都 迟 到 了 
+20:02:29 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:02:29 - DingzhenGanzi has left the game with ID: 4936676.
+20:02:29 -  <img=ico_headshot> DingzhenGanzi
+20:02:29 - The round 6 has ended
+20:02:34 -  <img=ico_headshot> [DK]Bitch08
+20:02:34 - [DK]Bitch08 has been moved by the autobalancer (-1000)
+20:02:38 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:02:56 - [DingzhenGanzi] 买 东 西 去 了 
+20:03:16 - MINI_Cooper has joined the game with ID: 443956 and IP: 123.189.185.252
+20:03:20 - [DingzhenGanzi] 烧 不 着 ？ 
+20:03:22 - Marcovaldo has joined the game with ID: 3474873 and IP: 111.124.162.71
+20:03:26 - DingzhenGanzi has hit [DK]Bitch08 (Scimitar, 15 DMG).
+20:03:29 - DingzhenGanzi has hit [DK]Bitch08 (Scimitar, 16 DMG).
+20:03:30 - [ttt] 精 锐 弯 刀 嘛 ？ 多 少 钱 
+20:03:32 - [[DK]Bitch08] 裁 判 来 了 
+20:03:35 - [DingzhenGanzi] 不 是 
+20:03:41 - [DingzhenGanzi] 普 通 玩 到 
+20:03:46 - DingzhenGanzi has hit teammate ttt (One Handed Bar Mace, 10 DMG).
+20:03:47 - Marcovaldo has left the game with ID: 3474873 and IP: 111.124.162.71
+20:03:47 - Marcovaldo has left the game with ID: 3474873.
+20:03:53 - [ttt] 搜 嘎 
+20:03:55 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 16 DMG).
+20:03:59 - ttt has hit teammate DingzhenGanzi (Scimitar, 11 DMG).
+20:04:04 - MINI_Xiaoxiao has joined the game with ID: 5537338 and IP: 111.194.159.88
+20:04:08 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 25 DMG).
+20:04:10 - Marcovaldo has joined the game with ID: 3474873 and IP: 111.124.162.71
+20:04:13 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 14 DMG).
+20:04:13 - [DK]Bitch08 <img=ico_axeone> DingzhenGanzi
+20:04:29 - [DK]Bitch08 has hit ttt (Heavy Broad Bladed Axe, 1 DMG).
+20:04:39 - [DK]Bitch08 has hit ttt (Heavy Broad Bladed Axe, 13 DMG).
+20:04:40 - [DK]Bitch08 has hit ttt (Heavy Broad Bladed Axe, 1 DMG).
+20:04:45 - ttt has hit [DK]Bitch08 (Scimitar, 14 DMG).
+20:04:46 - ttt has hit [DK]Bitch08 (Scimitar, 18 DMG).
+20:04:46 - ttt <img=ico_swordone> [DK]Bitch08
+20:04:46 - The round 7 has ended
+20:05:01 - [DingzhenGanzi] 普 通 弯 刀 我 记 得 快 一 点 
+20:05:14 - [DingzhenGanzi] 一 个 队 友 都 没 有 w
+20:05:14 - [ttt] 感 觉 钝 器 好 点 
+20:05:18 - [ttt] 伤 害 高 
+20:05:19 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 29 DMG).
+20:05:22 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 16 DMG).
+20:05:23 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 22 DMG).
+20:05:23 - Marcovaldo <img=ico_spear> DingzhenGanzi
+20:05:24 - ttt has hit [DK]Bitch08 (Scimitar, 23 DMG).
+20:05:25 - *DEAD* [DingzhenGanzi] 哇 
+20:05:26 - Marcovaldo has hit ttt (Swordstaff, 10 DMG).
+20:05:28 - Marcovaldo has hit ttt (Swordstaff, 1 DMG).
+20:05:29 - [DK]Bitch08 has hit ttt (Heavy Broad Bladed Axe, 23 DMG).
+20:05:30 - Marcovaldo has hit ttt (Swordstaff, 14 DMG).
+20:05:30 - [DK]Bitch08 has hit ttt (Heavy Broad Bladed Axe, 23 DMG).
+20:05:30 - [DK]Bitch08 <img=ico_axeone> ttt
+20:05:30 - The round 8 has ended
+20:06:02 - Marcovaldo has hit ttt (Swordstaff, 7 DMG).
+20:06:02 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 38 DMG).
+20:06:08 - DingzhenGanzi has hit [DK]Bitch08 (Scimitar, 14 DMG).
+20:06:09 - Marcovaldo has hit ttt (Swordstaff, 15 DMG).
+20:06:09 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 56 DMG).
+20:06:09 - [DK]Bitch08 <img=ico_axeone> DingzhenGanzi
+20:06:13 - ttt has hit [DK]Bitch08 (One Handed Bar Mace, 33 DMG).
+20:06:14 - Marcovaldo has hit ttt (Swordstaff, 11 DMG).
+20:06:15 - Marcovaldo has hit ttt (Swordstaff, 13 DMG).
+20:06:18 - [DK]Bitch08 has hit ttt (Heavy Broad Bladed Axe, 21 DMG).
+20:06:18 - [DK]Bitch08 <img=ico_axeone> ttt
+20:06:18 - The round 9 has ended
+20:06:47 - DingzhenGanzi has hit Marcovaldo (Scimitar, 19 DMG).
+20:06:51 - ttt has hit [DK]Bitch08 (Long Spear, 15 DMG).
+20:06:52 - Marcovaldo has hit ttt (Swordstaff, 10 DMG).
+20:06:53 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 56 DMG).
+20:06:54 - *SPEC* [MINI_Xiaoxiao] 看 QQ
+20:06:57 - Marcovaldo has hit ttt (Swordstaff, 8 DMG).
+20:06:58 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 39 DMG).
+20:06:58 - Marcovaldo <img=ico_spear> DingzhenGanzi
+20:07:00 - ttt has hit [DK]Bitch08 (Long Spear, 19 DMG).
+20:07:01 - Marcovaldo has hit ttt (Swordstaff, 4 DMG).
+20:07:01 - [DK]Bitch08 has hit ttt (Heavy Broad Bladed Axe, 24 DMG).
+20:07:02 - Marcovaldo has hit ttt (Swordstaff, 23 DMG).
+20:07:02 - Marcovaldo <img=ico_spear> ttt
+20:07:02 - The round 10 has ended
+20:07:28 - MINI_Cooper has left the game with ID: 443956 and IP: 123.189.185.252
+20:07:28 - MINI_Cooper has left the game with ID: 443956.
+20:07:37 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 27 DMG).
+20:07:37 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 36 DMG).
+20:07:38 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 22 DMG).
+20:07:38 - [DK]Bitch08 <img=ico_axeone> DingzhenGanzi
+20:07:41 - Marcovaldo has hit ttt (Swordstaff, 45 DMG).
+20:07:42 - Marcovaldo has hit ttt (Swordstaff, 11 DMG).
+20:07:43 - Marcovaldo has hit ttt (Swordstaff, 17 DMG).
+20:07:43 - Marcovaldo <img=ico_spear> ttt
+20:07:43 - The round 11 has ended
+20:07:44 - MINI_Cooper has joined the game with ID: 443956 and IP: 123.189.185.252 and has administrator rights.
+20:07:56 - [DK]nice has joined the game with ID: 4620332 and IP: 183.222.255.103
+20:08:14 - [DingzhenGanzi] 洗 一 下 点 
+20:08:20 - DingzhenGanzi has hit [DK]Bitch08 (Scimitar, 16 DMG).
+20:08:23 - Marcovaldo has hit MINI_Xiaoxiao (Swordstaff, 16 DMG).
+20:08:23 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 31 DMG).
+20:08:24 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 32 DMG).
+20:08:25 - ttt has hit Marcovaldo (Long Spear, 23 DMG).
+20:08:26 - MINI_Xiaoxiao has hit Marcovaldo (Iron Mace, 22 DMG).
+20:08:26 - ttt has hit Marcovaldo (Long Spear, 28 DMG).
+20:08:26 - ttt <img=ico_spear> Marcovaldo
+20:08:29 - DingzhenGanzi has hit [DK]Bitch08 (Scimitar, 30 DMG).
+20:08:31 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 27 DMG).
+20:08:31 - [DK]Bitch08 <img=ico_axeone> DingzhenGanzi
+20:08:32 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Broad Bladed Axe, 17 DMG).
+20:08:32 - ttt has hit [DK]Bitch08 (Long Spear, 6 DMG).
+20:08:35 - ttt has hit [DK]Bitch08 (Long Spear, 32 DMG).
+20:08:35 - ttt <img=ico_spear> [DK]Bitch08
+20:08:39 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:08:39 - DingzhenGanzi has left the game with ID: 4936676.
+20:08:46 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:08:48 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 31 DMG).
+20:08:52 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 22 DMG).
+20:08:54 - [DK]nice has hit MINI_Xiaoxiao (Heavy Axe, 15 DMG).
+20:08:55 - ttt has hit [DK]nice (Long Spear, 44 DMG).
+20:08:55 - ttt <img=ico_spear> [DK]nice
+20:08:55 - The round 12 has ended
+20:08:56 - *DEAD* [[DK]Bitch08] 你 怎 么 是 农 民 装 啊 
+20:09:16 - [ttt] nice怎 么 还 老 农 装 
+20:09:17 - [[DK]nice] mmeqianqian 
+20:09:19 - [ttt] 好 松 弛 
+20:09:21 - DingzhenGanzi has hit [DK]nice (none, 29 DMG).
+20:09:25 - Marcovaldo has hit MINI_Xiaoxiao (Swordstaff, 13 DMG).
+20:09:26 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Broad Bladed Axe, 39 DMG).
+20:09:26 - DingzhenGanzi has hit Marcovaldo (Scimitar, 22 DMG).
+20:09:29 - [DK]nice has hit DingzhenGanzi (Heavy Axe, 19 DMG).
+20:09:32 - ttt has hit Marcovaldo (Long Spear, 27 DMG).
+20:09:32 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Broad Bladed Axe, 6 DMG).
+20:09:33 - Marcovaldo has hit ttt (Swordstaff, 11 DMG).
+20:09:34 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 23 DMG).
+20:09:35 - DingzhenGanzi has hit [DK]nice (Scimitar, 35 DMG).
+20:09:41 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Broad Bladed Axe, 7 DMG).
+20:09:41 - Marcovaldo has hit ttt (Swordstaff, 7 DMG).
+20:09:42 - Marcovaldo has hit ttt (Swordstaff, 8 DMG).
+20:09:42 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Broad Bladed Axe, 5 DMG).
+20:09:43 - Marcovaldo has hit ttt (Swordstaff, 3 DMG).
+20:09:44 - Marcovaldo has hit ttt (Swordstaff, 26 DMG).
+20:09:47 - [DK]nice has hit ttt (Heavy Axe, 22 DMG).
+20:09:47 - [DK]nice <img=ico_axeone> ttt
+20:09:48 - DingzhenGanzi has hit Marcovaldo (Scimitar, 13 DMG).
+20:09:50 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Broad Bladed Axe, 16 DMG).
+20:09:50 - [DK]Bitch08 <img=ico_axeone> MINI_Xiaoxiao
+20:09:54 - DingzhenGanzi has hit Marcovaldo (Scimitar, 11 DMG).
+20:09:54 - DingzhenGanzi <img=ico_swordone> Marcovaldo
+20:09:56 - [DK]Bitch08 has hit teammate [DK]nice (Heavy Broad Bladed Axe, 28 DMG).
+20:09:56 - [DK]Bitch08 <img=ico_axeone> [DK]nice
+20:10:03 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 18 DMG).
+20:10:04 - [DK]Bitch08 has hit DingzhenGanzi (Heavy Broad Bladed Axe, 32 DMG).
+20:10:04 - [DK]Bitch08 <img=ico_axeone> DingzhenGanzi
+20:10:04 - The round 13 has ended
+20:10:20 - [[DK]Bitch08] 都 到 齐 了 吧 
+20:10:23 - [DingzhenGanzi] 这 比 赛 还 打 吗 ？ 
+20:10:26 - [DingzhenGanzi] 没 有 
+20:10:30 - [[DK]nice] yes sir 
+20:10:36 - MINI_Xiaoxiao has hit teammate ttt (Iron Mace, 17 DMG).
+20:10:37 - Marcovaldo has hit ttt (Swordstaff, 20 DMG).
+20:10:38 - [DingzhenGanzi] 我 队 友 都 没 来 
+20:10:41 - MINI_Xiaoxiao has hit Marcovaldo (Iron Mace, 27 DMG).
+20:10:42 - ttt has hit teammate MINI_Xiaoxiao (One Handed Bar Mace, 15 DMG).
+20:10:43 - ttt has hit Marcovaldo (One Handed Bar Mace, 28 DMG).
+20:10:48 - The map has started: The Cage.
+20:10:48 - Dynamic server settings have been updated.
+20:11:02 - [Marcovaldo] 人 到 齐 了 
+20:11:09 - [Marcovaldo] cooper裁 判 
+20:11:16 - [Marcovaldo] 兼 选 手 
+20:11:27 - Marcovaldo opened the door as a defender
+20:11:32 - *SERVER* [MINI_Cooper]: 准 备 好 了 吗 
+20:11:42 - [[DK]Bitch08] 我 们 可 以 了 
+20:11:47 - [Marcovaldo] 我 们 也 可 以 了 
+20:11:55 -  <img=ico_headshot> MINI_Xiaoxiao
+20:11:55 -  <img=ico_headshot> MINI_Cooper
+20:11:55 -  <img=ico_headshot> ttt
+20:11:55 -  <img=ico_headshot> [DK]Bitch08
+20:11:55 -  <img=ico_headshot> [DK]nice
+20:11:55 - The round 1 has ended
+20:11:55 -  <img=ico_headshot> Marcovaldo
+20:11:55 - The map has been reset.
+20:12:01 - *SERVER* [MINI_Cooper]: 上 半 场 比 赛 开 始 
+20:12:22 - [DK]Bitch08 opened the door as an attacker
+20:12:23 - Marcovaldo has hit [DK]nice (Swordstaff, 48 DMG).
+20:12:27 - MINI_Cooper has hit ttt (Heavy Scimitar, 6 DMG).
+20:12:30 - MINI_Cooper has hit ttt (Heavy Scimitar, 43 DMG).
+20:12:32 - Marcovaldo has hit [DK]nice (Swordstaff, 45 DMG).
+20:12:32 - Marcovaldo <img=ico_spear> [DK]nice
+20:12:32 - MINI_Cooper has hit ttt (Heavy Scimitar, 31 DMG).
+20:12:32 - MINI_Cooper <img=ico_swordone> ttt
+20:12:33 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 31 DMG).
+20:12:33 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 24 DMG).
+20:12:39 - MINI_Cooper has hit [DK]Bitch08 (Heavy Scimitar, 9 DMG).
+20:12:39 - MINI_Cooper <img=ico_swordone> [DK]Bitch08
+20:12:39 - The round 2 has ended
+20:13:00 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 13 DMG).
+20:13:00 - Marcovaldo has hit [DK]nice (Swordstaff, 50 DMG).
+20:13:00 - Marcovaldo <img=ico_spear> [DK]nice
+20:13:01 - ttt has hit Marcovaldo (Long Spear, 11 DMG).
+20:13:03 - MINI_Xiaoxiao has hit ttt (Iron Mace, 33 DMG).
+20:13:04 - MINI_Cooper has hit [DK]Bitch08 (Heavy Scimitar, 26 DMG).
+20:13:05 - MINI_Xiaoxiao has hit teammate Marcovaldo (Iron Mace, 9 DMG).
+20:13:06 - MINI_Xiaoxiao has hit ttt (Iron Mace, 26 DMG).
+20:13:06 - Marcovaldo has hit ttt (Swordstaff, 15 DMG).
+20:13:06 - Marcovaldo <img=ico_spear> ttt
+20:13:14 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 14 DMG).
+20:13:15 - MINI_Cooper has hit [DK]Bitch08 (Heavy Scimitar, 39 DMG).
+20:13:15 - MINI_Cooper <img=ico_swordone> [DK]Bitch08
+20:13:15 - The round 3 has ended
+20:13:21 - *CLAN* [[DK]nice]: zhansheng jia you 
+20:13:21 - [MINI_Xiaoxiao] 他 打 我 都 不 掉 血 
+20:13:24 - *SPEC* [DingzhenGanzi] 这 几 局 几 胜 ？ 
+20:13:35 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 33 DMG).
+20:13:36 - [DK]nice has hit Marcovaldo (Heavy Axe, 11 DMG).
+20:13:36 - MINI_Cooper has hit ttt (Heavy Scimitar, 17 DMG).
+20:13:37 - [DK]nice has hit Marcovaldo (Heavy Axe, 10 DMG).
+20:13:38 - Marcovaldo has hit [DK]nice (Swordstaff, 25 DMG).
+20:13:39 - MINI_Cooper has hit ttt (Heavy Scimitar, 20 DMG).
+20:13:41 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 3 DMG).
+20:13:43 - [DK]Bitch08 has hit Marcovaldo (Heavy Scimitar, 19 DMG).
+20:13:44 - Marcovaldo has hit [DK]nice (Swordstaff, 25 DMG).
+20:13:45 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 51 DMG).
+20:13:45 - MINI_Xiaoxiao <img=ico_blunt> [DK]nice
+20:13:46 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 13 DMG).
+20:13:47 - ttt has hit MINI_Cooper (One Handed Bar Mace, 44 DMG).
+20:13:47 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 16 DMG).
+20:13:47 - MINI_Xiaoxiao <img=ico_blunt> [DK]Bitch08
+20:13:48 - MINI_Cooper has hit ttt (Heavy Scimitar, 40 DMG).
+20:13:48 - MINI_Cooper <img=ico_swordone> ttt
+20:13:48 - The round 4 has ended
+20:13:49 - *CLAN* [[DK]nice]: can xu3 
+20:14:04 - [MINI_Xiaoxiao] 砍 我 一 下 才 掉 六 分 之 一 
+20:14:07 - Marcovaldo has hit [DK]nice (Swordstaff, 23 DMG).
+20:14:07 - [DK]Bitch08 has hit MINI_Cooper (Heavy Scimitar, 43 DMG).
+20:14:09 - Marcovaldo has hit [DK]nice (none, 5 DMG).
+20:14:09 - Marcovaldo has hit [DK]nice (Swordstaff, 45 DMG).
+20:14:09 - Marcovaldo <img=ico_spear> [DK]nice
+20:14:17 - MINI_Cooper has hit [DK]Bitch08 (Heavy Scimitar, 28 DMG).
+20:14:19 - ttt has hit MINI_Xiaoxiao (One Handed Bar Mace, 34 DMG).
+20:14:22 - MINI_Cooper has hit [DK]Bitch08 (Heavy Scimitar, 35 DMG).
+20:14:22 - MINI_Cooper <img=ico_swordone> [DK]Bitch08
+20:14:25 - MINI_Xiaoxiao has hit ttt (Iron Mace, 15 DMG).
+20:14:27 - Marcovaldo has hit ttt (Swordstaff, 19 DMG).
+20:14:30 - Marcovaldo has hit ttt (Swordstaff, 19 DMG).
+20:14:30 - MINI_Xiaoxiao has hit ttt (Iron Mace, 27 DMG).
+20:14:30 - MINI_Xiaoxiao <img=ico_blunt> ttt
+20:14:30 - The round 5 has ended
+20:14:51 - Marcovaldo has hit ttt (Swordstaff, 26 DMG).
+20:14:52 - Marcovaldo has hit ttt (Swordstaff, 24 DMG).
+20:14:52 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 20 DMG).
+20:14:55 - Marcovaldo has hit [DK]nice (none, 6 DMG).
+20:14:57 - MINI_Cooper has hit ttt (Heavy Scimitar, 20 DMG).
+20:14:57 - MINI_Cooper <img=ico_swordone> ttt
+20:14:58 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 18 DMG).
+20:14:59 - Marcovaldo has hit [DK]nice (Swordstaff, 46 DMG).
+20:15:00 - MINI_Cooper has hit [DK]nice (Heavy Scimitar, 40 DMG).
+20:15:00 - MINI_Cooper <img=ico_swordone> [DK]nice
+20:15:02 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 18 DMG).
+20:15:03 - MINI_Cooper has hit [DK]Bitch08 (Heavy Scimitar, 37 DMG).
+20:15:03 - MINI_Cooper <img=ico_swordone> [DK]Bitch08
+20:15:03 - The round 6 has ended
+20:16:12 - *SERVER* [MINI_Cooper]: 结 束
+
+20:15:27 - [MINI_Xiaoxiao] 需 要 截 图 吗 
+20:15:29 -  <img=ico_headshot> MINI_Xiaoxiao
+20:15:29 -  <img=ico_headshot> MINI_Cooper
+20:15:29 -  <img=ico_headshot> Marcovaldo
+20:15:29 - The round 7 has ended
+20:15:29 -  <img=ico_headshot> ttt
+20:15:29 -  <img=ico_headshot> [DK]Bitch08
+20:15:29 -  <img=ico_headshot> [DK]nice
+20:15:29 - The map has been reset.
+20:15:37 -  <img=ico_headshot> [DK]nice
+20:15:37 -  <img=ico_headshot> [DK]Bitch08
+20:15:37 -  <img=ico_headshot> ttt
+20:15:37 - The round 8 has ended
+20:15:37 -  <img=ico_headshot> Marcovaldo
+20:15:37 -  <img=ico_headshot> MINI_Xiaoxiao
+20:15:47 - [DingzhenGanzi] 咋 的 了 
+20:15:48 - *SERVER* [MINI_Cooper]: 准 备 好 了 吗 
+20:15:49 - [Marcovaldo] 顶 真 下 去 
+20:15:54 -  <img=ico_headshot> DingzhenGanzi
+20:15:58 - [[DK]Bitch08] 好 了 
+20:16:02 - [Marcovaldo] 好 了 
+20:16:03 -  <img=ico_headshot> MINI_Xiaoxiao
+20:16:03 -  <img=ico_headshot> MINI_Cooper
+20:16:03 -  <img=ico_headshot> Marcovaldo
+20:16:03 - The round 9 has ended
+20:16:03 -  <img=ico_headshot> ttt
+20:16:03 -  <img=ico_headshot> [DK]Bitch08
+20:16:03 -  <img=ico_headshot> [DK]nice
+20:16:03 - The map has been reset.
+20:16:12 - *SERVER* [MINI_Cooper]: 下 半 场 开 始 
+20:16:13 - *SPEC* [DingzhenGanzi] 下 半 场 是 这 个 意 思 啊 
+20:16:22 - Marcovaldo has hit [DK]nice (Swordstaff, 9 DMG).
+20:16:22 - MINI_Cooper has hit [DK]nice (Heavy Scimitar, 35 DMG).
+20:16:23 - ttt has hit Marcovaldo (Long Spear, 40 DMG).
+20:16:24 - ttt has hit MINI_Xiaoxiao (Long Spear, 23 DMG).
+20:16:24 - MINI_Cooper has hit ttt (Heavy Scimitar, 19 DMG).
+20:16:25 - Marcovaldo has hit ttt (Swordstaff, 32 DMG).
+20:16:25 - MINI_Cooper has hit [DK]nice (Heavy Scimitar, 36 DMG).
+20:16:25 - MINI_Cooper <img=ico_swordone> [DK]nice
+20:16:26 - Marcovaldo has hit ttt (Swordstaff, 17 DMG).
+20:16:26 - Marcovaldo <img=ico_spear> ttt
+20:16:28 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 16 DMG).
+20:16:29 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 27 DMG).
+20:16:31 - [DK]Bitch08 has hit MINI_Cooper (Heavy Scimitar, 24 DMG).
+20:16:33 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 19 DMG).
+20:16:33 - Marcovaldo <img=ico_spear> [DK]Bitch08
+20:16:33 - The round 10 has ended
+20:16:54 - MINI_Xiaoxiao has hit ttt (Iron Mace, 24 DMG).
+20:16:55 - MINI_Cooper has hit [DK]Bitch08 (Heavy Scimitar, 41 DMG).
+20:16:56 - [DK]nice has hit Marcovaldo (Heavy Axe, 26 DMG).
+20:16:56 - MINI_Xiaoxiao has hit ttt (Iron Mace, 21 DMG).
+20:16:56 - [DK]Bitch08 has hit MINI_Cooper (Heavy Scimitar, 30 DMG).
+20:16:58 - Marcovaldo has hit [DK]nice (Swordstaff, 5 DMG).
+20:16:58 - [DK]Bitch08 has hit MINI_Cooper (Heavy Scimitar, 14 DMG).
+20:16:59 - [DK]nice has hit Marcovaldo (Heavy Axe, 18 DMG).
+20:17:00 - [DK]Bitch08 has hit MINI_Cooper (Heavy Scimitar, 28 DMG).
+20:17:00 - [DK]Bitch08 <img=ico_swordone> MINI_Cooper
+20:17:00 - ttt has hit MINI_Xiaoxiao (Long Spear, 1 DMG).
+20:17:04 - [DK]nice has hit Marcovaldo (Heavy Axe, 29 DMG).
+20:17:04 - [DK]nice <img=ico_axeone> Marcovaldo
+20:17:04 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 11 DMG).
+20:17:05 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 15 DMG).
+20:17:05 - ttt has hit MINI_Xiaoxiao (Long Spear, 12 DMG).
+20:17:08 - [DK]nice has hit MINI_Xiaoxiao (Heavy Axe, 9 DMG).
+20:17:09 - ttt has hit MINI_Xiaoxiao (Long Spear, 26 DMG).
+20:17:09 - ttt <img=ico_spear> MINI_Xiaoxiao
+20:17:09 - The round 11 has ended
+20:17:27 - Marcovaldo has hit ttt (Swordstaff, 49 DMG).
+20:17:28 - MINI_Cooper has hit ttt (Iron Pick, 35 DMG).
+20:17:28 - MINI_Cooper <img=ico_blunt> ttt
+20:17:28 - Marcovaldo has hit [DK]nice (Swordstaff, 21 DMG).
+20:17:30 - Marcovaldo has hit [DK]nice (none, 5 DMG).
+20:17:31 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 51 DMG).
+20:17:32 - MINI_Cooper has hit [DK]Bitch08 (Iron Pick, 16 DMG).
+20:17:32 - MINI_Cooper <img=ico_blunt> [DK]Bitch08
+20:17:32 - [DK]nice has hit Marcovaldo (Heavy Axe, 17 DMG).
+20:17:34 - Marcovaldo has hit [DK]nice (Swordstaff, 27 DMG).
+20:17:36 - Marcovaldo has hit [DK]nice (none, 5 DMG).
+20:17:36 - Marcovaldo <img=ico_punch> [DK]nice
+20:17:36 - The round 12 has ended
+20:17:38 - *DEAD* [[DK]Bitch08] 你 怎 么 暴 毙 了 
+20:17:46 - *CLAN* [[DK]nice]: yi zhao yi 
+20:17:50 - [ttt] 不 道 啊 
+20:17:59 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 35 DMG).
+20:18:03 - ttt has hit MINI_Cooper (Long Spear, 25 DMG).
+20:18:04 - MINI_Xiaoxiao has hit ttt (Iron Mace, 43 DMG).
+20:18:04 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 28 DMG).
+20:18:04 - Marcovaldo <img=ico_spear> [DK]Bitch08
+20:18:05 - MINI_Cooper has hit [DK]nice (Iron Pick, 45 DMG).
+20:18:06 - MINI_Xiaoxiao has hit ttt (Iron Mace, 34 DMG).
+20:18:06 - MINI_Xiaoxiao <img=ico_blunt> ttt
+20:18:07 - [DK]nice has hit MINI_Cooper (Heavy Axe, 13 DMG).
+20:18:10 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 44 DMG).
+20:18:10 - MINI_Xiaoxiao <img=ico_blunt> [DK]nice
+20:18:10 - The round 13 has ended
+20:18:20 - *CLAN* [[DK]nice]: yiduiyi la kai 
+20:18:29 - ttt has hit Marcovaldo (Long Spear, 9 DMG).
+20:18:31 - ttt has hit MINI_Cooper (Long Spear, 8 DMG).
+20:18:32 - Marcovaldo has hit ttt (Swordstaff, 23 DMG).
+20:18:32 - [DK]Bitch08 has hit MINI_Cooper (Heavy Scimitar, 23 DMG).
+20:18:33 - Marcovaldo has hit ttt (Swordstaff, 13 DMG).
+20:18:34 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 54 DMG).
+20:18:35 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 40 DMG).
+20:18:35 - MINI_Xiaoxiao <img=ico_blunt> [DK]nice
+20:18:37 - MINI_Cooper has hit ttt (Iron Pick, 23 DMG).
+20:18:37 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 29 DMG).
+20:18:38 - MINI_Cooper has hit ttt (Iron Pick, 26 DMG).
+20:18:38 - MINI_Cooper <img=ico_blunt> ttt
+20:18:38 - [MINI_Xiaoxiao] s'r'y
+20:18:39 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 37 DMG).
+20:18:39 - Marcovaldo <img=ico_spear> [DK]Bitch08
+20:18:39 - The round 14 has ended
+20:18:59 - Marcovaldo has hit ttt (Swordstaff, 13 DMG).
+20:19:00 - MINI_Cooper has hit [DK]Bitch08 (Iron Pick, 43 DMG).
+20:19:01 - Marcovaldo has hit ttt (Swordstaff, 14 DMG).
+20:19:02 - Marcovaldo has hit ttt (Swordstaff, 9 DMG).
+20:19:03 - Marcovaldo has hit ttt (Swordstaff, 25 DMG).
+20:19:04 - [DK]Bitch08 has hit MINI_Cooper (Heavy Scimitar, 24 DMG).
+20:19:05 - MINI_Xiaoxiao has hit [DK]Bitch08 (Iron Mace, 19 DMG).
+20:19:05 - MINI_Xiaoxiao <img=ico_blunt> [DK]Bitch08
+20:19:06 - MINI_Cooper has hit [DK]nice (Iron Pick, 49 DMG).
+20:19:08 - MINI_Cooper has hit [DK]nice (Iron Pick, 39 DMG).
+20:19:08 - MINI_Cooper <img=ico_blunt> [DK]nice
+20:19:12 - Marcovaldo has hit ttt (Swordstaff, 6 DMG).
+20:19:12 - Marcovaldo <img=ico_spear> ttt
+20:19:12 - The round 15 has ended
+20:19:18 - *SERVER* [MINI_Cooper]: 结 束
+ 
+20:19:35 - [DingzhenGanzi] 这 就 结 束 了 ？ 
+20:19:42 - [DingzhenGanzi] 我 队 友 和 对 手 都 没 来 
+20:19:45 - [DingzhenGanzi] 肿 么 办 
+20:19:47 - [[DK]nice] hun jin qule 
+20:19:57 - [DK]nice has hit teammate DingzhenGanzi (Heavy Axe, 10 DMG).
+20:19:59 - DingzhenGanzi has hit teammate [DK]nice (none, 2 DMG).
+20:20:07 - [ttt] 没 被 零 封 
+20:20:15 - [ttt] 可 喜 可 贺 
+20:20:21 - DingzhenGanzi has hit teammate [DK]nice (Scimitar, 28 DMG).
+20:20:40 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 28 DMG).
+20:20:42 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 26 DMG).
+20:20:45 - Marcovaldo has hit DingzhenGanzi (Swordstaff, 27 DMG).
+20:20:45 - Marcovaldo <img=ico_spear> DingzhenGanzi
+20:20:50 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 11 DMG).
+20:21:04 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Pick, 13 DMG).
+20:21:05 - Marcovaldo has hit ttt (Swordstaff, 24 DMG).
+20:21:07 - Marcovaldo has hit ttt (Swordstaff, 4 DMG).
+20:21:08 - MINI_Cooper has hit teammate MINI_Xiaoxiao (Iron Mace, 16 DMG).
+20:21:08 - Marcovaldo has hit ttt (Swordstaff, 33 DMG).
+20:21:10 - Marcovaldo has hit ttt (Swordstaff, 12 DMG).
+20:21:10 - Marcovaldo <img=ico_spear> ttt
+20:21:11 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Pick, 20 DMG).
+20:21:12 - MINI_Cooper has hit teammate MINI_Xiaoxiao (Iron Mace, 17 DMG).
+20:21:14 - MINI_Cooper has hit teammate MINI_Xiaoxiao (Iron Mace, 14 DMG).
+20:21:16 - *CLAN* [[DK]nice]: zhe ge chang gan hao jiejue 
+20:21:19 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 31 DMG).
+20:21:22 - [DK]Bitch08 has hit Marcovaldo (Heavy Scimitar, 20 DMG).
+20:21:23 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 18 DMG).
+20:21:23 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:21:23 - DingzhenGanzi has left the game with ID: 4936676.
+20:21:26 - [DK]Bitch08 has hit Marcovaldo (Heavy Scimitar, 24 DMG).
+20:21:29 - *CLAN* [[DK]nice]: ta you lou dong 
+20:21:32 - [DK]Bitch08 has hit Marcovaldo (Heavy Scimitar, 25 DMG).
+20:21:32 - [DK]Bitch08 <img=ico_swordone> Marcovaldo
+20:21:32 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Pick, 7 DMG).
+20:21:37 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Pick, 13 DMG).
+20:21:37 - ttt has left the game with ID: 5911418 and IP: 115.60.195.29
+20:21:37 - ttt has left the game with ID: 5911418.
+20:22:05 - MINI_Cooper has hit teammate MINI_Xiaoxiao (Iron Mace, 14 DMG).
+20:22:06 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 3 DMG).
+20:22:07 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 1 DMG).
+20:22:10 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 10 DMG).
+20:22:13 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Pick, 7 DMG).
+20:22:17 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Pick, 2 DMG).
+20:22:17 - The round 16 has ended
+20:22:18 - [DK]Bitch08 has hit MINI_Xiaoxiao (Heavy Scimitar, 45 DMG).
+20:22:18 - [DK]Bitch08 <img=ico_swordone> MINI_Xiaoxiao
+20:22:27 - [MINI_Xiaoxiao] 太 卡 了 
+20:22:46 - [DK]nice closed the door as a defender
+20:22:46 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124 and has administrator rights.
+20:22:47 - Sunxingmin has been given administrator rights (100)
+20:23:01 - Marcovaldo opened the door as an attacker
+20:23:08 - *SPEC* [MINI_Cooper] 我 不 当 裁 判 啊 
+20:23:11 - Marcovaldo has hit [DK]nice (Swordstaff, 39 DMG).
+20:23:15 - Marcovaldo has hit [DK]Bitch08 (Swordstaff, 24 DMG).
+20:23:20 - MINI_Xiaoxiao has hit [DK]nice (Iron Mace, 41 DMG).
+20:23:20 - MINI_Xiaoxiao <img=ico_blunt> [DK]nice
+20:23:22 - [DK]Bitch08 has hit Marcovaldo (Heavy Scimitar, 28 DMG).
+20:23:23 - MINI_Xiaoxiao has left the game with ID: 5537338 and IP: 111.194.159.88
+20:23:23 - MINI_Xiaoxiao has left the game with ID: 5537338.
+20:23:23 -  <img=ico_headshot> MINI_Xiaoxiao
+20:23:23 - Raphael has joined the game with ID: 4951826 and IP: 42.81.205.137
+20:23:36 - [DK]Bitch08 has hit Marcovaldo (Heavy Scimitar, 29 DMG).
+20:23:40 - [DK]Bitch08 has hit Marcovaldo (Heavy Scimitar, 13 DMG).
+20:23:40 - [DK]Bitch08 <img=ico_swordone> Marcovaldo
+20:23:40 - The round 17 has ended
+20:24:29 - Marcovaldo has left the game with ID: 3474873 and IP: 111.124.162.71
+20:24:29 - Marcovaldo has left the game with ID: 3474873.
+20:24:29 -  <img=ico_headshot> Marcovaldo
+20:24:29 - The round 18 has ended
+20:24:33 -  <img=ico_headshot> [DK]nice
+20:24:33 - [DK]nice has been moved by the autobalancer (-1000)
+20:25:05 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+20:25:05 - Sunxingmin has left the game with ID: 1219124.
+20:25:09 - Raphael has left the game with ID: 4951826 and IP: 42.81.205.137
+20:25:09 - Raphael has left the game with ID: 4951826.
+20:25:10 - [DK]Bitch08 has hit [DK]nice (Heavy Scimitar, 49 DMG).
+20:25:48 - MINI_Cooper has left the game with ID: 443956 and IP: 123.189.185.252
+20:25:48 - MINI_Cooper has left the game with ID: 443956.
+20:26:04 - [DK]Bitch08 has hit [DK]nice (Heavy Scimitar, 43 DMG).
+20:26:04 - [DK]Bitch08 <img=ico_swordone> [DK]nice
+20:26:04 - The round 19 has ended
+20:26:15 - [[DK]nice] zm dou zou le 
+20:26:23 - [[DK]Bitch08] 打 完 了 已 经 
+20:26:29 - [[DK]nice] hao ba 
+20:26:37 - [[DK]nice] xia ci nu li 
+20:26:56 - [[DK]nice] da jin qu le 
+20:27:03 - [DK]nice has hit [DK]Bitch08 (none, 1 DMG).
+20:27:04 - [[DK]Bitch08] 下 次 起 装 备 ， 不 然 太 搞 人 了 
+20:27:11 - [[DK]nice] hao 
+20:27:20 - [[DK]nice] mai ge shi wang jia 
+20:27:49 - [[DK]Bitch08] 不 然 一 刀 死 强 行 压 力 队 友 
+20:28:12 - [[DK]nice] xian zai jiu qu kan
+20:28:17 - [DK]Bitch08 has left the game with ID: 4175168 and IP: 119.39.131.104
+20:28:17 - [DK]Bitch08 has left the game with ID: 4175168.
+20:28:17 -  <img=ico_headshot> [DK]Bitch08
+20:28:17 - The round 20 has ended
+20:28:17 - [DK]nice has left the game with ID: 4620332 and IP: 183.222.255.103
+20:28:17 - [DK]nice has left the game with ID: 4620332.
+20:28:17 -  <img=ico_headshot> [DK]nice
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:54 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:54 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:55 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:55 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:55 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:55 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:55 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:55 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:32:55 - DingzhenGanzi has left the game with ID: 4936676.
+20:32:56 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:33:03 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:33:03 - DingzhenGanzi has left the game with ID: 4936676.
+20:33:42 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:33:46 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:33:46 - DingzhenGanzi has left the game with ID: 4936676.
+20:34:15 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:41:09 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:41:09 - DingzhenGanzi has left the game with ID: 4936676.
+20:41:09 -  <img=ico_headshot> DingzhenGanzi
+20:41:09 - The round 21 has ended
+20:51:46 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:51:52 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+20:51:52 - DingzhenGanzi has left the game with ID: 4936676.
+20:55:52 - KM_zxc04 has joined the game with ID: 5402410 and IP: 222.94.184.176
+20:56:50 - Sheperd has joined the game with ID: 3091550 and IP: 117.176.251.165
+20:56:57 - Johnson has joined the game with ID: 1973018 and IP: 106.37.115.207
+20:57:27 - Johnson has hit teammate KM_zxc04 (One Handed Bar Mace, 1 DMG).
+20:57:28 - Johnson has hit Sheperd (One Handed Bar Mace, 22 DMG).
+20:57:28 - KM_zxc04 has hit Sheperd (One Handed Knightly Axe, 14 DMG).
+20:57:29 - Johnson has hit Sheperd (One Handed Bar Mace, 21 DMG).
+20:57:30 - Johnson has hit Sheperd (One Handed Bar Mace, 55 DMG).
+20:57:30 - Johnson <img=ico_blunt> Sheperd
+20:57:30 - The round 22 has ended
+20:57:51 - Sheperd has hit Johnson (Bearded Axe, 28 DMG).
+20:57:52 - Sheperd has hit Johnson (Bearded Axe, 29 DMG).
+20:57:53 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+20:57:54 - Sheperd has hit Johnson (Bearded Axe, 28 DMG).
+20:57:54 - Sheperd <img=ico_axetwo> Johnson
+20:57:55 - KM_zxc04 has hit Sheperd (One Handed Knightly Axe, 24 DMG).
+20:58:01 - Sheperd has hit KM_zxc04 (Bearded Axe, 56 DMG).
+20:58:08 - [DingzhenGanzi] 我 来 了 
+20:58:12 - KM_zxc04 has hit DingzhenGanzi (One Handed Knightly Axe, 25 DMG).
+20:58:13 - Sheperd has hit teammate DingzhenGanzi (Bearded Axe, 21 DMG).
+20:58:13 - KM_zxc04 has hit DingzhenGanzi (One Handed Knightly Axe, 21 DMG).
+20:58:13 - KM_zxc04 <img=ico_axeone> DingzhenGanzi
+20:58:18 - Sheperd has hit KM_zxc04 (Bearded Axe, 22 DMG).
+20:58:18 - Sheperd <img=ico_axetwo> KM_zxc04
+20:58:18 - The round 23 has ended
+20:58:24 - [Sheperd] sry
+20:58:41 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 24 DMG).
+20:58:44 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 35 DMG).
+20:58:48 - DingzhenGanzi has hit Johnson (Scimitar, 16 DMG).
+20:58:52 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 21 DMG).
+20:58:52 - Johnson <img=ico_blunt> DingzhenGanzi
+20:58:54 - Sheperd has hit KM_zxc04 (Bearded Axe, 21 DMG).
+20:59:00 - Johnson has hit Sheperd (One Handed Bar Mace, 20 DMG).
+20:59:13 - Sheperd has hit KM_zxc04 (Bearded Axe, 20 DMG).
+20:59:15 - Sheperd has hit KM_zxc04 (Bearded Axe, 32 DMG).
+20:59:15 - Sheperd <img=ico_axetwo> KM_zxc04
+20:59:22 - Johnson has hit Sheperd (One Handed Bar Mace, 17 DMG).
+20:59:25 - Johnson has hit Sheperd (One Handed Bar Mace, 33 DMG).
+20:59:31 - Johnson has hit Sheperd (One Handed Bar Mace, 34 DMG).
+20:59:31 - Johnson <img=ico_blunt> Sheperd
+20:59:31 - The round 24 has ended
+20:59:47 - [DingzhenGanzi] 我 们 队 友 反 了 
+20:59:57 - [KM_zxc04] 还 没 开 始 
+21:00:00 - [KM_zxc04] 等 人 
+21:00:07 - KM_zxc04 has hit DingzhenGanzi (One Handed Knightly Axe, 23 DMG).
+21:00:09 - Sheperd has hit Johnson (Bearded Axe, 33 DMG).
+21:00:09 - Agoni has joined the game with ID: 5517933 and IP: 183.144.51.1 and has administrator rights.
+21:00:12 - DingzhenGanzi has hit KM_zxc04 (Scimitar, 17 DMG).
+21:00:12 - Sheperd has hit Johnson (Bearded Axe, 29 DMG).
+21:00:12 - Sheperd <img=ico_axetwo> Johnson
+21:00:14 - Sheperd has hit KM_zxc04 (Bearded Axe, 57 DMG).
+21:00:14 - Sheperd <img=ico_axetwo> KM_zxc04
+21:00:14 - The round 25 has ended
+21:00:26 - [KM_zxc04] 你 们 那 是 不 是 4个 人 
+21:00:34 - [DingzhenGanzi] 我 们 还 差 taikula
+21:00:35 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 28 DMG).
+21:00:36 - *CLAN* [Agoni]: 你 们 还 差 一 个 人 
+21:00:41 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 28 DMG).
+21:00:42 - [KM_zxc04] 他 们 
+21:00:45 - [KM_zxc04] 好 像 4个 
+21:00:46 - DingzhenGanzi has hit Johnson (Scimitar, 15 DMG).
+21:00:51 - *SERVER* [Agoni]: 我 们 有 一 个 是 替 补 
+21:00:53 - Sheperd has hit KM_zxc04 (Bearded Axe, 46 DMG).
+21:00:54 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 30 DMG).
+21:00:54 - Johnson <img=ico_blunt> DingzhenGanzi
+21:00:56 - KM_zxc04 has hit Sheperd (One Handed Knightly Axe, 24 DMG).
+21:01:09 - KM_zxc04 has hit Sheperd (Scimitar, 31 DMG).
+21:01:13 - Sheperd has hit KM_zxc04 (Bearded Axe, 35 DMG).
+21:01:13 - Sheperd <img=ico_axetwo> KM_zxc04
+21:01:23 - Sheperd has hit Johnson (Bearded Axe, 27 DMG).
+21:01:27 - *SERVER* [Agoni]: 薛 波 德 是 傻 逼 
+21:01:30 - Sheperd has hit Johnson (Bearded Axe, 5 DMG).
+21:01:39 - Johnson has hit Sheperd (One Handed Bar Mace, 29 DMG).
+21:01:39 - Johnson <img=ico_blunt> Sheperd
+21:01:39 - The round 26 has ended
+21:01:46 - [KM_zxc04] 换 个 武 器 
+21:02:01 - Sheperd has hit Johnson (Bearded Axe, 5 DMG).
+21:02:01 - [RK]runner_Jhonny has joined the game with ID: 4886076 and IP: 1.202.187.118
+21:02:07 - KM_zxc04 has hit DingzhenGanzi (One Handed Knightly Axe, 33 DMG).
+21:02:10 - KM_zxc04 has hit DingzhenGanzi (One Handed Knightly Axe, 33 DMG).
+21:02:10 - KM_zxc04 <img=ico_axeone> DingzhenGanzi
+21:02:20 - Sheperd has hit Johnson (Bearded Axe, 27 DMG).
+21:02:23 - Sheperd has hit Johnson (Bearded Axe, 31 DMG).
+21:02:23 - Sheperd <img=ico_axetwo> Johnson
+21:02:35 - Sheperd has hit KM_zxc04 (Bearded Axe, 28 DMG).
+21:02:35 - [RK]runner_Jhonny has left the game with ID: 4886076 and IP: 1.202.187.118
+21:02:35 - [RK]runner_Jhonny has left the game with ID: 4886076.
+21:02:35 -  <img=ico_headshot> [RK]runner_Jhonny
+21:02:36 - KM_zxc04 has hit Sheperd (One Handed Bar Mace, 23 DMG).
+21:02:39 - Sheperd has hit KM_zxc04 (Bearded Axe, 25 DMG).
+21:02:42 - Sheperd has hit KM_zxc04 (Bearded Axe, 26 DMG).
+21:02:42 - Sheperd <img=ico_axetwo> KM_zxc04
+21:02:42 - The round 27 has ended
+21:02:59 - *SERVER* [Agoni]: 111111111111
+21:03:03 - [KM_zxc04] dingzhenganzi
+21:03:03 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 32 DMG).
+21:03:07 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 37 DMG).
+21:03:07 - Johnson <img=ico_blunt> DingzhenGanzi
+21:03:10 - [KM_zxc04] 那 个 什 么 
+21:03:13 - [KM_zxc04] 换 个 武 器 
+21:03:16 - [RK]Jhonny has joined the game with ID: 4886076 and IP: 1.202.187.118
+21:03:17 - *DEAD* [DingzhenGanzi] 啊 ？ 
+21:03:19 - Johnson has hit Sheperd (One Handed Bar Mace, 18 DMG).
+21:03:22 - [KM_zxc04] 你 去 
+21:03:24 - Sheperd has hit Johnson (Bearded Axe, 32 DMG).
+21:03:26 - [KM_zxc04] 买 战 锤 
+21:03:26 - Sheperd has hit Johnson (Bearded Axe, 22 DMG).
+21:03:27 - [RK]Jhonny has left the game with ID: 4886076 and IP: 1.202.187.118
+21:03:27 - [RK]Jhonny has left the game with ID: 4886076.
+21:03:28 - *DEAD* [DingzhenGanzi] 为 何 
+21:03:29 - Johnson has hit Sheperd (One Handed Bar Mace, 14 DMG).
+21:03:36 - *DEAD* [DingzhenGanzi] 不 是 剑 盾 都 ok吗 
+21:03:40 - Johnson has hit Sheperd (One Handed Bar Mace, 26 DMG).
+21:03:42 - Johnson has hit Sheperd (One Handed Bar Mace, 30 DMG).
+21:03:42 - Johnson <img=ico_blunt> Sheperd
+21:03:42 - The round 28 has ended
+21:03:47 -  <img=ico_headshot> Johnson
+21:03:49 - *SERVER* [Agoni]: wd1
+21:03:51 - *SERVER* [Agoni]: wdada
+21:03:52 - *SERVER* [Agoni]: wadassf
+21:03:57 - [DingzhenGanzi] ？ 
+21:04:04 - [Sheperd] 1
+21:04:06 - *SERVER* [Agoni]: 你 们 最 后 一 个 什 么 时 候 来 
+21:04:07 - Jhonny has joined the game with ID: 4886076 and IP: 1.202.187.118
+21:04:08 - [Sheperd] 换 一 下 
+21:04:10 - [Sheperd] 谢 谢 
+21:04:13 - [KM_zxc04] 管 理 码 在 哪 
+21:04:18 - [Sheperd] 换 一 下 
+21:04:20 - [Sheperd] 我 爱 你 
+21:04:21 - *SERVER* [Agoni]: 文 件 里 面 
+21:04:24 -  <img=ico_headshot> DingzhenGanzi
+21:04:25 - *SERVER* [Agoni]: 规 则 文 件 里 面 
+21:04:30 - [KM_zxc04] 找 不 到 
+21:04:30 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+21:04:32 - [KM_zxc04] · 
+21:04:35 - Sheperd has hit KM_zxc04 (Bearded Axe, 27 DMG).
+21:04:36 - Sheperd has hit KM_zxc04 (Bearded Axe, 27 DMG).
+21:04:39 - Sheperd has hit KM_zxc04 (Bearded Axe, 36 DMG).
+21:04:39 - Sheperd <img=ico_axetwo> KM_zxc04
+21:04:39 - The round 29 has ended
+21:04:43 - Sunxingmin has been given administrator rights (100)
+21:04:50 - *SERVER* [Sunxingmin]: kaida ma 
+21:04:52 - Jhonny has left the game with ID: 4886076 and IP: 1.202.187.118
+21:04:52 - Jhonny has left the game with ID: 4886076.
+21:05:01 - [KM_zxc04] 少 人 
+21:05:02 - Johnson has hit KM_zxc04 (One Handed Bar Mace, 45 DMG).
+21:05:03 - Johnson has hit KM_zxc04 (One Handed Bar Mace, 23 DMG).
+21:05:03 - Johnson <img=ico_blunt> KM_zxc04
+21:05:06 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 35 DMG).
+21:05:07 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 35 DMG).
+21:05:07 - Johnson <img=ico_blunt> DingzhenGanzi
+21:05:07 - The round 30 has ended
+21:05:11 - *SERVER* [Agoni]: mknezaman98
+21:05:13 - [KM_zxc04] 我 们 这 边 有 人 失 踪 
+21:05:19 - *SERVER* [Agoni]: 管 理 码 
+21:05:22 - DingzhenGanzi has hit teammate KM_zxc04 (Scimitar, 10 DMG).
+21:05:33 - Johnson has hit KM_zxc04 (One Handed Bar Mace, 44 DMG).
+21:05:34 - Johnson has hit KM_zxc04 (One Handed Bar Mace, 17 DMG).
+21:05:34 - Johnson <img=ico_blunt> KM_zxc04
+21:05:35 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 32 DMG).
+21:05:36 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 34 DMG).
+21:05:36 - Johnson <img=ico_blunt> DingzhenGanzi
+21:05:36 - The round 31 has ended
+21:05:38 - *SERVER* [Agoni]: mknezaman98
+21:05:41 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+21:05:41 - Sunxingmin has left the game with ID: 1219124.
+21:05:47 - Jhonny has joined the game with ID: 4886076 and IP: 1.202.187.118
+21:05:50 - [DingzhenGanzi] 我 买 个 战 锤 ？ 
+21:06:00 - *SPEC* [Agoni] shabi
+21:06:02 - *SERVER* [Agoni]: shab
+21:06:08 - [KM_zxc04] /mknezaman98
+21:06:11 - Johnson has hit KM_zxc04 (One Handed Bar Mace, 19 DMG).
+21:06:12 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 43 DMG).
+21:06:13 - Johnson has hit KM_zxc04 (One Handed Bar Mace, 16 DMG).
+21:06:14 - Johnson has hit KM_zxc04 (One Handed Bar Mace, 26 DMG).
+21:06:15 - DingzhenGanzi has hit Sheperd (Scimitar, 2 DMG).
+21:06:17 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 17 DMG).
+21:06:19 - Johnson has hit DingzhenGanzi (One Handed Bar Mace, 51 DMG).
+21:06:19 - Johnson <img=ico_blunt> DingzhenGanzi
+21:06:23 -  <img=ico_headshot> Johnson
+21:06:26 - Sheperd has hit KM_zxc04 (Bearded Axe, 26 DMG).
+21:06:26 - Sheperd <img=ico_axetwo> KM_zxc04
+21:06:26 - The round 32 has ended
+21:06:33 - [DingzhenGanzi] 能 不 能 让 你 们 这 个 johnson先 停 手 
+21:06:45 - KM_zxc04 has left the game with ID: 5402410 and IP: 222.94.184.176
+21:06:45 - KM_zxc04 has left the game with ID: 5402410.
+21:06:45 -  <img=ico_headshot> KM_zxc04
+21:06:51 - Johnson has hit Sheperd (One Handed Bar Mace, 38 DMG).
+21:07:00 - Jhonny has hit Johnson (Long Spear, 10 DMG).
+21:07:03 - Johnson has hit Jhonny (One Handed Bar Mace, 40 DMG).
+21:07:05 - Johnson has hit Jhonny (One Handed Bar Mace, 18 DMG).
+21:07:08 - Johnson has hit Jhonny (One Handed Bar Mace, 14 DMG).
+21:07:08 - Johnson <img=ico_blunt> Jhonny
+21:07:24 - Johnson has hit Sheperd (One Handed Bar Mace, 39 DMG).
+21:07:24 - Johnson <img=ico_blunt> Sheperd
+21:07:24 - The round 33 has ended
+21:07:46 - Jhonny has hit Johnson (Strange Heavy Great Sword, 17 DMG).
+21:07:48 - Johnson has hit Jhonny (One Handed Bar Mace, 33 DMG).
+21:07:49 - Johnson has hit Jhonny (One Handed Bar Mace, 25 DMG).
+21:07:54 - Johnson has hit Jhonny (One Handed Bar Mace, 15 DMG).
+21:07:54 - Johnson <img=ico_blunt> Jhonny
+21:08:04 - Johnson has hit Sheperd (One Handed Bar Mace, 36 DMG).
+21:08:07 - Sheperd has hit Johnson (Bearded Axe, 22 DMG).
+21:08:09 - Johnson has hit Sheperd (One Handed Bar Mace, 36 DMG).
+21:08:09 - Johnson <img=ico_blunt> Sheperd
+21:08:09 - The round 34 has ended
+21:08:23 - [Sheperd] 你 们 人 起 了 吗 
+21:08:30 - Jhonny has hit Johnson (Strange Heavy Great Sword, 13 DMG).
+21:08:32 - Johnson has hit Jhonny (One Handed Bar Mace, 21 DMG).
+21:08:34 - Johnson has hit Jhonny (One Handed Bar Mace, 34 DMG).
+21:08:36 - Jhonny has hit Johnson (Strange Heavy Great Sword, 9 DMG).
+21:08:41 - Jhonny has hit Johnson (Strange Heavy Great Sword, 19 DMG).
+21:08:44 - Johnson has hit Jhonny (One Handed Bar Mace, 25 DMG).
+21:08:44 - Johnson <img=ico_blunt> Jhonny
+21:08:56 - Sheperd has hit Johnson (Strange Heavy Great Sword, 27 DMG).
+21:08:56 - Sheperd <img=ico_swordtwo> Johnson
+21:08:58 -  <img=ico_headshot> DingzhenGanzi
+21:08:58 - The round 35 has ended
+21:09:13 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+21:09:13 - DingzhenGanzi has left the game with ID: 4936676.
+21:09:19 - Johnson has hit Sheperd (One Handed Bar Mace, 41 DMG).
+21:09:22 - Johnson has hit Sheperd (One Handed Bar Mace, 26 DMG).
+21:09:25 - Johnson has hit Jhonny (One Handed Bar Mace, 12 DMG).
+21:09:26 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+21:09:26 - Sheperd has hit Johnson (Strange Heavy Great Sword, 42 DMG).
+21:09:28 - Johnson has hit Jhonny (One Handed Bar Mace, 38 DMG).
+21:09:31 - Jhonny has hit teammate Sheperd (Strange Heavy Great Sword, 18 DMG).
+21:09:31 - Jhonny <img=ico_swordtwo> Sheperd
+21:09:33 - Johnson has hit Jhonny (One Handed Bar Mace, 23 DMG).
+21:09:33 - Johnson <img=ico_blunt> Jhonny
+21:09:33 - The round 36 has ended
+21:09:48 - [Sheperd] 还 比 赛 吗 ？ 
+21:09:53 - Johnson has hit Jhonny (One Handed Bar Mace, 17 DMG).
+21:09:54 - DingzhenGanzi has hit Jhonny (Two Handed Long Warhammer, 16 DMG).
+21:09:55 - DingzhenGanzi has hit Jhonny (Two Handed Long Warhammer, 27 DMG).
+21:09:56 - [Sheperd] 还 比 赛 吗 ？ 
+21:09:57 - Johnson has hit Jhonny (One Handed Bar Mace, 29 DMG).
+21:09:57 - Johnson <img=ico_blunt> Jhonny
+21:10:05 - Johnson has hit Sheperd (One Handed Bar Mace, 24 DMG).
+21:10:07 - Sheperd has hit Johnson (Bearded Axe, 22 DMG).
+21:10:09 - [DingzhenGanzi] 我 们 队 那 个 人 呢 W？ 
+21:10:13 - Agoni has hit Sheperd (Heavy Scimitar, 24 DMG).
+21:10:13 - Johnson has hit Sheperd (One Handed Bar Mace, 34 DMG).
+21:10:13 - Johnson <img=ico_blunt> Sheperd
+21:10:13 - The round 37 has ended
+21:10:13 - DingzhenGanzi has hit teammate Agoni (Two Handed Long Warhammer, 15 DMG).
+21:10:24 - [Johnson] 你 问 我 们 
+21:10:30 - [Johnson] 整 个 服 务 器 
+21:10:32 - [Johnson] 只 有 你 了 
+21:10:32 - [DingzhenGanzi] 我 刚 才 买 装 备 去 了 
+21:10:33 - [Johnson] 我 的 朋 友 
+21:10:33 - [DingzhenGanzi] 没 看 
+21:10:39 - DingzhenGanzi has hit Jhonny (Two Handed Long Warhammer, 29 DMG).
+21:10:40 - [Sheperd] 那 结 束 了 bb
+21:10:41 - Johnson has hit Jhonny (One Handed Bar Mace, 22 DMG).
+21:10:41 - DingzhenGanzi has hit Jhonny (Two Handed Long Warhammer, 32 DMG).
+21:10:41 - DingzhenGanzi <img=ico_maul> Jhonny
+21:10:50 - DingzhenGanzi has hit Sheperd (Two Handed Long Warhammer, 18 DMG).
+21:10:51 - Agoni has left the game with ID: 5517933 and IP: 183.144.51.1
+21:10:51 - Agoni has left the game with ID: 5517933.
+21:10:51 -  <img=ico_headshot> Agoni
+21:10:52 - Sheperd has hit DingzhenGanzi (Bearded Axe, 46 DMG).
+21:10:57 - Sheperd has hit DingzhenGanzi (Bearded Axe, 21 DMG).
+21:10:59 - Sheperd has hit DingzhenGanzi (Bearded Axe, 30 DMG).
+21:10:59 - Sheperd <img=ico_axetwo> DingzhenGanzi
+21:11:00 - Sheperd has hit Johnson (Bearded Axe, 35 DMG).
+21:11:07 - Johnson has hit Sheperd (One Handed Bar Mace, 32 DMG).
+21:11:11 - Johnson has hit Sheperd (One Handed Bar Mace, 23 DMG).
+21:11:11 - Johnson <img=ico_blunt> Sheperd
+21:11:11 - The round 38 has ended
+21:11:25 - KM_zxc04 has joined the game with ID: 5402410 and IP: 222.94.184.176
+21:11:32 - Sheperd has hit Johnson (Bearded Axe, 30 DMG).
+21:11:34 - [DingzhenGanzi] 等 等 ， 我 对 又 来 了 
+21:11:36 - Best player's score: 18994
+21:11:36 - Jhonny has hit Johnson (Strange Heavy Great Sword, 31 DMG).
+21:11:36 - Jhonny <img=ico_swordtwo> Johnson
+21:11:50 - Sheperd has hit KM_zxc04 (Bearded Axe, 60 DMG).
+21:11:51 - Sheperd has hit KM_zxc04 (Bearded Axe, 26 DMG).
+21:11:51 - Sheperd <img=ico_axetwo> KM_zxc04
+21:11:52 - Jhonny has hit DingzhenGanzi (Strange Heavy Great Sword, 51 DMG).
+21:11:52 - Sheperd has hit DingzhenGanzi (Bearded Axe, 31 DMG).
+21:11:52 - Sheperd <img=ico_axetwo> DingzhenGanzi
+21:11:52 - The round 39 has ended
+21:11:58 - *DEAD* [DingzhenGanzi] 就 我 俩 人 来 吧 
+21:11:59 - [KM_zxc04] 弃 权 还 是 打 
+21:12:05 - [KM_zxc04] 确 定 
+21:12:09 - [DingzhenGanzi] 打 呗 
+21:12:14 - [KM_zxc04] 好 
+21:12:16 - Sheperd has hit Johnson (Bearded Axe, 26 DMG).
+21:12:17 - [DingzhenGanzi] 有 没 有 裁 判 ？ 
+21:12:18 - Best player's score: 18993
+21:12:18 - Sheperd has hit Johnson (Bearded Axe, 39 DMG).
+21:12:18 - Sheperd <img=ico_axetwo> Johnson
+21:12:18 - [KM_zxc04] 打 
+21:12:21 - Agoni has joined the game with ID: 5517933 and IP: 183.144.51.1 and has administrator rights.
+21:12:25 - *CLAN* [KM_zxc04]: · 
+21:12:31 -  <img=ico_headshot> DingzhenGanzi
+21:12:31 -  <img=ico_headshot> Jhonny
+21:12:31 -  <img=ico_headshot> KM_zxc04
+21:12:31 - The round 40 has ended
+21:12:31 -  <img=ico_headshot> Sheperd
+21:12:31 - The map has been reset.
+21:12:35 - Raphael has joined the game with ID: 4951826 and IP: 42.81.205.137
+21:12:40 - Raphael has left the game with ID: 4951826 and IP: 42.81.205.137
+21:12:40 - Raphael has left the game with ID: 4951826.
+21:12:42 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+21:12:42 - DingzhenGanzi has left the game with ID: 4936676.
+21:12:42 -  <img=ico_headshot> DingzhenGanzi
+21:12:47 - [Sheperd] ?
+21:12:47 - [Sheperd] ?
+21:12:48 - [Sheperd] ?
+21:12:48 - [Sheperd] ?
+21:12:52 - [KM_zxc04] ？ 
+21:12:53 - DingzhenGanzi has joined the game with ID: 4936676 and IP: 183.192.236.228
+21:12:55 - [KM_zxc04] 什 么 
+21:12:57 - [Sheperd] za hui shi a
+21:13:01 - [KM_zxc04] 你 别 吓 我 
+21:13:05 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+21:13:06 - Sunxingmin has been given administrator rights (100)
+21:13:13 - *SPEC* [Sunxingmin] haizai deng ma 
+21:13:18 - *SPEC* [Sunxingmin] bu xing ling wai yue shijian ba 
+21:13:18 - [DingzhenGanzi] 有 才 哦 按 吗 
+21:13:23 - [Johnson] 开 始 了 吗 
+21:13:23 - [DingzhenGanzi] 由 裁 判 吗 
+21:13:26 - *SPEC* [Sunxingmin] wo 
+21:13:27 - *SERVER* [Sunxingmin]: wo 
+21:13:29 - *SERVER* [Sunxingmin]: cai panb 
+21:13:35 - [Johnson] 能 kaislmm
+21:13:35 - [KM_zxc04] 2打 3？ 
+21:13:38 - [Johnson] 能 开 始 了 吗 
+21:13:40 - *SERVER* [Sunxingmin]: buneng 2 da 3
+21:13:41 - [Jhonny] 我 报 名 的 号 只 有 双 手 
+21:13:43 - [Jhonny] 彩 排 
+21:13:44 - *SERVER* [Sunxingmin]: ling wai yue shijian 
+21:13:46 - [KM_zxc04] 2打 2
+21:13:54 - [Sheperd] jie shu le
+21:13:56 - [Jhonny] 还 有 一 个 Jhonny的 号 
+21:14:01 - [Jhonny] 但 是 不 是 报 名 的 
+21:14:03 - [Sheperd] ta men shu le
+21:14:04 - *SERVER* [Sunxingmin]: ling wai yue shijian da 
+21:14:16 - Sheperd has left the game with ID: 3091550 and IP: 117.176.251.165
+21:14:16 - Sheperd has left the game with ID: 3091550.
+21:14:16 -  <img=ico_headshot> Sheperd
+21:14:18 - [DingzhenGanzi] 我 们 队 友 失 踪 了 ， 不 有 旁 观 的 兄 弟 吗 ？ 来 一 个 
+21:14:22 - Johnson has left the game with ID: 1973018 and IP: 106.37.115.207
+21:14:22 - Johnson has left the game with ID: 1973018.
+21:14:22 -  <img=ico_headshot> Johnson
+21:14:25 - *SPEC* [Sunxingmin]  ling wai yue shi jian da 
+21:14:26 - [DingzhenGanzi] 或 者 2v2
+21:14:26 - [KM_zxc04] 打 不 了 
+21:14:27 - *SPEC* [Sunxingmin] ling wai yue 
+21:14:31 - Jhonny has left the game with ID: 4886076 and IP: 1.202.187.118
+21:14:31 - Jhonny has left the game with ID: 4886076.
+21:14:31 -  <img=ico_headshot> Jhonny
+21:14:31 - The round 41 has ended
+21:14:32 - [KM_zxc04] 走 了 
+21:14:32 - *SERVER* [Sunxingmin]: ling wai yue shijian da 
+21:14:36 -  <img=ico_headshot> DingzhenGanzi
+21:14:36 - DingzhenGanzi has been moved by the autobalancer (-1000)
+21:14:46 - [DingzhenGanzi] 那 我 们 弃 权 吧 
+21:14:50 - *SERVER* [Sunxingmin]: bu yong qi quan 
+21:14:53 - DingzhenGanzi has hit KM_zxc04 (Two Handed Long Warhammer, 44 DMG).
+21:14:56 - *SERVER* [Sunxingmin]: ling wai yue shijian 
+21:15:00 - [KM_zxc04] 不 是 
+21:15:04 - [KM_zxc04] 是 打 不 了 
+21:15:07 - *SERVER* [Sunxingmin]: ?
+21:15:16 - [KM_zxc04] 我 们 这 边 人 失 踪 一 个 
+21:15:19 - [DingzhenGanzi] 我 们 队 长 找 不 到 另 一 个 
+21:15:20 - [KM_zxc04] QQ不 回 
+21:15:32 - *DEAD* [Sunxingmin] zhou er zhi qian da wan jiuxing 
+21:15:36 - KM_zxc04 has hit DingzhenGanzi (Warhammer, 29 DMG).
+21:15:37 - KM_zxc04 has hit DingzhenGanzi (Warhammer, 25 DMG).
+21:15:38 - KM_zxc04 has hit DingzhenGanzi (Warhammer, 28 DMG).
+21:15:38 - KM_zxc04 <img=ico_blunt> DingzhenGanzi
+21:15:38 - The round 42 has ended
+21:15:40 - *SERVER* [Sunxingmin]:  zhou er zhi qian da wan jiu xing 
+21:15:51 - [KM_zxc04] 好 
+21:15:51 - *SERVER* [Agoni]: 行 吧 ， 你 们 能 到 齐 再 找 我 们 
+21:15:57 - *SERVER* [Sunxingmin]: QQ lian xi 
+21:15:59 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+21:15:59 - Sunxingmin has left the game with ID: 1219124.
+21:15:59 -  <img=ico_headshot> Sunxingmin
+21:16:01 - *SERVER* [Agoni]: 下 次 别 放 鸽 子 了 
+21:16:06 - [KM_zxc04] · 
+21:16:07 - KM_zxc04 has hit DingzhenGanzi (Warhammer, 27 DMG).
+21:16:08 - KM_zxc04 has hit DingzhenGanzi (Warhammer, 38 DMG).
+21:16:10 - KM_zxc04 has hit DingzhenGanzi (Warhammer, 23 DMG).
+21:16:10 - KM_zxc04 <img=ico_blunt> DingzhenGanzi
+21:16:10 - The round 43 has ended
+21:16:11 - *DEAD* [DingzhenGanzi] waht can I say
+21:16:16 - Agoni has left the game with ID: 5517933 and IP: 183.144.51.1
+21:16:16 - Agoni has left the game with ID: 5517933.
+21:16:17 - [DingzhenGanzi] 我 八 点 就 一 直 等 
+21:16:19 - [KM_zxc04] 撤 
+21:16:20 - DingzhenGanzi has left the game with ID: 4936676 and IP: 183.192.236.228
+21:16:20 - DingzhenGanzi has left the game with ID: 4936676.
+21:16:20 -  <img=ico_headshot> DingzhenGanzi
+21:16:20 - The round 44 has ended
+21:16:24 - KM_zxc04 has left the game with ID: 5402410 and IP: 222.94.184.176
+21:16:24 - KM_zxc04 has left the game with ID: 5402410.
+21:16:24 -  <img=ico_headshot> KM_zxc04
+21:57:32 - Agoni has joined the game with ID: 5517933 and IP: 183.144.51.1 and has administrator rights.
+22:01:44 - Agoni has left the game with ID: 5517933 and IP: 183.144.51.1
+22:01:44 - Agoni has left the game with ID: 5517933.
+22:01:52 - NotYourDope has joined the game with ID: 5350841 and IP: 180.105.82.226
+22:01:56 - NotYourDope has left the game with ID: 5350841 and IP: 180.105.82.226
+22:01:56 - NotYourDope has left the game with ID: 5350841.
+22:02:15 - Marcovaldo has joined the game with ID: 3474873 and IP: 111.124.162.71
+22:02:27 - Agoni has joined the game with ID: 5517933 and IP: 183.144.51.1
+22:03:10 - MINI_Cooper has joined the game with ID: 443956 and IP: 123.189.185.252
+22:03:16 - [Marcovaldo] 你 们 人 在 吗 
+22:03:26 - [Marcovaldo] Ago'i'n
+22:03:45 - NotYourDope has joined the game with ID: 5350841 and IP: 180.105.82.226
+22:03:51 - [Agoni] 你 们 能 到 齐 吗 
+22:03:52 - NotYourDope has left the game with ID: 5350841 and IP: 180.105.82.226
+22:03:52 - NotYourDope has left the game with ID: 5350841.
+22:04:21 - [Marcovaldo] 可 以 吧 
+22:04:24 - [Marcovaldo] 我 们 可 以 
+22:05:18 - [Agoni] 我 们 来 了 
+22:05:24 - [Agoni] 你 快 让 你 们 人 上 线 
+22:05:38 - [Marcovaldo] 1
+22:05:43 - [Agoni] 你 们 还 差 一 个 人 
+22:05:47 - Marcovaldo has hit Agoni (Swordstaff, 21 DMG).
+22:05:51 - Marcovaldo has hit Agoni (Swordstaff, 45 DMG).
+22:05:51 - Marcovaldo <img=ico_spear> Agoni
+22:05:51 - The round 45 has ended
+22:06:04 - [Agoni] 快 快 快 
+22:06:05 - [Agoni] 你 们 人 呢 
+22:06:08 - [Marcovaldo] 我 叫 了 
+22:06:18 - [Agoni] 我 们 刺 刀 赛 打 到 一 半 过 来 的 
+22:06:32 - [Marcovaldo] 在 上 了 
+22:06:50 - [Marcovaldo] 高 手 
+22:06:55 - 74SaintBH_Sheperd[K9] has joined the game with ID: 3091550 and IP: 117.176.251.165
+22:07:00 - 74SaintBH_Sheperd[K9] has left the game with ID: 3091550 and IP: 117.176.251.165
+22:07:00 - 74SaintBH_Sheperd[K9] has left the game with ID: 3091550.
+22:07:01 - MINI_Xiaoxiao has joined the game with ID: 5537338 and IP: 111.194.159.88
+22:07:06 - Marcovaldo has hit Agoni (Swordstaff, 17 DMG).
+22:07:06 - Jhonny has joined the game with ID: 4886076 and IP: 1.202.187.118
+22:07:13 - Marcovaldo has hit Agoni (Swordstaff, 24 DMG).
+22:07:21 - Sheperd has joined the game with ID: 3091550 and IP: 117.176.251.165
+22:07:30 - Marcovaldo has hit Agoni (Swordstaff, 5 DMG).
+22:07:42 - Agoni has hit Marcovaldo (Heavy Scimitar, 39 DMG).
+22:07:47 - Marcovaldo has hit Agoni (Swordstaff, 20 DMG).
+22:07:47 - Marcovaldo <img=ico_spear> Agoni
+22:07:47 - The round 46 has ended
+22:08:00 - [Agoni] 裁 判 呢 
+22:08:03 - Raphael has joined the game with ID: 4951826 and IP: 42.81.205.137
+22:08:06 - 74thPGC_KnWe_Jason[K9] has joined the game with ID: 1973018 and IP: 106.37.115.207
+22:08:09 - MINI_Xiaoxiao has left the game with ID: 5537338 and IP: 111.194.159.88
+22:08:09 - MINI_Xiaoxiao has left the game with ID: 5537338.
+22:08:09 -  <img=ico_headshot> MINI_Xiaoxiao
+22:08:10 - 74thPGC_KnWe_Jason[K9] has left the game with ID: 1973018 and IP: 106.37.115.207
+22:08:10 - 74thPGC_KnWe_Jason[K9] has left the game with ID: 1973018.
+22:08:12 - [Agoni] 旁 观 那 个 是 裁 判 吗 
+22:08:13 - Sheperd has hit teammate Agoni (Bearded Axe, 43 DMG).
+22:08:17 - *SPEC* [MINI_Cooper] caipan
+22:08:23 - [Marcovaldo] 裁 判 是 cooper
+22:08:30 - Johnson has joined the game with ID: 1973018 and IP: 106.37.115.207
+22:08:33 - Jhonny has hit teammate Agoni (Scimitar, 17 DMG).
+22:08:33 - Jhonny <img=ico_swordone> Agoni
+22:08:40 - [X1]benboba has joined the game with ID: 4946740 and IP: 106.8.174.177
+22:08:41 - [X1]benboba has been given administrator rights (100)
+22:08:47 - [Marcovaldo] 他 不 是 裁 判 裁 判 还 没 到 
+22:08:48 - Katsuyori has joined the game with ID: 4153280 and IP: 113.118.65.204
+22:08:52 - *SPEC* [MINI_Cooper] shui caipan 
+22:09:03 - Marcovaldo has hit Sheperd (Swordstaff, 27 DMG).
+22:09:03 - *SPEC* [Raphael] 你 自 己 裁 
+22:09:05 - MINI_Xiaoxiao has joined the game with ID: 5537338 and IP: 111.194.159.88
+22:09:10 - *SERVER* [[X1]benboba]: 我 来 吧 
+22:09:12 - Sheperd has hit Marcovaldo (Bearded Axe, 17 DMG).
+22:09:12 - Jhonny has hit Marcovaldo (Heavy Scimitar, 23 DMG).
+22:09:13 - Jhonny has hit Marcovaldo (Heavy Scimitar, 14 DMG).
+22:09:16 - Sheperd has hit Marcovaldo (Bearded Axe, 22 DMG).
+22:09:16 - Sheperd <img=ico_axetwo> Marcovaldo
+22:09:16 - The round 47 has ended
+22:09:23 - *SERVER* [[X1]benboba]: 双 方 准 备 好 发 R
+22:09:32 -  <img=ico_headshot> Jhonny
+22:09:36 - Agoni has hit teammate Sheperd (Heavy Scimitar, 7 DMG).
+22:09:40 - Marcovaldo has hit Agoni (Swordstaff, 18 DMG).
+22:09:43 - Marcovaldo has hit Agoni (Swordstaff, 21 DMG).
+22:09:44 - Sheperd has hit Marcovaldo (Bearded Axe, 57 DMG).
+22:09:45 - Agoni has hit Marcovaldo (Heavy Scimitar, 29 DMG).
+22:09:45 - Agoni <img=ico_swordone> Marcovaldo
+22:09:53 - [Agoni] R
+22:10:10 - *SERVER* [[X1]benboba]: 小 山 渣 你 们 呢 
+22:10:11 - [MINI_Cooper] dengxia
+22:10:15 - *SERVER* [[X1]benboba]: 1
+22:10:40 - [Agoni] 我 出 去 换 个 装 备 
+22:10:42 - Agoni has left the game with ID: 5517933 and IP: 183.144.51.1
+22:10:42 - Agoni has left the game with ID: 5517933.
+22:10:42 -  <img=ico_headshot> Agoni
+22:10:51 - MINI_Xiaoxiao has left the game with ID: 5537338 and IP: 111.194.159.88
+22:10:51 - MINI_Xiaoxiao has left the game with ID: 5537338.
+22:10:51 -  <img=ico_headshot> MINI_Xiaoxiao
+22:10:57 - DemonHunter has joined the game with ID: 2780258 and IP: 110.86.150.161
+22:11:01 - MINI_Xiaoxiao has joined the game with ID: 5537338 and IP: 42.240.130.93
+22:11:03 - Agoni has joined the game with ID: 5517933 and IP: 183.144.51.1
+22:11:03 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:03 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:03 - Pageup has left the game with ID: 3693051.
+22:11:03 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:03 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:03 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:04 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:04 - Pageup has left the game with ID: 3693051.
+22:11:05 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051.
+22:11:05 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051.
+22:11:05 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051.
+22:11:05 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:11:05 - Pageup has left the game with ID: 3693051.
+22:11:05 - Pageup has joined the game with ID: 3693051 and IP: 183.240.253.212
+22:11:17 - [MINI_Cooper] r
+22:11:21 - Sheperd has hit teammate Johnson (Heavy Scimitar, 9 DMG).
+22:11:24 - *SERVER* [[X1]benboba]: 双 方 准 备 完 毕 
+
+22:11:29 - *DEAD* [Agoni] r
+22:11:31 -  <img=ico_headshot> Johnson
+22:11:31 -  <img=ico_headshot> MINI_Cooper
+22:11:31 - The round 48 has ended
+22:11:31 -  <img=ico_headshot> Sheperd
+22:11:31 - The map has been reset.
+22:11:35 - The map has been reset.
+22:11:38 - The map has started: Old Village Ruins.
+22:11:39 - Dynamic server settings have been updated.
+22:11:41 - [X1]benboba has been given administrator rights (100)
+22:11:49 - The map has started: The Cage.
+22:11:49 - Dynamic server settings have been updated.
+22:11:52 - [X1]benboba has been given administrator rights (100)
+22:11:58 - *SERVER* [[X1]benboba]: 时 间 到 了 不 是 我 的 问 题 
+22:12:02 - qimama has joined the game with ID: 3290582 and IP: 58.55.132.178
+
+22:12:06 - Marcovaldo opened the door as a defender
+22:12:08 -  <img=ico_headshot> MINI_Xiaoxiao
+22:12:08 -  <img=ico_headshot> Sheperd
+22:12:08 -  <img=ico_headshot> MINI_Cooper
+22:12:08 -  <img=ico_headshot> Agoni
+22:12:08 -  <img=ico_headshot> Marcovaldo
+22:12:08 - The round 1 has ended
+22:12:08 -  <img=ico_headshot> Johnson
+22:12:08 - The map has been reset.
+22:12:11 - The map has been reset.
+22:12:17 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
+22:12:18 - *SERVER* [[X1]benboba]: 上 半 场 开 始 
+22:12:27 - Sheperd opened the door as an attacker
+22:12:32 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 18 DMG).
+22:12:34 - Marcovaldo has hit Johnson (Long Spear, 15 DMG).
+22:12:35 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 28 DMG).
+22:12:35 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 23 DMG).
+22:12:36 - Marcovaldo has hit Sheperd (Long Spear, 35 DMG).
+22:12:36 - Marcovaldo <img=ico_spear> Sheperd
+22:12:37 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 25 DMG).
+22:12:38 - MINI_Cooper has hit Johnson (Heavy Scimitar, 13 DMG).
+22:12:42 - Johnson has hit MINI_Cooper (One Handed Bar Mace, 34 DMG).
+22:12:42 - Marcovaldo has hit Johnson (Long Spear, 19 DMG).
+22:12:43 - Marcovaldo has hit Johnson (Long Spear, 18 DMG).
+22:12:43 - Marcovaldo <img=ico_spear> Johnson
+22:12:48 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 23 DMG).
+22:12:48 - MINI_Xiaoxiao <img=ico_blunt> Agoni
+22:12:48 - The round 2 has ended
+22:13:07 - Sheperd has hit Marcovaldo (Bearded Axe, 35 DMG).
+22:13:08 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 23 DMG).
+22:13:09 - Marcovaldo has hit Johnson (Long Spear, 3 DMG).
+22:13:09 - Agoni has hit MINI_Xiaoxiao (Heavy Scimitar, 16 DMG).
+22:13:09 - MINI_Cooper has hit Agoni (Heavy Scimitar, 29 DMG).
+22:13:10 - Sheperd has hit MINI_Xiaoxiao (Bearded Axe, 17 DMG).
+22:13:10 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 19 DMG).
+22:13:12 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 47 DMG).
+22:13:12 - MINI_Cooper <img=ico_swordone> Sheperd
+22:13:15 - Johnson has hit Marcovaldo (One Handed Bar Mace, 13 DMG).
+22:13:16 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 22 DMG).
+22:13:17 - Johnson has hit Marcovaldo (One Handed Bar Mace, 27 DMG).
+22:13:17 - Johnson <img=ico_blunt> Marcovaldo
+22:13:18 - MINI_Cooper has hit Johnson (Heavy Scimitar, 30 DMG).
+22:13:23 - MINI_Cooper has hit Johnson (Heavy Scimitar, 40 DMG).
+22:13:23 - MINI_Cooper <img=ico_swordone> Johnson
+22:13:26 - MINI_Cooper has hit Agoni (Heavy Scimitar, 24 DMG).
+22:13:26 - MINI_Cooper <img=ico_swordone> Agoni
+22:13:26 - The round 3 has ended
+22:13:47 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 19 DMG).
+22:13:48 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 21 DMG).
+22:13:48 - Marcovaldo has hit Johnson (Long Spear, 34 DMG).
+22:13:51 - Marcovaldo has hit Johnson (Long Spear, 20 DMG).
+22:13:52 - MINI_Xiaoxiao has hit Sheperd (Iron Mace, 31 DMG).
+22:13:53 - MINI_Cooper has hit Johnson (Heavy Scimitar, 11 DMG).
+22:13:53 - MINI_Cooper <img=ico_swordone> Johnson
+22:13:53 - Marcovaldo has hit Agoni (Long Spear, 6 DMG).
+22:13:54 - Marcovaldo has hit teammate MINI_Cooper (Long Spear, 13 DMG).
+22:13:55 - Marcovaldo has hit Agoni (Long Spear, 25 DMG).
+22:13:56 - MINI_Cooper has hit Agoni (Heavy Scimitar, 15 DMG).
+22:13:56 - Marcovaldo has hit Sheperd (Long Spear, 38 DMG).
+22:13:56 - Marcovaldo <img=ico_spear> Sheperd
+22:13:58 - MINI_Cooper has hit Agoni (Heavy Scimitar, 13 DMG).
+22:14:00 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 50 DMG).
+22:14:00 - MINI_Xiaoxiao <img=ico_blunt> Agoni
+22:14:00 - The round 4 has ended
+22:14:02 - [DK]Shing02 has joined the game with ID: 5164741 and IP: 115.216.131.216 and WSE2: 1085
+22:14:11 - Katsuyori has left the game with ID: 4153280 and IP: 113.118.65.204
+22:14:11 - Katsuyori has left the game with ID: 4153280.
+22:14:32 - MINI_Xiaoxiao has hit teammate Marcovaldo (Iron Mace, 18 DMG).
+22:14:33 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 23 DMG).
+22:14:35 - Marcovaldo has hit Agoni (Long Spear, 23 DMG).
+22:14:36 - Johnson has hit Marcovaldo (One Handed Bar Mace, 32 DMG).
+22:14:38 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 14 DMG).
+22:14:41 - MINI_Cooper has hit Sheperd (Heavy Scimitar, 15 DMG).
+22:14:42 - Agoni has hit MINI_Xiaoxiao (Heavy Scimitar, 9 DMG).
+22:14:46 - Agoni has hit MINI_Xiaoxiao (Heavy Scimitar, 9 DMG).
+22:14:46 - Marcovaldo has hit Johnson (Long Spear, 12 DMG).
+22:14:48 - Sheperd has hit MINI_Cooper (Bearded Axe, 22 DMG).
+22:14:49 - Marcovaldo has hit Johnson (Long Spear, 24 DMG).
+22:14:50 - Marcovaldo has hit Agoni (Long Spear, 30 DMG).
+22:14:50 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 4 DMG).
+22:14:53 - Johnson has hit Marcovaldo (One Handed Bar Mace, 25 DMG).
+22:14:53 - Johnson <img=ico_blunt> Marcovaldo
+22:14:55 - Johnson has hit MINI_Cooper (One Handed Bar Mace, 36 DMG).
+22:14:56 - Johnson has hit MINI_Cooper (One Handed Bar Mace, 51 DMG).
+22:14:56 - Johnson <img=ico_blunt> MINI_Cooper
+22:14:57 - Agoni has hit MINI_Xiaoxiao (Heavy Scimitar, 16 DMG).
+22:14:57 - Sheperd has hit teammate Johnson (Bearded Axe, 11 DMG).
+22:14:58 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 29 DMG).
+22:14:58 - MINI_Xiaoxiao <img=ico_blunt> Agoni
+22:14:59 - Sheperd has hit MINI_Xiaoxiao (Bearded Axe, 21 DMG).
+22:14:59 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 28 DMG).
+22:14:59 - Johnson <img=ico_blunt> MINI_Xiaoxiao
+22:14:59 - The round 5 has ended
+22:15:02 - [DK]Shing02 has left the game with ID: 5164741 and IP: 115.216.131.216
+22:15:02 - [DK]Shing02 has left the game with ID: 5164741.
+22:15:27 - Agoni has hit Marcovaldo (Heavy Scimitar, 22 DMG).
+22:15:29 - Marcovaldo has hit Sheperd (Long Spear, 35 DMG).
+22:15:30 - [RK]YUsama has joined the game with ID: 6157744 and IP: 124.71.83.191
+22:15:31 - Marcovaldo has hit Agoni (Long Spear, 19 DMG).
+22:15:31 - MINI_Cooper has hit Agoni (Iron Pick, 4 DMG).
+22:15:32 - Sheperd has hit Marcovaldo (Bearded Axe, 24 DMG).
+22:15:33 - MINI_Cooper has hit Agoni (Iron Pick, 16 DMG).
+22:15:34 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 6 DMG).
+22:15:34 - Marcovaldo has hit Sheperd (Long Spear, 8 DMG).
+22:15:36 - Marcovaldo has hit Sheperd (Long Spear, 38 DMG).
+22:15:36 - Marcovaldo <img=ico_spear> Sheperd
+22:15:37 - Katsuyori has joined the game with ID: 4153280 and IP: 113.118.65.204
+22:15:37 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 24 DMG).
+22:15:43 - Agoni has hit MINI_Cooper (Heavy Scimitar, 1 DMG).
+22:15:44 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 24 DMG).
+22:15:45 - MINI_Cooper has hit Agoni (Iron Pick, 26 DMG).
+22:15:45 - MINI_Cooper <img=ico_blunt> Agoni
+22:15:48 - Marcovaldo has hit Johnson (Long Spear, 36 DMG).
+22:15:48 - Marcovaldo <img=ico_spear> Johnson
+22:15:48 - The round 6 has ended
+22:15:56 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+22:15:57 - Sunxingmin has been given administrator rights (100)
+22:16:16 - Agoni has hit MINI_Xiaoxiao (Heavy Scimitar, 9 DMG).
+22:16:18 - Sheperd has hit MINI_Cooper (Bearded Axe, 16 DMG).
+22:16:19 - Johnson has hit Marcovaldo (One Handed Bar Mace, 22 DMG).
+22:16:20 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 20 DMG).
+22:16:21 - Marcovaldo has hit Johnson (Long Spear, 26 DMG).
+22:16:23 - Sheperd has hit MINI_Cooper (Bearded Axe, 33 DMG).
+22:16:24 - MINI_Cooper has hit Sheperd (Iron Pick, 30 DMG).
+22:16:26 - Sheperd has hit MINI_Cooper (Bearded Axe, 20 DMG).
+22:16:26 - Sheperd <img=ico_axetwo> MINI_Cooper
+22:16:27 - Marcovaldo has hit Johnson (Long Spear, 20 DMG).
+22:16:28 - *SPEC* [Raphael] ?
+22:16:28 - *SPEC* [Sunxingmin] ?
+22:16:29 - Marcovaldo has hit Johnson (Long Spear, 34 DMG).
+22:16:29 - Marcovaldo <img=ico_spear> Johnson
+22:16:31 - Marcovaldo has hit Sheperd (Long Spear, 25 DMG).
+22:16:33 - *SPEC* [Raphael] 你 玩 尼 玛 呢 
+22:16:34 - Marcovaldo has hit Sheperd (Long Spear, 32 DMG).
+22:16:34 - Marcovaldo <img=ico_spear> Sheperd
+22:16:34 - MINI_Xiaoxiao has hit Agoni (Iron Mace, 36 DMG).
+22:16:35 - Marcovaldo has hit Agoni (Long Spear, 28 DMG).
+22:16:35 - Marcovaldo <img=ico_spear> Agoni
+22:16:35 - The round 7 has ended
+22:16:40 - *SERVER* [[X1]benboba]: 上 半 场 结 束 
+
+22:16:41 - *SPEC* [Sunxingmin] daida ?
+22:16:58 - [DK]Shing02 has joined the game with ID: 5164741 and IP: 115.216.131.216 and WSE2: 1085
+22:16:59 - *SERVER* [[X1]benboba]: 比 分 mini队 5-1神 威 无 敌 杰 森 大 将 军 队 
+22:17:00 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Mace, 11 DMG).
+22:17:05 -  <img=ico_headshot> MINI_Xiaoxiao
+22:17:05 -  <img=ico_headshot> Agoni
+22:17:05 -  <img=ico_headshot> Sheperd
+22:17:05 -  <img=ico_headshot> Johnson
+22:17:05 - The round 8 has ended
+22:17:05 -  <img=ico_headshot> MINI_Cooper
+22:17:05 -  <img=ico_headshot> Marcovaldo
+22:17:08 - *SERVER* [[X1]benboba]: 换 边 
+22:17:15 - *SERVER* [[X1]benboba]: 双 方 准 备 完 毕 发 r
+22:17:16 - [Agoni] 我 们 换 人 ， 暂 停 
+22:17:17 - [Sheperd] R
+22:17:18 - *SPEC* [[DK]Shing02] 9ping
+22:17:20 -  <img=ico_headshot> Agoni
+22:17:39 - *SERVER* [[X1]benboba]: 双 方 是 否 准 备 完 毕 
+22:17:41 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
+22:17:41 - [X1]NewPlayer has left the game with ID: 4270208.
+22:17:41 - [Sheperd] R
+22:17:43 - ribenren has joined the game with ID: 3418338 and IP: 221.195.27.119 and WSE2: 1124
+22:17:44 - [MINI_Cooper] r
+22:17:50 - *SERVER* [[X1]benboba]: 双 方 准 备 完 毕 
+
+22:17:57 -  <img=ico_headshot> Jhonny
+22:17:57 -  <img=ico_headshot> MINI_Cooper
+22:17:57 -  <img=ico_headshot> Marcovaldo
+22:17:57 -  <img=ico_headshot> Johnson
+22:17:57 -  <img=ico_headshot> Sheperd
+22:17:57 - The round 9 has ended
+22:17:57 -  <img=ico_headshot> MINI_Xiaoxiao
+22:17:57 - The map has been reset.
+22:18:02 -  <img=ico_headshot> Marcovaldo
+22:18:02 -  <img=ico_headshot> Jhonny
+22:18:02 -  <img=ico_headshot> Johnson
+22:18:02 -  <img=ico_headshot> Sheperd
+22:18:02 - The round 10 has ended
+22:18:02 -  <img=ico_headshot> MINI_Xiaoxiao
+22:18:02 - The map has been reset.
+22:18:08 - *SERVER* [[X1]benboba]: 下 半 场 开 始 
+22:18:09 - [Sheperd] R
+22:18:23 - Johnson closed the door as a defender
+22:18:43 - [DK]Shing02 has left the game with ID: 5164741 and IP: 115.216.131.216
+22:18:43 - [DK]Shing02 has left the game with ID: 5164741.
+22:18:43 - Marcovaldo opened the door as an attacker
+22:18:52 - Jhonny closed the door as a defender
+22:18:55 - *SPEC* [[X1]benboba] .
+22:18:56 - *SPEC* [ribenren] ？ 
+22:18:56 - Sheperd opened the door as a defender
+22:19:01 - Sheperd has hit teammate Jhonny (Bearded Axe, 22 DMG).
+22:19:02 - MINI_Cooper has hit Jhonny (Iron Mace, 14 DMG).
+22:19:02 - Marcovaldo has hit Sheperd (Long Spear, 32 DMG).
+22:19:03 - Marcovaldo has hit Sheperd (Long Spear, 30 DMG).
+22:19:03 - MINI_Cooper has hit Sheperd (Iron Mace, 32 DMG).
+22:19:03 - MINI_Cooper <img=ico_blunt> Sheperd
+22:19:04 - Jhonny has hit MINI_Cooper (Scimitar, 11 DMG).
+22:19:04 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 14 DMG).
+22:19:05 - Jhonny has hit Marcovaldo (Scimitar, 27 DMG).
+22:19:05 - MINI_Cooper has hit Jhonny (Iron Mace, 18 DMG).
+22:19:06 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 34 DMG).
+22:19:06 - Marcovaldo has hit Johnson (Long Spear, 8 DMG).
+22:19:07 - Marcovaldo has hit Johnson (Long Spear, 5 DMG).
+22:19:07 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 18 DMG).
+22:19:09 - MINI_Cooper has hit Jhonny (Iron Mace, 33 DMG).
+22:19:09 - MINI_Cooper <img=ico_blunt> Jhonny
+22:19:10 - Marcovaldo has hit Johnson (Long Spear, 16 DMG).
+22:19:11 - Marcovaldo has hit Johnson (Long Spear, 3 DMG).
+22:19:12 - Marcovaldo has hit Johnson (Long Spear, 11 DMG).
+22:19:12 - Marcovaldo <img=ico_spear> Johnson
+22:19:12 - The round 11 has ended
+22:19:22 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+22:19:22 - Sunxingmin has left the game with ID: 1219124.
+22:19:31 - Sheperd has hit MINI_Xiaoxiao (Bearded Axe, 41 DMG).
+22:19:32 - Johnson has hit MINI_Cooper (One Handed Bar Mace, 20 DMG).
+22:19:33 - Marcovaldo has hit Sheperd (Long Spear, 21 DMG).
+22:19:34 - MINI_Cooper has hit Jhonny (Iron Mace, 24 DMG).
+22:19:34 - Sheperd has hit teammate Jhonny (Bearded Axe, 14 DMG).
+22:19:35 - MINI_Xiaoxiao has hit Sheperd (Iron Mace, 25 DMG).
+22:19:36 - Marcovaldo has hit Johnson (Long Spear, 22 DMG).
+22:19:36 - Sheperd has hit MINI_Xiaoxiao (Bearded Axe, 22 DMG).
+22:19:39 - Marcovaldo has hit Sheperd (Long Spear, 26 DMG).
+22:19:40 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
+22:19:41 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 17 DMG).
+22:19:42 - MINI_Cooper has hit Jhonny (Iron Mace, 24 DMG).
+22:19:44 - MINI_Cooper has hit Jhonny (Iron Mace, 20 DMG).
+22:19:44 - MINI_Cooper <img=ico_blunt> Jhonny
+22:19:46 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 20 DMG).
+22:19:46 - Johnson <img=ico_blunt> MINI_Xiaoxiao
+22:19:48 - Marcovaldo has hit Sheperd (Long Spear, 20 DMG).
+22:19:48 - Marcovaldo <img=ico_spear> Sheperd
+22:19:51 - Marcovaldo has hit Johnson (Long Spear, 51 DMG).
+22:19:51 - Marcovaldo <img=ico_spear> Johnson
+22:19:51 - The round 12 has ended
+22:20:10 - Marcovaldo has hit Sheperd (Long Spear, 23 DMG).
+22:20:11 - MINI_Cooper has hit Sheperd (Iron Mace, 34 DMG).
+22:20:12 - Marcovaldo has hit Johnson (Long Spear, 29 DMG).
+22:20:13 - MINI_Cooper has hit Sheperd (Iron Mace, 26 DMG).
+22:20:13 - MINI_Cooper <img=ico_blunt> Sheperd
+22:20:16 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 33 DMG).
+22:20:17 - Marcovaldo has hit Johnson (Long Spear, 20 DMG).
+22:20:18 - MINI_Cooper has hit Jhonny (Iron Mace, 35 DMG).
+22:20:20 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 43 DMG).
+22:20:20 - MINI_Xiaoxiao <img=ico_blunt> Johnson
+22:20:21 - MINI_Cooper has hit Jhonny (Iron Mace, 19 DMG).
+22:20:23 - MINI_Cooper has hit Jhonny (Iron Mace, 29 DMG).
+22:20:23 - MINI_Cooper <img=ico_blunt> Jhonny
+22:20:23 - The round 13 has ended
+22:20:42 - Marcovaldo has hit Sheperd (Long Spear, 34 DMG).
+22:20:44 - Sheperd has hit Marcovaldo (Bearded Axe, 27 DMG).
+22:20:44 - MINI_Cooper has hit Johnson (Iron Mace, 42 DMG).
+22:20:46 - MINI_Xiaoxiao has hit Jhonny (Iron Mace, 25 DMG).
+22:20:47 - Marcovaldo has hit Johnson (Long Spear, 18 DMG).
+22:20:48 - Marcovaldo has hit Sheperd (Long Spear, 31 DMG).
+22:20:48 - MINI_Cooper has hit Sheperd (Iron Mace, 6 DMG).
+22:20:49 - Johnson has hit Marcovaldo (One Handed Bar Mace, 32 DMG).
+22:20:49 - MINI_Cooper has hit Sheperd (Iron Mace, 35 DMG).
+22:20:49 - MINI_Cooper <img=ico_blunt> Sheperd
+22:20:50 - Johnson has hit Marcovaldo (One Handed Bar Mace, 33 DMG).
+22:20:50 - Johnson <img=ico_blunt> Marcovaldo
+22:20:50 - MINI_Cooper has hit Johnson (Iron Mace, 29 DMG).
+22:20:50 - MINI_Cooper <img=ico_blunt> Johnson
+22:20:50 - MINI_Xiaoxiao has hit Jhonny (Iron Mace, 17 DMG).
+22:20:54 - Jhonny has hit MINI_Xiaoxiao (Scimitar, 24 DMG).
+22:20:54 - MINI_Cooper has hit Jhonny (Iron Mace, 16 DMG).
+22:20:55 - MINI_Xiaoxiao has hit teammate MINI_Cooper (Iron Mace, 15 DMG).
+22:20:56 - MINI_Xiaoxiao has hit Jhonny (Iron Mace, 19 DMG).
+22:20:56 - MINI_Xiaoxiao <img=ico_blunt> Jhonny
+22:20:56 - The round 14 has ended
+22:21:15 - MINI_Cooper has hit Jhonny (Iron Mace, 17 DMG).
+22:21:17 - Jhonny has hit MINI_Cooper (Scimitar, 8 DMG).
+22:21:18 - Marcovaldo has hit Sheperd (Long Spear, 42 DMG).
+22:21:18 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 28 DMG).
+22:21:20 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 30 DMG).
+22:21:22 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 25 DMG).
+22:21:23 - Johnson has hit MINI_Xiaoxiao (One Handed Bar Mace, 21 DMG).
+22:21:24 - Jhonny has hit Marcovaldo (Scimitar, 15 DMG).
+22:21:25 - Marcovaldo has hit teammate MINI_Cooper (Long Spear, 14 DMG).
+22:21:26 - Sheperd has hit teammate Jhonny (Bearded Axe, 19 DMG).
+22:21:30 - MINI_Xiaoxiao has hit Johnson (Iron Mace, 19 DMG).
+22:21:30 - MINI_Xiaoxiao <img=ico_blunt> Johnson
+22:21:31 - Marcovaldo has hit Sheperd (Long Spear, 37 DMG).
+22:21:31 - Marcovaldo <img=ico_spear> Sheperd
+22:21:32 - MINI_Cooper has hit Jhonny (Iron Mace, 15 DMG).
+22:21:33 - Marcovaldo has hit Jhonny (Long Spear, 34 DMG).
+22:21:33 - Marcovaldo <img=ico_spear> Jhonny
+22:21:33 - The round 15 has ended
+22:21:35 - *SERVER* [[X1]benboba]: 下 半 场 结 束 
+
+22:21:37 - Katsuyori has left the game with ID: 4153280 and IP: 113.118.65.204
+22:21:37 - Katsuyori has left the game with ID: 4153280.
+22:21:48 - Sheperd has left the game with ID: 3091550 and IP: 117.176.251.165
+22:21:48 - Sheperd has left the game with ID: 3091550.
+22:21:48 -  <img=ico_headshot> Sheperd
+22:21:50 - Johnson has left the game with ID: 1973018 and IP: 106.37.115.207
+22:21:50 - Johnson has left the game with ID: 1973018.
+22:21:50 -  <img=ico_headshot> Johnson
+22:21:52 - Jhonny has left the game with ID: 4886076 and IP: 1.202.187.118
+22:21:52 - Jhonny has left the game with ID: 4886076.
+22:21:52 -  <img=ico_headshot> Jhonny
+22:21:52 - The round 16 has ended
+22:21:56 -  <img=ico_headshot> MINI_Cooper
+22:21:57 -  <img=ico_headshot> MINI_Xiaoxiao
+22:21:57 - MINI_Xiaoxiao has been moved by the autobalancer (0)
+22:21:57 - *SERVER* [[X1]benboba]: 总 比 分 10-1
+22:21:57 - [RK]YUsama has left the game with ID: 6157744 and IP: 124.71.83.191
+22:21:57 - [RK]YUsama has left the game with ID: 6157744.
+22:21:58 - Marcovaldo has left the game with ID: 3474873 and IP: 111.124.162.71
+22:21:58 - Marcovaldo has left the game with ID: 3474873.
+22:21:58 -  <img=ico_headshot> Marcovaldo
+22:21:58 - The round 17 has ended
+22:22:00 - qimama has left the game with ID: 3290582 and IP: 58.55.132.178
+22:22:00 - qimama has left the game with ID: 3290582.
+22:22:13 - Pageup has left the game with ID: 3693051 and IP: 183.240.253.212
+22:22:13 - Pageup has left the game with ID: 3693051.
+22:22:15 - *SERVER* [[X1]benboba]: 还 有 吗 
+22:22:27 - Sunxingmin has joined the game with ID: 1219124 and IP: 111.196.212.158 and WSE2: 1124
+22:22:28 - Sunxingmin has been given administrator rights (100)
+22:22:29 - [X1]benboba has left the game with ID: 4946740 and IP: 106.8.174.177
+22:22:29 - [X1]benboba has left the game with ID: 4946740.
+22:22:32 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
+22:22:32 - [X1]NewPlayer has left the game with ID: 4270208.
+22:22:33 - Sunxingmin has left the game with ID: 1219124 and IP: 111.196.212.158
+22:22:33 - Sunxingmin has left the game with ID: 1219124.
+22:22:37 - Agoni has left the game with ID: 5517933 and IP: 183.144.51.1
+22:22:37 - Agoni has left the game with ID: 5517933.
+22:23:18 - Raphael has left the game with ID: 4951826 and IP: 42.81.205.137
+22:23:18 - Raphael has left the game with ID: 4951826.
+22:23:24 - MINI_Cooper has left the game with ID: 443956 and IP: 123.189.185.252
+22:23:24 - MINI_Cooper has left the game with ID: 443956.
+22:24:02 - MINI_Xiaoxiao has left the game with ID: 5537338 and IP: 42.240.130.93
+22:24:02 - MINI_Xiaoxiao has left the game with ID: 5537338.
+22:24:06 - ribenren has left the game with ID: 3418338 and IP: 221.195.27.119
+22:24:06 - ribenren has left the game with ID: 3418338.
+22:26:31 - DemonHunter has left the game with ID: 2780258 and IP: 110.86.150.161
+22:26:31 - DemonHunter has left the game with ID: 2780258.
