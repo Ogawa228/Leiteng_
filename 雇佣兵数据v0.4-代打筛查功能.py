@@ -618,6 +618,8 @@ class PersonnelScreener:
         """
         调用IP地理位置API获取IP的地理位置（经纬度）。
         """
+        if ip.startswith('127.'):  # 忽略本地IP地址
+            return None
         try:
             response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5)
             response.raise_for_status()  # 检查HTTP请求状态码
@@ -662,16 +664,16 @@ class PersonnelScreener:
                 ip_details = []
                 ip_locations = {}
                 for time, ip in ips:
-                    if ip not in ip_locations:
+                    if ip not in ip_locations and not ip.startswith('127.'):
                         location = PersonnelScreener.get_ip_location(ip)
                         ip_locations[ip] = location
                     else:
-                        location = ip_locations[ip]
+                        location = ip_locations.get(ip)
                     location_str = f"{location[2]}, {location[3]}" if location else "Unknown location"
                     ip_details.append(f"{time} - {ip} ({location_str})")
 
                 distances = []
-                unique_ips = list(set(ip for _, ip in ips))
+                unique_ips = list(set(ip for _, ip in ips if not ip.startswith('127.')))
                 for i in range(len(unique_ips)):
                     for j in range(i + 1, len(unique_ips)):
                         loc1 = ip_locations[unique_ips[i]]
@@ -694,6 +696,7 @@ class PersonnelScreener:
                 QMessageBox.information(ui, "完成", f"嫌疑玩家信息已保存至: {output_path}")
         else:
             ui.log_status("未发现嫌疑玩家")
+
 
 
 
