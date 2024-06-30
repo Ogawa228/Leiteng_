@@ -621,7 +621,8 @@ class PersonnelScreener:
         if ip.startswith('127.'):  # 忽略本地IP地址
             return None
         try:
-            response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5)
+            # 禁用代理的配置
+            response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5, proxies={"http": None, "https": None})
             response.raise_for_status()  # 检查HTTP请求状态码
             data = response.json()
             if data['status'] == 'success':
@@ -683,19 +684,25 @@ class PersonnelScreener:
 
                 max_distance = max(distances) if distances else 0
 
-                if max_distance > 100:  # 你可以根据需要调整距离阈值
-                    reason = f"IPs: {', '.join(unique_ips)}; Max Distance: {max_distance:.2f} km; Details: {'; '.join(ip_details)}"
+                if max_distance > 300:  # 你可以根据需要调整距离阈值
+                    details_split = '\n'.join([f"{ip_details[i]} {'; ' + ip_details[i + 1] if i + 1 < len(ip_details) else ''}" for i in range(0, len(ip_details), 2)])
+                    reason = f"IPs: {', '.join(unique_ips)}; Max Distance: {max_distance:.2f} km; Details: {details_split}"
                     suspicious_players.append((player, reason))
 
         if suspicious_players:
             output_path = ui.get_save_path("suspicious_players.xlsx")
             if output_path:
                 df = pd.DataFrame(suspicious_players, columns=["Player ID", "Reason"])
-                df.to_excel(output_path, index=False)
+                writer = pd.ExcelWriter(output_path, engine='xlsxwriter')
+                df.to_excel(writer, index=False)
+                worksheet = writer.sheets['Sheet1']
+                worksheet.set_column('B:B', 80)  # 调整 Reason 列的宽度以完全显示内容
+                writer.save()
                 ui.log_status(f"嫌疑玩家信息已保存至: {output_path}")
                 QMessageBox.information(ui, "完成", f"嫌疑玩家信息已保存至: {output_path}")
         else:
             ui.log_status("未发现嫌疑玩家")
+
 
 
 
