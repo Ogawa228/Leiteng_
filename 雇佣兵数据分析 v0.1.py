@@ -5,6 +5,18 @@ import pandas as pd
 import re
 import os
 from collections import defaultdict
+import matplotlib.pyplot as plt
+import pandas as pd
+from PyQt5.QtWidgets import QFileDialog, QMessageBox
+import os
+from collections import defaultdict
+import xlsxwriter
+import time
+import matplotlib.pyplot as plt
+from   PyQt5.QtWidgets import QInputDialog
+import numpy as np
+import math
+
 
 
 class MercenaryCompetitionManager(QMainWindow):
@@ -16,7 +28,7 @@ class MercenaryCompetitionManager(QMainWindow):
 
         self.status_text = QTextEdit(self)
         self.status_text.setReadOnly(True)
-        self.status_text.setFixedHeight(100)
+        self.status_text.setFixedHeight(700)
 
         self.analyze_button = QPushButton("比赛数据分析", self)
         self.apply_apple_style(self.analyze_button)
@@ -108,6 +120,7 @@ class AnalyzeUI(QWidget):
             for file_path in file_paths:
                 log_data = DataAnalyzer.analyze_file(file_path, self.ui)
                 ExcelSaver.save_to_excel(log_data, self.ui, file_path)
+                ChartPlotter.plot_data(log_data, self.ui, file_path)
 
 
 class ScreenPersonnelUI(QWidget):
@@ -133,72 +146,336 @@ class ScreenPersonnelUI(QWidget):
             PersonnelScreener.screen_personnel(file_path, self.ui)
 
 
+
+
+import numpy as np
+import pandas as pd
+from collections import defaultdict
+import re
+
 class DataAnalyzer:
     @staticmethod
     def analyze_file(file_path, ui):
         with open(file_path, 'r', encoding='utf-8') as file:
             data = file.readlines()
 
-        log_data = []
+        game_sessions = []
+        current_session = []
+        player_stats = defaultdict(lambda: {'damage': 0, 'tk_damage': 0, 'received_tk_damage': 0, 'kills': 0, 'combos': 0, 'deaths': 0, 'received_combos': 0, 'k_dmg': 0, 'received_k_dmg': 0})
+        weapon_stats = defaultdict(int)
         hit_data = defaultdict(list)
-        join_data = []
-        leave_data = []
-        round_end_data = []
-        map_start_data = []
-        server_settings_data = []
+        raw_data = []
+        suspicious_players = defaultdict(set)
 
-        patterns = [
-            (re.compile(r'(\d{2}:\d{2}:\d{2}) - \[([^\]]+)\] has joined the game with ID: (\d+) and IP: ([\d.]+)'), 'join'),
-            (re.compile(r'(\d{2}:\d{2}:\d{2}) - \[([^\]]+)\] has left the game with ID: (\d+) and IP: ([\d.]+)'), 'leave'),
-            (re.compile(r'(\d{2}:\d{2}:\d{2}) - The round (\d+) has ended'), 'round_end'),
-            (re.compile(r'(\d{2}:\d{2}:\d{2}) - The map has started: (.+)'), 'map_start'),
-            (re.compile(r'(\d{2}:\d{2}:\d{2}) - Dynamic server settings have been (updated|reset)'), 'server_settings'),
-            (re.compile(r'(\d{2}:\d{2}:\d{2}) - \[([^\]]+)\] has hit \[([^\]]+)\] \(([^,]+), (\d+) DMG\)'), 'hit')
-        ]
+        game_started = False
+        last_hit_time = defaultdict(lambda: defaultdict(int))
+        last_hit_players = defaultdict(lambda: defaultdict(str))
+        last_kill_time = defaultdict(int)
+        combo_processed = set()
+
+        start_pattern = re.compile(r'\*SERVER\*.* 开 始')
+        end_pattern = re.compile(r'\*SERVER\*.* 结 束')
 
         for line in data:
-            matched = False
-            for pattern, log_type in patterns:
-                match = pattern.match(line)
-                if match:
-                    matched = True
-                    log_data.append((log_type, match.groups()))
-                    if log_type == 'hit':
-                        time, attacker, victim, weapon, dmg = match.groups()
-                        hit_data[attacker].append((weapon, int(dmg)))
+            timestamp = line[:8]
+
+            # 检查无效开始标志行
+            if start_pattern.search(line) and "刷图" in line:
+                continue
+
+            if start_pattern.search(line):
+                game_started = True
+                ui.log_status("比赛开始标志检测到，开始分析数据")
+                if current_session:
+                    game_sessions.append(current_session)
+                    current_session = []
+                continue
+
+            if end_pattern.search(line):
+                game_started = False
+                ui.log_status("比赛结束标志检测到，停止分析数据")
+                if current_session:
+                    game_sessions.append(current_session)
+                    current_session = []
+                continue
+
+            # 检查无效击杀行
+            if re.match(r'<img=ico_headshot> \[.*?\]', line):
+                continue
+
+            if game_started:
+                current_session.append(line)
+
+        if current_session:
+            game_sessions.append(current_session)
+
+        matches = []
+        for i in range(0, len(game_sessions), 2):
+            matches.append(game_sessions[i:i+2])
+
+        if not matches:
+            ui.log_status("未检测到完整的比赛")
+            return
+
+        match_data = []
+        for match in matches:
+            match_stats = defaultdict(lambda: {'damage': 0, 'tk_damage': 0, 'received_tk_damage': 0, 'kills': 0, 'combos': 0, 'deaths': 0, 'received_combos': 0, 'k_dmg': 0, 'received_k_dmg': 0})
+            match_hit_data = defaultdict(list)
+            match_combo_data = defaultdict(int)
+
+            for session in match:
+                for line in session:
+                    raw_data.append(("log", line.strip()))
+
+                    # 玩家击中数据
+                    hit_match = re.match(r'(\d{2}:\d{2}:\d{2}) - (\[.*?\])?(\w+) has hit (\[.*?\])?(\w+) \(([^,]+), (\d+) DMG\)', line)
+                    if hit_match:
+                        time, attacker_prefix, attacker, victim_prefix, victim, weapon, dmg = hit_match.groups()
+                        dmg = int(dmg)
+                        attacker = (attacker_prefix or '') + attacker
+                        victim = (victim_prefix or '') + victim
+
+                        # 判断是否为TK伤害
+                        team_hit_match = re.match(r'(\d{2}:\d{2}:\d{2}) - (\[.*?\])?(\w+) has hit teammate (\[.*?\])?(\w+) \(([^,]+), (\d+) DMG\)', line)
+                        if team_hit_match:
+                            match_stats[attacker]['tk_damage'] += dmg
+                            match_stats[victim]['received_tk_damage'] += dmg
+                        else:
+                            match_stats[attacker]['damage'] += dmg
+                            match_hit_data[attacker].append((weapon, dmg))
+
+                            current_time = int(timestamp.replace(':', ''))
+
+                            # 判断组合击
+                            if last_hit_players[victim] and (current_time - last_hit_time[victim] <= 100):
+                                prev_attacker = last_hit_players[victim]
+                                combo_key = (prev_attacker, attacker, victim)
+                                if combo_key not in combo_processed:
+                                    if prev_attacker != attacker:
+                                        match_stats[prev_attacker]['combos'] += 1
+                                        match_stats[attacker]['combos'] += 1
+                                        match_stats[attacker]['k_dmg'] += dmg
+                                        match_stats[victim]['received_k_dmg'] += dmg
+                                        match_stats[victim]['received_combos'] += 1
+                                        match_combo_data[prev_attacker] += 1
+                                        match_combo_data[attacker] += 1
+                                        ui.log_status(f"Combo: {prev_attacker} and {attacker} on {victim}")
+                                        combo_processed.add(combo_key)
+
+                            last_hit_time[victim] = current_time
+                            last_hit_players[victim] = attacker
+
                         ui.log_status(f"Hit: {attacker} hit {victim} with {weapon} for {dmg} DMG")
-                    elif log_type == 'join':
-                        join_data.append(match.groups())
-                    elif log_type == 'leave':
-                        leave_data.append(match.groups())
-                    elif log_type == 'round_end':
-                        round_end_data.append(match.groups())
-                    elif log_type == 'map_start':
-                        map_start_data.append(match.groups())
-                    elif log_type == 'server_settings':
-                        server_settings_data.append(match.groups())
-                    break
-            if not matched:
-                ui.log_status(f"未匹配行: {line.strip()}")
 
-        ui.log_status(f"分析完成，共处理{len(log_data)}条记录")
-        return {
-            "hit_data": hit_data,
-            "join_data": join_data,
-            "leave_data": leave_data,
-            "round_end_data": round_end_data,
-            "map_start_data": map_start_data,
-            "server_settings_data": server_settings_data
-        }
+                    # 判断击杀数据和死亡数据
+                    kill_match = re.match(r'(\d{2}:\d{2}:\d{2}) - (\[.*?\])?(\w+) <img=ico_\w+> (\[.*?\])?(\w+)', line)
+                    if kill_match:
+                        time, attacker_prefix, attacker, victim_prefix, victim = kill_match.groups()
+                        attacker = (attacker_prefix or '') + attacker
+                        victim = (victim_prefix or '') + victim
+                        match_stats[attacker]['kills'] += 1
+                        match_stats[victim]['deaths'] += 1
 
+                        current_time = int(timestamp.replace(':', ''))
+                        # 计算连杀
+                        if current_time - last_kill_time[attacker] <= 500:
+                            match_stats[attacker]['combos'] += 1
+                            match_stats[attacker]['k_dmg'] += dmg
+                            match_stats[victim]['received_k_dmg'] += dmg
+                            match_stats[victim]['received_combos'] += 1
+                            match_combo_data[attacker] += 1
+                            ui.log_status(f"Streak Combo: {attacker} on {victim}")
+                        last_kill_time[attacker] = current_time
+
+                        ui.log_status(f"Kill: {attacker} killed {victim}")
+
+                    # 玩家进入和离开服务器
+                    join_match = re.match(r'(\d{2}:\d{2}:\d{2}) - (\S+) has joined the game with ID: (\d+) and IP: (\d+\.\d+\.\d+\.\d+)', line)
+                    leave_match = re.match(r'(\d{2}:\d{2}:\d{2}) - (\S+) has left the game with ID: (\d+) and IP: (\d+\.\d+\.\d+\.\d+)', line)
+                    if join_match or leave_match:
+                        time, player, player_id, ip = join_match.groups() if join_match else leave_match.groups()
+                        suspicious_players[player].add((player_id, ip))
+                        ui.log_status(f"Player join/leave: {player} with ID: {player_id} and IP: {ip}")
+
+            match_data.append({
+                "player_stats": match_stats,
+                "hit_data": match_hit_data,
+                "combo_data": match_combo_data,
+                "suspicious_players": suspicious_players,
+                "raw_data": raw_data
+            })
+
+        # 标记代打嫌疑玩家
+        for player, info in suspicious_players.items():
+            if len(info) > 1:
+                ui.log_status(f"Suspicious player: {player}, Details: {info}")
+
+        # 检查 NaN 值并替换
+        for match in match_data:
+            for player in match["player_stats"]:
+                for key, value in match["player_stats"][player].items():
+                    if isinstance(value, float) and np.isnan(value):
+                        match["player_stats"][player][key] = 0
+
+        ui.log_status("分析完成")
+        return match_data
+
+
+import math
 
 class ExcelSaver:
     @staticmethod
-    def save_to_excel(data, ui, file_path):
-        hit_data = data['hit_data']
-        if not hit_data:
-            ui.log_status(f"文件 {file_path} 中没有可用的 hit 数据")
+    def save_to_excel(matches, ui, file_path):
+        if not matches:
+            ui.log_status(f"文件 {file_path} 中没有可用的比赛数据")
             return
+
+        if not ui.save_path:
+            ui.save_path = QFileDialog.getExistingDirectory(ui, "选择保存路径")
+        if ui.save_path:
+            try:
+                timestamp = time.strftime("%Y%m%d_%H%M%S")
+                base_name = os.path.basename(file_path).replace(".txt", f"_{timestamp}.xlsx")
+                output_path = os.path.join(ui.save_path, base_name)
+
+                with pd.ExcelWriter(output_path, engine='xlsxwriter') as writer:
+                    for match_index, match in enumerate(matches):
+                        df = ExcelSaver.prepare_match_dataframe(match, ui)
+                        # Ensure no NaN values in the dataframe
+                        df.fillna('', inplace=True)
+
+                        sheet_name = f"Match {match_index + 1}"
+                        df.to_excel(writer, index=False, sheet_name=sheet_name)
+
+                        # 获取当前工作表
+                        workbook = writer.book
+                        worksheet = writer.sheets[sheet_name]
+
+                        # 定义高级风格的格式
+                        header_format = workbook.add_format({
+                            'bold': True,
+                            'text_wrap': True,  # 设置标题行换行
+                            'valign': 'top',
+                            'fg_color': '#DCE6F1',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 18,
+                            'align': 'center'
+                        })
+                        cell_format = workbook.add_format({
+                            'text_wrap': True,
+                            'valign': 'top',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 12,
+                            'bg_color': '#FFFFFF'
+                        })
+                        integer_format = workbook.add_format({
+                            'text_wrap': True,
+                            'valign': 'top',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 12,
+                            'bg_color': '#FFFFFF',
+                            'num_format': '0'
+                        })
+                        decimal_format = workbook.add_format({
+                            'text_wrap': True,
+                            'valign': 'top',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 12,
+                            'bg_color': '#FFFFFF',
+                            'num_format': '0.00'
+                        })
+                        player_id_format = workbook.add_format({
+                            'bold': True,
+                            'text_wrap': True,
+                            'valign': 'top',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 16,
+                            'bg_color': '#FFFFFF'
+                        })
+                        top_player_format = workbook.add_format({
+                            'bold': True,
+                            'text_wrap': True,
+                            'valign': 'top',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 16,
+                            'bg_color': '#00bfff'
+                        })
+
+                        # 设置列宽和格式
+                        for col_num, value in enumerate(df.columns.values):
+                            worksheet.write(0, col_num, value, header_format)
+                            max_len = max(df[value].astype(str).map(len).max(), len(value)) + 3
+                            worksheet.set_column(col_num, col_num, max_len, cell_format)
+                            if value == 'Player ID':
+                                worksheet.set_column(col_num, col_num, 36, cell_format)
+
+                        # 设置行高和进阶数据格式
+                        for row_num in range(1, len(df) + 1):
+                            player_format = player_id_format
+                            if row_num == 1:
+                                player_format = top_player_format
+                            worksheet.set_row(row_num, 36, cell_format)
+                            for col_num in range(0, len(df.columns)):
+                                elem = df.iloc[row_num - 1, col_num]
+                                if isinstance(elem, float) and math.isnan(elem):
+                                    elem = 'NaN'
+                                format_to_apply = player_format if col_num == 0 else cell_format
+                                if isinstance(elem, int) and col_num != 0:
+                                    format_to_apply = integer_format
+                                elif isinstance(elem, float) and col_num != 0:
+                                    format_to_apply = decimal_format
+                                worksheet.write(row_num, col_num, elem, format_to_apply)
+
+                        # 为标题行添加注释
+                        comments = {
+                            'Player ID': '玩家的唯一标识符',
+                            'Hit': '玩家的击中次数',
+                            'DMG': '玩家造成的总伤害量',
+                            'Most Used Weapon': '玩家最常使用的武器',
+                            'Combos': '玩家的关键补刀次数',
+                            'Kills': '玩家的击杀次数',
+                            'Deaths': '玩家的死亡次数',
+                            'TK DMG': '玩家对队友造成的伤害量',
+                            'Received TK DMG': '玩家受到队友的伤害量',
+                            'Kill/Death Ratio': '玩家的击杀与死亡比',
+                            'Combo/Hits Ratio': '玩家的关键补刀与击中比',
+                            'Received Combos': '次数越多，表明走位越差',
+                            'K-DMG': '和队友配合打出combo时对敌人造成的伤害量',
+                            'K-DMG/DMG': '有效伤害比，越接近1表明效率越高',
+                            'K-DMG/Combos': '压制情况，数字越大压制力越强，同时也是每一次关键进攻的收益比，越大关键进攻的收益率越高',
+                            'Received K-DMG': '被敌人打出combo时收到的伤害量',
+                            'Received K-DMG/Combos': '被压制情况，数字越大被压制的越严重',
+                            'Rank Score': '根据关键补刀/击中比、关键伤害比、总关键补刀次数、关键伤害量等计算的排名分数。分数越高，表明玩家在比赛中的表现越好',
+                        }
+                        for col_num, value in enumerate(df.columns.values):
+                            if value in comments:
+                                worksheet.write_comment(0, col_num, comments[value], {'font_size': 12, 'font_name': 'Helvetica'})
+
+                QMessageBox.information(ui, "完成", "数据分析结果已保存至: " + output_path)
+                ui.log_status(f"数据保存至: {output_path}")
+            except Exception as e:
+                ui.log_status(f"保存数据时出错: {str(e)}")
+        else:
+            ui.log_status("保存路径未选择")
+
+        # 保存完整日志
+        raw_data = matches[0]['raw_data']
+        raw_df = pd.DataFrame(raw_data, columns=['Type', 'Details'])
+        raw_output_path = os.path.join(ui.save_path, base_name.replace(".xlsx", "_raw.xlsx"))
+        raw_df.to_excel(raw_output_path, index=False)
+        ui.log_status(f"完整日志保存至: {raw_output_path}")
+
+    @staticmethod
+    def prepare_match_dataframe(match, ui):
+        player_stats = match['player_stats']
+        hit_data = match['hit_data']
+        combo_data = match['combo_data']
 
         data_for_excel = []
         for player, hits in hit_data.items():
@@ -207,20 +484,153 @@ class ExcelSaver:
             for weapon, dmg in hits:
                 weapon_dmg[weapon] += dmg
             most_used_weapon = max(weapon_dmg, key=weapon_dmg.get)
-            guid = f"with ID:{file_path.split('/')[-1].split('.')[0]}"
-            data_for_excel.append([player, len(hits), total_dmg, guid, most_used_weapon])
+            combo_count = combo_data.get(player, 0)
+            kills = player_stats[player]['kills']
+            deaths = player_stats[player]['deaths']
+            tk_damage = player_stats[player]['tk_damage']
+            received_tk_damage = player_stats[player]['received_tk_damage']
+            received_combos = player_stats[player]['received_combos']
+            k_dmg = player_stats[player]['k_dmg']
+            received_k_dmg = player_stats[player]['received_k_dmg']
+            combo_hits_ratio = combo_count / len(hits) if len(hits) > 0 else 0
+            kill_death_ratio = kills / deaths if deaths > 0 else 0
+            k_dmg_damage_ratio = k_dmg / total_dmg if total_dmg > 0 else 0
+            k_dmg_combo_ratio = k_dmg / combo_count if combo_count > 0 else 0
+            received_k_dmg_combo_ratio = received_k_dmg / received_combos if received_combos > 0 else 0
+            rank_score = 0.3 * (0.8 * ((combo_hits_ratio + 2 * k_dmg_damage_ratio) / 2) * 100
+                                + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
+                                + 2 * combo_count
+                                + 0.01 * k_dmg
+                                + 2 * len(hits)) + (kill_death_ratio * 3)
+            data_for_excel.append([player, len(hits), total_dmg, most_used_weapon, combo_count, kills, deaths, tk_damage, received_tk_damage, kill_death_ratio, combo_hits_ratio, received_combos, k_dmg, k_dmg_damage_ratio, k_dmg_combo_ratio, received_k_dmg, received_k_dmg_combo_ratio, rank_score])
 
-        df = pd.DataFrame(data_for_excel, columns=['Player ID', 'Hit', 'DMG', 'ID', 'Most Used Weapon'])
+        df = pd.DataFrame(data_for_excel, columns=['Player ID', 'Hit', 'DMG', 'Most Used Weapon', 'Combos', 'Kills', 'Deaths', 'TK DMG', 'Received TK DMG', 'Kill/Death Ratio', 'Combo/Hits Ratio', 'Received Combos', 'K-DMG', 'K-DMG/DMG', 'K-DMG/Combos', 'Received K-DMG', 'Received K-DMG/Combos', 'Rank Score'])
+
+        # Convert NaN to 'NaN' string
+        df = df.apply(lambda x: x.apply(lambda y: 'NaN' if isinstance(y, float) and math.isnan(y) else y))
+
+        # 按照排名分数排序
+        df = df.sort_values(by=['Rank Score'], ascending=False)
+
+        return df
+
+
+
+
+
+
+
+
+
+import re
+
+class ChartPlotter:
+    @staticmethod
+    def plot_data(matches, ui, file_path):
         if not ui.save_path:
             ui.save_path = QFileDialog.getExistingDirectory(ui, "选择保存路径")
-        if ui.save_path:
-            base_name = os.path.basename(file_path).replace(".txt", ".xlsx")
-            output_path = os.path.join(ui.save_path, base_name)
-            df.to_excel(output_path, index=False)
-            QMessageBox.information(ui, "完成", "数据分析结果已保存至: " + output_path)
-            ui.log_status(f"数据保存至: {output_path}")
-        else:
+        
+        if not ui.save_path:
             ui.log_status("保存路径未选择")
+            return
+
+        for match_index, match in enumerate(matches):
+            # 弹出对话框要求用户为本场比赛命名
+            match_name, ok = QInputDialog.getText(ui, "比赛命名", f"为第 {match_index + 1} 场比赛命名:")
+            if not ok or not match_name:
+                match_name = f"Match {match_index + 1}"
+            
+            # 清理文件名中的无效字符
+            match_name = re.sub(r'[\\/*?:"<>|]', "_", match_name)
+
+            output_path = os.path.join(ui.save_path, f"{match_name}.png")
+
+            df = ExcelSaver.prepare_match_dataframe(match, ui)
+            
+            # 设置字体为微软雅黑
+            plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+            plt.rcParams['axes.unicode_minus'] = False
+
+            # 创建图表
+            fig, axes = plt.subplots(5, 2, figsize=(20, 30))
+            fig.suptitle(match_name, fontsize=20)
+
+            # Player ID 横向显示
+            df.plot(kind='bar', x='Player ID', y='Hit', ax=axes[0, 0], color='skyblue')
+            axes[0, 0].set_title('击中次数')
+            axes[0, 0].set_xlabel('玩家ID')
+            axes[0, 0].set_ylabel('次数')
+            axes[0, 0].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='Kills', ax=axes[0, 1], color='salmon')
+            axes[0, 1].set_title('击杀次数')
+            axes[0, 1].set_xlabel('玩家ID')
+            axes[0, 1].set_ylabel('次数')
+            axes[0, 1].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='Deaths', ax=axes[1, 0], color='lightgreen')
+            axes[1, 0].set_title('死亡次数')
+            axes[1, 0].set_xlabel('玩家ID')
+            axes[1, 0].set_ylabel('次数')
+            axes[1, 0].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='Combos', ax=axes[1, 1], color='orange')
+            axes[1, 1].set_title('关键补刀次数')
+            axes[1, 1].set_xlabel('玩家ID')
+            axes[1, 1].set_ylabel('次数')
+            axes[1, 1].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='TK DMG', ax=axes[2, 0], color='purple')
+            axes[2, 0].set_title('队友伤害')
+            axes[2, 0].set_xlabel('玩家ID')
+            axes[2, 0].set_ylabel('伤害量')
+            axes[2, 0].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='Received TK DMG', ax=axes[2, 1], color='brown')
+            axes[2, 1].set_title('受到队友伤害')
+            axes[2, 1].set_xlabel('玩家ID')
+            axes[2, 1].set_ylabel('伤害量')
+            axes[2, 1].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='K-DMG', ax=axes[3, 0], color='red')
+            axes[3, 0].set_title('关键伤害')
+            axes[3, 0].set_xlabel('玩家ID')
+            axes[3, 0].set_ylabel('伤害量')
+            axes[3, 0].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='Received K-DMG', ax=axes[3, 1], color='blue')
+            axes[3, 1].set_title('受到关键伤害')
+            axes[3, 1].set_xlabel('玩家ID')
+            axes[3, 1].set_ylabel('伤害量')
+            axes[3, 1].tick_params(axis='x', rotation=0)
+
+            df.plot(kind='bar', x='Player ID', y='Rank Score', ax=axes[4, 0], color='gold')
+            axes[4, 0].set_title('排名分数')
+            axes[4, 0].set_xlabel('玩家ID')
+            axes[4, 0].set_ylabel('分数')
+            axes[4, 0].tick_params(axis='x', rotation=0)
+
+            df['Most Used Weapon'].value_counts().plot(kind='pie', ax=axes[4, 1], autopct='%1.1f%%')
+            axes[4, 1].set_title('最常使用的武器')
+            axes[4, 1].set_ylabel('')  # 隐藏y轴标签
+
+            plt.tight_layout(rect=[0, 0.03, 1, 0.95])
+            plt.savefig(output_path)
+            plt.close()
+
+            ui.log_status(f"{match_name} 的图表已保存至: {output_path}")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class PersonnelScreener:
@@ -234,3 +644,8 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     main_window = MercenaryCompetitionManager()
     main_window.show()
+    sys.exit(app.exec_())
+
+
+##*SERVER* [[X1]Yuukasama]: 比 赛 开 始 
+##*SERVER* [[X1]Yuukasama]: 比 赛 结 束 
