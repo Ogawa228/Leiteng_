@@ -603,6 +603,15 @@ class ChartPlotter:
 
 
 
+import pandas as pd
+import re
+import os
+from collections import defaultdict
+from tkinter import Tk, filedialog
+from PyQt5.QtWidgets import QMessageBox, QFileDialog
+from geopy.distance import geodesic
+import requests
+
 class PersonnelScreener:
     @staticmethod
     def get_ip_location(ip):
@@ -610,12 +619,13 @@ class PersonnelScreener:
         调用IP地理位置API获取IP的地理位置（经纬度）。
         """
         try:
-            response = requests.get(f"http://ip-api.com/json/{ip}")
+            response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5)
+            response.raise_for_status()  # 检查HTTP请求状态码
             data = response.json()
             if data['status'] == 'success':
-                return (data['lat'], data['lon'])
+                return (data['lat'], data['lon'], data['city'], data['country'])
             return None
-        except Exception as e:
+        except requests.exceptions.RequestException as e:
             print(f"Error fetching IP location: {e}")
             return None
 
@@ -628,7 +638,7 @@ class PersonnelScreener:
             ui.log_status("未选择文件")
             return
 
-        player_ips = defaultdict(set)
+        player_ips = defaultdict(list)
         suspicious_players = []
 
         join_pattern = re.compile(r'(\d{2}:\d{2}:\d{2}) - (\S+) has joined the game with ID: (\d+) and IP: (\d+\.\d+\.\d+\.\d+)')
@@ -645,21 +655,34 @@ class PersonnelScreener:
 
                 if join_match or leave_match:
                     time, player, player_id, ip = join_match.groups() if join_match else leave_match.groups()
-                    player_ips[player].add(ip)
+                    player_ips[player].append((time, ip))
 
         for player, ips in player_ips.items():
-            if len(ips) > 1:
-                ip_locations = [PersonnelScreener.get_ip_location(ip) for ip in ips]
-                ip_locations = [loc for loc in ip_locations if loc]
+            if len(set(ip for _, ip in ips)) > 1:  # 如果同一个玩家有多个不同的IP
+                ip_details = []
+                ip_locations = {}
+                for time, ip in ips:
+                    if ip not in ip_locations:
+                        location = PersonnelScreener.get_ip_location(ip)
+                        ip_locations[ip] = location
+                    else:
+                        location = ip_locations[ip]
+                    location_str = f"{location[2]}, {location[3]}" if location else "Unknown location"
+                    ip_details.append(f"{time} - {ip} ({location_str})")
 
-                if len(ip_locations) < 2:
-                    continue
+                distances = []
+                unique_ips = list(set(ip for _, ip in ips))
+                for i in range(len(unique_ips)):
+                    for j in range(i + 1, len(unique_ips)):
+                        loc1 = ip_locations[unique_ips[i]]
+                        loc2 = ip_locations[unique_ips[j]]
+                        if loc1 and loc2:
+                            distances.append(geodesic((loc1[0], loc1[1]), (loc2[0], loc2[1])).kilometers)
 
-                distances = [geodesic(ip_locations[i], ip_locations[j]).kilometers for i in range(len(ip_locations)) for j in range(i + 1, len(ip_locations))]
                 max_distance = max(distances) if distances else 0
 
                 if max_distance > 100:  # 你可以根据需要调整距离阈值
-                    reason = f"IPs: {', '.join(ips)}; Max Distance: {max_distance:.2f} km"
+                    reason = f"IPs: {', '.join(unique_ips)}; Max Distance: {max_distance:.2f} km; Details: {'; '.join(ip_details)}"
                     suspicious_players.append((player, reason))
 
         if suspicious_players:
@@ -671,6 +694,7 @@ class PersonnelScreener:
                 QMessageBox.information(ui, "完成", f"嫌疑玩家信息已保存至: {output_path}")
         else:
             ui.log_status("未发现嫌疑玩家")
+
 
 
 
