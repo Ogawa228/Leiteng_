@@ -1,23 +1,22 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QFileDialog, QTextEdit, QVBoxLayout, QWidget, QMessageBox, QInputDialog
-from PyQt5.QtCore import Qt
-import pandas as pd
-import re
-import os
-from collections import defaultdict
-import matplotlib.pyplot as plt
-import numpy as np
-import xlsxwriter
 import time
-import math
-import pandas as pd
 import re
 import os
-from collections import defaultdict
-from PyQt5.QtWidgets import QFileDialog, QMessageBox
-from geopy.distance import geodesic
+import math
 import requests
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from collections import defaultdict
+from geopy.distance import geodesic
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from tkinter import Tk, filedialog
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QPushButton, QFileDialog, QTextEdit, 
+                             QVBoxLayout, QWidget, QMessageBox, QInputDialog)
+from PyQt5.QtCore import Qt
+import xlsxwriter
+
 
 class MercenaryCompetitionManager(QMainWindow):
     def __init__(self):
@@ -135,11 +134,13 @@ class AnalyzeUI(QWidget):
         file_paths, _ = QFileDialog.getOpenFileNames(self, "选择文件", "", "Text files (*.txt)")
         if file_paths:
             self.ui.log_status(f"选择的文件路径: {file_paths}")
+            all_matches = []
             for file_path in file_paths:
                 log_data = DataAnalyzer.analyze_file(file_path, self.ui)
                 if log_data:
-                    ExcelSaver.save_to_excel(log_data, self.ui, file_path)
-
+                    all_matches.extend(log_data)
+            if all_matches:
+                ExcelSaver.save_to_excel(all_matches, self.ui, "比赛数据分析")
 
 
 class ScreenPersonnelUI(QWidget):
@@ -169,6 +170,7 @@ class ScreenPersonnelUI(QWidget):
             self.ui.log_status(f"选择的文件路径: {file_paths}")
             PersonnelScreener.screen_personnel(file_paths, self.ui)
 
+
 class DailyBattleUI(QWidget):
     def __init__(self, parent, ui):
         super().__init__(parent)
@@ -189,11 +191,13 @@ class DailyBattleUI(QWidget):
         file_paths, _ = QFileDialog.getOpenFileNames(self, "选择文件", "", "Text files (*.txt)")
         if file_paths:
             self.ui.log_status(f"选择的文件路径: {file_paths}")
+            daily_battle_data = []
             for file_path in file_paths:
                 log_data = DailyBattleAnalyzer.analyze_file(file_path, self.ui)
                 if log_data:
-                    ExcelSaver.save_daily_battle_to_excel(log_data, self.ui, file_path)
-
+                    daily_battle_data.append((file_path, log_data))
+            if daily_battle_data:
+                ExcelSaver.save_daily_battle_to_excel(daily_battle_data, self.ui)
 
 
 class DataAnalyzer:
@@ -400,6 +404,7 @@ class DataAnalyzer:
         ui.log_status("分析完成")
         return match_data
 
+
 class DailyBattleAnalyzer:
     @staticmethod
     def analyze_file(file_path, ui):
@@ -412,8 +417,13 @@ class DailyBattleAnalyzer:
 
         player_stats = defaultdict(lambda: {'damage': 0, 'tk_damage': 0, 'received_tk_damage': 0, 'kills': 0, 'combos': 0, 'deaths': 0, 'received_combos': 0, 'k_dmg': 0, 'received_k_dmg': 0, 'team_hits': 0, 'tk_kills': 0})
         hit_data = defaultdict(list)
+        combo_data = defaultdict(int)
         raw_data = []
         suspicious_players = defaultdict(set)
+        last_hit_time = defaultdict(lambda: defaultdict(int))
+        last_hit_players = defaultdict(lambda: defaultdict(str))
+        last_kill_time = defaultdict(int)
+        combo_processed = set()
 
         # 定义正则表达式模式
         hit_pattern = re.compile(r'(\d{2}:\d{2}:\d{2}) - (\[.*?\])?(\w+) has hit (\[.*?\])?(\w+) \(([^,]+), (\d+) DMG\)')
@@ -457,6 +467,26 @@ class DailyBattleAnalyzer:
                 player_stats[attacker]['damage'] += dmg
                 hit_data[attacker].append((weapon, dmg))
 
+                current_time = int(timestamp.replace(':', ''))
+
+                if last_hit_players[victim] and (current_time - last_hit_time[victim] <= 100):
+                    prev_attacker = last_hit_players[victim]
+                    combo_key = (prev_attacker, attacker, victim)
+                    if combo_key not in combo_processed:
+                        if prev_attacker != attacker:
+                            player_stats[prev_attacker]['combos'] += 1
+                            player_stats[attacker]['combos'] += 1
+                            player_stats[attacker]['k_dmg'] += dmg
+                            player_stats[victim]['received_k_dmg'] += dmg
+                            player_stats[victim]['received_combos'] += 1
+                            combo_data[prev_attacker] += 1
+                            combo_data[attacker] += 1
+                            ui.log_status(f"Combo: {prev_attacker} and {attacker} on {victim}")
+                            combo_processed.add(combo_key)
+
+                last_hit_time[victim] = current_time
+                last_hit_players[victim] = attacker
+
                 ui.log_status(f"Hit: {attacker} hit {victim} with {weapon} for {dmg} DMG")
                 continue
 
@@ -469,17 +499,26 @@ class DailyBattleAnalyzer:
                 player_stats[attacker]['kills'] += 1
                 player_stats[victim]['deaths'] += 1
 
+                current_time = int(timestamp.replace(':', ''))
+                if current_time - last_kill_time[attacker] <= 500:
+                    player_stats[attacker]['combos'] += 1
+                    player_stats[attacker]['k_dmg'] += dmg
+                    player_stats[victim]['received_k_dmg'] += dmg
+                    player_stats[victim]['received_combos'] += 1
+                    combo_data[attacker] += 1
+                    ui.log_status(f"Streak Combo: {attacker} on {victim}")
+                last_kill_time[attacker] = current_time
+
                 ui.log_status(f"Kill: {attacker} killed {victim}")
 
         ui.log_status("分析完成")
         return {
             "player_stats": player_stats,
             "hit_data": hit_data,
+            "combo_data": combo_data,
             "suspicious_players": suspicious_players,
             "raw_data": raw_data
         }
-
-
 
 
 class ExcelSaver:
@@ -654,11 +693,13 @@ class ExcelSaver:
             k_dmg_damage_ratio = k_dmg / total_dmg if total_dmg > 0 else 0
             k_dmg_combo_ratio = k_dmg / combo_count if combo_count > 0 else 0
             received_k_dmg_combo_ratio = received_k_dmg / received_combos if received_combos > 0 else 0
-            rank_score = 0.2 *( 0.8 * ((combo_hits_ratio + 2 * k_dmg_damage_ratio) / 2) * 100
+
+            rank_score = 0.5 *( 0.8 * ((combo_hits_ratio + 2 * k_dmg_damage_ratio) / 2) * 100
                           + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
                           + 2 * combo_count
                           + 0.01 * k_dmg
-                         )  + 2 * len(hits)+ kill_death_ratio * 2 - tk_kills * 5
+                          + 2 * len(hits)) + kill_death_ratio * 3 - tk_kills * 5
+            
             data_for_excel.append([player, rank_score, len(hits), total_dmg, most_used_weapon, combo_count, kills, deaths, tk_damage, received_tk_damage, kill_death_ratio, combo_hits_ratio, received_combos, k_dmg, k_dmg_damage_ratio, k_dmg_combo_ratio, received_k_dmg, received_k_dmg_combo_ratio, team_hits, tk_kills])
 
         df = pd.DataFrame(data_for_excel, columns=['Player ID', 'Rank Score', 'Hit', 'DMG', 'Most Used Weapon', 'Combos', 'Kills', 'Deaths', 'TK DMG', 'Received TK DMG', 'Kill/Death Ratio', 'Combo/Hits Ratio', 'Received Combos', 'K-DMG', 'K-DMG/DMG', 'K-DMG/Combos', 'Received K-DMG', 'Received K-DMG/Combos', 'Team Hits', 'TK Kills'])
@@ -668,9 +709,20 @@ class ExcelSaver:
         return df
 
     @staticmethod
-    def save_daily_battle_to_excel(data, ui, file_path):
-        if not data:
-            ui.log_status(f"文件 {file_path} 中没有可用的战场数据")
+    def extract_date_from_filename(filename):
+        """
+        从文件名中提取日期信息，假设文件名中包含 YYYYMMDD 格式的日期信息。
+        """
+        match = re.search(r'(\d{4})(\d{2})(\d{2})', filename)
+        if match:
+            year, month, day = match.groups()
+            return f"{year} 年 {int(month)} 月 {int(day)} 日"
+        return None
+
+    @staticmethod
+    def save_daily_battle_to_excel(daily_battle_data, ui):
+        if not daily_battle_data:
+            ui.log_status("没有可用的战场数据")
             return
 
         if not ui.save_path:
@@ -678,41 +730,74 @@ class ExcelSaver:
         if ui.save_path:
             try:
                 timestamp = time.strftime("%Y%m%d_%H%M%S")
-                base_name = os.path.basename(file_path).replace(".txt", f"_daily_battle_{timestamp}.xlsx")
-                output_path = os.path.join(ui.save_path, base_name)
+                output_path = os.path.join(ui.save_path, f"战场服天梯榜6_{timestamp}.xlsx")
 
                 with pd.ExcelWriter(output_path, engine='xlsxwriter') as writer:
-                    df = ExcelSaver.prepare_daily_battle_dataframe(data, ui)
-                    df.fillna('', inplace=True)
+                    all_data = defaultdict(list)
 
-                    df.to_excel(writer, index=False, sheet_name='Daily Battle')
+                    for file_path, data in daily_battle_data:
+                        date_str = ExcelSaver.extract_date_from_filename(os.path.basename(file_path))
+                        if not date_str:
+                            date_str = time.strftime("%Y%m%d")
+                        sheet_name = f"{date_str}"
 
-                    workbook = writer.book
-                    worksheet = writer.sheets['Daily Battle']
+                        df = ExcelSaver.prepare_daily_battle_dataframe(data, ui)
+                        df.fillna('', inplace=True)
 
-                    header_format = workbook.add_format({
-                        'bold': True,
-                        'text_wrap': True,
-                        'valign': 'top',
-                        'fg_color': '#DCE6F1',
-                        'border': 1,
-                        'font_name': 'Helvetica',
-                        'font_size': 18,
-                        'align': 'center'
-                    })
-                    cell_format = workbook.add_format({
-                        'text_wrap': True,
-                        'valign': 'top',
-                        'border': 1,
-                        'font_name': 'Helvetica',
-                        'font_size': 12,
-                        'bg_color': '#FFFFFF'
-                    })
+                        df.to_excel(writer, index=False, sheet_name=sheet_name)
 
-                    for col_num, value in enumerate(df.columns.values):
-                        worksheet.write(0, col_num, value, header_format)
-                        max_len = max(df[value].astype(str).map(len).max(), len(value)) + 3
-                        worksheet.set_column(col_num, col_num, max_len, cell_format)
+                        workbook = writer.book
+                        worksheet = writer.sheets[sheet_name]
+
+                        header_format = workbook.add_format({
+                            'bold': True,
+                            'text_wrap': True,
+                            'valign': 'top',
+                            'fg_color': '#DCE6F1',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 18,
+                            'align': 'center'
+                        })
+                        cell_format = workbook.add_format({
+                            'text_wrap': True,
+                            'valign': 'top',
+                            'border': 1,
+                            'font_name': 'Helvetica',
+                            'font_size': 12,
+                            'bg_color': '#FFFFFF'
+                        })
+
+                        for col_num, value in enumerate(df.columns.values):
+                            worksheet.write(0, col_num, value, header_format)
+                            max_len = max(df[value].astype(str).map(len).max(), len(value)) + 3
+                            worksheet.set_column(col_num, col_num, max_len, cell_format)
+
+                        for row in df.itertuples(index=False):
+                            player_id = row[0]
+                            all_data[player_id].append(row[1:])
+
+                    # 生成总榜单
+                    if all_data:
+                        combined_data = []
+                        num_files = len(daily_battle_data)
+                        for player_id, records in all_data.items():
+                            rank_score_sum = sum(record[0] for record in records)
+                            avg_values = [sum(record[i] for record in records) / num_files for i in range(1, len(records[0]))]
+                            combined_data.append([player_id, rank_score_sum] + avg_values)
+
+                        combined_df = pd.DataFrame(combined_data, columns=df.columns)
+                        combined_df.fillna('', inplace=True)
+                        combined_df.sort_values(by=['Rank Score'], ascending=False, inplace=True)
+                        combined_df.to_excel(writer, index=False, sheet_name='Combined Ranking')
+
+                        workbook = writer.book
+                        worksheet = writer.sheets['Combined Ranking']
+
+                        for col_num, value in enumerate(combined_df.columns.values):
+                            worksheet.write(0, col_num, value, header_format)
+                            max_len = max(combined_df[value].astype(str).map(len).max(), len(value)) + 3
+                            worksheet.set_column(col_num, col_num, max_len, cell_format)
 
                 QMessageBox.information(ui, "完成", f"日常战场数据已保存至: {output_path}")
                 ui.log_status(f"日常战场数据已保存至: {output_path}")
@@ -723,6 +808,7 @@ class ExcelSaver:
     def prepare_daily_battle_dataframe(data, ui):
         player_stats = data['player_stats']
         hit_data = data['hit_data']
+        combo_data = data['combo_data']
 
         data_for_excel = []
         for player, hits in hit_data.items():
@@ -731,6 +817,7 @@ class ExcelSaver:
             for weapon, dmg in hits:
                 weapon_dmg[weapon] += dmg
             most_used_weapon = max(weapon_dmg, key=weapon_dmg.get)
+            combo_count = combo_data.get(player, 0)
             kills = player_stats[player]['kills']
             deaths = player_stats[player]['deaths']
             tk_damage = player_stats[player]['tk_damage']
@@ -740,22 +827,23 @@ class ExcelSaver:
             received_combos = player_stats[player]['received_combos']
             k_dmg = player_stats[player]['k_dmg']
             received_k_dmg = player_stats[player]['received_k_dmg']
-            
+
             # 添加检查以避免除以零错误
+            combo_hits_ratio = combo_count / len(hits) if len(hits) > 0 else 0
             kill_death_ratio = kills / deaths if deaths > 0 else 0
             k_dmg_damage_ratio = k_dmg / total_dmg if total_dmg > 0 else 0
-            k_dmg_combo_ratio = k_dmg / 1 if 1 > 0 else 0  # 避免除以零
+            k_dmg_combo_ratio = k_dmg / combo_count if combo_count > 0 else 0
             received_k_dmg_combo_ratio = received_k_dmg / received_combos if received_combos > 0 else 0
-            
-            rank_score = 0.2 *( 0.8 * ((combo_hits_ratio + 2 * k_dmg_damage_ratio) / 2) * 100
+
+            rank_score = 0.5 *( 0.8 * ((combo_hits_ratio + 2 * k_dmg_damage_ratio) / 2) * 100
                           + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
                           + 2 * combo_count
                           + 0.01 * k_dmg
-                         )  + 2 * len(hits)+ kill_death_ratio * 2 - tk_kills * 5
-            
-            data_for_excel.append([player, rank_score, len(hits), total_dmg, most_used_weapon, kills, deaths, tk_damage, received_tk_damage, kill_death_ratio, 0, received_combos, k_dmg, k_dmg_damage_ratio, k_dmg_combo_ratio, received_k_dmg, received_k_dmg_combo_ratio, team_hits, tk_kills])
+                          + 2 * len(hits)) + kill_death_ratio * 3 - tk_kills * 5
 
-        df = pd.DataFrame(data_for_excel, columns=['Player ID', 'Rank Score', 'Hit', 'DMG', 'Most Used Weapon', 'Kills', 'Deaths', 'TK DMG', 'Received TK DMG', 'Kill/Death Ratio', 'Combo/Hits Ratio', 'Received Combos', 'K-DMG', 'K-DMG/DMG', 'K-DMG/Combos', 'Received K-DMG', 'Received K-DMG/Combos', 'Team Hits', 'TK Kills'])
+            data_for_excel.append([player, rank_score, len(hits), total_dmg, most_used_weapon, combo_count, kills, deaths, tk_damage, received_tk_damage, kill_death_ratio, combo_hits_ratio, received_combos, k_dmg, k_dmg_damage_ratio, k_dmg_combo_ratio, received_k_dmg, received_k_dmg_combo_ratio, team_hits, tk_kills])
+
+        df = pd.DataFrame(data_for_excel, columns=['Player ID', 'Rank Score', 'Hit', 'DMG', 'Most Used Weapon', 'Combos', 'Kills', 'Deaths', 'TK DMG', 'Received TK DMG', 'Kill/Death Ratio', 'Combo/Hits Ratio', 'Received Combos', 'K-DMG', 'K-DMG/DMG', 'K-DMG/Combos', 'Received K-DMG', 'Received K-DMG/Combos', 'Team Hits', 'TK Kills'])
 
         df = df.sort_values(by=['Rank Score'], ascending=False)
 
@@ -763,13 +851,13 @@ class ExcelSaver:
 
 
 
-
 class ChartPlotter:
     @staticmethod
     def plot_data(match, ui, match_name):
         df = ExcelSaver.prepare_match_dataframe(match, ui)
-        
-        plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+
+        # 设置中文字体，防止中文乱码
+        plt.rcParams['font.sans-serif'] = ['SimHei']
         plt.rcParams['axes.unicode_minus'] = False
 
         fig, axes = plt.subplots(5, 2, figsize=(20, 30))
@@ -807,19 +895,8 @@ class ChartPlotter:
         ui.log_status(f"{match_name} 的图表已保存至: {chart_path}")
 
         return chart_path
- 
 
 
-
-import pandas as pd
-import re
-import os
-from collections import defaultdict
-from tkinter import Tk, filedialog
-from PyQt5.QtWidgets import QMessageBox, QFileDialog
-from geopy.distance import geodesic
-import requests
-from urllib3.util.retry import Retry
 
 class PersonnelScreener:
     @staticmethod
@@ -857,6 +934,7 @@ class PersonnelScreener:
             ui.log_status("未选择文件")
             return
 
+        guid_player_mapping = defaultdict(set)
         player_ips = defaultdict(list)
         suspicious_players = []
 
@@ -873,14 +951,20 @@ class PersonnelScreener:
                 leave_match = leave_pattern.match(line)
 
                 if join_match or leave_match:
-                    time, player, player_id, ip = join_match.groups() if join_match else leave_match.groups()
+                    time, player, guid, ip = join_match.groups() if join_match else leave_match.groups()
+                    guid_player_mapping[guid].add(player)
                     player_ips[player].append((time, ip))
 
-        for player, ips in player_ips.items():
-            if len(set(ip for _, ip in ips)) > 1:  # 如果同一个玩家有多个不同的IP
+        for guid, players in guid_player_mapping.items():
+            if len(players) > 1:
+                details = []
+                for player in players:
+                    for time, ip in player_ips[player]:
+                        details.append((player, time, ip))
+
                 ip_details = []
                 ip_locations = {}
-                for time, ip in ips:
+                for player, time, ip in details:
                     if ip not in ip_locations and not ip.startswith('127.'):
                         location = PersonnelScreener.get_ip_location(ip)
                         if location:
@@ -888,10 +972,10 @@ class PersonnelScreener:
                     else:
                         location = ip_locations.get(ip)
                     location_str = f"{location[2]}, {location[3]}" if location else "Unknown location"
-                    ip_details.append(f"{time} - {ip} ({location_str})")
+                    ip_details.append(f"{time} - {player} ({ip} - {location_str})")
 
                 distances = []
-                unique_ips = list(set(ip for _, ip in ips if not ip.startswith('127.')))
+                unique_ips = list(set(ip for _, _, ip in details if not ip.startswith('127.')))
                 for i in range(len(unique_ips)):
                     for j in range(i + 1, len(unique_ips)):
                         loc1 = ip_locations.get(unique_ips[i])
@@ -903,13 +987,13 @@ class PersonnelScreener:
 
                 if max_distance > 500:  # 你可以根据需要调整距离阈值
                     details_split = '\n'.join([f"{ip_details[i]} {'; ' + ip_details[i + 1] if i + 1 < len(ip_details) else ''}" for i in range(0, len(ip_details), 2)])
-                    reason = f"IPs: {', '.join(unique_ips)}; Max Distance: {max_distance:.2f} km; Details: {details_split}"
-                    suspicious_players.append((player, reason))
+                    reason = f"GUID: {str(guid)}; Players: {', '.join(players)}; IPs: {', '.join(unique_ips)}; Max Distance: {max_distance:.2f} km; Details: {details_split}"
+                    suspicious_players.append((str(guid), reason))
 
         if suspicious_players:
             output_path = ui.get_save_path("suspicious_players.xlsx")
             if output_path:
-                df = pd.DataFrame(suspicious_players, columns=["Player ID", "Reason"])
+                df = pd.DataFrame(suspicious_players, columns=["GUID", "Reason"])
                 writer = pd.ExcelWriter(output_path, engine='xlsxwriter')
                 df.to_excel(writer, index=False)
                 worksheet = writer.sheets['Sheet1']
@@ -919,15 +1003,6 @@ class PersonnelScreener:
                 QMessageBox.information(ui, "完成", f"嫌疑玩家信息已保存至: {output_path}")
         else:
             ui.log_status("未发现嫌疑玩家")
-
-
-
-
-
-
-
-
-
 
 # 主程序入口
 if __name__ == "__main__":

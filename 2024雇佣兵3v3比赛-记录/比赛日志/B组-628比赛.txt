@@ -3109,8 +3109,7 @@
 21:19:11 - [RK]Scallop has hit Gewang (Long Spear, 22 DMG).
 21:19:11 - [RK]Scallop <img=ico_spear> Gewang
 21:19:11 - The round 5 has ended
-21:19:11 - *SERVER* [[Blood]mR_Wha7eVEr]: ktp不 来 的 话 我 找 找 图 开 始 吧 ‘ 
-21:19:22 - *SERVER* [[Blood]mR_Wha7eVEr]: ktp不 来 的 话 我 找 找 图 开 始 
+
 21:19:29 - Gewang has hit [RK]Scallop (One Handed Knightly Axe, 19 DMG).
 21:19:35 - [RK]Scallop has hit Gewang (Long Spear, 1 DMG).
 21:19:37 - wanglicha has hit [RK]SUOLIN (One Handed Knightly Axe, 15 DMG).
@@ -3335,6 +3334,7 @@
 21:27:00 - The round 9 has ended
 21:27:08 - *SPEC* [MingRiXiang]  canyan
 21:27:15 - *SERVER* [Sunxingmin]: 上 半 场 比 赛 结 束 
+
 21:27:21 - [X1]benboba has left the game with ID: 4946740 and IP: 106.8.174.177
 21:27:21 - [X1]benboba has left the game with ID: 4946740.
 21:27:26 - *SERVER* [Sunxingmin]: 是 否 需 要 暂 停 休 息 
@@ -3487,6 +3487,7 @@
 21:31:34 - [RK]SUOLIN <img=ico_swordtwo> dou_dou
 21:31:34 - The round 17 has ended
 21:31:39 - *SERVER* [Sunxingmin]: 比 赛 结 束 
+
 21:31:42 - Marcovaldo has left the game with ID: 3474873 and IP: 111.124.162.71
 21:31:42 - Marcovaldo has left the game with ID: 3474873.
 21:31:43 - [Gewang] 感 谢 
@@ -3820,6 +3821,8 @@
 22:11:10 -  <img=ico_headshot> [RK]Carios
 22:11:10 -  <img=ico_headshot> Takeda
 22:11:10 - The map has been reset.
+
+
 22:11:19 - *SERVER* [[IM]XiaoXiGua]: 上 半 场 开 始 
 22:11:21 - [X1]NewPlayer has joined the game with ID: 4270208 and IP: 39.163.100.252
 22:11:26 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
@@ -4036,49 +4039,8 @@
 22:17:36 - [wanglicha] sorry
 22:17:43 - *SERVER* [[IM]XiaoXiGua]: 随 机 组 合 队 5-4落 汗 
 22:17:46 - *SERVER* [[IM]XiaoXiGua]: 上 半 场 结 束 
-22:17:55 - [RK]Carios has hit [Blood]mR_Wha7eVEr (Tapered Long Sword, 52 DMG).
-22:17:55 -  <img=ico_headshot> Takeda
-22:17:55 -  <img=ico_headshot> [RK]Carios
-22:17:55 -  <img=ico_headshot> wanglicha
-22:17:55 -  <img=ico_headshot> [RK]Mel
-22:17:55 - The round 12 has ended
-22:17:55 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
-22:17:55 -  <img=ico_headshot> dou_dou
-22:18:10 - [wanglicha] 下 半 场 直 接 开 吧 
-22:18:10 - *SERVER* [[IM]XiaoXiGua]: 是 否 需 要 中 场 暂 停 ？ 
-22:18:13 - [dou_dou] r
-22:18:15 - [Takeda] R
-22:18:15 - [wanglicha] R
-22:18:18 - dou_dou has hit [RK]Carios (Heavy Cleaver, 1 DMG).
-22:18:19 - [RK]Carios has hit wanglicha (Tapered Long Sword, 18 DMG).
-22:18:20 - Takeda has hit dou_dou (Iron Mace, 22 DMG).
 
-22:18:20 - [RK]Mel has hit [Blood]mR_Wha7eVEr (One Handed Bar Mace, 27 DMG).
-22:18:21 - [RK]Carios has hit wanglicha (Tapered Long Sword, 29 DMG).
-22:18:22 - [RK]Carios has hit dou_dou (Tapered Long Sword, 17 DMG).
-22:18:22 - Takeda has hit dou_dou (Iron Mace, 21 DMG).
-22:18:23 - [RK]Carios has hit dou_dou (Tapered Long Sword, 9 DMG).
-22:18:23 - wanglicha has hit [RK]Carios (One Handed Knightly Axe, 19 DMG).
-22:18:24 - Takeda has hit dou_dou (Iron Mace, 39 DMG).
-22:18:24 - Takeda <img=ico_blunt> dou_dou
-22:18:24 - [RK]Mel has hit [Blood]mR_Wha7eVEr (One Handed Bar Mace, 44 DMG).
-22:18:25 - [Blood]mR_Wha7eVEr has hit [RK]Mel (Flambard, 24 DMG).
-22:18:26 - wanglicha has hit teammate [Blood]mR_Wha7eVEr (One Handed Knightly Axe, 12 DMG).
-22:18:26 - wanglicha <img=ico_axeone> [Blood]mR_Wha7eVEr
-22:18:27 -  <img=ico_headshot> [RK]Mel
-22:18:27 -  <img=ico_headshot> wanglicha
-22:18:27 - The round 13 has ended
-22:18:27 -  <img=ico_headshot> [RK]Carios
-22:18:27 -  <img=ico_headshot> Takeda
-22:18:27 - The map has been reset.
-22:18:35 -  <img=ico_headshot> dou_dou
-22:18:35 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
-22:18:35 -  <img=ico_headshot> [RK]Mel
-22:18:35 -  <img=ico_headshot> wanglicha
-22:18:35 - The round 14 has ended
-22:18:35 -  <img=ico_headshot> [RK]Carios
-22:18:35 -  <img=ico_headshot> Takeda
-22:18:35 - The map has been reset.
+
 22:18:43 - *SERVER* [[IM]XiaoXiGua]: 下 半 场 比 赛 开 始 
 22:18:57 - wanglicha has hit Takeda (One Handed Knightly Axe, 18 DMG).
 22:18:58 - [Blood]mR_Wha7eVEr has hit teammate dou_dou (Flambard, 14 DMG).
@@ -4283,21 +4245,7 @@
 22:25:06 -  <img=ico_headshot> [Blood]mR_Wha7eVEr
 22:25:06 - [wanglicha] GANXIE
 22:25:07 - [dou_dou] ganxie
-22:25:07 - *SERVER* [[IM]XiaoXiGua]: 落 汗 5-3随 机 组 合 
-22:25:08 - [X1]NewPlayer has left the game with ID: 4270208 and IP: 39.163.100.252
-22:25:08 - [X1]NewPlayer has left the game with ID: 4270208.
-22:25:08 - dou_dou has left the game with ID: 5266925 and IP: 42.48.1.232
-22:25:08 - dou_dou has left the game with ID: 5266925.
-22:25:08 -  <img=ico_headshot> dou_dou
-22:25:09 - [[RK]Carios] 感 谢 
-22:25:10 - [[RK]Mel] 感 谢 
-22:25:10 - wanglicha has left the game with ID: 5707597 and IP: 117.93.19.191
-22:25:10 - wanglicha has left the game with ID: 5707597.
-22:25:10 -  <img=ico_headshot> wanglicha
-22:25:10 - The round 23 has ended
-22:25:12 - Takeda has left the game with ID: 5807203 and IP: 123.246.202.145
-22:25:12 - Takeda has left the game with ID: 5807203.
-22:25:12 -  <img=ico_headshot> Takeda
+
 22:25:14 - *SERVER* [[IM]XiaoXiGua]: 下 半 场 结 束
  
 22:25:14 - [RK]Mel has left the game with ID: 4437781 and IP: 122.191.195.24
