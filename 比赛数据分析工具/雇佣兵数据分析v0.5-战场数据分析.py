@@ -140,7 +140,7 @@ class AnalyzeUI(QWidget):
                 if log_data:
                     all_matches.extend(log_data)
             if all_matches:
-                ExcelSaver.save_to_excel(all_matches, self.ui, "比赛数据分析")
+                ExcelSaver.save_to_excel(all_matches, self.ui, "比赛数据分析.xlsx")
 
 
 class ScreenPersonnelUI(QWidget):
@@ -698,7 +698,7 @@ class ExcelSaver:
                           + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
                           + 2 * combo_count
                           + 0.01 * k_dmg
-                          + 2 * len(hits)) + kill_death_ratio * 3 - tk_kills * 5
+                          + 1.8 * len(hits))  + kill_death_ratio * 2 - tk_kills * 5
             
             data_for_excel.append([player, rank_score, len(hits), total_dmg, most_used_weapon, combo_count, kills, deaths, tk_damage, received_tk_damage, kill_death_ratio, combo_hits_ratio, received_combos, k_dmg, k_dmg_damage_ratio, k_dmg_combo_ratio, received_k_dmg, received_k_dmg_combo_ratio, team_hits, tk_kills])
 
@@ -839,7 +839,7 @@ class ExcelSaver:
                           + 2 * (k_dmg_combo_ratio - received_k_dmg_combo_ratio)
                           + 2 * combo_count
                           + 0.01 * k_dmg
-                          + 2 * len(hits)) + kill_death_ratio * 3 - tk_kills * 5
+                          + 1.8 * len(hits))  + kill_death_ratio * 2 - tk_kills * 5
 
             data_for_excel.append([player, rank_score, len(hits), total_dmg, most_used_weapon, combo_count, kills, deaths, tk_damage, received_tk_damage, kill_death_ratio, combo_hits_ratio, received_combos, k_dmg, k_dmg_damage_ratio, k_dmg_combo_ratio, received_k_dmg, received_k_dmg_combo_ratio, team_hits, tk_kills])
 
