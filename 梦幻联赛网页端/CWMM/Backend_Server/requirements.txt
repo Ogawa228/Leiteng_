@@ -1,0 +1,8 @@
+flask
+sqlalchemy
+flask_sqlalchemy
+pymysql
+flask_sock
+flask_cors
+portalocker
+flask_apscheduler
