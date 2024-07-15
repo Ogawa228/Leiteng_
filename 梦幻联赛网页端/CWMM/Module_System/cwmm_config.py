@@ -1,1 +1,0 @@
-CWMM_BACKEND_HOST = "http://122.51.185.159/backend/api/"
