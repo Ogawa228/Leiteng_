@@ -22,6 +22,7 @@ from 依赖库.ADB工具自动安装 import ADBInstaller
 from 依赖库.ADB命令组 import ADBCommandExecutor
 
 
+
 #自动检测ADB参数
 def get_adb_info():
     adb_installed = False

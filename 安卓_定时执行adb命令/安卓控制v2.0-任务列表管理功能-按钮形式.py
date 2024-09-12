@@ -39,7 +39,6 @@ def get_adb_info():
 
         if not devices_lines:
             raise Exception("未检测到已连接的设备或设备状态不正确。")
-
         if "device" not in devices_lines[0]:
             raise Exception("设备可能未完全连接或未授权调试。")
 
