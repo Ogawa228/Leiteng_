@@ -5,6 +5,8 @@ import threading
 import time
 from PyQt5.QtWidgets import QMessageBox
 from 依赖库.ADB工具自动安装 import ADBInstaller
+from PyQt5.QtWidgets import QComboBox
+from PyQt5.QtWidgets import QListWidget
 
 
 #自动检测设备参数
@@ -75,6 +77,12 @@ def get_foreground_activity(device_id):
     except subprocess.CalledProcessError:
         return None, None  # 返回空的元组如果发生错误
     
+    return None, None  # 返回空的元组如果没有找到前台活动
+
+
+
+
+
 
 
 class CommandDetector(QObject):
@@ -85,43 +93,55 @@ class CommandDetector(QObject):
         super().__init__()
         self.adb_process = None
         self.is_listening = False
+        self.devices = self.get_connected_devices()
 
     def show_control_dialog(self):
         self.dialog = QDialog()
         self.dialog.setWindowTitle('命令检测控制')
-        self.dialog.resize(300, 150)
+        self.dialog.resize(400, 200)
 
         layout = QVBoxLayout()
 
-        self.status_label = QLabel("准备开始监听...")
+        self.status_label = QLabel("选择设备并准备开始监听...")
         layout.addWidget(self.status_label)
 
-        start_button = QPushButton("开始监听", self.dialog)
+        # 设备选择下拉菜单
+        self.device_combo = QComboBox()
+        for device in self.devices:
+            self.device_combo.addItem(device)
+        layout.addWidget(self.device_combo)
+
+        start_button = QPushButton("开始监听")
         start_button.clicked.connect(self.start_listening)
         layout.addWidget(start_button)
 
-        stop_button = QPushButton("停止监听", self.dialog)
+        stop_button = QPushButton("停止监听")
         stop_button.clicked.connect(self.stop_listening)
         layout.addWidget(stop_button)
 
         self.dialog.setLayout(layout)
         self.dialog.exec_()
 
+    def get_connected_devices(self):
+        try:
+            output = subprocess.check_output(['adb', 'devices'], encoding='utf-8').strip()
+            lines = output.splitlines()[1:]  # 忽略首行的标题信息
+            devices = [line.split('\t')[0] for line in lines if "device" in line.split('\t')[1]]
+            return devices
+        except subprocess.CalledProcessError:
+            QMessageBox.warning(None, "ADB错误", "无法获取设备列表。请确保ADB正常运行。")
+            return []
+
     def start_listening(self):
-        # 检查ADB环境
-        adb_info = get_adb_info()
-        if adb_info is None:
-            QMessageBox.warning(None, "ADB错误", "未能检测到ADB安装或设备连接。请确保ADB正常安装并连接了设备。")
+        selected_device = self.device_combo.currentText()
+        if not selected_device:
+            QMessageBox.warning(None, "设备选择错误", "未选择设备或未连接设备。")
             return
 
-        # 如果设备信息有效，继续执行
-        if adb_info[4]:  # 判断adb_installed是否为True
-            self.status_label.setText("正在监听...")
-            self.is_listening = True
-            self.adb_process = subprocess.Popen(['adb', 'logcat'], stdout=subprocess.PIPE, text=True, stderr=subprocess.PIPE, bufsize=1)
-            threading.Thread(target=self.process_events, daemon=True).start()
-        else:
-            QMessageBox.warning(None, "ADB错误", "ADB未安装或设备未连接。")
+        self.status_label.setText(f"正在监听设备: {selected_device}...")
+        self.is_listening = True
+        self.adb_process = subprocess.Popen(['adb', '-s', selected_device, 'logcat'], stdout=subprocess.PIPE, text=True, stderr=subprocess.PIPE, bufsize=1)
+        threading.Thread(target=self.process_events, daemon=True).start()
 
     def stop_listening(self):
         if self.is_listening:
@@ -131,20 +151,52 @@ class CommandDetector(QObject):
                 self.adb_process.terminate()
 
     def process_events(self):
-        """处理从设备捕获的事件"""
         try:
             while self.is_listening:
                 line = self.adb_process.stdout.readline()
-                if 'MotionEvent' in line:
+                if 'MotionEvent' in line or "KeyEvent" in line:
                     command = self.convert_to_command(line)
                     self.new_command_signal.emit(command)
         except Exception as e:
             self.status_signal.emit(f"监听错误: {str(e)}")
 
     def convert_to_command(self, log_line):
-        """将日志行转换为ADB命令"""
         parts = log_line.split()
-        x, y = parts[1], parts[2]  # 假设坐标在第2和第3位
-        command = f"adb shell input tap {x} {y}"
-        return f"Generated command: {command}"
+        command = "未识别的事件类型"
+
+        if "MotionEvent" in log_line:
+            action = parts[1]  # 示例中假设动作类型在第二个位置
+            x, y = parts[2], parts[3]  # 示例中假设坐标在第三和第四位置
+
+            if "ACTION_DOWN" in action:
+                command = f"adb shell input tap {x} {y}"
+            elif "ACTION_MOVE" in action:
+                x_end, y_end = parts[4], parts[5]  # 假设结束坐标在第五和第六位置
+                command = f"adb shell input swipe {x} {y} {x_end} {y_end}"
+            elif "ACTION_LONG_PRESS" in action:
+                command = f"adb shell input swipe {x} {y} {x} {y} 1000"  # 长按1秒
+
+        elif "KeyEvent" in log_line:
+            key_code = parts[1]  # 假设键码在第二个位置
+            command = f"adb shell input keyevent {key_code}"
+
+        elif "input" in log_line and "text" in parts:
+            text_index = parts.index("text") + 1  # 文本通常在"text"关键字后
+            text = parts[text_index]
+            command = f"adb shell input text '{text}'"
+
+        elif "rotation" in log_line:
+            rotation = parts[1]  # 假设旋转角度在第二个位置
+            command = f"adb shell content insert --uri content://settings/system --bind name:s:user_rotation --bind value:i:{rotation}"
+
+        elif "am start" in log_line or "Starting" in log_line:
+            for part in parts:
+                if part.startswith("cmp="):
+                    component = part.split("=")[1]  # 获取组件名称，格式通常为 package_name/activity_name
+                    package_name, activity_name = component.split("/")
+                    command = f"adb shell am start -n {package_name}/{activity_name}"
+                    break
+
+        return command
+
 

@@ -778,9 +778,10 @@ class ADBControlApp(QWidget):
         # 延迟执行ADB命令序列
         QTimer.singleShot(2000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
         QTimer.singleShot(4000, lambda: self.adb_command(device_id, "input swipe 300 1000 300 500"))
+        QTimer.singleShot(5000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_HOME"))
         QTimer.singleShot(6000, lambda: self.open_app(package_name, activity_name, device_id))
-        QTimer.singleShot(30000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_HOME"))
-        QTimer.singleShot(35000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
+        QTimer.singleShot(70000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_HOME"))
+        QTimer.singleShot(80000, lambda: self.adb_command(device_id, "input keyevent KEYCODE_WAKEUP"))
 
         # 对于非周期性任务，执行完毕后移除任务
         if cycle_type == "单次执行":
