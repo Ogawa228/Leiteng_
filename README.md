@@ -5,3 +5,4 @@ Profile：为雷腾律所小伙伴开发的自动化工具，请在不同的分�
 3. HTML-URL 批量转 markdown
 4. 飞书机器人
 5. ADB 控制工具箱
+6. 图像识别移动鼠标，OPEN CV\ghub\
