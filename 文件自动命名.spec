@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['C:\\Users\\Administrator\\OneDrive\\Desktop\\py\\Leiteng_\\监控特定文件夹_文件夹自动命名v1.3-动态监控功能-稳定版.py'],
+    ['C:\\Users\\Administrator\\OneDrive\\Desktop\\py\\Leiteng_\\监控特定文件夹_文件夹自动命名v1.5-自定义命名规则更新.py'],
     pathex=[],
     binaries=[],
     datas=[],
