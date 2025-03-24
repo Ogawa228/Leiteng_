@@ -1,0 +1,8 @@
+02-04: {'holiday': False, 'name': '春节前补班', 'wage': 1, 'after': False, 'target': '春节', 'date': '2024-02-04', 'rest': 33}
+02-18: {'holiday': False, 'name': '春节后补班', 'wage': 1, 'after': True, 'target': '春节', 'date': '2024-02-18'}
+04-07: {'holiday': False, 'name': '清明节后补班', 'wage': 1, 'target': '清明节', 'after': True, 'date': '2024-04-07'}
+04-28: {'holiday': False, 'name': '劳动节前补班', 'wage': 1, 'target': '劳动节', 'after': False, 'date': '2024-04-28', 'rest': 13}
+05-11: {'holiday': False, 'name': '劳动节后补班', 'after': True, 'wage': 1, 'target': '劳动节', 'date': '2024-05-11'}
+09-14: {'holiday': False, 'name': '中秋节前补班', 'after': False, 'wage': 1, 'target': '中秋节', 'date': '2024-09-14', 'rest': 12}
+09-29: {'holiday': False, 'name': '国庆节前补班', 'after': False, 'wage': 1, 'target': '国庆节', 'date': '2024-09-29', 'rest': 6}
+10-12: {'holiday': False, 'after': True, 'wage': 1, 'name': '国庆节后补班', 'target': '国庆节', 'date': '2024-10-12', 'rest': 5}
